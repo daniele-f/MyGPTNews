@@ -1,0 +1,125 @@
+{
+  "generatedAt": "2026-09-27T14:35:52.562Z",
+  "stories": [
+    {
+      "id": "2026-09-26-starward-trail-test-dates",
+      "editionDate": "2026-09-26",
+      "headline": "Starward Trail confirms fictional test dates",
+      "summary": "Northstar Studio followed its preview announcement with dates for the first expedition test. Players can request access through the game’s store page.",
+      "subjects": [
+        "Starward Trail"
+      ],
+      "developer": "Northstar Studio",
+      "publisher": "Northstar Studio",
+      "categories": [
+        "Release date",
+        "Update"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "tags": [
+        "Co-op",
+        "Playtest"
+      ],
+      "sourceName": "Northstar Studio",
+      "sourceUrl": "https://example.test/starward-trail/test-dates",
+      "imageUrl": "https://images.example.test/missing-starward-image.jpg",
+      "steamUrl": "https://store.steampowered.com/app/1234567/Starward_Trail/",
+      "publishedAt": "2026-09-26T06:10:00+02:00",
+      "discoveredAt": "2026-09-26T06:35:00+02:00",
+      "featured": true,
+      "relatedStoryIds": [
+        "2026-09-25-starward-trail-preview"
+      ]
+    },
+    {
+      "id": "2026-09-26-pixel-keepers-launch",
+      "editionDate": "2026-09-26",
+      "headline": "Pixel Keepers launches in a fictional arcade collection",
+      "summary": "A colourful set of imaginary arcade challenges is now available on PC and Switch.",
+      "subjects": [
+        "Pixel Keepers"
+      ],
+      "developer": "Pocket Orbit",
+      "publisher": "Pocket Orbit",
+      "categories": [
+        "Release"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "tags": [
+        "Arcade",
+        "Indie"
+      ],
+      "sourceName": "Pocket Orbit",
+      "sourceUrl": "https://example.test/pixel-keepers/launch",
+      "imageUrl": "https://images.example.test/pixel-keepers.jpg",
+      "publishedAt": "2026-09-26T04:00:00+02:00",
+      "discoveredAt": "2026-09-26T06:00:00+02:00",
+      "featured": false,
+      "relatedStoryIds": []
+    },
+    {
+      "id": "2026-09-25-starward-trail-preview",
+      "editionDate": "2026-09-25",
+      "headline": "Starward Trail opens its fictional expedition preview",
+      "summary": "Northstar Studio announced a short public preview for its fictional co-op exploration game. The test focuses on navigation, crafting, and shared base building.",
+      "subjects": [
+        "Starward Trail"
+      ],
+      "developer": "Northstar Studio",
+      "publisher": "Northstar Studio",
+      "categories": [
+        "Announcement",
+        "Preview"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "tags": [
+        "Co-op",
+        "Exploration"
+      ],
+      "sourceName": "Northstar Studio",
+      "sourceUrl": "https://example.test/starward-trail/preview?utm_source=sample",
+      "imageUrl": "https://images.example.test/starward-trail-preview.jpg",
+      "steamUrl": "https://store.steampowered.com/app/1234567/Starward_Trail/",
+      "publishedAt": "2026-09-25T06:00:00+02:00",
+      "discoveredAt": "2026-09-25T06:30:00+02:00",
+      "featured": true,
+      "relatedStoryIds": []
+    },
+    {
+      "id": "2026-09-25-iron-harbor-patch",
+      "editionDate": "2026-09-25",
+      "headline": "Iron Harbor receives a fictional balance patch",
+      "summary": "The simulated naval strategy title receives balance tweaks and an improved tutorial.",
+      "subjects": [
+        "Iron Harbor"
+      ],
+      "developer": "Blue Lantern Works",
+      "publisher": "Blue Lantern Works",
+      "categories": [
+        "Update"
+      ],
+      "platforms": [
+        "PC",
+        "PlayStation 5"
+      ],
+      "tags": [
+        "Strategy",
+        "Patch notes"
+      ],
+      "sourceName": "Blue Lantern Works",
+      "sourceUrl": "https://example.test/iron-harbor/patch-1",
+      "imageUrl": "https://images.example.test/iron-harbor.jpg",
+      "publishedAt": "2026-09-25T05:00:00+02:00",
+      "discoveredAt": "2026-09-25T06:00:00+02:00",
+      "featured": false,
+      "relatedStoryIds": []
+    }
+  ]
+}

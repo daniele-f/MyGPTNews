@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-09-27T14:35:52.562Z",
+  "urls": [
+    {
+      "id": "2026-09-26-starward-trail-test-dates",
+      "url": "https://example.test/starward-trail/test-dates"
+    },
+    {
+      "id": "2026-09-26-pixel-keepers-launch",
+      "url": "https://example.test/pixel-keepers/launch"
+    },
+    {
+      "id": "2026-09-25-starward-trail-preview",
+      "url": "https://example.test/starward-trail/preview"
+    },
+    {
+      "id": "2026-09-25-iron-harbor-patch",
+      "url": "https://example.test/iron-harbor/patch-1"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-09-27T14:35:52.562Z",
+  "games": {
+    "Starward Trail": [
+      {
+        "id": "2026-09-26-starward-trail-test-dates",
+        "editionDate": "2026-09-26"
+      },
+      {
+        "id": "2026-09-25-starward-trail-preview",
+        "editionDate": "2026-09-25"
+      }
+    ],
+    "Pixel Keepers": [
+      {
+        "id": "2026-09-26-pixel-keepers-launch",
+        "editionDate": "2026-09-26"
+      }
+    ],
+    "Iron Harbor": [
+      {
+        "id": "2026-09-25-iron-harbor-patch",
+        "editionDate": "2026-09-25"
+      }
+    ]
+  }
+}
