@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "test": "node --test",
-    "prepare-edition": "node scripts/prepare-edition.js"
+    "prepare-edition": "node scripts/prepare-edition.js",
+    "verify": "npm test && npm run prepare-edition && npm run build"
   },
   "devDependencies": {
     "vite": "^7.1.0"
