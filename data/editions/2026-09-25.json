@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-25",
+  "updatedAt": "2026-09-25T07:15:00+02:00",
+  "stories": [
+    {
+      "id": "2026-09-25-starward-trail-preview",
+      "editionDate": "2026-09-25",
+      "headline": "Starward Trail opens its fictional expedition preview",
+      "summary": "Northstar Studio announced a short public preview for its fictional co-op exploration game. The test focuses on navigation, crafting, and shared base building.",
+      "subjects": ["Starward Trail"],
+      "developer": "Northstar Studio",
+      "publisher": "Northstar Studio",
+      "categories": ["Announcement", "Preview"],
+      "platforms": ["PC"],
+      "tags": ["Co-op", "Exploration"],
+      "sourceName": "Northstar Studio",
+      "sourceUrl": "https://example.test/starward-trail/preview?utm_source=sample",
+      "imageUrl": "https://images.example.test/starward-trail-preview.jpg",
+      "steamUrl": "https://store.steampowered.com/app/1234567/Starward_Trail/",
+      "publishedAt": "2026-09-25T06:00:00+02:00",
+      "discoveredAt": "2026-09-25T06:30:00+02:00",
+      "featured": true,
+      "relatedStoryIds": []
+    },
+    {
+      "id": "2026-09-25-iron-harbor-patch",
+      "editionDate": "2026-09-25",
+      "headline": "Iron Harbor receives a fictional balance patch",
+      "summary": "The simulated naval strategy title receives balance tweaks and an improved tutorial.",
+      "subjects": ["Iron Harbor"],
+      "developer": "Blue Lantern Works",
+      "publisher": "Blue Lantern Works",
+      "categories": ["Update"],
+      "platforms": ["PC", "PlayStation 5"],
+      "tags": ["Strategy", "Patch notes"],
+      "sourceName": "Blue Lantern Works",
+      "sourceUrl": "https://example.test/iron-harbor/patch-1",
+      "imageUrl": "https://images.example.test/iron-harbor.jpg",
+      "publishedAt": "2026-09-25T05:00:00+02:00",
+      "discoveredAt": "2026-09-25T06:00:00+02:00",
+      "featured": false,
+      "relatedStoryIds": []
+    }
+  ]
+}
