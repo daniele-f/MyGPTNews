@@ -10,11 +10,12 @@ export function buildIndexes(editions) {
     .map((story) => ({ ...story, editionDate: edition.date })));
   const games = {};
   for (const story of records) for (const game of story.subjects) (games[game] ??= []).push({ id: story.id, editionDate: story.editionDate });
+  const generatedAt = ordered[0]?.updatedAt || null;
   return {
-    'archive.json': { generatedAt: new Date().toISOString(), editions: ordered.map((edition) => ({ date: edition.date, path: `data/editions/${edition.date}.json`, storyCount: edition.stories.length, updatedAt: edition.updatedAt })) },
-    'search-index.json': { generatedAt: new Date().toISOString(), stories: records },
-    'games-index.json': { generatedAt: new Date().toISOString(), games },
-    'processed-urls.json': { generatedAt: new Date().toISOString(), urls: records.map((story) => ({ id: story.id, url: normalizeUrl(story.sourceUrl) })) }
+    'archive.json': { generatedAt, editions: ordered.map((edition) => ({ date: edition.date, path: `data/editions/${edition.date}.json`, storyCount: edition.stories.length, updatedAt: edition.updatedAt })) },
+    'search-index.json': { generatedAt, stories: records },
+    'games-index.json': { generatedAt, games },
+    'processed-urls.json': { generatedAt, urls: records.map((story) => ({ id: story.id, url: normalizeUrl(story.sourceUrl) })) }
   };
 }
 
