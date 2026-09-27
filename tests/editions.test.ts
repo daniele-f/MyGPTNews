@@ -3,8 +3,8 @@ import { mkdtemp, readFile, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import test from 'node:test';
-import { validateEdition } from '../scripts/lib/editions.js';
-import { prepareEditions } from '../scripts/lib/indexes.js';
+import { validateEdition } from '../scripts/lib/editions';
+import { prepareEditions } from '../scripts/lib/indexes';
 
 const story = (id, sourceUrl) => ({
   id, editionDate: '2026-09-25', headline: id, summary: 'A sample summary.', subjects: ['Sample'],

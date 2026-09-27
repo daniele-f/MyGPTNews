@@ -1,5 +1,5 @@
 const norm = (value) => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
-export function searchStories(records, query = '', filters = {}) {
+export function searchStories(records: any[], query = '', filters: { game?: string; platform?: string; category?: string; source?: string; from?: string; to?: string } = {}) {
   const words = norm(query).split(' ').filter(Boolean);
   return records.filter((story) => {
     const text = norm([story.headline, story.summary, ...(story.subjects || []), story.developer, story.publisher, ...(story.categories || []), ...(story.platforms || []), ...(story.tags || []), story.sourceName].join(' '));

@@ -1,7 +1,7 @@
 import { mkdir, readdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { validateEdition } from './editions.js';
-import { normalizeUrl } from './url.js';
+import { validateEdition } from './editions';
+import { normalizeUrl } from './url';
 
 export function buildIndexes(editions) {
   const ordered = [...editions].sort((a, b) => b.date.localeCompare(a.date));

@@ -7,4 +7,4 @@ export async function copyPublishedData(root = process.cwd()) {
   await cp(join(root, 'data'), destination, { recursive: true, force: true });
 }
 
-if (process.argv[1]?.endsWith('copy-published-data.js')) await copyPublishedData();
+if (process.argv[1]?.endsWith('copy-published-data')) await copyPublishedData();

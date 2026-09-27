@@ -3,7 +3,7 @@ import { mkdtemp, mkdir, writeFile, readFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import test from 'node:test';
-import { copyPublishedData } from '../scripts/copy-published-data.js';
+import { copyPublishedData } from '../scripts/copy-published-data';
 
 test('copies generated data into the deployable public directory', async () => {
   const root = await mkdtemp(join(tmpdir(), 'mygptnews-build-'));

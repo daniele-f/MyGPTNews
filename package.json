@@ -5,12 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/copy-published-data.js && vite build",
-    "test": "node --test",
-    "prepare-edition": "node scripts/prepare-edition.js",
-    "verify": "npm test && npm run prepare-edition && npm run build"
+    "build": "tsx scripts/copy-published-data.ts && vite build",
+    "test": "tsx --test tests/**/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "prepare-edition": "tsx scripts/prepare-edition.ts",
+    "verify": "npm test && npm run typecheck && npm run prepare-edition && npm run build"
   },
   "devDependencies": {
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
     "vite": "^7.1.0"
   }
 }

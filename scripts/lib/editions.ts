@@ -1,4 +1,4 @@
-import { normalizeUrl } from './url.js';
+import { normalizeUrl } from './url';
 
 const REQUIRED = ['id', 'editionDate', 'headline', 'summary', 'subjects', 'developer', 'publisher', 'categories', 'platforms', 'tags', 'sourceName', 'sourceUrl', 'imageUrl', 'publishedAt', 'discoveredAt', 'featured', 'relatedStoryIds'];
 const DATE = /^\d{4}-\d{2}-\d{2}$/;

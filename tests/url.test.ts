@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { normalizeUrl } from '../scripts/lib/url.js';
+import { normalizeUrl } from '../scripts/lib/url';
 
 test('normalizes tracking variants of the same article URL', () => {
   assert.equal(
