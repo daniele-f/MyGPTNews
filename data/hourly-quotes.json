@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "id": "2026-10-11T18",
+      "slot": "2026-10-11T18",
+      "publishedAt": "2026-10-11T16:40:20.386Z",
+      "message": "One bright line for the next hour.",
+      "quote": {
+        "text": "If you have good thoughts they will shine out of your face like sunbeams and you will always look lovely.",
+        "author": "Roald Dahl",
+        "sourceTitle": "The Twits",
+        "sourceUrl": "https://www.roalddahl.com/roald-dahl/stories/quotes"
+      }
+    },
+    {
       "id": "2026-10-11T12",
       "slot": "2026-10-11T12",
       "publishedAt": "2026-10-11T10:20:51.591Z",
