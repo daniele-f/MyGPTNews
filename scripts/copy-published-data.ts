@@ -7,4 +7,6 @@ export async function copyPublishedData(root = process.cwd(), outputDirectory = 
   await cp(join(root, 'data'), destination, { recursive: true, force: true });
 }
 
-if (process.argv[1]?.endsWith('copy-published-data')) await copyPublishedData(process.cwd(), process.argv[2] || 'public');
+export const shouldCopyPublishedData = (entrypoint?: string) => Boolean(entrypoint?.endsWith('copy-published-data.ts'));
+
+if (shouldCopyPublishedData(process.argv[1])) await copyPublishedData(process.cwd(), process.argv[2] || 'public');

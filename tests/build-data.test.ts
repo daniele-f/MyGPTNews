@@ -3,7 +3,7 @@ import { mkdtemp, mkdir, writeFile, readFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import test from 'node:test';
-import { copyPublishedData } from '../scripts/copy-published-data';
+import { copyPublishedData, shouldCopyPublishedData } from '../scripts/copy-published-data';
 
 test('copies generated data into the deployable public directory', async () => {
   const root = await mkdtemp(join(tmpdir(), 'mygptnews-build-'));
@@ -19,4 +19,8 @@ test('copies generated data into the final deployment directory after a build', 
   await writeFile(join(root, 'data', 'hourly-quotes.json'), '{"entries":[{"id":"test"}]}');
   await copyPublishedData(root, 'dist');
   assert.equal(await readFile(join(root, 'dist', 'data', 'hourly-quotes.json'), 'utf8'), '{"entries":[{"id":"test"}]}');
+});
+
+test('recognizes the TypeScript CLI filename used by npm build', () => {
+  assert.equal(shouldCopyPublishedData('C:/work/scripts/copy-published-data.ts'), true);
 });
