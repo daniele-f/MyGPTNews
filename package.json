@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsx scripts/copy-published-data.ts && vite build",
-    "test": "tsx --test tests/**/*.test.ts",
+    "test": "tsx --test tests/*.test.ts",
     "typecheck": "tsc --noEmit",
     "prepare-edition": "tsx scripts/prepare-edition.ts",
     "publish-hourly-quote": "tsx scripts/publish-hourly-quote.ts",
