@@ -9,6 +9,7 @@
     "test": "tsx --test tests/**/*.test.ts",
     "typecheck": "tsc --noEmit",
     "prepare-edition": "tsx scripts/prepare-edition.ts",
+    "publish-hourly-quote": "tsx scripts/publish-hourly-quote.ts",
     "verify": "npm test && npm run typecheck && npm run prepare-edition && npm run build"
   },
   "devDependencies": {
