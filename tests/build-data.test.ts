@@ -12,3 +12,11 @@ test('copies generated data into the deployable public directory', async () => {
   await copyPublishedData(root);
   assert.equal(await readFile(join(root, 'public', 'data', 'archive.json'), 'utf8'), '{"editions":[]}');
 });
+
+test('copies generated data into the final deployment directory after a build', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'mygptnews-build-'));
+  await mkdir(join(root, 'data'), { recursive: true });
+  await writeFile(join(root, 'data', 'hourly-quotes.json'), '{"entries":[{"id":"test"}]}');
+  await copyPublishedData(root, 'dist');
+  assert.equal(await readFile(join(root, 'dist', 'data', 'hourly-quotes.json'), 'utf8'), '{"entries":[{"id":"test"}]}');
+});
