@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "id": "2026-10-14T23",
+      "slot": "2026-10-14T23",
+      "publishedAt": "2026-10-14T21:47:41.973Z",
+      "message": "One bright line for the next hour.",
+      "quote": {
+        "text": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs",
+        "sourceTitle": "Stanford commencement address",
+        "sourceUrl": "https://news.stanford.edu/stories/2005/06/youve-got-find-love-jobs-says"
+      }
+    },
+    {
       "id": "2026-10-14T19",
       "slot": "2026-10-14T19",
       "publishedAt": "2026-10-14T17:20:01.350Z",
