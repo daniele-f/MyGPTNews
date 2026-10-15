@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "id": "2026-10-15T07",
+      "slot": "2026-10-15T07",
+      "publishedAt": "2026-10-15T05:56:51.712Z",
+      "message": "One bright line for the next hour.",
+      "quote": {
+        "text": "It always seems impossible until it is done.",
+        "author": "Nelson Mandela",
+        "sourceTitle": "Nelson Mandela Foundation quote collection",
+        "sourceUrl": "https://www.nelsonmandela.org/content/page/selected-quotes"
+      }
+    },
+    {
       "id": "2026-10-15T02",
       "slot": "2026-10-15T02",
       "publishedAt": "2026-10-15T00:34:55.331Z",
