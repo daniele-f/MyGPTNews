@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "id": "2026-10-19T06",
+      "slot": "2026-10-19T06",
+      "publishedAt": "2026-10-19T04:55:07.084Z",
+      "message": "A pause worth taking.",
+      "quote": {
+        "text": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs",
+        "sourceTitle": "Stanford commencement address",
+        "sourceUrl": "https://news.stanford.edu/stories/2005/06/youve-got-find-love-jobs-says"
+      }
+    },
+    {
       "id": "2026-10-19T02",
       "slot": "2026-10-19T02",
       "publishedAt": "2026-10-19T00:14:46.145Z",
