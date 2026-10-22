@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "id": "2026-10-23T00",
+      "slot": "2026-10-23T00",
+      "publishedAt": "2026-10-22T22:26:19.310Z",
+      "message": "A pause worth taking.",
+      "quote": {
+        "text": "It always seems impossible until it is done.",
+        "author": "Nelson Mandela",
+        "sourceTitle": "Nelson Mandela Foundation quote collection",
+        "sourceUrl": "https://www.nelsonmandela.org/content/page/selected-quotes"
+      }
+    },
+    {
       "id": "2026-10-22T20",
       "slot": "2026-10-22T20",
       "publishedAt": "2026-10-22T18:37:18.930Z",
