@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "id": "2026-10-23T15",
+      "slot": "2026-10-23T15",
+      "publishedAt": "2026-10-23T13:34:09.618Z",
+      "message": "A small thought for this hour.",
+      "quote": {
+        "text": "It always seems impossible until it is done.",
+        "author": "Nelson Mandela",
+        "sourceTitle": "Nelson Mandela Foundation quote collection",
+        "sourceUrl": "https://www.nelsonmandela.org/content/page/selected-quotes"
+      }
+    },
+    {
       "id": "2026-10-23T09",
       "slot": "2026-10-23T09",
       "publishedAt": "2026-10-23T07:40:38.467Z",
