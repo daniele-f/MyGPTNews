@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "id": "2026-10-26T02",
+      "slot": "2026-10-26T02",
+      "publishedAt": "2026-10-26T01:17:47.371Z",
+      "message": "A small thought for this hour.",
+      "quote": {
+        "text": "If you have good thoughts they will shine out of your face like sunbeams and you will always look lovely.",
+        "author": "Roald Dahl",
+        "sourceTitle": "The Twits",
+        "sourceUrl": "https://www.roalddahl.com/roald-dahl/stories/quotes"
+      }
+    },
+    {
       "id": "2026-10-25T23",
       "slot": "2026-10-25T23",
       "publishedAt": "2026-10-25T22:38:22.444Z",
