@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "id": "2026-10-26T21",
+      "slot": "2026-10-26T21",
+      "publishedAt": "2026-10-26T20:37:48.050Z",
+      "message": "Something steady to carry forward.",
+      "quote": {
+        "text": "It always seems impossible until it is done.",
+        "author": "Nelson Mandela",
+        "sourceTitle": "Nelson Mandela Foundation quote collection",
+        "sourceUrl": "https://www.nelsonmandela.org/content/page/selected-quotes"
+      }
+    },
+    {
       "id": "2026-10-26T16",
       "slot": "2026-10-26T16",
       "publishedAt": "2026-10-26T15:16:32.696Z",
