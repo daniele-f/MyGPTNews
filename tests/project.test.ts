@@ -1,7 +1,21 @@
 import assert from 'node:assert/strict';
+import { access, readFile } from 'node:fs/promises';
+import { constants } from 'node:fs';
 import test from 'node:test';
 
 test('Vite uses the repository Pages base path', async () => {
   const config = await import('../vite.config');
   assert.equal(config.default.base, '/MyGPTNews/');
+});
+
+test('removes hourly quote publishing and routes', async () => {
+  const [config, packageJson, workflow] = await Promise.all([
+    readFile('vite.config.ts', 'utf8'),
+    readFile('package.json', 'utf8'),
+    readFile('.github/workflows/deploy-pages.yml', 'utf8')
+  ]);
+  assert.doesNotMatch(config, /hourlyQuotes|hourly-quotes/);
+  assert.doesNotMatch(packageJson, /publish-hourly-quote/);
+  assert.doesNotMatch(workflow, /schedule:|hourly quote|publish-hourly-quote|contents: write/i);
+  await assert.rejects(access('hourly-quotes/index.html', constants.F_OK));
 });

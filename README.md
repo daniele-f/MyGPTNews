@@ -1,11 +1,11 @@
 # My GPT News
 
-A static personal daily gaming-news briefing, built with Vite and deployed to GitHub Pages. Vite gives `npm run dev` live reload while the deployed site stays dependency-light and static.
+A static gaming-news archive built with Vite and deployed to GitHub Pages. Published content lives only in timestamped JSON files under `data/editions/`; an empty archive is intentional until real reporting is published.
 
 ## Commands
 
 `npm install` installs tooling. `npm run dev` starts local development. `npm test` runs tests. `npm run prepare-edition -- data/editions/YYYY-MM-DD.json` validates all editions and regenerates indexes. `npm run build` creates `dist/`; `npm run verify` runs the complete pipeline.
 
-Edit only `data/editions/YYYY-MM-DD.json` for daily content, then run preparation and verification. Remove the two fictional sample JSON editions and regenerate indexes before publishing real editions. `PREFERENCES.md` governs selection and `SOURCES.md` limits collection. If a daily update fails, fix or remove the invalid new file and rerun preparation; existing generated data remains valid.
+See `PUBLISHING.md` and `AGENTS.md` before scheduling GPT publishing. Run `npm run verify` before committing an edition. Generated indexes are build artifacts; GitHub Actions validates, tests, builds, and deploys but never generates news.
 
 Enable **Settings → Pages → Source: GitHub Actions** once in GitHub.
