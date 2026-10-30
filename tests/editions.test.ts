@@ -64,6 +64,13 @@ test('rejects update markers without their timestamp', () => {
   assert.match(validateEdition(edition, edition.id).errors.join(' '), /updatedAt/);
 });
 
+test('rejects an invalid non-Steam game page URL', () => {
+  const edition = { id:'2026-10-30T18:00:00Z', date:'2026-10-30', publishedAt:'2026-10-30T18:00:00Z', updatedAt:'2026-10-30T18:00:00Z', stories:[
+    { id:'game-page', headline:'Game page', summary:'A concise summary.', categories:['Updates'], sourceUrl:'https://example.test/news', publishedAt:'2026-10-30T18:00:00Z', featured:true, game:{ name:'Game', id:'game', url:'not-a-url' } }
+  ]};
+  assert.match(validateEdition(edition, edition.id).errors.join(' '), /game page URL/);
+});
+
 test('creates a missing editions directory for a fresh empty archive', async () => {
   const root = await mkdtemp(join(tmpdir(), 'mygptnews-empty-'));
   await (await import('node:fs/promises')).mkdir(join(root, 'data'), { recursive: true });

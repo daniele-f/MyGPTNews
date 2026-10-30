@@ -34,7 +34,7 @@ export function validateEdition(edition: any, expectedId?: string) {
     if (story?.changeType && !['new', 'updated'].includes(story.changeType)) errors.push(`${label} has an invalid changeType.`);
     if (story?.changeType && !isDate(story?.updatedAt)) errors.push(`${label} needs an updatedAt timestamp for its changeType.`);
     if (story?.game && (typeof story.game.name !== 'string' || typeof story.game.id !== 'string')) errors.push(`${label} game needs name and id.`);
-    for (const [field, value] of [['image URL', story?.imageUrl], ['Steam URL', story?.steam?.url]] as const) if (value) try { normalizeUrl(value); } catch { errors.push(`${label} has an invalid ${field}.`); }
+    for (const [field, value] of [['image URL', story?.imageUrl], ['Steam URL', story?.steam?.url], ['game page URL', story?.game?.url]] as const) if (value) try { normalizeUrl(value); } catch { errors.push(`${label} has an invalid ${field}.`); }
     if (story?.steam?.releaseDate && !isDate(story.steam.releaseDate)) errors.push(`${label} has an invalid Steam release date.`);
     if (story?.price && (!isDate(story.price.checkedAt) || typeof story.price.amount !== 'number')) errors.push(`${label} has an invalid price observation.`);
     if (story?.relatedArticleIds && !Array.isArray(story.relatedArticleIds)) errors.push(`${label} has invalid relatedArticleIds.`);

@@ -7,3 +7,5 @@ body:has(.article-page){background:#07171e;color:#edf0ec}.article-page{max-width
 
 .change-tag{display:inline-block;padding:2px 7px;border:1px solid #e75a32;border-radius:999px;color:#ffd5c9;font:700 .68rem/1 system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;vertical-align:middle}.rail-story .change-tag{margin-top:7px}.stage-copy .eyebrow .change-tag,.article-detail .eyebrow .change-tag{margin-left:2px}.stage-copy .eyebrow{align-items:center}
 .game-title{color:#e75a32}
+
+.stage-links a:not(.button):not(.brand-button){color:#91d8ee}.stage-links .brand-button{display:inline-grid;place-items:center;width:42px;height:42px;padding:8px;box-sizing:border-box;border:1px solid #4c6b78;border-radius:8px;background:#102832;color:#edf0ec;text-decoration:none}.stage-links .brand-button:hover,.stage-links .brand-button:focus-visible{border-color:#91d8ee;background:#153640}.stage-links .brand-button img{display:block;width:24px;height:24px;object-fit:contain}.stage-links .brand-button span{font-size:.72rem;font-weight:700;line-height:1;text-align:center}
