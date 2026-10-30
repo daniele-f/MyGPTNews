@@ -16,8 +16,10 @@ export function buildIndexes(editions: any[]) {
 }
 
 export async function prepareEditions(rootDir: string) {
-  const dataDir = join(rootDir, 'data'); const editionsDir = join(dataDir, 'editions');
-  const files = (await readdir(editionsDir)).filter((file) => parseEditionFilename(file));
+  const dataDir = join(rootDir, 'data'); const editionsDir = join(dataDir, 'editions'); await mkdir(editionsDir, { recursive: true });
+  const allFiles = await readdir(editionsDir); const invalidFiles = allFiles.filter((file) => file.endsWith('.json') && !parseEditionFilename(file));
+  if (invalidFiles.length) throw new Error(`Edition validation failed:\nInvalid edition filename: ${invalidFiles.join(', ')}.`);
+  const files = allFiles.filter((file) => parseEditionFilename(file));
   const editions = await Promise.all(files.map(async (file) => JSON.parse(await readFile(join(editionsDir, file), 'utf8'))));
   const errors: string[] = []; const editionIds = new Set<string>(); const storyIds = new Set<string>(); const urls = new Set<string>();
   for (let index = 0; index < editions.length; index++) {
@@ -29,5 +31,5 @@ export async function prepareEditions(rootDir: string) {
   if (errors.length) throw new Error(`Edition validation failed:\n${errors.join('\n')}`);
   const indexes = buildIndexes(editions); const staging = join(dataDir, '.generated-staging'); await rm(staging, { recursive: true, force: true }); await mkdir(staging, { recursive: true });
   await Promise.all(Object.entries(indexes).map(([name, value]) => writeFile(join(staging, name), `${JSON.stringify(value, null, 2)}\n`)));
-  for (const name of Object.keys(indexes)) await rename(join(staging, name), join(dataDir, name)); await rm(staging, { recursive: true, force: true }); return indexes;
+  for (const [name, value] of Object.entries(indexes)) await writeFile(join(dataDir, name), `${JSON.stringify(value, null, 2)}\n`); await rm(staging, { recursive: true, force: true }); return indexes;
 }

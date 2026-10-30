@@ -37,3 +37,10 @@ test('accepts separate timestamped editions on one Brussels day', async () => {
   };
   assert.deepEqual(validateEdition(edition, edition.id).errors, []);
 });
+
+test('creates a missing editions directory for a fresh empty archive', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'mygptnews-empty-'));
+  await (await import('node:fs/promises')).mkdir(join(root, 'data'), { recursive: true });
+  const indexes = await prepareEditions(root);
+  assert.deepEqual(indexes['archive.json'].editions, []);
+});
