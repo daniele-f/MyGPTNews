@@ -16,9 +16,9 @@ test('copies generated data into the deployable public directory', async () => {
 test('copies generated data into the final deployment directory after a build', async () => {
   const root = await mkdtemp(join(tmpdir(), 'mygptnews-build-'));
   await mkdir(join(root, 'data'), { recursive: true });
-  await writeFile(join(root, 'data', 'hourly-quotes.json'), '{"entries":[{"id":"test"}]}');
+  await writeFile(join(root, 'data', 'search-index.json'), '{"stories":[{"id":"test"}]}');
   await copyPublishedData(root, 'dist');
-  assert.equal(await readFile(join(root, 'dist', 'data', 'hourly-quotes.json'), 'utf8'), '{"entries":[{"id":"test"}]}');
+  assert.equal(await readFile(join(root, 'dist', 'data', 'search-index.json'), 'utf8'), '{"stories":[{"id":"test"}]}');
 });
 
 test('recognizes the TypeScript CLI filename used by npm build', () => {
