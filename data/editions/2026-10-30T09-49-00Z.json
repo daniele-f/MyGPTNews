@@ -2,7 +2,7 @@
   "id": "2026-10-30T09:49:00Z",
   "date": "2026-10-30",
   "publishedAt": "2026-10-30T09:49:00Z",
-  "updatedAt": "2026-10-30T09:49:00Z",
+  "updatedAt": "2026-10-30T09:52:48Z",
   "stories": [
     {
       "id": "phantom-blade-zero-steam-launch-2026-10-29",
@@ -184,6 +184,181 @@
         "discountPercent": 100,
         "checkedAt": "2026-10-30T09:49:00Z"
       }
+    },
+    {
+      "id": "phantom-blade-zero-pc-launch-2026-10-29",
+      "headline": "Phantom Blade Zero launches on PC with a day-one performance patch",
+      "summary": "S-GAME's martial-arts action RPG launched worldwide on PC and PS5 on October 29 UTC. The studio says a roughly 5 GB day-one patch improves ray tracing and path tracing, and warns of instability with Nvidia driver 621.01, recommending 617.42 while a fix is pending.",
+      "categories": [
+        "Releases",
+        "Updates"
+      ],
+      "game": {
+        "name": "Phantom Blade Zero",
+        "id": "phantom-blade-zero"
+      },
+      "sourceUrl": "https://steamcommunity.com/games/4115450/announcements/detail/698779962638860722",
+      "publishedAt": "2026-10-30T09:52:48Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793261976",
+      "steam": {
+        "url": "https://store.steampowered.com/app/4115450/Phantom_Blade_Zero/",
+        "releaseDate": "2026-10-29T02:00:00Z"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-10-30T09:52:48Z"
+    },
+    {
+      "id": "crimson-desert-charting-the-unknown-launch-2026-10-29",
+      "headline": "Crimson Desert's Charting the Unknown expansion is out",
+      "summary": "Pearl Abyss launched the paid Charting the Unknown expansion on October 29 at 22:00 UTC. It adds seafaring and underwater exploration, expanded housing and business systems, and new character stories; the DLC requires Crimson Desert Enhanced.",
+      "categories": [
+        "Releases",
+        "Updates"
+      ],
+      "game": {
+        "name": "Crimson Desert Enhanced",
+        "id": "crimson-desert-enhanced"
+      },
+      "sourceUrl": "https://crimsondesert.pearlabyss.com/en-us/News/Notice/Detail?_boardNo=143",
+      "publishedAt": "2026-10-30T09:52:48Z",
+      "featured": false,
+      "imageUrl": "https://s1.pearlcdn.com/cd/brand/board/2026/10/29/436b439ffa820261029064501234.jpg",
+      "steam": {
+        "url": "https://store.steampowered.com/app/5001840/Crimson_Desert_Enhanced_Charting_the_Unknown/",
+        "releaseDate": "2026-10-29T22:00:00Z"
+      },
+      "price": {
+        "amount": 24.99,
+        "currency": "USD",
+        "checkedAt": "2026-10-30T09:52:48Z"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-10-30T09:52:48Z"
+    },
+    {
+      "id": "age-of-empires-iv-raiders-of-the-north-launch-2026-10-29",
+      "headline": "Age of Empires IV adds Vikings and Scots in Raiders of the North",
+      "summary": "The Raiders of the North expansion launched October 29, introducing two playable civilizations, four new Crucible missions and two new biomes. The Crucible mode also gains two-player co-op, providing new ways for strategy fans to play together.",
+      "categories": [
+        "Releases",
+        "Updates"
+      ],
+      "game": {
+        "name": "Age of Empires IV",
+        "id": "age-of-empires-iv"
+      },
+      "sourceUrl": "https://www.ageofempires.com/news/raiders-of-the-north-for-age-of-empires-iv-available-now/",
+      "publishedAt": "2026-10-30T09:52:48Z",
+      "featured": false,
+      "imageUrl": "https://cdn.ageofempires.com/aoe/wp-content/uploads/2026/10/RotN_Available_Now_16x9.webp",
+      "steam": {
+        "url": "https://store.steampowered.com/app/4336170/Age_of_Empires_IV_Raiders_of_the_North/"
+      },
+      "price": {
+        "amount": 19.99,
+        "currency": "USD",
+        "checkedAt": "2026-10-30T09:52:48Z"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-10-30T09:52:48Z"
+    },
+    {
+      "id": "cairn-deep-water-free-dlc-launch-2026-10-29",
+      "headline": "Cairn releases free Deep Water DLC and Free Roam mode",
+      "summary": "The Game Bakers released On the Trail: Deep Water on October 29 at no extra cost to Cairn owners. Three climbing areas introduce overwater routes, Marco becomes playable, and a free update lets players explore Mount Kami more freely.",
+      "categories": [
+        "Releases",
+        "Updates"
+      ],
+      "game": {
+        "name": "Cairn",
+        "id": "cairn"
+      },
+      "sourceUrl": "https://www.thegamebakers.com/on-the-trail-deep-water-is-out-now/",
+      "publishedAt": "2026-10-30T09:52:48Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4487450/b0b38b2aa0767d5b08553820b59f98c2c7540f00/header.jpg?t=1793289251",
+      "steam": {
+        "url": "https://store.steampowered.com/app/4487450/Cairn_On_the_Trail_Deep_Water/"
+      },
+      "price": {
+        "amount": 0,
+        "currency": "USD",
+        "checkedAt": "2026-10-30T09:52:48Z"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-10-30T09:52:48Z"
+    },
+    {
+      "id": "planet-coaster-2-spooktacular-pack-launch-2026-10-29",
+      "headline": "Planet Coaster 2 launches Spooktacular Pack and free Update 12",
+      "summary": "Frontier's Halloween expansion arrived October 29 with custom walkthrough attractions, seven rides and more than 700 scenery pieces. The accompanying free Update 12 adds reaction points, photo stand-ins and a scared guest reaction for more expressive park design.",
+      "categories": [
+        "Releases",
+        "Updates"
+      ],
+      "game": {
+        "name": "Planet Coaster 2",
+        "id": "planet-coaster-2"
+      },
+      "sourceUrl": "https://steamcommunity.com/games/2688950/announcements/detail/668380030964862104",
+      "publishedAt": "2026-10-30T09:52:48Z",
+      "featured": false,
+      "imageUrl": "https://clan.fastly.steamstatic.com/images/45100725/4c05fb9e7f1e306361c82b687701306ad22cb35f.jpg",
+      "steam": {
+        "url": "https://store.steampowered.com/app/5362340/Planet_Coaster_2_Spooktacular_Pack/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-10-30T09:52:48Z"
+    },
+    {
+      "id": "stardeus-v015-major-update-2026-10-29",
+      "headline": "Stardeus v0.15 overhauls combat, quests and colony management",
+      "summary": "The October 29 update delivers more than 1,500 changes, including quests, faction diplomacy, a Rogue AI progression path, redesigned ship and ground combat, and a rebuilt interface. Saves from v0.14 are incompatible, but the developer provides a legacy branch for finishing older runs.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Stardeus",
+        "id": "stardeus"
+      },
+      "sourceUrl": "https://steamcommunity.com/games/1380910/announcements/detail/699904683928454361",
+      "publishedAt": "2026-10-30T09:52:48Z",
+      "featured": false,
+      "imageUrl": "https://clan.fastly.steamstatic.com/images/38884233/9ca0370ce4b94da3464ec2f778053ec29e0c582d.png",
+      "steam": {
+        "url": "https://store.steampowered.com/app/1380910/Stardeus/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-10-30T09:52:48Z"
+    },
+    {
+      "id": "sorry-were-closed-epic-free-2026-10-29",
+      "headline": "Sorry We're Closed is free to keep on the Epic Games Store",
+      "summary": "Epic is offering the base edition of the surreal survival-horror adventure for free from October 29 until November 5 at 16:00 UTC. Claiming it during the promotion adds a permanent Epic library license; the offer is separate from the paid Steam version.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Sorry We're Closed",
+        "id": "sorry-were-closed"
+      },
+      "sourceUrl": "https://store.epicgames.com/p/sorry-were-closed-724c86",
+      "publishedAt": "2026-10-30T09:52:48Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1796580/header.jpg?t=1788536861",
+      "steam": {
+        "url": "https://store.steampowered.com/app/1796580/Sorry_Were_Closed/"
+      },
+      "price": {
+        "amount": 0,
+        "currency": "USD",
+        "discountPercent": 100,
+        "checkedAt": "2026-10-30T09:52:48Z"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-10-30T09:52:48Z"
     }
   ]
 }

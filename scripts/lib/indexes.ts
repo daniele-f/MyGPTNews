@@ -21,10 +21,11 @@ export async function prepareEditions(rootDir: string) {
   if (invalidFiles.length) throw new Error(`Edition validation failed:\nInvalid edition filename: ${invalidFiles.join(', ')}.`);
   const files = allFiles.filter((file) => parseEditionFilename(file));
   const editions = await Promise.all(files.map(async (file) => JSON.parse(await readFile(join(editionsDir, file), 'utf8'))));
-  const errors: string[] = []; const editionIds = new Set<string>(); const storyIds = new Set<string>(); const urls = new Set<string>();
+  const errors: string[] = []; const editionIds = new Set<string>(); const editionDates = new Set<string>(); const storyIds = new Set<string>(); const urls = new Set<string>();
   for (let index = 0; index < editions.length; index++) {
     const edition = editions[index]; const id = parseEditionFilename(files[index])!; errors.push(...validateEdition(edition, id).errors);
     if (editionIds.has(edition.id)) errors.push(`Duplicate edition id: ${edition.id}.`); editionIds.add(edition.id);
+    if (editionDates.has(edition.date)) errors.push(`Duplicate edition date: ${edition.date}.`); editionDates.add(edition.date);
     for (const story of edition.stories || []) { if (storyIds.has(story.id)) errors.push(`Duplicate story id across editions: ${story.id}.`); storyIds.add(story.id); try { const url = normalizeUrl(story.sourceUrl); if (urls.has(url)) errors.push(`Duplicate normalized source URL across editions: ${url}.`); urls.add(url); } catch {} }
   }
   for (const edition of editions) for (const story of edition.stories || []) for (const id of story.relatedArticleIds || []) if (!storyIds.has(id)) errors.push(`Story ${story.id} references unknown article: ${id}.`);

@@ -38,6 +38,17 @@ test('accepts an edition with a Brussels calendar day', async () => {
   assert.deepEqual(validateEdition(edition, edition.id).errors, []);
 });
 
+test('rejects multiple edition files for one Brussels day', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'mygptnews-duplicate-day-'));
+  const editions = join(root, 'data', 'editions');
+  await (await import('node:fs/promises')).mkdir(editions, { recursive: true });
+  const one = { id:'2026-10-30T09:00:00Z', date:'2026-10-30', publishedAt:'2026-10-30T09:00:00Z', updatedAt:'2026-10-30T09:00:00Z', stories:[{ id:'one', headline:'One', summary:'A concise summary.', categories:['Updates'], sourceUrl:'https://example.test/one', publishedAt:'2026-10-30T09:00:00Z', featured:true }] };
+  const two = { ...one, id:'2026-10-30T12:00:00Z', publishedAt:'2026-10-30T12:00:00Z', updatedAt:'2026-10-30T12:00:00Z', stories:[{ ...one.stories[0], id:'two', headline:'Two', sourceUrl:'https://example.test/two' }] };
+  await writeFile(join(editions, '2026-10-30T09-00-00Z.json'), JSON.stringify(one));
+  await writeFile(join(editions, '2026-10-30T12-00-00Z.json'), JSON.stringify(two));
+  await assert.rejects(() => prepareEditions(root), /Duplicate edition date/);
+});
+
 test('accepts new and updated stories only when they carry an update timestamp', () => {
   const edition = { id:'2026-10-30T18:00:00Z', date:'2026-10-30', publishedAt:'2026-10-30T18:00:00Z', updatedAt:'2026-10-30T20:00:00Z', stories:[
     { id:'new-story', headline:'New story', summary:'A concise summary.', categories:['Updates'], sourceUrl:'https://example.test/new', publishedAt:'2026-10-30T18:00:00Z', featured:true, changeType:'new', updatedAt:'2026-10-30T20:00:00Z' },
