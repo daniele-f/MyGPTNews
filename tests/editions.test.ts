@@ -30,12 +30,27 @@ test('does not replace generated indexes when an input edition is invalid', asyn
   assert.equal(await readFile(join(data, 'archive.json'), 'utf8'), '{"existing":true}');
 });
 
-test('accepts separate timestamped editions on one Brussels day', async () => {
+test('accepts an edition with a Brussels calendar day', async () => {
   const edition = {
     id: '2026-10-30T18:00:00Z', date: '2026-10-30', publishedAt: '2026-10-30T18:00:00Z', updatedAt: '2026-10-30T18:00:00Z',
     stories: [{ id: 'story-one', headline: 'A headline', summary: 'A concise summary.', categories: ['Updates'], sourceUrl: 'https://example.test/story', publishedAt: '2026-10-30T17:00:00Z', featured: true }]
   };
   assert.deepEqual(validateEdition(edition, edition.id).errors, []);
+});
+
+test('accepts new and updated stories only when they carry an update timestamp', () => {
+  const edition = { id:'2026-10-30T18:00:00Z', date:'2026-10-30', publishedAt:'2026-10-30T18:00:00Z', updatedAt:'2026-10-30T20:00:00Z', stories:[
+    { id:'new-story', headline:'New story', summary:'A concise summary.', categories:['Updates'], sourceUrl:'https://example.test/new', publishedAt:'2026-10-30T18:00:00Z', featured:true, changeType:'new', updatedAt:'2026-10-30T20:00:00Z' },
+    { id:'updated-story', headline:'Updated story', summary:'A concise summary.', categories:['Updates'], sourceUrl:'https://example.test/updated', publishedAt:'2026-10-30T18:00:00Z', featured:false, changeType:'updated', updatedAt:'2026-10-30T20:00:00Z' }
+  ]};
+  assert.deepEqual(validateEdition(edition, edition.id).errors, []);
+});
+
+test('rejects update markers without their timestamp', () => {
+  const edition = { id:'2026-10-30T18:00:00Z', date:'2026-10-30', publishedAt:'2026-10-30T18:00:00Z', updatedAt:'2026-10-30T20:00:00Z', stories:[
+    { id:'new-story', headline:'New story', summary:'A concise summary.', categories:['Updates'], sourceUrl:'https://example.test/new', publishedAt:'2026-10-30T18:00:00Z', featured:true, changeType:'new' }
+  ]};
+  assert.match(validateEdition(edition, edition.id).errors.join(' '), /updatedAt/);
 });
 
 test('creates a missing editions directory for a fresh empty archive', async () => {

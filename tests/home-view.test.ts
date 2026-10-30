@@ -32,3 +32,10 @@ test('keeps the header and filters when no story matches', () => {
   assert.match(html, /Filter controls/);
   assert.match(html, /No stories match these filters/);
 });
+
+test('renders update labels in the rail and active story', () => {
+  const story = { ...stories[1], changeType:'updated', updatedAt:'2026-10-30T12:00:00Z' };
+  const html = homeView([story], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z');
+  assert.match(html, />Updated</);
+  assert.match(html, /class="change-tag"/);
+});
