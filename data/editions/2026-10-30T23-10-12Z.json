@@ -1,0 +1,130 @@
+{
+  "id": "2026-10-30T23:10:12Z",
+  "date": "2026-10-31",
+  "publishedAt": "2026-10-30T23:10:12Z",
+  "updatedAt": "2026-10-30T23:10:12Z",
+  "stories": [
+    {
+      "id": "world-of-horror-as-below-so-above-update-2026-10-30",
+      "headline": "WORLD OF HORROR gets its largest free update, AS BELOW SO ABOVE",
+      "summary": "The 1.2 update is now available on PC via Steam, GOG and itch.io. Publisher Ysbryd Games says it expands the cosmic-horror RPG by roughly 20%, with new Old Gods, three playable characters, additional mysteries and a Scenario Mode. Expanded modding tools add more replay possibilities, making this a substantial free return for existing PC players.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "WORLD OF HORROR",
+        "id": "world-of-horror"
+      },
+      "sourceUrl": "https://www.gamespress.com/en-US/WORLD-OF-HORROR-Expands-Today-with-Insanity-Inducing-AS-BELOW-SO-ABOVE",
+      "publishedAt": "2026-10-30T23:10:12Z",
+      "featured": true,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/913740/header.jpg?t=1730740660",
+      "steam": {
+        "url": "https://store.steampowered.com/app/913740/"
+      }
+    },
+    {
+      "id": "cronos-lazarus-december-release-date-2026-10-29",
+      "headline": "Cronos: Lazarus DLC confirmed for December 3 on PC",
+      "summary": "Bloober Team has dated its survival-horror expansion for December 3, 2026. The prequel follows the Pathfinder on the road to becoming the Warden, with more aggressive combat and a relentless pursuer called the Tracker. It is a substantial new story chapter for Cronos: The New Dawn owners and already has a verified Steam DLC page.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "Cronos: Lazarus",
+        "id": "cronos-lazarus"
+      },
+      "sourceUrl": "https://www.blooberteam.com/news/2026/10/29/cronos-lazarus-launches-on-december-3-for-pc-playstation-5-and-xbox-series-xs",
+      "publishedAt": "2026-10-30T23:10:12Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4768180/e0fb6f2d74d78efca9200fcb855d803c33f4ad6c/header.jpg?t=1793200387",
+      "steam": {
+        "url": "https://store.steampowered.com/app/4768180/Cronos_Lazarus/"
+      }
+    },
+    {
+      "id": "wolf-among-us-remastered-pc-launch-2026-10-29",
+      "headline": "The Wolf Among Us Remastered arrives on PC with Noir Mode",
+      "summary": "Telltale's remaster launched on Steam on October 29, restoring all five episodes with enhanced visuals, a black-and-white Noir Mode, playable deleted scenes and behind-the-scenes extras. A 20% Steam launch offer runs through November 12, while eligible owners of the original qualify for a larger 50% discount. It is a timely entry point to Bigby Wolf's detective story.",
+      "categories": [
+        "Releases",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "The Wolf Among Us Remastered",
+        "id": "the-wolf-among-us-remastered"
+      },
+      "sourceUrl": "https://www.telltale.com/news/bigby-unleashes-the-wolf/",
+      "publishedAt": "2026-10-30T23:10:12Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3884860/80ddd096b6fdd5ab25162251bee4131c78cdf351/header.jpg?t=1793292108",
+      "steam": {
+        "url": "https://store.steampowered.com/app/3884860/The_Wolf_Among_Us_Remastered/"
+      },
+      "price": {
+        "amount": 19.99,
+        "currency": "USD",
+        "discountPercent": 20,
+        "checkedAt": "2026-10-30T23:10:12Z"
+      }
+    },
+    {
+      "id": "goblin-cleanup-pirate-bay-update-2026-10-30",
+      "headline": "Goblin Cleanup opens a pirate dungeon and launches new Twitch Drops",
+      "summary": "The Pirate Bay update adds the first two Black Bay dungeon levels to the co-op cleaning sim, alongside firing cannons, new traps, cosmetics, leaderboards and accessibility options. A new six-item Twitch Drops campaign began October 30 and runs through November 25. It is the game's first new dungeon since entering Steam Early Access.",
+      "categories": [
+        "Updates",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Goblin Cleanup",
+        "id": "goblin-cleanup"
+      },
+      "sourceUrl": "https://steamcommunity.com/app/2748340",
+      "publishedAt": "2026-10-30T23:10:12Z",
+      "featured": false,
+      "imageUrl": "https://clan.akamai.steamstatic.com/images/44822240/23e0711dfbefa1312947105afdbe13528eeb2c83.png",
+      "steam": {
+        "url": "https://store.steampowered.com/app/2748340/Goblin_Cleanup/"
+      }
+    },
+    {
+      "id": "dead-of-the-brain-steam-release-2026-10-30",
+      "headline": "1992 PC-98 horror adventure Dead of the Brain returns on Steam",
+      "summary": "The Japanese point-and-click zombie horror game originally released in 1992 is now available on modern PCs through Steam. Publisher FAKKU's rerelease retains the pixel-art presentation and combines investigation, visual-novel storytelling and quick-time events, with optional quality-of-life aids and a demo. It preserves a cult PC horror title for a new audience.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Dead of the Brain",
+        "id": "dead-of-the-brain"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/5056390/Dead_of_the_Brain/",
+      "publishedAt": "2026-10-30T23:10:12Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5056390/ae1b91566b4025e9de9feaf9dc2a25c921a68e57/header.jpg?t=1793380593",
+      "steam": {
+        "url": "https://store.steampowered.com/app/5056390/Dead_of_the_Brain/"
+      }
+    },
+    {
+      "id": "fatal-claw-free-dlc-difficulty-speedrun-2026-10-28",
+      "headline": "Fatal Claw adds free difficulty options, Speedrun Mode and 10 skills",
+      "summary": "NDEV GAMES has released a free content update for its 2D Metroidvania, introducing Explorer, Warrior and Trial difficulties, configurable adventure settings, ten Fusion Skills, Speedrun Mode and a new outfit. Boss balancing and progression improvements make the update especially useful for both newcomers and returning players.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Fatal Claw",
+        "id": "fatal-claw"
+      },
+      "sourceUrl": "https://steamcommunity.com/app/2827750",
+      "publishedAt": "2026-10-30T23:10:12Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2827750/d7d0e546e2ed7a1cd07f3abfdc2b65f140201b24/header.jpg?t=1789730706",
+      "steam": {
+        "url": "https://store.steampowered.com/app/2827750/"
+      }
+    }
+  ]
+}
