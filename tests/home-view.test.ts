@@ -14,6 +14,13 @@ test('renders one header archive link and left chevrons before rail thumbnails',
   assert.match(html, /data-story-id="other"[\s\S]*?<span class="rail-chevron"[^>]*>‹<\/span>[\s\S]*?<img/);
 });
 
+test('submits the header search field to the search page', () => {
+  const html = homeView(stories, '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z');
+  assert.match(html, /<form class="header-search" action="\/search\/" method="get">/);
+  assert.match(html, /<input[^>]*name="q"[^>]*placeholder="Search"/);
+  assert.doesNotMatch(html, />Search<\/a>/);
+});
+
 test('renders a selected story with its permanent read link', () => {
   const html = stageView(stories[1], '2026-10-30T09:49:00Z');
   assert.match(html, /Another release/);
