@@ -29,3 +29,11 @@ test('does not replace generated indexes when an input edition is invalid', asyn
   await assert.rejects(() => prepareEditions(root));
   assert.equal(await readFile(join(data, 'archive.json'), 'utf8'), '{"existing":true}');
 });
+
+test('accepts separate timestamped editions on one Brussels day', async () => {
+  const edition = {
+    id: '2026-10-30T18:00:00Z', date: '2026-10-30', publishedAt: '2026-10-30T18:00:00Z', updatedAt: '2026-10-30T18:00:00Z',
+    stories: [{ id: 'story-one', headline: 'A headline', summary: 'A concise summary.', categories: ['Updates'], sourceUrl: 'https://example.test/story', publishedAt: '2026-10-30T17:00:00Z', featured: true }]
+  };
+  assert.deepEqual(validateEdition(edition, edition.id).errors, []);
+});

@@ -1,35 +1,33 @@
 import { mkdir, readdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { validateEdition } from './editions';
+import { parseEditionFilename, validateEdition } from './editions';
 import { normalizeUrl } from './url';
 
-export function buildIndexes(editions) {
-  const ordered = [...editions].sort((a, b) => b.date.localeCompare(a.date));
-  const records = ordered.flatMap((edition) => [...edition.stories]
-    .sort((a, b) => Number(b.featured) - Number(a.featured) || b.publishedAt.localeCompare(a.publishedAt))
-    .map((story) => ({ ...story, editionDate: edition.date })));
-  const games = {};
-  for (const story of records) for (const game of story.subjects) (games[game] ??= []).push({ id: story.id, editionDate: story.editionDate });
-  const generatedAt = ordered[0]?.updatedAt || null;
+export function buildIndexes(editions: any[]) {
+  const ordered = [...editions].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+  const stories = ordered.flatMap((edition) => edition.stories.map((story: any) => ({ ...story, editionId: edition.id, editionDate: edition.date }))).sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+  const games: Record<string, any[]> = {};
+  for (const story of stories) if (story.game) (games[story.game.id] ??= []).push({ id: story.id, editionId: story.editionId, name: story.game.name });
   return {
-    'archive.json': { generatedAt, editions: ordered.map((edition) => ({ date: edition.date, path: `data/editions/${edition.date}.json`, storyCount: edition.stories.length, updatedAt: edition.updatedAt })) },
-    'search-index.json': { generatedAt, stories: records },
-    'games-index.json': { generatedAt, games },
-    'processed-urls.json': { generatedAt, urls: records.map((story) => ({ id: story.id, url: normalizeUrl(story.sourceUrl) })) }
+    'archive.json': { generatedAt: ordered[0]?.updatedAt || null, editions: ordered.map((edition) => ({ id: edition.id, date: edition.date, publishedAt: edition.publishedAt, updatedAt: edition.updatedAt, path: `data/editions/${edition.id.replace(/:/g, '-')}.json`, storyCount: edition.stories.length })) },
+    'search-index.json': { generatedAt: ordered[0]?.updatedAt || null, stories },
+    'games-index.json': { generatedAt: ordered[0]?.updatedAt || null, games }
   };
 }
 
-export async function prepareEditions(rootDir) {
+export async function prepareEditions(rootDir: string) {
   const dataDir = join(rootDir, 'data'); const editionsDir = join(dataDir, 'editions');
-  const files = (await readdir(editionsDir)).filter((file) => /^\d{4}-\d{2}-\d{2}\.json$/.test(file));
+  const files = (await readdir(editionsDir)).filter((file) => parseEditionFilename(file));
   const editions = await Promise.all(files.map(async (file) => JSON.parse(await readFile(join(editionsDir, file), 'utf8'))));
-  const errors = editions.flatMap((edition) => validateEdition(edition).errors);
-  const seen = new Set(); for (const story of editions.flatMap((edition) => edition.stories)) { const url = normalizeUrl(story.sourceUrl); if (seen.has(url)) errors.push(`Duplicate normalized source URL across editions: ${url}.`); seen.add(url); }
+  const errors: string[] = []; const editionIds = new Set<string>(); const storyIds = new Set<string>(); const urls = new Set<string>();
+  for (let index = 0; index < editions.length; index++) {
+    const edition = editions[index]; const id = parseEditionFilename(files[index])!; errors.push(...validateEdition(edition, id).errors);
+    if (editionIds.has(edition.id)) errors.push(`Duplicate edition id: ${edition.id}.`); editionIds.add(edition.id);
+    for (const story of edition.stories || []) { if (storyIds.has(story.id)) errors.push(`Duplicate story id across editions: ${story.id}.`); storyIds.add(story.id); try { const url = normalizeUrl(story.sourceUrl); if (urls.has(url)) errors.push(`Duplicate normalized source URL across editions: ${url}.`); urls.add(url); } catch {} }
+  }
+  for (const edition of editions) for (const story of edition.stories || []) for (const id of story.relatedArticleIds || []) if (!storyIds.has(id)) errors.push(`Story ${story.id} references unknown article: ${id}.`);
   if (errors.length) throw new Error(`Edition validation failed:\n${errors.join('\n')}`);
-  const indexes = buildIndexes(editions); const staging = join(dataDir, '.generated-staging');
-  await rm(staging, { recursive: true, force: true }); await mkdir(staging, { recursive: true });
+  const indexes = buildIndexes(editions); const staging = join(dataDir, '.generated-staging'); await rm(staging, { recursive: true, force: true }); await mkdir(staging, { recursive: true });
   await Promise.all(Object.entries(indexes).map(([name, value]) => writeFile(join(staging, name), `${JSON.stringify(value, null, 2)}\n`)));
-  for (const name of Object.keys(indexes)) await rename(join(staging, name), join(dataDir, name));
-  await rm(staging, { recursive: true, force: true });
-  return indexes;
+  for (const name of Object.keys(indexes)) await rename(join(staging, name), join(dataDir, name)); await rm(staging, { recursive: true, force: true }); return indexes;
 }
