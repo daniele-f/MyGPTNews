@@ -33,9 +33,16 @@ test('keeps the header and filters when no story matches', () => {
   assert.match(html, /No stories match these filters/);
 });
 
-test('renders update labels in the rail and active story', () => {
+test('renders update labels only in the rail', () => {
   const story = { ...stories[1], changeType:'updated', updatedAt:'2026-10-30T12:00:00Z' };
   const html = homeView([story], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z');
   assert.match(html, />Updated</);
   assert.match(html, /class="change-tag"/);
+  assert.doesNotMatch(stageView(story, '2026-10-30T09:49:00Z'), /change-tag|>Updated</);
+});
+
+test('renders the publication date and time at the bottom of the main story', () => {
+  const html = stageView(stories[0], '2026-10-30T09:49:00Z');
+  assert.match(html, /class="stage-published"/);
+  assert.match(html, /Published/);
 });
