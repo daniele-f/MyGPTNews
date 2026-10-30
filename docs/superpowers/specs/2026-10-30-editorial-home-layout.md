@@ -10,7 +10,7 @@ Turn the latest-edition homepage into a dark, editorial gaming-news front page. 
 - Desktop content is a two-column layout: a dominant central feature stage and a wider right-hand latest-stories rail.
 - The initially featured article is active in the centre. Selecting a story in the rail updates that stage without navigation.
 - A selected rail row shows a left-positioned, left-facing chevron before its thumbnail.
-- The centre article exposes its categories, publication date, headline, summary, verified Steam link when present, original source link, and a Read full story link using the existing permanent URL convention.
+- The centre article exposes its categories, publication date, headline, summary, verified Steam link when present, original source link, and a Read full story link to a dedicated permanent detail page. The detail page shows the complete available briefing record, including historical price when supplied.
 - A selection uses a brief fade-and-slide transition; reduced-motion preferences disable it.
 - Browse archive remains a separate Archive page. The home page contains no duplicate archive link in the rail.
 

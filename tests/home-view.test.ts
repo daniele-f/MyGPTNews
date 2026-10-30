@@ -17,11 +17,18 @@ test('renders one header archive link and left chevrons before rail thumbnails',
 test('renders a selected story with its permanent read link', () => {
   const html = stageView(stories[1], '2026-10-30T09:49:00Z');
   assert.match(html, /Another release/);
-  assert.match(html, /href="\?edition=2026-10-30T09%3A49%3A00Z&amp;article=other"/);
+  assert.match(html, /href="\/article\/\?edition=2026-10-30T09%3A49%3A00Z&amp;article=other"/);
   assert.match(html, />Read full story</);
 });
 
 test('uses the first remaining story when no featured story is supplied', () => {
   const html = homeView([stories[1]], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z');
   assert.match(html, /data-story-id="other"[^>]*aria-pressed="true"/);
+});
+
+test('keeps the header and filters when no story matches', () => {
+  const html = homeView([], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z', '<form class="filters">Filter controls</form>');
+  assert.match(html, />Browse archive</);
+  assert.match(html, /Filter controls/);
+  assert.match(html, /No stories match these filters/);
 });
