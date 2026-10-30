@@ -1,0 +1,189 @@
+{
+  "id": "2026-10-30T09:49:00Z",
+  "date": "2026-10-30",
+  "publishedAt": "2026-10-30T09:49:00Z",
+  "updatedAt": "2026-10-30T09:49:00Z",
+  "stories": [
+    {
+      "id": "phantom-blade-zero-steam-launch-2026-10-29",
+      "headline": "Phantom Blade Zero arrives on Steam",
+      "summary": "S-GAME's wuxia action RPG launched worldwide on PC on October 29 (Steam displays October 28 in some regions). Players follow Soul, a warrior with 66 days to live, through fast martial-arts combat and a conspiracy-driven story. The Steam version is available now, with Denuvo listed.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Phantom Blade Zero",
+        "id": "phantom-blade-zero"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4115450/Phantom_Blade_Zero/",
+      "publishedAt": "2026-10-30T09:49:00Z",
+      "featured": true,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793261976",
+      "steam": {
+        "url": "https://store.steampowered.com/app/4115450/Phantom_Blade_Zero/"
+      }
+    },
+    {
+      "id": "crimson-desert-charting-unknown-dlc-release-2026-10-29",
+      "headline": "Crimson Desert: Charting the Unknown adds ocean exploration",
+      "summary": "Pearl Abyss released the Charting the Unknown expansion on October 29. The paid DLC introduces shipbuilding, islands and underwater exploration, new stories for Kliff, Oongka and Damiane, plus expanded housing and business management. The base game is required.",
+      "categories": [
+        "Releases",
+        "Updates"
+      ],
+      "game": {
+        "name": "Crimson Desert Enhanced",
+        "id": "crimson-desert-enhanced"
+      },
+      "sourceUrl": "https://crimsondesert.pearlabyss.com/Game/DLC/charting-the-unknown",
+      "publishedAt": "2026-10-30T09:49:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5001840/ed9f91c5529b5e043f58b5fa99de414c3c007772/header.jpg?t=1793335501",
+      "steam": {
+        "url": "https://store.steampowered.com/app/5001840/Crimson_Desert_Enhanced_Charting_the_Unknown/"
+      }
+    },
+    {
+      "id": "age-of-empires-iv-raiders-of-the-north-release-2026-10-29",
+      "headline": "Age of Empires IV expansion adds Vikings and Scots",
+      "summary": "Raiders of the North launched on October 29, adding two playable civilizations, Scottish Heathland and Tundra Summer biomes, and four Crucible missions. The Crucible mode now supports two-player co-op, giving strategy players new challenges beyond the civilizations themselves.",
+      "categories": [
+        "Releases",
+        "Updates"
+      ],
+      "game": {
+        "name": "Age of Empires IV",
+        "id": "age-of-empires-iv"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4336170/Age_of_Empires_IV_Raiders_of_the_North/",
+      "publishedAt": "2026-10-30T09:49:00Z",
+      "featured": false,
+      "steam": {
+        "url": "https://store.steampowered.com/app/4336170/Age_of_Empires_IV_Raiders_of_the_North/"
+      }
+    },
+    {
+      "id": "planet-coaster-2-spooktacular-pack-release-2026-10-29",
+      "headline": "Planet Coaster 2 adds buildable walkthrough attractions",
+      "summary": "The Spooktacular Pack released October 29 with customizable walkthrough attractions, seven rides and more than 700 Halloween scenery pieces. The accompanying free Update 12 adds reaction points and new guest responses, expanding park storytelling even for players without the DLC.",
+      "categories": [
+        "Releases",
+        "Updates"
+      ],
+      "game": {
+        "name": "Planet Coaster 2",
+        "id": "planet-coaster-2"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/5362340/Planet_Coaster_2_Spooktacular_Pack/",
+      "publishedAt": "2026-10-30T09:49:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362340/e28b1315a74e6dc38f4b00a5e090df1bb8327de5/header.jpg?t=1793272943",
+      "steam": {
+        "url": "https://store.steampowered.com/app/5362340/Planet_Coaster_2_Spooktacular_Pack/"
+      }
+    },
+    {
+      "id": "cairn-deep-water-free-dlc-release-2026-10-29",
+      "headline": "Cairn receives free Deep Water climbing DLC",
+      "summary": "On the Trail: Deep Water launched October 29 as a free add-on for Cairn owners. It introduces three climbing locations, including cliffs above water and a climbing gym, plus the option to climb as Aava or Marco. Free-roam exploration expands the ways to revisit Mount Kami.",
+      "categories": [
+        "Releases",
+        "Updates",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Cairn",
+        "id": "cairn"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4487450/Cairn_On_the_Trail_Deep_Water/",
+      "publishedAt": "2026-10-30T09:49:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4487450/b0b38b2aa0767d5b08553820b59f98c2c7540f00/header.jpg?t=1793289251",
+      "steam": {
+        "url": "https://store.steampowered.com/app/4487450/Cairn_On_the_Trail_Deep_Water/"
+      }
+    },
+    {
+      "id": "atmosfar-steam-early-access-launch-2026-10-29",
+      "headline": "ATMOSFAR launches into Steam Early Access",
+      "summary": "Shueisha Games and Apog Labs launched ATMOSFAR in Early Access on October 29. The survival-crafting adventure supports solo play and online co-op across floating islands, with flyable Wasp vehicles and a customizable Cloud Cruiser airship base. The developers expect at least nine months in Early Access.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "ATMOSFAR",
+        "id": "atmosfar"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/1798230/ATMOSFAR/",
+      "publishedAt": "2026-10-30T09:49:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1798230/96e6f00d5ecb7c37ba07577ac02ac75fad16055a/header.jpg?t=1793341656",
+      "steam": {
+        "url": "https://store.steampowered.com/app/1798230/ATMOSFAR/"
+      }
+    },
+    {
+      "id": "queens-domain-steam-release-2026-10-30",
+      "headline": "Queen's Domain is scheduled to launch on Steam today",
+      "summary": "The retro-fantasy first-person action RPG is scheduled for October 30, with the Steam listing still showing a later unlock at the time of reporting. Its interconnected Isle of Neasied emphasizes exploration, stamina-based combat, weapon discovery and traversal with a magical sword. A free demo is available.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Queen's Domain",
+        "id": "queens-domain"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/1799840/Queens_Domain/",
+      "publishedAt": "2026-10-30T09:49:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1799840/1a209734951f53b019ec9fa03f835def14f2a968/header.jpg?t=1793124111",
+      "steam": {
+        "url": "https://store.steampowered.com/app/1799840/Queens_Domain/"
+      }
+    },
+    {
+      "id": "monster-train-2-the-punished-announced-2026-10-28",
+      "headline": "Monster Train 2 announces The Punished clan DLC for November 10",
+      "summary": "Shiny Shoe revealed The Punished, a new playable clan led by Archus, for release on November 10. Its mechanics reward deliberately damaging allied units and sacrificing cards to the Monolith for Devotion and Zeal bonuses, offering new risk-reward deckbuilding strategies.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "Monster Train 2",
+        "id": "monster-train-2"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/card-games/monster-train-2-the-punished-dlc/",
+      "publishedAt": "2026-10-30T09:49:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4739980/be8a82d818d36cfdb559bd8c8acd9dcbc5b83673/header.jpg?t=1793196542",
+      "steam": {
+        "url": "https://store.steampowered.com/app/4739980/Monster_Train_2_The_Punished/"
+      }
+    },
+    {
+      "id": "hexologic-steam-free-to-keep-promotion-2026-10-29",
+      "headline": "Hexologic is free to keep on Steam until October 31",
+      "summary": "MythicOwl's hex-grid logic puzzler is 100% discounted on Steam until October 31 at 10:00 Pacific time. Claiming it during the promotion adds the complete game permanently to your account. The well-reviewed puzzle game also includes a level editor and Steam Workshop support.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Hexologic",
+        "id": "hexologic"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/785890/Hexologic/",
+      "publishedAt": "2026-10-30T09:49:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/785890/header.jpg?t=1793292026",
+      "steam": {
+        "url": "https://store.steampowered.com/app/785890/Hexologic/"
+      },
+      "price": {
+        "amount": 0,
+        "currency": "USD",
+        "discountPercent": 100,
+        "checkedAt": "2026-10-30T09:49:00Z"
+      }
+    }
+  ]
+}
