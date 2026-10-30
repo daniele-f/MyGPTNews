@@ -46,3 +46,8 @@ test('renders the publication date and time at the bottom of the main story', ()
   assert.match(html, /class="stage-published"/);
   assert.match(html, /Published/);
 });
+
+test('accentuates the game name within the main headline', () => {
+  const story = { ...stories[0], game:{ name:'Featured', id:'featured' } };
+  assert.match(stageView(story, '2026-10-30T09:49:00Z'), /<span class="game-title">Featured<\/span> launch/);
+});
