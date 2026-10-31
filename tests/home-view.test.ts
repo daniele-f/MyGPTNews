@@ -82,6 +82,11 @@ test('renders rail status pills and stage navigation controls', () => {
   assert.match(html, /data-stage-next/);
 });
 
+test('hides rail status pills on previous days', () => {
+  const html = homeView([{ ...stories[0], changeType:'new' }, { ...stories[1], changeType:'updated' }], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z', ['2026-10-31', '2026-10-30'], '2026-10-30', '2026-10-31');
+  assert.doesNotMatch(html, /class="rail-status/);
+});
+
 test('disables unavailable story-stage directions at the boundaries', () => {
   const first = stageView(stories[0], '2026-10-30T09:49:00Z', 0, 2);
   const last = stageView(stories[1], '2026-10-30T09:49:00Z', 1, 2);
@@ -108,7 +113,7 @@ test('renders day navigation and a calendar limited to available dates', () => {
   assert.match(html, /class="calendar-day"[^>]*disabled[^>]*>29<\/button>/);
   assert.match(html, /data-calendar-label aria-live="polite"/);
   assert.match(html, /class="calendar-today"[^>]*data-calendar-today[^>]*>Today<\/button>/);
-  assert.match(html, /<h2>Stories for this day<\/h2>/);
+  assert.doesNotMatch(html, /<h2>Stories for this day<\/h2>/);
   assert.doesNotMatch(html, /class="rail-story"[\s\S]*?<small>/);
 });
 
