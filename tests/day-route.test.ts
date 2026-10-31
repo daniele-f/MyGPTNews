@@ -15,6 +15,7 @@ test('selects an available day from the date query', () => {
 
 test('rejects an unavailable date query', () => {
   assert.equal(resolveDayRoute('?date=2026-10-29', editions), null);
+  assert.equal(resolveDayRoute('?date=', editions), null);
 });
 
 test('lets a permanent article route take precedence over a date query', () => {

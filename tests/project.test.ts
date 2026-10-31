@@ -22,7 +22,13 @@ test('removes hourly quote publishing and routes', async () => {
 
 test('removes the standalone archive route', async () => {
   const config = await readFile('vite.config.ts', 'utf8');
+  const [article, search, today] = await Promise.all([
+    readFile('src/js/article-view.ts', 'utf8'),
+    readFile('src/js/search-page.ts', 'utf8'),
+    readFile('src/js/today.ts', 'utf8')
+  ]);
   assert.doesNotMatch(config, /archive:\s*resolve\(/);
+  assert.doesNotMatch(`${article}${search}${today}`, /archive\//);
   await assert.rejects(access('archive/index.html', constants.F_OK));
   await assert.rejects(access('src/js/archive.ts', constants.F_OK));
 });

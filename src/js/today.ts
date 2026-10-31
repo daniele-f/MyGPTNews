@@ -54,6 +54,7 @@ try {
     const nextMonth = `${view.getUTCFullYear()}-${String(view.getUTCMonth() + 1).padStart(2, '0')}`;
     picker.dataset.month = nextMonth;
     picker.innerHTML = calendarMonthView(availableDates, selectedDate, nextMonth);
+    picker.querySelector<HTMLButtonElement>(`[data-calendar-month="${direction}"]`)?.focus();
   });
   document.addEventListener('click', event => { if (!picker.hidden && !event.composedPath().includes(picker) && !event.composedPath().includes(trigger)) closePicker(); });
   document.addEventListener('keydown', event => { if (event.key === 'Escape' && !picker.hidden) { closePicker(); trigger.focus(); } });
@@ -66,5 +67,5 @@ try {
     }
   }
 } catch (error: any) {
-  app.innerHTML = `<main class="state"><h1>My GPT News</h1><p>${error.message}</p><a href="archive/">Browse archive</a></main>`;
+  app.innerHTML = `<main class="state"><h1>My GPT News</h1><p>${error.message}</p><a href="./">News archive</a></main>`;
 }
