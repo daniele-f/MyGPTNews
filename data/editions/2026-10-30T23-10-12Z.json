@@ -2,7 +2,7 @@
   "id": "2026-10-30T23:10:12Z",
   "date": "2026-10-31",
   "publishedAt": "2026-10-30T23:10:12Z",
-  "updatedAt": "2026-10-30T23:10:12Z",
+  "updatedAt": "2026-10-31T09:02:20Z",
   "stories": [
     {
       "id": "world-of-horror-as-below-so-above-update-2026-10-30",
@@ -125,6 +125,27 @@
       "steam": {
         "url": "https://store.steampowered.com/app/2827750/"
       }
+    },
+    {
+      "id": "ffxiv-evercold-release-date-zephyr-reveal-2026-10-31",
+      "headline": "Final Fantasy XIV: Evercold dated for February 23, 2027; Zephyr job revealed",
+      "summary": "At the Tokyo Fan Festival on October 31, Square Enix confirmed that Final Fantasy XIV's Evercold expansion launches February 23, 2027, later than its previous January window, with early access planned for February 19 and pre-orders opening November 4. The new Zephyr ranged-DPS job combines a crossbow with an avian companion; the keynote also detailed new raid challenges, the Fierce difficulty tier and seasonal rewards.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "FINAL FANTASY XIV Online",
+        "id": "final-fantasy-xiv-online"
+      },
+      "sourceUrl": "https://press.it.square-enix.com/en-GB/ZEPHYR-UNVEILED-AS-SECOND-NEW-JOB-FOR-FINAL-FANTASY-XIV-EVERCOLD-SET-T",
+      "publishedAt": "2026-10-31T09:02:20Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/39210/header.jpg?t=1782870674",
+      "steam": {
+        "url": "https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-10-31T09:02:20Z"
     }
   ]
 }
