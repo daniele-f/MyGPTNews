@@ -6,12 +6,15 @@ import { calendarMonthView, homeView, stageView } from './home-view';
 import { markRead } from './state';
 import { resolveDayRoute } from './day-route';
 import { storyNavigationTarget, type StoryDirection } from './story-navigation';
+import { developmentFixtures } from './dev-fixtures';
 
 const app = document.querySelector('#app') as HTMLElement;
 const currentBrusselsDay = () => new Intl.DateTimeFormat('en-CA', { timeZone:'Europe/Brussels', year:'numeric', month:'2-digit', day:'2-digit' }).format(new Date());
 
 try {
-  const archive: any = await loadJson('data/archive.json');
+  const today = currentBrusselsDay();
+  const fixtures = import.meta.env.DEV ? developmentFixtures(today) : null;
+  const archive: any = fixtures ? fixtures.archive : await loadJson('data/archive.json');
   if (!archive.editions.length) throw Error('No gaming editions have been published yet.');
   const route = articleRoute();
   const selectedDate = resolveDayRoute(location.search, archive.editions);
@@ -19,10 +22,9 @@ try {
   const dayMetas = archive.editions.filter((edition: any) => edition.date === selectedDate);
   const meta = route ? archive.editions.find((edition: any) => edition.id === route.edition) : dayMetas[0];
   if (!meta) throw Error('That edition is unavailable.');
-  const editions = new Map<string, any>(await Promise.all(dayMetas.map(async (dayMeta: any): Promise<[string, any]> => [dayMeta.id, await loadJson(dayMeta.path)])));
+  const editions = fixtures?.editions || new Map<string, any>(await Promise.all(dayMetas.map(async (dayMeta: any): Promise<[string, any]> => [dayMeta.id, await loadJson(dayMeta.path)])));
   const stories = dailyStories(dayMetas, editions, selectedDate);
   const availableDates = dailyDates(archive.editions);
-  const today = currentBrusselsDay();
   app.innerHTML = homeView(stories, meta.id, meta.updatedAt, availableDates, selectedDate, today);
 
   let selectedIndex = stories.findIndex((story: any) => story.featured);
