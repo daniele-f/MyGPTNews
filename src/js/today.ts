@@ -8,6 +8,7 @@ import { resolveDayRoute } from './day-route';
 import { storyNavigationTarget, type StoryDirection } from './story-navigation';
 
 const app = document.querySelector('#app') as HTMLElement;
+const currentBrusselsDay = () => new Intl.DateTimeFormat('en-CA', { timeZone:'Europe/Brussels', year:'numeric', month:'2-digit', day:'2-digit' }).format(new Date());
 
 try {
   const archive: any = await loadJson('data/archive.json');
@@ -21,7 +22,8 @@ try {
   const editions = new Map<string, any>(await Promise.all(dayMetas.map(async (dayMeta: any): Promise<[string, any]> => [dayMeta.id, await loadJson(dayMeta.path)])));
   const stories = dailyStories(dayMetas, editions, selectedDate);
   const availableDates = dailyDates(archive.editions);
-  app.innerHTML = homeView(stories, meta.id, meta.updatedAt, availableDates, selectedDate);
+  const today = currentBrusselsDay();
+  app.innerHTML = homeView(stories, meta.id, meta.updatedAt, availableDates, selectedDate, today);
 
   let selectedIndex = stories.findIndex((story: any) => story.featured);
   if (selectedIndex < 0) selectedIndex = 0;
@@ -66,13 +68,19 @@ try {
       location.assign(url);
       return;
     }
+    if (control.hasAttribute('data-calendar-today')) {
+      const url = new URL(location.href);
+      url.search = `?date=${encodeURIComponent(today)}`;
+      location.assign(url);
+      return;
+    }
     const direction = control.dataset.calendarMonth;
     if (!direction) return;
     const [year, month] = picker.dataset.month!.split('-').map(Number);
     const view = new Date(Date.UTC(year, month - 1 + (direction === 'next' ? 1 : -1), 1));
     const nextMonth = `${view.getUTCFullYear()}-${String(view.getUTCMonth() + 1).padStart(2, '0')}`;
     picker.dataset.month = nextMonth;
-    picker.innerHTML = calendarMonthView(availableDates, selectedDate, nextMonth);
+    picker.innerHTML = calendarMonthView(availableDates, selectedDate, nextMonth, today);
     picker.querySelector<HTMLButtonElement>(`[data-calendar-month="${direction}"]`)?.focus();
   });
   document.addEventListener('click', event => { if (!picker.hidden && !event.composedPath().includes(picker) && !event.composedPath().includes(trigger)) closePicker(); });

@@ -107,6 +107,12 @@ test('renders day navigation and a calendar limited to available dates', () => {
   assert.match(html, /class="calendar-day is-available is-selected"[^>]*data-date="2026-10-30"/);
   assert.match(html, /class="calendar-day"[^>]*disabled[^>]*>29<\/button>/);
   assert.match(html, /data-calendar-label aria-live="polite"/);
+  assert.match(html, /class="calendar-today"[^>]*data-calendar-today[^>]*>Today<\/button>/);
   assert.match(html, /<h2>Stories for this day<\/h2>/);
   assert.doesNotMatch(html, /class="rail-story"[\s\S]*?<small>/);
+});
+
+test('marks Today unavailable when there is no edition for the current date', () => {
+  const html = homeView(stories, '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z', ['2026-10-30'], '2026-10-30', '2026-10-31');
+  assert.match(html, /class="calendar-today"[^>]*data-calendar-today[^>]*disabled[^>]*>Today<\/button>/);
 });
