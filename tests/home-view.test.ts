@@ -25,7 +25,7 @@ test('uses the title as home and puts the filter button after archive and search
   const html = homeView(stories, '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z');
   assert.match(html, /<a class="wordmark" href="\/">MY GPT NEWS<\/a>/);
   assert.doesNotMatch(html, /<a class="active" href="\/">Home<\/a>/);
-  assert.match(html, /<a href="\/archive\/">Browse archive<\/a><\/nav><form class="header-search"[\s\S]*?<button class="filter-button" type="button" aria-expanded="false" aria-controls="story-filters">Filter<\/button>/);
+  assert.match(html, /<a href="\/archive\/">Browse archive<\/a><\/nav><form class="header-search"[\s\S]*?<button class="filter-button" type="button" aria-expanded="false" aria-controls="story-filters">Filter stories<\/button>/);
   assert.match(html, /class="header-date">30 Oct 2026<\/p>/);
 });
 
@@ -46,6 +46,11 @@ test('keeps the header and filters when no story matches', () => {
   assert.match(html, />Browse archive</);
   assert.match(html, /Filter controls/);
   assert.match(html, /No stories match these filters/);
+});
+
+test('keeps the latest stories and filter views inside one rail slot', () => {
+  const html = homeView(stories, '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z', '<form class="filters">Filter controls</form>');
+  assert.match(html, /<aside class="story-rail-slot"[\s\S]*?<section class="story-rail"[\s\S]*?<section class="filter-rail"/);
 });
 
 test('renders update labels only in the rail', () => {

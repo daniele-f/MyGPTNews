@@ -19,7 +19,8 @@ try {
   const params = new URLSearchParams(location.search);
   const categories = new Set(params.getAll('category'));
   const filtered = stories.filter((story: any) => !categories.size || story.categories.some((category: string) => categories.has(category)));
-  const filters = `<form class="filters editorial-filters"><div class="filter-heading"><strong>Filter stories</strong><button type="button" class="filter-clear">Clear</button></div><fieldset>${['Releases','Announcements','Updates','Industry News','Deals & Events'].map(category => `<label><input type="checkbox" name="category" value="${category}" ${categories.has(category) ? 'checked' : ''}> ${category}</label>`).join('')}</fieldset></form>`;
+  const filterCategories = ['Releases', 'Announcements', 'Updates', 'Industry News', 'Deals & Events'];
+  const filters = `<form class="filters editorial-filters"><div class="filter-heading"><strong>Filter stories</strong><button type="button" class="filter-clear">Clear</button></div><fieldset>${filterCategories.map(category => `<label><input type="checkbox" name="category" value="${category}" ${categories.has(category) ? 'checked' : ''}><span>${category}</span><small>${stories.filter((story: any) => story.categories.includes(category)).length}</small></label>`).join('')}</fieldset><p class="filter-summary">${categories.size ? `Showing ${filtered.length} ${filtered.length === 1 ? 'story' : 'stories'}` : 'Showing all stories'}</p></form>`;
   app.innerHTML = homeView(filtered, meta.id, meta.updatedAt, filters);
 
   const filterRail = app.querySelector('#story-filters') as HTMLElement;
@@ -29,7 +30,12 @@ try {
     filterRail.hidden = !open;
     storyRail.hidden = open;
     filterButton.setAttribute('aria-expanded', String(open));
+    const next = new URLSearchParams(location.search);
+    if (open) next.set('filters', 'open');
+    else next.delete('filters');
+    history.replaceState(null, '', `${location.pathname}${next.size ? `?${next}` : ''}${location.hash}`);
   };
+  if (params.get('filters') === 'open') setFilterOpen(true);
   filterButton.addEventListener('click', () => setFilterOpen(filterRail.hidden === true));
   app.querySelector('.filter-clear')?.addEventListener('click', () => {
     const next = new URLSearchParams(location.search);
@@ -39,6 +45,7 @@ try {
   app.querySelectorAll('.editorial-filters input[name="category"]').forEach((input: any) => input.addEventListener('change', () => {
     const next = new URLSearchParams(location.search);
     next.delete('category');
+    next.set('filters', 'open');
     app.querySelectorAll('.editorial-filters input[name="category"]:checked').forEach((checked: any) => next.append('category', checked.value));
     location.search = next.toString();
   }));
