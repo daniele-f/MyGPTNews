@@ -5,6 +5,7 @@ import { dailyDates, dailyStories } from './daily-feed';
 import { calendarMonthView, homeView, stageView } from './home-view';
 import { markRead } from './state';
 import { resolveDayRoute } from './day-route';
+import { storyNavigationTarget, type StoryDirection } from './story-navigation';
 
 const app = document.querySelector('#app') as HTMLElement;
 
@@ -24,27 +25,31 @@ try {
 
   let selectedIndex = stories.findIndex((story: any) => story.featured);
   if (selectedIndex < 0) selectedIndex = 0;
-  const activate = (index: number, direction: 'previous' | 'next' | 'direct' = 'direct') => {
+  const activate = (index: number, direction: StoryDirection | 'direct' = 'direct', focusDirection?: StoryDirection) => {
     const story = stories[index];
     if (!story) return;
     markRead(story.id);
     const stage = app.querySelector('[data-story-stage]') as HTMLElement;
+    if (!stage) return;
     selectedIndex = index;
     stage.innerHTML = stageView(story, meta.id, selectedIndex, stories.length);
     stage.classList.remove('is-changing', 'is-moving-previous', 'is-moving-next');
     void stage.offsetWidth;
     if (direction !== 'direct') stage.classList.add(`is-moving-${direction}`);
-    stage.classList.add('is-changing');
     app.querySelectorAll('.rail-story').forEach((button: any) => button.setAttribute('aria-pressed', String(Number(button.dataset.storyIndex) === selectedIndex)));
+    if (focusDirection) stage.querySelector<HTMLButtonElement>(`[data-stage-${focusDirection}]`)?.focus();
   };
   app.querySelectorAll('.rail-story').forEach((button: any) => button.addEventListener('click', () => {
     const index = Number(button.dataset.storyIndex);
     activate(index, index < selectedIndex ? 'previous' : index > selectedIndex ? 'next' : 'direct');
   }));
-  (app.querySelector('[data-story-stage]') as HTMLElement).addEventListener('click', event => {
+  const stageContainer = app.querySelector('[data-story-stage]') as HTMLElement | null;
+  stageContainer?.addEventListener('click', event => {
     const control = (event.target as HTMLElement).closest<HTMLButtonElement>('[data-stage-previous], [data-stage-next]');
     if (!control) return;
-    activate(selectedIndex + (control.hasAttribute('data-stage-previous') ? -1 : 1), control.hasAttribute('data-stage-previous') ? 'previous' : 'next');
+    const direction: StoryDirection = control.hasAttribute('data-stage-previous') ? 'previous' : 'next';
+    const target = storyNavigationTarget(selectedIndex, stories.length, direction);
+    if (target) activate(target.index, direction, target.focus);
   });
   const trigger = app.querySelector('.day-picker-trigger') as HTMLButtonElement;
   const picker = app.querySelector('[data-calendar]') as HTMLElement;
