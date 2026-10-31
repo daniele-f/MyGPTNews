@@ -22,16 +22,30 @@ try {
   const availableDates = dailyDates(archive.editions);
   app.innerHTML = homeView(stories, meta.id, meta.updatedAt, availableDates, selectedDate);
 
-  const activate = (story: any) => {
+  let selectedIndex = stories.findIndex((story: any) => story.featured);
+  if (selectedIndex < 0) selectedIndex = 0;
+  const activate = (index: number, direction: 'previous' | 'next' | 'direct' = 'direct') => {
+    const story = stories[index];
+    if (!story) return;
     markRead(story.id);
     const stage = app.querySelector('[data-story-stage]') as HTMLElement;
-    stage.innerHTML = stageView(story, meta.id);
-    stage.classList.remove('is-changing');
+    selectedIndex = index;
+    stage.innerHTML = stageView(story, meta.id, selectedIndex, stories.length);
+    stage.classList.remove('is-changing', 'is-moving-previous', 'is-moving-next');
     void stage.offsetWidth;
+    if (direction !== 'direct') stage.classList.add(`is-moving-${direction}`);
     stage.classList.add('is-changing');
-    app.querySelectorAll('.rail-story').forEach((button: any) => button.setAttribute('aria-pressed', String(button.dataset.storyId === story.id)));
+    app.querySelectorAll('.rail-story').forEach((button: any) => button.setAttribute('aria-pressed', String(Number(button.dataset.storyIndex) === selectedIndex)));
   };
-  app.querySelectorAll('.rail-story').forEach((button: any) => button.addEventListener('click', () => activate(stories.find((story: any) => story.id === button.dataset.storyId && story.editionId === button.dataset.editionId))));
+  app.querySelectorAll('.rail-story').forEach((button: any) => button.addEventListener('click', () => {
+    const index = Number(button.dataset.storyIndex);
+    activate(index, index < selectedIndex ? 'previous' : index > selectedIndex ? 'next' : 'direct');
+  }));
+  (app.querySelector('[data-story-stage]') as HTMLElement).addEventListener('click', event => {
+    const control = (event.target as HTMLElement).closest<HTMLButtonElement>('[data-stage-previous], [data-stage-next]');
+    if (!control) return;
+    activate(selectedIndex + (control.hasAttribute('data-stage-previous') ? -1 : 1), control.hasAttribute('data-stage-previous') ? 'previous' : 'next');
+  });
   const trigger = app.querySelector('.day-picker-trigger') as HTMLButtonElement;
   const picker = app.querySelector('[data-calendar]') as HTMLElement;
   const closePicker = () => { picker.hidden = true; trigger.setAttribute('aria-expanded', 'false'); };
@@ -62,7 +76,7 @@ try {
     const story = stories.find((item: any) => item.id === route.article && item.editionId === route.edition);
     if (story) {
       markRead(story.id);
-      activate(story);
+      activate(stories.indexOf(story));
       requestAnimationFrame(() => (document.querySelector(`#article-${CSS.escape(story.id)}`) as HTMLElement | null)?.focus());
     }
   }

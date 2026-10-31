@@ -56,6 +56,12 @@ test('renders the publication date and time at the bottom of the main story', ()
   assert.match(html, /Published/);
 });
 
+test('uses the update timestamp when a story was updated', () => {
+  const html = stageView({ ...stories[0], updatedAt:'2026-10-30T12:00:00Z' }, '2026-10-30T09:49:00Z');
+  assert.match(html, /class="stage-published">Updated 30 Oct 2026, 13:00<\/p>/);
+  assert.doesNotMatch(html, /Published 30 Oct 2026, 10:49/);
+});
+
 test('shows category tags without publication state in the rail', () => {
   const edited = { ...stories[1], updatedAt:'2026-10-30T12:00:00Z' };
   const html = homeView([stories[0], edited], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z');
@@ -63,6 +69,28 @@ test('shows category tags without publication state in the rail', () => {
   assert.match(html, /class="rail-categories">Updates<\/span>/);
   assert.doesNotMatch(html, /class="rail-story"[\s\S]*?<small>/);
   assert.match(stageView(stories[0], '2026-10-30T09:49:00Z'), /<p class="eyebrow">Releases<\/p>/);
+});
+
+test('renders rail status pills and stage navigation controls', () => {
+  const updated = { ...stories[1], changeType:'updated' };
+  const added = { ...stories[0], id:'added', changeType:'new' };
+  const html = homeView([added, updated], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z');
+  assert.match(html, /data-story-index="0"/);
+  assert.match(html, /class="rail-status rail-status-new">New<\/span>/);
+  assert.match(html, /class="rail-status rail-status-updated">Updated<\/span>/);
+  assert.match(html, /data-stage-previous[^>]*disabled/);
+  assert.match(html, /data-stage-next/);
+});
+
+test('disables unavailable story-stage directions at the boundaries', () => {
+  const first = stageView(stories[0], '2026-10-30T09:49:00Z', 0, 2);
+  const last = stageView(stories[1], '2026-10-30T09:49:00Z', 1, 2);
+  assert.match(first, /class="stage-story is-first"/);
+  assert.match(last, /class="stage-story is-last"/);
+  assert.match(first, /data-stage-previous[^>]*disabled/);
+  assert.doesNotMatch(first, /data-stage-next[^>]*disabled/);
+  assert.doesNotMatch(last, /data-stage-previous[^>]*disabled/);
+  assert.match(last, /data-stage-next[^>]*disabled/);
 });
 
 test('accentuates the game name within the main headline', () => {
