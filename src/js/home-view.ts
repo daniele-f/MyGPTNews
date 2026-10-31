@@ -17,19 +17,24 @@ export function dayNavigationView(availableDates: string[], selectedDate: string
   const selectedIndex = dates.indexOf(selectedDate);
   const previous = selectedIndex > 0 ? dates[selectedIndex - 1] : null;
   const next = selectedIndex >= 0 && selectedIndex < dates.length - 1 ? dates[selectedIndex + 1] : null;
-  const [year, month] = dateParts(selectedDate);
+  return `<nav class="day-timeline" aria-label="Available news days"><a class="day-step${previous ? '' : ' is-disabled'}" aria-label="Previous available day"${previous ? ` href="${dayUrl(previous)}"` : ' aria-disabled="true"'}>‹</a><button class="day-picker-trigger" type="button" aria-expanded="false" aria-haspopup="dialog" aria-controls="day-picker">${esc(date(selectedDate))}</button><a class="day-step${next ? '' : ' is-disabled'}" aria-label="Next available day"${next ? ` href="${dayUrl(next)}"` : ' aria-disabled="true"'}>›</a><section class="day-picker" id="day-picker" role="dialog" aria-label="Choose an available news day" hidden data-calendar data-month="${selectedDate.slice(0, 7)}">${calendarMonthView(dates, selectedDate, selectedDate.slice(0, 7))}</section></nav>`;
+}
+
+export function calendarMonthView(availableDates: string[], selectedDate: string, monthValue: string) {
+  const dates = new Set(availableDates);
+  const [year, month] = monthValue.split('-').map(Number) as [number, number];
   const daysInMonth = new Date(year, month, 0).getDate();
-  const leadingDays = new Date(year, month - 1, 1).getDay();
+  const leadingDays = new Date(Date.UTC(year, month - 1, 1)).getUTCDay();
   const calendarDays = Array.from({ length: leadingDays + daysInMonth }, (_, index) => {
     if (index < leadingDays) return '<span class="calendar-day-placeholder" aria-hidden="true"></span>';
     const day = index - leadingDays + 1;
     const value = dayKey(year, month, day);
-    const available = dates.includes(value);
+    const available = dates.has(value);
     const selected = value === selectedDate;
     return `<button class="calendar-day${available ? ' is-available' : ''}${selected ? ' is-selected' : ''}" type="button" data-date="${value}"${available ? '' : ' disabled'}${selected ? ' aria-current="date"' : ''}>${day}</button>`;
   }).join('');
   const monthLabel = new Date(Date.UTC(year, month - 1, 1)).toLocaleDateString('en-GB', { month: 'long', year: 'numeric', timeZone: 'UTC' });
-  return `<nav class="day-timeline" aria-label="Available news days"><a class="day-step${previous ? '' : ' is-disabled'}" aria-label="Previous available day"${previous ? ` href="${dayUrl(previous)}"` : ' aria-disabled="true"'}>‹</a><button class="day-picker-trigger" type="button" aria-expanded="false" aria-haspopup="dialog" aria-controls="day-picker">${esc(date(selectedDate))}</button><a class="day-step${next ? '' : ' is-disabled'}" aria-label="Next available day"${next ? ` href="${dayUrl(next)}"` : ' aria-disabled="true"'}>›</a><section class="day-picker" id="day-picker" role="dialog" aria-label="Choose an available news day" hidden data-calendar data-month="${year}-${String(month).padStart(2, '0')}"><div class="calendar-heading"><button type="button" data-calendar-month="previous" aria-label="Previous month">‹</button><strong data-calendar-label>${esc(monthLabel)}</strong><button type="button" data-calendar-month="next" aria-label="Next month">›</button></div><div class="calendar-weekdays" aria-hidden="true"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div><div class="calendar-grid">${calendarDays}</div></section></nav>`;
+  return `<div class="calendar-heading"><button type="button" data-calendar-month="previous" aria-label="Previous month">‹</button><strong data-calendar-label>${esc(monthLabel)}</strong><button type="button" data-calendar-month="next" aria-label="Next month">›</button></div><div class="calendar-weekdays" aria-hidden="true"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div><div class="calendar-grid">${calendarDays}</div>`;
 }
 
 const header = (headerDate: string, availableDates: string[], selectedDate: string) => `<header class="site-header"><a class="wordmark" href="${assetPath('')}">MY GPT NEWS</a>${dayNavigationView(availableDates, selectedDate)}<form class="header-search" action="${assetPath('search/')}" method="get"><label><span>Search the archive</span><input name="q" type="search" placeholder="Search" autocomplete="off"></label><button type="submit" aria-label="Search">⌕</button></form></header>`;
