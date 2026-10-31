@@ -1,4 +1,21 @@
 {
-  "generatedAt": null,
-  "editions": []
+  "generatedAt": "2026-10-30T23:10:12Z",
+  "editions": [
+    {
+      "id": "2026-10-30T23:10:12Z",
+      "date": "2026-10-31",
+      "publishedAt": "2026-10-30T23:10:12Z",
+      "updatedAt": "2026-10-30T23:10:12Z",
+      "path": "data/editions/2026-10-30T23-10-12Z.json",
+      "storyCount": 6
+    },
+    {
+      "id": "2026-10-30T09:49:00Z",
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T09:49:00Z",
+      "updatedAt": "2026-10-30T22:23:16Z",
+      "path": "data/editions/2026-10-30T09-49-00Z.json",
+      "storyCount": 13
+    }
+  ]
 }

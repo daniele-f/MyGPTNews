@@ -1,4 +1,138 @@
 {
-  "generatedAt": null,
-  "games": {}
+  "generatedAt": "2026-10-30T23:10:12Z",
+  "games": {
+    "world-of-horror": [
+      {
+        "id": "world-of-horror-as-below-so-above-update-2026-10-30",
+        "editionId": "2026-10-30T23:10:12Z",
+        "name": "WORLD OF HORROR"
+      }
+    ],
+    "cronos-lazarus": [
+      {
+        "id": "cronos-lazarus-december-release-date-2026-10-29",
+        "editionId": "2026-10-30T23:10:12Z",
+        "name": "Cronos: Lazarus"
+      }
+    ],
+    "the-wolf-among-us-remastered": [
+      {
+        "id": "wolf-among-us-remastered-pc-launch-2026-10-29",
+        "editionId": "2026-10-30T23:10:12Z",
+        "name": "The Wolf Among Us Remastered"
+      }
+    ],
+    "goblin-cleanup": [
+      {
+        "id": "goblin-cleanup-pirate-bay-update-2026-10-30",
+        "editionId": "2026-10-30T23:10:12Z",
+        "name": "Goblin Cleanup"
+      }
+    ],
+    "dead-of-the-brain": [
+      {
+        "id": "dead-of-the-brain-steam-release-2026-10-30",
+        "editionId": "2026-10-30T23:10:12Z",
+        "name": "Dead of the Brain"
+      }
+    ],
+    "fatal-claw": [
+      {
+        "id": "fatal-claw-free-dlc-difficulty-speedrun-2026-10-28",
+        "editionId": "2026-10-30T23:10:12Z",
+        "name": "Fatal Claw"
+      }
+    ],
+    "assassins-creed-valhalla": [
+      {
+        "id": "assassins-creed-valhalla-new-game-plus-november-2026",
+        "editionId": "2026-10-30T09:49:00Z",
+        "name": "Assassin's Creed Valhalla"
+      }
+    ],
+    "call-of-duty-modern-warfare-4": [
+      {
+        "id": "modern-warfare-4-itaewon-footage-removal-announced-2026-10-30",
+        "editionId": "2026-10-30T09:49:00Z",
+        "name": "Call of Duty: Modern Warfare 4"
+      }
+    ],
+    "stardeus": [
+      {
+        "id": "stardeus-v015-major-update-2026-10-29",
+        "editionId": "2026-10-30T09:49:00Z",
+        "name": "Stardeus"
+      }
+    ],
+    "sorry-were-closed": [
+      {
+        "id": "sorry-were-closed-epic-free-2026-10-29",
+        "editionId": "2026-10-30T09:49:00Z",
+        "name": "Sorry We're Closed"
+      }
+    ],
+    "phantom-blade-zero": [
+      {
+        "id": "phantom-blade-zero-steam-launch-2026-10-29",
+        "editionId": "2026-10-30T09:49:00Z",
+        "name": "Phantom Blade Zero"
+      }
+    ],
+    "crimson-desert-enhanced": [
+      {
+        "id": "crimson-desert-charting-unknown-dlc-release-2026-10-29",
+        "editionId": "2026-10-30T09:49:00Z",
+        "name": "Crimson Desert Enhanced"
+      }
+    ],
+    "age-of-empires-iv": [
+      {
+        "id": "age-of-empires-iv-raiders-of-the-north-release-2026-10-29",
+        "editionId": "2026-10-30T09:49:00Z",
+        "name": "Age of Empires IV"
+      }
+    ],
+    "planet-coaster-2": [
+      {
+        "id": "planet-coaster-2-spooktacular-pack-release-2026-10-29",
+        "editionId": "2026-10-30T09:49:00Z",
+        "name": "Planet Coaster 2"
+      }
+    ],
+    "cairn": [
+      {
+        "id": "cairn-deep-water-free-dlc-release-2026-10-29",
+        "editionId": "2026-10-30T09:49:00Z",
+        "name": "Cairn"
+      }
+    ],
+    "atmosfar": [
+      {
+        "id": "atmosfar-steam-early-access-launch-2026-10-29",
+        "editionId": "2026-10-30T09:49:00Z",
+        "name": "ATMOSFAR"
+      }
+    ],
+    "queens-domain": [
+      {
+        "id": "queens-domain-steam-release-2026-10-30",
+        "editionId": "2026-10-30T09:49:00Z",
+        "name": "Queen's Domain"
+      }
+    ],
+    "monster-train-2": [
+      {
+        "id": "monster-train-2-the-punished-announced-2026-10-28",
+        "editionId": "2026-10-30T09:49:00Z",
+        "name": "Monster Train 2"
+      }
+    ],
+    "hexologic": [
+      {
+        "id": "hexologic-steam-free-to-keep-promotion-2026-10-29",
+        "editionId": "2026-10-30T09:49:00Z",
+        "name": "Hexologic"
+      }
+    ]
+  }
 }
