@@ -19,3 +19,10 @@ test('removes hourly quote publishing and routes', async () => {
   assert.doesNotMatch(workflow, /schedule:|hourly quote|publish-hourly-quote|contents: write/i);
   await assert.rejects(access('hourly-quotes/index.html', constants.F_OK));
 });
+
+test('removes the standalone archive route', async () => {
+  const config = await readFile('vite.config.ts', 'utf8');
+  assert.doesNotMatch(config, /archive:\s*resolve\(/);
+  await assert.rejects(access('archive/index.html', constants.F_OK));
+  await assert.rejects(access('src/js/archive.ts', constants.F_OK));
+});
