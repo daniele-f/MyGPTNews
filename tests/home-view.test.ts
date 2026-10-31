@@ -21,11 +21,12 @@ test('submits the header search field to the search page', () => {
   assert.doesNotMatch(html, />Search<\/a>/);
 });
 
-test('uses the title as home and puts the filter button after archive and search', () => {
+test('uses the title as home and keeps archive and search in the header', () => {
   const html = homeView(stories, '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z');
   assert.match(html, /<a class="wordmark" href="\/">MY GPT NEWS<\/a>/);
   assert.doesNotMatch(html, /<a class="active" href="\/">Home<\/a>/);
-  assert.match(html, /<a href="\/archive\/">Browse archive<\/a><\/nav><form class="header-search"[\s\S]*?<button class="filter-button" type="button" aria-expanded="false" aria-controls="story-filters">Filter stories<\/button>/);
+  assert.match(html, /<a href="\/archive\/">Browse archive<\/a><\/nav><form class="header-search"/);
+  assert.doesNotMatch(html, /filter-button|filter-rail|story-filters/);
   assert.match(html, /class="header-date">30 Oct 2026<\/p>/);
 });
 
@@ -41,30 +42,25 @@ test('uses the first remaining story when no featured story is supplied', () => 
   assert.match(html, /data-story-id="other"[^>]*aria-pressed="true"/);
 });
 
-test('keeps the header and filters when no story matches', () => {
-  const html = homeView([], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z', '<form class="filters">Filter controls</form>');
+test('keeps the header and rail when no stories are available', () => {
+  const html = homeView([], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z');
   assert.match(html, />Browse archive</);
-  assert.match(html, /Filter controls/);
-  assert.match(html, /No stories match these filters/);
-});
-
-test('keeps the latest stories and filter views inside one rail slot', () => {
-  const html = homeView(stories, '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z', '<form class="filters">Filter controls</form>');
-  assert.match(html, /<aside class="story-rail-slot"[\s\S]*?<section class="story-rail"[\s\S]*?<section class="filter-rail"/);
-});
-
-test('renders update labels only in the rail', () => {
-  const story = { ...stories[1], changeType:'updated', updatedAt:'2026-10-30T12:00:00Z' };
-  const html = homeView([story], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z');
-  assert.match(html, />Updated</);
-  assert.match(html, /class="change-tag"/);
-  assert.doesNotMatch(stageView(story, '2026-10-30T09:49:00Z'), /change-tag|>Updated</);
+  assert.match(html, /No stories published today/);
+  assert.match(html, /class="story-rail"/);
 });
 
 test('renders the publication date and time at the bottom of the main story', () => {
   const html = stageView(stories[0], '2026-10-30T09:49:00Z');
   assert.match(html, /class="stage-published"/);
   assert.match(html, /Published/);
+});
+
+test('shows category tags and the current publication state in the rail', () => {
+  const edited = { ...stories[1], updatedAt:'2026-10-30T12:00:00Z' };
+  const html = homeView([stories[0], edited], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z');
+  assert.match(html, /class="rail-categories">Releases<\/span>[\s\S]*?Published 30 Oct 2026, 10:49/);
+  assert.match(html, /class="rail-categories">Updates<\/span>[\s\S]*?Edited 30 Oct 2026, 13:00/);
+  assert.match(stageView(stories[0], '2026-10-30T09:49:00Z'), /<p class="eyebrow">Releases<\/p>/);
 });
 
 test('accentuates the game name within the main headline', () => {
