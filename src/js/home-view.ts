@@ -6,11 +6,34 @@ const esc = (value: unknown) => String(value ?? '').replace(/[&<>'"]/g, characte
 const storyLink = (editionId: string, storyId: string) => esc(articleUrl(editionId, storyId));
 const date = (value: string) => new Date(value).toLocaleDateString('en-GB', { day:'2-digit', month:'short', year:'numeric', timeZone:'Europe/Brussels' });
 const dateTime = (value: string) => new Date(value).toLocaleString('en-GB', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit', timeZone:'Europe/Brussels' });
-const railTimestamp = (story: any) => story.updatedAt ? `Edited ${dateTime(story.updatedAt)}` : `Published ${dateTime(story.publishedAt)}`;
 const headline = (story: any) => { const value=String(story.headline||''), game=story.game?.name; if(!game) return esc(value); const index=value.toLocaleLowerCase().indexOf(String(game).toLocaleLowerCase()); return index<0?esc(value):`${esc(value.slice(0,index))}<span class="game-title">${esc(value.slice(index,index+String(game).length))}</span>${esc(value.slice(index+String(game).length))}`; };
 const logoToken = import.meta.env?.VITE_LOGO_DEV_TOKEN || '';
-const header = (headerDate: string) => `<header class="site-header"><a class="wordmark" href="${assetPath('')}">MY GPT NEWS</a><p class="header-date">${esc(headerDate)}</p><nav aria-label="Site navigation"><a href="${assetPath('archive/')}">Browse archive</a></nav><form class="header-search" action="${assetPath('search/')}" method="get"><label><span>Search the archive</span><input name="q" type="search" placeholder="Search" autocomplete="off"></label><button type="submit" aria-label="Search">⌕</button></form></header>`;
-const railView = (stories: any[], editionId: string) => `<aside class="story-rail" aria-label="Latest stories"><h2>Latest stories</h2>${stories.length ? `<div class="rail-stories">${stories.map(story => `<button class="rail-story" type="button" data-story-id="${esc(story.id)}" data-edition-id="${esc(story.editionId || editionId)}" aria-pressed="${story.id === (stories.find(item => item.featured) || stories[0]).id}"><span class="rail-chevron" aria-hidden="true">‹</span><img src="${esc(story.imageUrl || assetPath('fallback-news.svg'))}" alt="" loading="lazy" onerror="this.src='${assetPath('fallback-news.svg')}'"><span><strong>${headline(story)}</strong><span class="rail-categories">${story.categories.map(esc).join(' · ')}</span><small>${esc(railTimestamp(story))}</small></span></button>`).join('')}</div>` : ''}</aside>`;
+const dayUrl = (value: string) => `${assetPath('')}?date=${encodeURIComponent(value)}`;
+const dateParts = (value: string) => value.split('-').map(Number) as [number, number, number];
+const dayKey = (year: number, month: number, day: number) => `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+
+export function dayNavigationView(availableDates: string[], selectedDate: string) {
+  const dates = [...availableDates].sort((a, b) => a.localeCompare(b));
+  const selectedIndex = dates.indexOf(selectedDate);
+  const previous = selectedIndex > 0 ? dates[selectedIndex - 1] : null;
+  const next = selectedIndex >= 0 && selectedIndex < dates.length - 1 ? dates[selectedIndex + 1] : null;
+  const [year, month] = dateParts(selectedDate);
+  const daysInMonth = new Date(year, month, 0).getDate();
+  const leadingDays = new Date(year, month - 1, 1).getDay();
+  const calendarDays = Array.from({ length: leadingDays + daysInMonth }, (_, index) => {
+    if (index < leadingDays) return '<span class="calendar-day-placeholder" aria-hidden="true"></span>';
+    const day = index - leadingDays + 1;
+    const value = dayKey(year, month, day);
+    const available = dates.includes(value);
+    const selected = value === selectedDate;
+    return `<button class="calendar-day${available ? ' is-available' : ''}${selected ? ' is-selected' : ''}" type="button" data-date="${value}"${available ? '' : ' disabled'}${selected ? ' aria-current="date"' : ''}>${day}</button>`;
+  }).join('');
+  const monthLabel = new Date(Date.UTC(year, month - 1, 1)).toLocaleDateString('en-GB', { month: 'long', year: 'numeric', timeZone: 'UTC' });
+  return `<nav class="day-timeline" aria-label="Available news days"><a class="day-step${previous ? '' : ' is-disabled'}" aria-label="Previous available day"${previous ? ` href="${dayUrl(previous)}"` : ' aria-disabled="true"'}>‹</a><button class="day-picker-trigger" type="button" aria-expanded="false" aria-haspopup="dialog" aria-controls="day-picker">${esc(date(selectedDate))}</button><a class="day-step${next ? '' : ' is-disabled'}" aria-label="Next available day"${next ? ` href="${dayUrl(next)}"` : ' aria-disabled="true"'}>›</a><section class="day-picker" id="day-picker" role="dialog" aria-label="Choose an available news day" hidden data-calendar data-month="${year}-${String(month).padStart(2, '0')}"><div class="calendar-heading"><button type="button" data-calendar-month="previous" aria-label="Previous month">‹</button><strong data-calendar-label>${esc(monthLabel)}</strong><button type="button" data-calendar-month="next" aria-label="Next month">›</button></div><div class="calendar-weekdays" aria-hidden="true"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div><div class="calendar-grid">${calendarDays}</div></section></nav>`;
+}
+
+const header = (headerDate: string, availableDates: string[], selectedDate: string) => `<header class="site-header"><a class="wordmark" href="${assetPath('')}">MY GPT NEWS</a>${dayNavigationView(availableDates, selectedDate)}<form class="header-search" action="${assetPath('search/')}" method="get"><label><span>Search the archive</span><input name="q" type="search" placeholder="Search" autocomplete="off"></label><button type="submit" aria-label="Search">⌕</button></form></header>`;
+const railView = (stories: any[], editionId: string) => `<aside class="story-rail" aria-label="Stories for this day"><h2>Stories for this day</h2>${stories.length ? `<div class="rail-stories">${stories.map(story => `<button class="rail-story" type="button" data-story-id="${esc(story.id)}" data-edition-id="${esc(story.editionId || editionId)}" aria-pressed="${story.id === (stories.find(item => item.featured) || stories[0]).id}"><span class="rail-chevron" aria-hidden="true">‹</span><img src="${esc(story.imageUrl || assetPath('fallback-news.svg'))}" alt="" loading="lazy" onerror="this.src='${assetPath('fallback-news.svg')}'"><span><strong>${headline(story)}</strong><span class="rail-categories">${story.categories.map(esc).join(' · ')}</span></span></button>`).join('')}</div>` : ''}</aside>`;
 
 export function stageView(story: any, editionId: string) {
   const image = esc(story.imageUrl || assetPath('fallback-news.svg'));
@@ -18,9 +41,9 @@ export function stageView(story: any, editionId: string) {
   return `<article class="stage-story" id="article-${esc(story.id)}" tabindex="-1"><img class="stage-image" src="${image}" alt="" onerror="this.src='${assetPath('fallback-news.svg')}'"><div class="stage-copy"><p class="eyebrow">${story.categories.map(esc).join(' · ')}</p><h2>${headline(story)}</h2><p class="stage-summary">${esc(story.summary)}</p><div class="stage-links"><a class="button" href="${link}">Read full story</a>${brandButton(story, logoToken)}<a href="${esc(story.sourceUrl)}" target="_blank" rel="noopener">Original source</a></div><p class="stage-published">Published ${esc(dateTime(story.publishedAt))}</p></div></article>`;
 }
 
-export function homeView(stories: any[], editionId: string, publishedAt: string) {
+export function homeView(stories: any[], editionId: string, publishedAt: string, availableDates = [publishedAt.slice(0, 10)], selectedDate = publishedAt.slice(0, 10)) {
   const active = stories.find(story => story.featured) || stories[0];
-  const headerDate = date(publishedAt);
-  if (!active) return `${header(headerDate)}<main class="editorial-home"><div class="editorial-layout"><section class="story-stage"><p class="empty-results">No stories published today.</p></section>${railView(stories, editionId)}</div></main>`;
-  return `${header(headerDate)}<main class="editorial-home"><div class="editorial-layout"><section class="story-stage" data-story-stage aria-live="polite">${stageView(active, editionId)}</section>${railView(stories, editionId)}</div></main>`;
+  const headerDate = date(`${selectedDate}T12:00:00Z`);
+  if (!active) return `${header(headerDate, availableDates, selectedDate)}<main class="editorial-home"><div class="editorial-layout"><section class="story-stage"><p class="empty-results">No stories published today.</p></section>${railView(stories, editionId)}</div></main>`;
+  return `${header(headerDate, availableDates, selectedDate)}<main class="editorial-home"><div class="editorial-layout"><section class="story-stage" data-story-stage aria-live="polite">${stageView(active, editionId)}</section>${railView(stories, editionId)}</div></main>`;
 }
