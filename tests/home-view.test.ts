@@ -43,6 +43,12 @@ test('uses the first remaining story when no featured story is supplied', () => 
   assert.match(html, /data-story-id="other"[^>]*aria-pressed="true"/);
 });
 
+test('renders a restored story as selected on the first page render', () => {
+  const html = homeView(stories, '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z', undefined, undefined, undefined, 1);
+  assert.match(html, /<h2>Another release<\/h2>/);
+  assert.match(html, /data-story-id="other"[^>]*aria-pressed="true"/);
+});
+
 test('keeps the header and rail when no stories are available', () => {
   const html = homeView([], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z');
   assert.match(html, /class="day-picker-trigger"/);

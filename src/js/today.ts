@@ -3,9 +3,9 @@ import { loadJson } from './data';
 import { articleRoute } from './routes';
 import { dailyDates, dailyStories } from './daily-feed';
 import { calendarMonthView, homeView, stageView } from './home-view';
-import { markRead } from './state';
+import { markRead, rememberSelectedStory, selectedStoryForDay } from './state';
 import { resolveDayRoute } from './day-route';
-import { storyNavigationTarget, type StoryDirection } from './story-navigation';
+import { initialStoryIndex, storyNavigationTarget, type StoryDirection } from './story-navigation';
 import { developmentFixtures } from './dev-fixtures';
 
 const app = document.querySelector('#app') as HTMLElement;
@@ -25,14 +25,14 @@ try {
   const editions = fixtures?.editions || new Map<string, any>(await Promise.all(dayMetas.map(async (dayMeta: any): Promise<[string, any]> => [dayMeta.id, await loadJson(dayMeta.path)])));
   const stories = dailyStories(dayMetas, editions, selectedDate);
   const availableDates = dailyDates(archive.editions);
-  app.innerHTML = homeView(stories, meta.id, meta.updatedAt, availableDates, selectedDate, today);
-
-  let selectedIndex = stories.findIndex((story: any) => story.featured);
-  if (selectedIndex < 0) selectedIndex = 0;
+  const routeStory = route && stories.find((story: any) => story.id === route.article && story.editionId === route.edition);
+  let selectedIndex = initialStoryIndex(stories, routeStory?.id || selectedStoryForDay(selectedDate));
+  app.innerHTML = homeView(stories, meta.id, meta.updatedAt, availableDates, selectedDate, today, selectedIndex);
   const activate = (index: number, direction: StoryDirection | 'direct' = 'direct', focusDirection?: StoryDirection) => {
     const story = stories[index];
     if (!story) return;
     markRead(story.id);
+    rememberSelectedStory(selectedDate, story.id);
     const stage = app.querySelector('[data-story-stage]') as HTMLElement;
     if (!stage) return;
     selectedIndex = index;
