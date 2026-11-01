@@ -16,3 +16,10 @@ test('uses the editorial search treatment without local-state filters', async ()
   assert.match(css, /\.search-page\{/);
   assert.match(css, /\.search-results\{/);
 });
+
+test('uses the requested archive-search copy', async () => {
+  const searchPage = await readFile('src/js/search-page.ts', 'utf8');
+  assert.match(searchPage, /Find an article/);
+  assert.match(searchPage, /Search the archives/);
+  assert.doesNotMatch(searchPage, /Archive search|Find a story|>Search the archive</);
+});
