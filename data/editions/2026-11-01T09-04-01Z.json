@@ -1,0 +1,126 @@
+{
+  "id": "2026-11-01T09:04:01Z",
+  "date": "2026-11-01",
+  "publishedAt": "2026-11-01T09:04:01Z",
+  "updatedAt": "2026-11-01T09:04:01Z",
+  "stories": [
+    {
+      "id": "soulframe-open-alpha-november-6-2026",
+      "headline": "Soulframe opens its alpha to everyone on November 6",
+      "summary": "Digital Extremes says its fantasy action RPG will end invite-only testing on November 6. A larger November update, Verse of the Veilands, will overhaul the opening experience, add a corruption-cleansing progression loop and let players raise a wolf mount. Its Steam page is available for wishlisting, but the game is not yet released there.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Soulframe",
+        "id": "soulframe"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/rpg/soulframe-opens-up-for-everyone-today-as-the-warframe-devs-prepare-the-fantasy-action-rpg-for-one-of-its-biggest-most-violent-updates-ever-next-month/",
+      "publishedAt": "2026-11-01T09:04:01Z",
+      "featured": true,
+      "steam": {
+        "url": "https://store.steampowered.com/app/4095380/"
+      }
+    },
+    {
+      "id": "dune-awakening-blood-and-ice-free-expansion-december-2026",
+      "headline": "Dune: Awakening reveals free Blood and Ice expansion for December 1",
+      "summary": "Funcom's free December 1 expansion adds the Polar Sink, a frozen survival map with tundra and ice-cap biomes, new gear and roughly 35 hours of progression. Offline single-player is also planned for November, with character transfers and full cross-play targeted for January 2027. The additions substantially expand the PC survival game's options.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Dune: Awakening",
+        "id": "dune-awakening",
+        "url": "https://duneawakening.com/"
+      },
+      "sourceUrl": "https://pr.funcom.com/Dune-Awakenings-free-Blood-and-Ice-expansion-launches-December-1",
+      "publishedAt": "2026-11-01T09:04:01Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172710/da994ea756677c3d1d9a77accb8596a8661f4cad/header.jpg?t=1793286288",
+      "steam": {
+        "url": "https://store.steampowered.com/app/1172710/"
+      }
+    },
+    {
+      "id": "alien-isolation-opencage-mod-tools-version-1-2026",
+      "headline": "Alien: Isolation's OpenCAGE modding toolkit reaches version 1.0",
+      "summary": "Matt Filer's free OpenCAGE toolkit has reached 1.0 after years of development. It now supports extensive custom maps, missions, characters, weapons, animations and other assets, enabling much larger PC mods and total conversions. OpenCAGE is also available on Steam at https://store.steampowered.com/app/3367530/ and requires Alien: Isolation.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Alien: Isolation",
+        "id": "alien-isolation"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/horror/after-almost-a-decade-of-work-alien-isolation-mod-tools-hit-1-0-with-support-for-full-custom-maps-missions-modes-characters-weapons-animations-sounds-models-textures-and-more/",
+      "publishedAt": "2026-11-01T09:04:01Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3367530/dda06f08fa370d3ac23bd59f0e16801ed14890e6/header_alt_assets_0.jpg?t=1793295504",
+      "steam": {
+        "url": "https://store.steampowered.com/app/214490/"
+      }
+    },
+    {
+      "id": "dark-souls-2-3-online-services-temporary-outage-october-2026",
+      "headline": "FromSoftware temporarily disables Dark Souls II and III online features",
+      "summary": "FromSoftware has suspended official multiplayer services for Dark Souls II and III across platforms due to an unspecified server issue, with no restoration date announced. The outage affects co-op, invasions and online messages, making it important for PC players planning multiplayer sessions. Dark Souls II's Steam page: https://store.steampowered.com/app/335300/.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "DARK SOULS III",
+        "id": "dark-souls-iii"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/dark-souls/fromsoftware-temporarily-shuts-down-dark-souls-2-and-3-multiplayer-over-server-issue/",
+      "publishedAt": "2026-11-01T09:04:01Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg?t=1748630784",
+      "steam": {
+        "url": "https://store.steampowered.com/app/374320/"
+      }
+    },
+    {
+      "id": "a-new-beginning-final-cut-gog-free-giveaway-november-2026",
+      "headline": "A New Beginning: Final Cut is free to keep on GOG until November 2",
+      "summary": "GOG is giving away Daedalic Entertainment's science-fiction point-and-click adventure until November 2. Claiming it during the promotion adds the DRM-free PC game permanently to your library. The giveaway is separate from the paid Steam edition and is worth checking before the deadline.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "A New Beginning: Final Cut",
+        "id": "a-new-beginning-final-cut",
+        "url": "https://www.gog.com/en/game/a_new_beginning"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/adventure/a-daedalic-adventure-classic-is-free-on-gog/",
+      "publishedAt": "2026-11-01T09:04:01Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/105000/header.jpg?t=1789469040",
+      "steam": {
+        "url": "https://store.steampowered.com/app/105000/"
+      }
+    },
+    {
+      "id": "mina-the-hollower-randomizer-speedrun-options-planned-2026",
+      "headline": "Mina the Hollower developers outline randomizer and speedrun features",
+      "summary": "Yacht Club Games has discussed upcoming randomizer and speedrunning options for its gothic action-adventure following a successful launch. Release dates for these features have not been announced, but they should give PC players more replay and challenge options.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Mina the Hollower",
+        "id": "mina-the-hollower"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/adventure/yacht-club-confirms-mina-the-hollower-was-the-shot-in-the-arm-it-needed-stay-alive-for-now/",
+      "publishedAt": "2026-11-01T09:04:01Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/368fcff2cd8f5ef01c5a89060a49f9a333076a87/header.jpg?t=1793298887",
+      "steam": {
+        "url": "https://store.steampowered.com/app/1875580/"
+      }
+    }
+  ]
+}
