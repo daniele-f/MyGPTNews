@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { homeView, stageView } from '../src/js/home-view';
+import { calendarMonthView, homeView, stageView } from '../src/js/home-view';
 
 const stories = [
   { id:'featured', headline:'Featured launch', summary:'The featured briefing.', categories:['Releases'], publishedAt:'2026-10-30T09:49:00Z', featured:true, sourceUrl:'https://example.test/featured' },
@@ -133,12 +133,23 @@ test('renders day navigation and a calendar limited to available dates', () => {
   assert.match(html, /class="calendar-day is-available is-selected"[^>]*data-date="2026-10-30"/);
   assert.match(html, /class="calendar-day"[^>]*disabled[^>]*>29<\/button>/);
   assert.match(html, /data-calendar-label aria-live="polite"/);
-  assert.match(html, /class="calendar-today"[^>]*data-calendar-today[^>]*>Today<\/button>/);
+  assert.match(html, /class="calendar-latest"[^>]*data-date="2026-11-01"[^>]*>Latest<\/button>/);
   assert.doesNotMatch(html, /<h2>Stories for this day<\/h2>/);
   assert.doesNotMatch(html, /class="rail-story"[\s\S]*?<small>/);
 });
 
-test('marks Today unavailable when there is no edition for the current date', () => {
+test('Latest stays available when today has no stories', () => {
   const html = homeView(stories, '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z', ['2026-10-30'], '2026-10-30', '2026-10-31');
-  assert.match(html, /class="calendar-today"[^>]*data-calendar-today[^>]*disabled[^>]*>Today<\/button>/);
+  assert.match(html, /class="calendar-latest"[^>]*data-date="2026-10-30"[^>]*>Latest<\/button>/);
+  assert.doesNotMatch(html, /class="calendar-latest"[^>]*disabled/);
+});
+
+test('Latest targets the newest date regardless of ordering or the displayed month', () => {
+  const html = calendarMonthView(['2026-10-30', '2026-11-02', '2026-10-31'], '2026-10-30', '2026-09');
+  assert.match(html, /class="calendar-latest"[^>]*data-date="2026-11-02"[^>]*>Latest<\/button>/);
+});
+
+test('disables Latest when no days with stories exist', () => {
+  const html = calendarMonthView([], '2026-10-30', '2026-10');
+  assert.match(html, /class="calendar-latest"[^>]*disabled[^>]*>Latest<\/button>/);
 });

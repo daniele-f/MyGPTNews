@@ -87,12 +87,6 @@ try {
       location.assign(url);
       return;
     }
-    if (control.hasAttribute('data-calendar-today')) {
-      const url = new URL(location.href);
-      url.search = `?date=${encodeURIComponent(today)}`;
-      location.assign(url);
-      return;
-    }
     const direction = control.dataset.calendarMonth;
     if (!direction) return;
     const [year, month] = picker.dataset.month!.split('-').map(Number);

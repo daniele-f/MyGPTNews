@@ -3,5 +3,5 @@ export function dailyStories(metas: any[], editions: Map<string, any>, date: str
 }
 
 export function dailyDates(metas: any[]) {
-  return [...new Set(metas.map(meta => meta.date))].sort((a, b) => b.localeCompare(a));
+  return [...new Set(metas.filter(meta => meta.storyCount !== 0).map(meta => meta.date))].sort((a, b) => b.localeCompare(a));
 }
