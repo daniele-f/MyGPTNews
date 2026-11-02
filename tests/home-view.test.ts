@@ -121,10 +121,11 @@ test('disables unavailable story-stage directions at the boundaries', () => {
   assert.match(last, /data-stage-next[^>]*disabled/);
 });
 
-test('accentuates the game name within the main headline', () => {
+test('links game names in the main headline but not the rail', () => {
   const story = { ...stories[0], game:{ name:'Featured', id:'featured' } };
   assert.match(stageView(story, '2026-10-30T09:49:00Z'), /<a class="game-title" href="\/search\/\?q=Featured">Featured<\/a> launch/);
-  assert.match(homeView([story], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z'), /<strong><a class="game-title" href="\/search\/\?q=Featured">Featured<\/a> launch<\/strong>/);
+  assert.match(homeView([story], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z'), /<strong><span class="game-title">Featured<\/span> launch<\/strong>/);
+  assert.doesNotMatch(homeView([story], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z'), /class="rail-story"[\s\S]*?href="\/search\/\?q=Featured"/);
 });
 
 test('renders day navigation and a calendar limited to available dates', () => {
