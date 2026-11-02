@@ -78,6 +78,7 @@
       "sourceUrl": "https://store.steampowered.com/news/app/2231020/view/683017363938871451?l=english",
       "publishedAt": "2026-11-02T09:10:21Z",
       "featured": false,
+      "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/2231020/header.jpg",
       "steam": {
         "url": "https://store.steampowered.com/app/2231020/"
       }
@@ -91,7 +92,8 @@
       ],
       "sourceUrl": "https://www.pcgamer.com/gaming-industry/game-development/its-not-just-steam-new-game-pages-created-per-day-on-itch-io-has-doubled-in-the-last-two-months-with-ai-slop-the-likely-culprit/",
       "publishedAt": "2026-11-02T09:10:21Z",
-      "featured": false
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/uhCgoU847LsYr8VPuoSiRb.jpg"
     },
     {
       "id": "melvor-idle-2-runescape-adventure-jagex-early-access-nov17-2026",
@@ -127,7 +129,8 @@
       },
       "sourceUrl": "https://news.blizzard.com/en-us/article/24301508/pre-purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth",
       "publishedAt": "2026-11-02T09:10:21Z",
-      "featured": false
+      "featured": false,
+      "imageUrl": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/T93WN2FNVTR11789242575612.png"
     }
   ]
 }
