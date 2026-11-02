@@ -57,3 +57,10 @@ test('styles the desktop story scrollbar like the rail and hides it when idle', 
   assert.match(styles, /@media\(min-width:801px\)\{\.story-stage\{scrollbar-color:var\(--brand-primary\) var\(--color-surface\);scrollbar-width:thin\}/);
   assert.match(styles, /\.story-stage\.is-scrollbar-idle\{scrollbar-color:transparent transparent\}/);
 });
+
+test('uses a more compact headline scale on story stage and article pages', () => {
+  assert.match(styles, /\.stage-copy h2\{[^}]*clamp\(2rem,4\.5vw,4rem\)/);
+  assert.match(styles, /\.article-detail h1\{[^}]*clamp\(2\.2rem,5\.5vw,4\.5rem\)/);
+  assert.match(styles, /\.stage-copy h2\{font-size:clamp\(1\.9rem,9vw,3\.4rem\)/);
+  assert.match(styles, /\.article-detail h1\{font-size:clamp\(2rem,10vw,3\.4rem\)/);
+});
