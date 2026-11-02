@@ -3,7 +3,7 @@ import { loadJson } from './data';
 import { articleRoute } from './routes';
 import { dailyDates, dailyStories } from './daily-feed';
 import { calendarMonthView, homeView, stageView } from './home-view';
-import { dismissSwipeHint, markRead, rememberSelectedStory, selectedStoryForDay, swipeHintDismissed } from './state';
+import { markRead, rememberSelectedStory, selectedStoryForDay } from './state';
 import { resolveDayRoute } from './day-route';
 import { bindStorySwipe, initialStoryIndex, storyNavigationTarget, type StoryDirection } from './story-navigation';
 import { developmentFixtures } from './dev-fixtures';
@@ -31,10 +31,15 @@ try {
   const mobile = window.matchMedia('(max-width: 800px)');
   const swipeHint = app.querySelector<HTMLElement>('[data-swipe-hint]');
   if (swipeHint) {
-    swipeHint.hidden = swipeHintDismissed();
+    // Replay the hint on every load while its animations are being tested.
+    swipeHint.hidden = false;
     swipeHint.querySelector('[data-dismiss-swipe-hint]')?.addEventListener('click', () => {
-      dismissSwipeHint();
-      swipeHint.hidden = true;
+      if (swipeHint.classList.contains('is-dismissing')) return;
+      swipeHint.classList.add('is-dismissing');
+      // Reduced motion yields no animations; canceled animations also finish dismissal.
+      void Promise.all(swipeHint.getAnimations().map(animation => animation.finished))
+        .catch(() => {})
+        .then(() => { swipeHint.hidden = true; });
     });
   }
   const activate = (index: number, direction: StoryDirection | 'direct' = 'direct', focusDirection?: StoryDirection) => {
