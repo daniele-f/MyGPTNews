@@ -16,8 +16,8 @@ test('uses independent desktop scroll panes below the persistent header', () => 
   assert.match(styles, /\.editorial-home\{flex:1;min-height:0;padding:0\}/);
   assert.match(styles, /\.editorial-layout\{height:100%;min-height:0\}/);
   assert.match(styles, /\.story-stage\{min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:22px 32px 34px\}/);
-  assert.match(styles, /\.story-rail\{position:static;height:auto;min-height:0;overflow:hidden;padding:0 16px 0 24px;align-self:auto\}/);
-  assert.match(styles, /\.rail-stories\{flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;align-content:start\}/);
+  assert.match(styles, /\.story-rail\{position:static;height:auto;min-height:0;overflow:hidden;padding:0 0 0 24px;align-self:auto\}/);
+  assert.match(styles, /\.rail-stories\{flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;align-content:start;padding-right:16px\}/);
   assert.match(styles, /\.rail-story\[aria-pressed=true\]\{width:calc\(100% \+ 10px\)/);
   assert.match(styles, /\.rail-status\{margin-right:12px\}/);
 });
@@ -26,8 +26,9 @@ test('keeps rail stories at their natural height inside the scroll pane', () => 
   assert.match(styles, /\.rail-stories\{[^}]*align-content:start/);
 });
 
-test('insets rail content and centers the stage content block', () => {
-  assert.match(styles, /\.story-rail\{padding-right:16px\}/);
+test('insets rail content without moving its scrollbar from the page edge', () => {
+  assert.match(styles, /\.rail-stories\{[^}]*padding-right:16px/);
+  assert.doesNotMatch(styles, /\.story-rail\{padding-right:16px\}/);
   assert.match(styles, /\.story-stage\{padding-left:32px\}/);
   assert.match(styles, /\.stage-story\{width:100%;margin-inline:auto\}/);
 });

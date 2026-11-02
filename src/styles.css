@@ -24,13 +24,13 @@ html:has(.editorial-home),body:has(.editorial-home){min-height:100%;background:#
 /* Full-height desktop story rail */
 .editorial-home{padding:0 0 42px 32px}.story-rail{position:sticky;top:83px;height:calc(100vh - 83px);max-height:none;padding:0 0 0 24px;align-self:start}.rail-stories{min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;padding-right:0}.rail-story[aria-pressed=true]{width:calc(100% + 10px)}.rail-status{margin-right:12px}@media(max-width:800px){.editorial-home{padding:0 20px 30px}.story-rail{position:static;height:auto;padding:22px 0 0;align-self:auto}.rail-stories{overflow:visible}.rail-status{margin-right:0}}
 
-.story-rail{padding-right:16px}.story-stage{padding-left:32px}.stage-story{width:100%;margin-inline:auto}@media(max-width:800px){.story-rail{padding-right:0}.story-stage{padding-left:0}}
+.story-stage{padding-left:32px}.stage-story{width:100%;margin-inline:auto}@media(max-width:800px){.story-stage{padding-left:0}}
 
 .story-rail{border-left:1px solid #31505b}
 
 .editorial-layout{min-height:calc(100vh + 83px)}@media(max-width:800px){.editorial-layout{min-height:0}}
 
-@media(min-width:801px){html:has(.editorial-home),body:has(.editorial-home){height:100dvh;overflow:hidden}body:has(.editorial-home) #app{height:100%;display:flex;flex-direction:column}.site-header{flex:none;z-index:1}.editorial-home{flex:1;min-height:0;padding:0}.editorial-layout{height:100%;min-height:0}.story-stage{min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:22px 32px 34px}.story-rail{position:static;height:auto;min-height:0;overflow:hidden;padding:0 16px 0 24px;align-self:auto}.rail-stories{flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;align-content:start}}
+@media(min-width:801px){html:has(.editorial-home),body:has(.editorial-home){height:100dvh;overflow:hidden}body:has(.editorial-home) #app{height:100%;display:flex;flex-direction:column}.site-header{flex:none;z-index:1}.editorial-home{flex:1;min-height:0;padding:0}.editorial-layout{height:100%;min-height:0}.story-stage{min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:22px 32px 34px}.story-rail{position:static;height:auto;min-height:0;overflow:hidden;padding:0 0 0 24px;align-self:auto}.rail-stories{flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;align-content:start;padding-right:16px}}
 
 @media(max-width:800px){.story-stage,.day-picker{touch-action:pan-y pinch-zoom}.stage-story-navigation{display:none}}
 
