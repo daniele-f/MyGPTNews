@@ -15,3 +15,10 @@ test('uses a verified non-Steam game page when Steam is unavailable', () => {
   assert.deepEqual(gamePage(story), { url:'https://worldofwarcraft.blizzard.com/', domain:'worldofwarcraft.blizzard.com', label:'World of Warcraft' });
   assert.match(brandButton(story, 'public-token'), /img\.logo\.dev\/worldofwarcraft\.blizzard\.com\?token=public-token/);
 });
+
+test('uses the Steam front page only for an explicit development preview fallback', () => {
+  const story = { game:{ name:'Example', id:'example' } };
+  assert.equal(brandButton(story), '');
+  assert.match(brandButton(story, '', true), /href="https:\/\/store\.steampowered\.com\/"/);
+  assert.match(brandButton(story, '', true), /src="\/steam-logo\.ico"/);
+});

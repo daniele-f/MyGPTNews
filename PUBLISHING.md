@@ -8,6 +8,8 @@ The first schedule run on a Europe/Brussels calendar day creates one file named 
 
 Required article fields are `id`, `headline`, `summary`, `categories`, `sourceUrl`, `publishedAt`, and `featured`. Categories are Releases, Announcements, Updates, Industry News, and Deals & Events. Optional game, image, Steam, price, and related fields must be omitted when unverified. Use `steam.url` whenever a verified Steam page exists; it is the preferred game-page link. Otherwise, `game.url` may be a verified official game page (such as Battle.net). Price observations are historical, never current-price claims.
 
+For `imageUrl`, prefer a verified image from the article's publisher. If no usable article image is available and `steam.url` is verified, use the game's official Steam header image, preferably from Steam's app-details metadata for that app. Do not use screenshots, search-result thumbnails, or invented image URLs; omit `imageUrl` only when neither source can be verified.
+
 For later runs on the same day:
 
 - A genuinely new story is appended with `changeType: "new"` and an `updatedAt` timestamp for that run.

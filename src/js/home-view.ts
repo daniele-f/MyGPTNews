@@ -10,6 +10,7 @@ const date = (value: string) => new Date(value).toLocaleDateString('en-GB', { da
 const dateTime = (value: string) => new Date(value).toLocaleString('en-GB', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit', timeZone:'Europe/Brussels' });
 const headline = (story: any) => { const value=String(story.headline||''), game=story.game?.name; if(!game) return esc(value); const index=value.toLocaleLowerCase().indexOf(String(game).toLocaleLowerCase()); return index<0?esc(value):`${esc(value.slice(0,index))}<a class="game-title" href="${esc(gameSearchUrl(game))}">${esc(value.slice(index,index+String(game).length))}</a>${esc(value.slice(index+String(game).length))}`; };
 const logoToken = import.meta.env?.VITE_LOGO_DEV_TOKEN || '';
+const steamPreview = Boolean(import.meta.env?.DEV);
 const dayUrl = (value: string) => `${assetPath('')}?date=${encodeURIComponent(value)}`;
 const dateParts = (value: string) => value.split('-').map(Number) as [number, number, number];
 const dayKey = (year: number, month: number, day: number) => `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
@@ -51,7 +52,7 @@ export function stageView(story: any, editionId: string, storyIndex = 0, storyCo
   const link = storyLink(story.editionId || editionId, story.id);
   const timestamp = story.updatedAt ? `Updated ${dateTime(story.updatedAt)}` : `Published ${dateTime(story.publishedAt)}`;
   const boundary = storyIndex === 0 ? ' is-first' : storyIndex === storyCount - 1 ? ' is-last' : '';
-  return `<article class="stage-story${boundary}" id="article-${esc(story.id)}" tabindex="-1">${storyNavigationView(storyIndex, storyCount)}<img class="stage-image" src="${image}" alt="" onerror="this.src='${assetPath('fallback-news.svg')}'"><div class="stage-copy"><p class="eyebrow">${story.categories.map(esc).join(' · ')}</p><h2>${headline(story)}</h2><p class="stage-summary">${linkifyText(story.summary)}</p><div class="stage-links"><a class="button" href="${esc(story.sourceUrl)}" target="_blank" rel="noopener" aria-label="Original source (opens in a new tab)">${externalLinkIcon}Original source</a>${brandButton(story, logoToken)}<a class="button button-secondary" href="${link}">${shareIcon}Read full story</a></div><p class="stage-published">${esc(timestamp)}</p></div></article>`;
+  return `<article class="stage-story${boundary}" id="article-${esc(story.id)}" tabindex="-1">${storyNavigationView(storyIndex, storyCount)}<img class="stage-image" src="${image}" alt="" onerror="this.src='${assetPath('fallback-news.svg')}'"><div class="stage-copy"><p class="eyebrow">${story.categories.map(esc).join(' · ')}</p><h2>${headline(story)}</h2><p class="stage-summary">${linkifyText(story.summary)}</p><div class="stage-links"><a class="button" href="${esc(story.sourceUrl)}" target="_blank" rel="noopener" aria-label="Original source (opens in a new tab)">${externalLinkIcon}Original source</a>${brandButton(story, logoToken, steamPreview)}<a class="button button-secondary" href="${link}">${shareIcon}Read full story</a></div><p class="stage-published">${esc(timestamp)}</p></div></article>`;
 }
 
 export function homeView(stories: any[], editionId: string, publishedAt: string, availableDates = [publishedAt.slice(0, 10)], selectedDate = publishedAt.slice(0, 10), today = selectedDate, selectedIndex?: number) {

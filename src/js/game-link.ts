@@ -12,8 +12,8 @@ export function gamePage(story: any) {
 
 export const gameSearchUrl = (game: string) => `${assetPath('search/')}?q=${encodeURIComponent(game)}`;
 
-export function brandButton(story: any, token = '') {
-  const page = gamePage(story);
+export function brandButton(story: any, token = '', steamPreview = false) {
+  const page = gamePage(story) || (steamPreview ? { url:'https://store.steampowered.com/', domain:'steampowered.com', label:'Steam' } : null);
   if (!page) return '';
   const logo = page.domain === 'steampowered.com'
     ? assetPath('steam-logo.ico')

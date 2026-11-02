@@ -2,14 +2,12 @@
 <g clip-path="url(#clip0_4_2)">
 <rect width="1254" height="1254" rx="170" fill="#021B3E"/>
 <path d="M123 426H253L538 731H757V677H594L697 573H833V681H906V749L816 830H475L226 568V830H123V426Z" fill="url(#paint0_linear_4_2)"/>
-<path d="M254 641L429 830H319L254 760V641Z" fill="url(#paint1_linear_4_2)"/>
-<path d="M448 511L533 426H990L886 527H591L550 568V702L448 597V511Z" fill="url(#paint2_linear_4_2)"/>
+<path d="M254 641L429 830H319L254 760V641Z" fill="#E75A32"/>
+<path d="M448 511L533 426H990L886 527H591L550 568V702L448 597V511Z" fill="#E75A32"/>
 <path d="M963 483H1050V573H1141V661H1050V734L963 805V661H869V573H963V483Z" fill="url(#paint3_linear_4_2)"/>
 </g>
 <defs>
 <linearGradient id="paint0_linear_4_2" x1="220" y1="425" x2="810" y2="835" gradientUnits="userSpaceOnUse"><stop stop-color="white"/><stop offset="1" stop-color="#F0F0F0"/></linearGradient>
-<linearGradient id="paint1_linear_4_2" x1="850" y1="490" x2="1150" y2="830" gradientUnits="userSpaceOnUse"><stop stop-color="#05B5FF"/><stop offset="1" stop-color="#079DEF"/></linearGradient>
-<linearGradient id="paint2_linear_4_2" x1="220" y1="425" x2="810" y2="835" gradientUnits="userSpaceOnUse"><stop stop-color="white"/><stop offset="1" stop-color="#F0F0F0"/></linearGradient>
 <linearGradient id="paint3_linear_4_2" x1="850" y1="490" x2="1150" y2="830" gradientUnits="userSpaceOnUse"><stop stop-color="#05B5FF"/><stop offset="1" stop-color="#079DEF"/></linearGradient>
 <clipPath id="clip0_4_2"><rect width="1254" height="1254" rx="170" fill="white"/></clipPath>
 </defs>
