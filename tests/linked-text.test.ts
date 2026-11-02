@@ -19,6 +19,12 @@ for (const [name, render] of Object.entries(renderers)) {
     assert.match(html, /class="inline-url"[^>]*target="_blank"[^>]*rel="noopener noreferrer"/);
   });
 
+  test(`${name} renders descriptive Markdown links without exposing their URLs`, () => {
+    const html = render('OpenCAGE is available [on Steam](https://store.steampowered.com/app/3367530/) and requires Alien: Isolation.');
+    assert.deepEqual(links(html), [['https://store.steampowered.com/app/3367530/', 'on Steam']]);
+    assert.doesNotMatch(html, /\[on Steam\]\(/);
+  });
+
   test(`${name} keeps surrounding punctuation outside links and balanced parentheses in URLs`, () => {
     const html = render('See (https://example.test/wiki/Game_(series)). Also http://example.test/news!');
     assert.deepEqual(links(html), [
