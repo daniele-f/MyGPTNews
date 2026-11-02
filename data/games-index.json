@@ -1,6 +1,97 @@
 {
-  "generatedAt": "2026-10-30T23:10:12Z",
+  "generatedAt": "2026-11-02T09:10:21Z",
   "games": {
+    "selaco": [
+      {
+        "id": "selaco-machines-of-war-chapter-two-november-13-2026",
+        "editionId": "2026-11-02T09:10:21Z",
+        "name": "Selaco"
+      }
+    ],
+    "mass-effect-legendary-edition": [
+      {
+        "id": "mass-effect-legendary-edition-multiplayer-mod-n7-day-2026",
+        "editionId": "2026-11-02T09:10:21Z",
+        "name": "Mass Effect Legendary Edition"
+      }
+    ],
+    "gravhounds": [
+      {
+        "id": "gravhounds-steam-early-access-november-2-2026",
+        "editionId": "2026-11-02T09:10:21Z",
+        "name": "GRAVHOUNDS"
+      }
+    ],
+    "chronicles-medieval": [
+      {
+        "id": "chronicles-medieval-studio-funding-loss-threatens-early-access-2026",
+        "editionId": "2026-11-02T09:10:21Z",
+        "name": "Chronicles: Medieval"
+      }
+    ],
+    "melvor-idle-2": [
+      {
+        "id": "melvor-idle-2-runescape-adventure-jagex-early-access-nov17-2026",
+        "editionId": "2026-11-02T09:10:21Z",
+        "name": "Melvor Idle 2"
+      }
+    ],
+    "world-of-warcraft-forever": [
+      {
+        "id": "world-of-warcraft-forever-global-launch-november-4-2026",
+        "editionId": "2026-11-02T09:10:21Z",
+        "name": "World of Warcraft: Forever"
+      }
+    ],
+    "soulframe": [
+      {
+        "id": "soulframe-open-alpha-november-6-2026",
+        "editionId": "2026-11-01T09:04:01Z",
+        "name": "Soulframe"
+      }
+    ],
+    "dune-awakening": [
+      {
+        "id": "dune-awakening-blood-and-ice-free-expansion-december-2026",
+        "editionId": "2026-11-01T09:04:01Z",
+        "name": "Dune: Awakening"
+      }
+    ],
+    "alien-isolation": [
+      {
+        "id": "alien-isolation-opencage-mod-tools-version-1-2026",
+        "editionId": "2026-11-01T09:04:01Z",
+        "name": "Alien: Isolation"
+      }
+    ],
+    "dark-souls-iii": [
+      {
+        "id": "dark-souls-2-3-online-services-temporary-outage-october-2026",
+        "editionId": "2026-11-01T09:04:01Z",
+        "name": "DARK SOULS III"
+      }
+    ],
+    "a-new-beginning-final-cut": [
+      {
+        "id": "a-new-beginning-final-cut-gog-free-giveaway-november-2026",
+        "editionId": "2026-11-01T09:04:01Z",
+        "name": "A New Beginning: Final Cut"
+      }
+    ],
+    "mina-the-hollower": [
+      {
+        "id": "mina-the-hollower-randomizer-speedrun-options-planned-2026",
+        "editionId": "2026-11-01T09:04:01Z",
+        "name": "Mina the Hollower"
+      }
+    ],
+    "final-fantasy-xiv-online": [
+      {
+        "id": "ffxiv-evercold-release-date-zephyr-reveal-2026-10-31",
+        "editionId": "2026-10-30T23:10:12Z",
+        "name": "FINAL FANTASY XIV Online"
+      }
+    ],
     "world-of-horror": [
       {
         "id": "world-of-horror-as-below-so-above-update-2026-10-30",

@@ -1,6 +1,302 @@
 {
-  "generatedAt": "2026-10-30T23:10:12Z",
+  "generatedAt": "2026-11-02T09:10:21Z",
   "stories": [
+    {
+      "id": "selaco-machines-of-war-chapter-two-november-13-2026",
+      "headline": "Selaco's free Machines of War chapter arrives November 13 with 19 maps",
+      "summary": "Altered Orbit Studios will release [Selaco](https://store.steampowered.com/app/1592280/)'s free Chapter 2 on November 13, adding 19 campaign maps and an estimated six to eight hours of content. Its update also rebuilds enemy AI, adds heavy weapons and revises Chapter 1. Existing saves will be incompatible, but players can jump directly into the new chapter.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Selaco",
+        "id": "selaco"
+      },
+      "sourceUrl": "https://steamcommunity.com/games/1592280/announcements/detail/684142629662762250",
+      "publishedAt": "2026-11-02T09:10:21Z",
+      "featured": true,
+      "imageUrl": "https://clan.fastly.steamstatic.com/images//40325504/a8749a52bdc30f7ac0cf5b9acbc167e716929c9a.png",
+      "steam": {
+        "url": "https://store.steampowered.com/app/1592280/"
+      },
+      "editionId": "2026-11-02T09:10:21Z",
+      "editionDate": "2026-11-02"
+    },
+    {
+      "id": "mass-effect-legendary-edition-multiplayer-mod-n7-day-2026",
+      "headline": "Modders plan to restore Mass Effect Legendary Edition multiplayer on November 7",
+      "summary": "The ME3Tweaks team plans to bring the missing multiplayer mode to [Mass Effect Legendary Edition](https://store.steampowered.com/app/1328670/) on N7 Day, November 7. The community project promises remastered visuals, controller and HDR support, networking upgrades, additional modes and private-server options. It is a fan-made mod, not an official BioWare update.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Mass Effect Legendary Edition",
+        "id": "mass-effect-legendary-edition"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/mass-effect/heres-one-bit-of-good-news-for-mass-effect-modders-are-bringing-the-multiplayer-mode-to-mass-effect-legendary-edition/",
+      "publishedAt": "2026-11-02T09:10:21Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1328670/header.jpg?t=1777395134",
+      "steam": {
+        "url": "https://store.steampowered.com/app/1328670/"
+      },
+      "editionId": "2026-11-02T09:10:21Z",
+      "editionDate": "2026-11-02"
+    },
+    {
+      "id": "gravhounds-steam-early-access-november-2-2026",
+      "headline": "GRAVHOUNDS targets November 2 Steam Early Access launch",
+      "summary": "[GRAVHOUNDS](https://store.steampowered.com/app/2440760/) is scheduled to enter Steam Early Access on November 2. The cooperative action builder supports one to four players who explore hostile planets, gather resources, construct defenses and attempt to extract safely. The Steam listing still marked it as coming soon when checked, so the launch should not be treated as completed.",
+      "categories": [
+        "Releases",
+        "Announcements"
+      ],
+      "game": {
+        "name": "GRAVHOUNDS",
+        "id": "gravhounds"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/2440760/GRAVHOUNDS/",
+      "publishedAt": "2026-11-02T09:10:21Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2440760/2432c78a467c370bcfa566baa22f0939df5219b0/header.jpg?t=1792425956",
+      "steam": {
+        "url": "https://store.steampowered.com/app/2440760/"
+      },
+      "editionId": "2026-11-02T09:10:21Z",
+      "editionDate": "2026-11-02"
+    },
+    {
+      "id": "chronicles-medieval-studio-funding-loss-threatens-early-access-2026",
+      "headline": "Chronicles: Medieval's planned Early Access release faces funding crisis",
+      "summary": "Raw Power Games says funding for [Chronicles: Medieval](https://store.steampowered.com/app/2231020/) has been withdrawn, placing the studio at risk of closing even as its open-world medieval sandbox nears Early Access. The Steam listing still targets 2027. The project has not been confirmed canceled, but its future is uncertain while the team seeks a way forward.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "Chronicles: Medieval",
+        "id": "chronicles-medieval"
+      },
+      "sourceUrl": "https://store.steampowered.com/news/app/2231020/view/683017363938871451?l=english",
+      "publishedAt": "2026-11-02T09:10:21Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231020/322a3e5e98ce955972508f8ae5a6eb569ee40742/header.jpg?t=1791486435",
+      "steam": {
+        "url": "https://store.steampowered.com/app/2231020/"
+      },
+      "editionId": "2026-11-02T09:10:21Z",
+      "editionDate": "2026-11-02"
+    },
+    {
+      "id": "itchio-new-game-pages-double-discoverability-november-2026",
+      "headline": "itch.io says daily new game pages doubled without matching player growth",
+      "summary": "Indie PC storefront [itch.io](https://itch.io/) reports that new project pages per day have doubled over the past two months, while downloads and purchases have not doubled. AI-generated projects may be contributing, but the precise cause is unconfirmed. The discrepancy raises concerns about game discoverability for independent developers.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/gaming-industry/game-development/its-not-just-steam-new-game-pages-created-per-day-on-itch-io-has-doubled-in-the-last-two-months-with-ai-slop-the-likely-culprit/",
+      "publishedAt": "2026-11-02T09:10:21Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/uhCgoU847LsYr8VPuoSiRb.jpg",
+      "editionId": "2026-11-02T09:10:21Z",
+      "editionDate": "2026-11-02"
+    },
+    {
+      "id": "melvor-idle-2-runescape-adventure-jagex-early-access-nov17-2026",
+      "headline": "Melvor Idle 2 becomes an official RuneScape adventure ahead of November 17 launch",
+      "summary": "Jagex and Games by Malcs have made [Melvor Idle 2](https://store.steampowered.com/app/3218350/) an officially branded RuneScape spinoff, now subtitled A RuneScape Adventure. Steam lists November 17 for Early Access. The follow-up expands idle skill progression and quests, with the developers saying it will have no microtransactions.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "Melvor Idle 2",
+        "id": "melvor-idle-2"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/rpg/jagex-partnered-with-a-runescape-inspired-idle-game-to-turn-the-sequel-into-an-official-spinoff/",
+      "publishedAt": "2026-11-02T09:10:21Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218350/21b3f6881a12eef86b7c17b21640b396f3510f92/header.jpg?t=1793260534",
+      "steam": {
+        "url": "https://store.steampowered.com/app/3218350/"
+      },
+      "editionId": "2026-11-02T09:10:21Z",
+      "editionDate": "2026-11-02"
+    },
+    {
+      "id": "world-of-warcraft-forever-global-launch-november-4-2026",
+      "headline": "World of Warcraft: Forever launches November 4, included with subscription",
+      "summary": "Blizzard confirms [World of Warcraft: Forever](https://news.blizzard.com/en-us/article/24301508/pre-purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth) launches globally on November 4 at 3 p.m. PST, included with existing World of Warcraft subscription or game time. This reimagined original-Azeroth experience is distributed through Battle.net; no Steam store page exists.",
+      "categories": [
+        "Releases",
+        "Announcements"
+      ],
+      "game": {
+        "name": "World of Warcraft: Forever",
+        "id": "world-of-warcraft-forever",
+        "url": "https://news.blizzard.com/en-us/article/24301508/pre-purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth"
+      },
+      "sourceUrl": "https://news.blizzard.com/en-us/article/24301508/pre-purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth",
+      "publishedAt": "2026-11-02T09:10:21Z",
+      "featured": false,
+      "imageUrl": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/T93WN2FNVTR11789242575612.png",
+      "editionId": "2026-11-02T09:10:21Z",
+      "editionDate": "2026-11-02"
+    },
+    {
+      "id": "soulframe-open-alpha-november-6-2026",
+      "headline": "Soulframe opens its alpha to everyone on November 6",
+      "summary": "Digital Extremes says its fantasy action RPG will end invite-only testing on November 6. A larger November update, Verse of the Veilands, will overhaul the opening experience, add a corruption-cleansing progression loop and let players raise a wolf mount. Its Steam page is available for wishlisting, but the game is not yet released there.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Soulframe",
+        "id": "soulframe"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/rpg/soulframe-opens-up-for-everyone-today-as-the-warframe-devs-prepare-the-fantasy-action-rpg-for-one-of-its-biggest-most-violent-updates-ever-next-month/",
+      "publishedAt": "2026-11-01T09:04:01Z",
+      "featured": true,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4095380/3fb8986f870e6c87bb0da141b590b667056c5e59/header.jpg?t=1792421628",
+      "steam": {
+        "url": "https://store.steampowered.com/app/4095380/"
+      },
+      "editionId": "2026-11-01T09:04:01Z",
+      "editionDate": "2026-11-01"
+    },
+    {
+      "id": "dune-awakening-blood-and-ice-free-expansion-december-2026",
+      "headline": "Dune: Awakening reveals free Blood and Ice expansion for December 1",
+      "summary": "Funcom's free December 1 expansion adds the Polar Sink, a frozen survival map with tundra and ice-cap biomes, new gear and roughly 35 hours of progression. Offline single-player is also planned for November, with character transfers and full cross-play targeted for January 2027. The additions substantially expand the PC survival game's options.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Dune: Awakening",
+        "id": "dune-awakening",
+        "url": "https://duneawakening.com/"
+      },
+      "sourceUrl": "https://pr.funcom.com/Dune-Awakenings-free-Blood-and-Ice-expansion-launches-December-1",
+      "publishedAt": "2026-11-01T09:04:01Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172710/da994ea756677c3d1d9a77accb8596a8661f4cad/header.jpg?t=1793286288",
+      "steam": {
+        "url": "https://store.steampowered.com/app/1172710/"
+      },
+      "editionId": "2026-11-01T09:04:01Z",
+      "editionDate": "2026-11-01"
+    },
+    {
+      "id": "alien-isolation-opencage-mod-tools-version-1-2026",
+      "headline": "Alien: Isolation's OpenCAGE modding toolkit reaches version 1.0",
+      "summary": "Matt Filer's free OpenCAGE toolkit has reached 1.0 after years of development. It now supports extensive custom maps, missions, characters, weapons, animations and other assets, enabling much larger PC mods and total conversions. OpenCAGE is also available on Steam; [click here](https://store.steampowered.com/app/3367530/) to view it. Alien: Isolation is required.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Alien: Isolation",
+        "id": "alien-isolation"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/horror/after-almost-a-decade-of-work-alien-isolation-mod-tools-hit-1-0-with-support-for-full-custom-maps-missions-modes-characters-weapons-animations-sounds-models-textures-and-more/",
+      "publishedAt": "2026-11-01T09:04:01Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3367530/dda06f08fa370d3ac23bd59f0e16801ed14890e6/header_alt_assets_0.jpg?t=1793295504",
+      "steam": {
+        "url": "https://store.steampowered.com/app/214490/"
+      },
+      "editionId": "2026-11-01T09:04:01Z",
+      "editionDate": "2026-11-01"
+    },
+    {
+      "id": "dark-souls-2-3-online-services-temporary-outage-october-2026",
+      "headline": "FromSoftware temporarily disables Dark Souls II and III online features",
+      "summary": "FromSoftware has suspended official multiplayer services for Dark Souls II and III across platforms due to an unspecified server issue, with no restoration date announced. The outage affects co-op, invasions and online messages, making it important for PC players planning multiplayer sessions. To visit the Dark Souls II Steam page, [click here](https://store.steampowered.com/app/335300/).",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "DARK SOULS III",
+        "id": "dark-souls-iii"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/dark-souls/fromsoftware-temporarily-shuts-down-dark-souls-2-and-3-multiplayer-over-server-issue/",
+      "publishedAt": "2026-11-01T09:04:01Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg?t=1748630784",
+      "steam": {
+        "url": "https://store.steampowered.com/app/374320/"
+      },
+      "editionId": "2026-11-01T09:04:01Z",
+      "editionDate": "2026-11-01"
+    },
+    {
+      "id": "a-new-beginning-final-cut-gog-free-giveaway-november-2026",
+      "headline": "A New Beginning: Final Cut is free to keep on GOG until November 2",
+      "summary": "GOG is giving away Daedalic Entertainment's science-fiction point-and-click adventure until November 2. Claiming it during the promotion adds the DRM-free PC game permanently to your library. The giveaway is separate from the paid Steam edition and is worth checking before the deadline.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "A New Beginning: Final Cut",
+        "id": "a-new-beginning-final-cut",
+        "url": "https://www.gog.com/en/game/a_new_beginning"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/adventure/a-daedalic-adventure-classic-is-free-on-gog/",
+      "publishedAt": "2026-11-01T09:04:01Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/105000/header.jpg?t=1789469040",
+      "steam": {
+        "url": "https://store.steampowered.com/app/105000/"
+      },
+      "editionId": "2026-11-01T09:04:01Z",
+      "editionDate": "2026-11-01"
+    },
+    {
+      "id": "mina-the-hollower-randomizer-speedrun-options-planned-2026",
+      "headline": "Mina the Hollower developers outline randomizer and speedrun features",
+      "summary": "Yacht Club Games has discussed upcoming randomizer and speedrunning options for its gothic action-adventure following a successful launch. Release dates for these features have not been announced, but they should give PC players more replay and challenge options.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Mina the Hollower",
+        "id": "mina-the-hollower"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/adventure/yacht-club-confirms-mina-the-hollower-was-the-shot-in-the-arm-it-needed-stay-alive-for-now/",
+      "publishedAt": "2026-11-01T09:04:01Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/368fcff2cd8f5ef01c5a89060a49f9a333076a87/header.jpg?t=1793298887",
+      "steam": {
+        "url": "https://store.steampowered.com/app/1875580/"
+      },
+      "editionId": "2026-11-01T09:04:01Z",
+      "editionDate": "2026-11-01"
+    },
+    {
+      "id": "ffxiv-evercold-release-date-zephyr-reveal-2026-10-31",
+      "headline": "Final Fantasy XIV: Evercold dated for February 23, 2027; Zephyr job revealed",
+      "summary": "At the Tokyo Fan Festival on October 31, Square Enix confirmed that Final Fantasy XIV's Evercold expansion launches February 23, 2027, later than its previous January window, with early access planned for February 19 and pre-orders opening November 4. The new Zephyr ranged-DPS job combines a crossbow with an avian companion; the keynote also detailed new raid challenges, the Fierce difficulty tier and seasonal rewards.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "FINAL FANTASY XIV Online",
+        "id": "final-fantasy-xiv-online"
+      },
+      "sourceUrl": "https://press.it.square-enix.com/en-GB/ZEPHYR-UNVEILED-AS-SECOND-NEW-JOB-FOR-FINAL-FANTASY-XIV-EVERCOLD-SET-T",
+      "publishedAt": "2026-10-31T09:02:20Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/39210/header.jpg?t=1782870674",
+      "steam": {
+        "url": "https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-10-31T09:02:20Z",
+      "editionId": "2026-10-30T23:10:12Z",
+      "editionDate": "2026-10-31"
+    },
     {
       "id": "world-of-horror-as-below-so-above-update-2026-10-30",
       "headline": "WORLD OF HORROR gets its largest free update, AS BELOW SO ABOVE",
@@ -174,6 +470,7 @@
       "sourceUrl": "https://www.videogameschronicle.com/news/activision-apologizes-and-says-it-will-remove-south-korean-crush-footage-from-modern-warfare-4-after-victims-families-speak-out/",
       "publishedAt": "2026-10-30T22:23:16Z",
       "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4435490/0c492be3204835d71e8b454b6eb1817f8ff68c0d/header.jpg?t=1793390552",
       "steam": {
         "url": "https://store.steampowered.com/app/4435490/Call_of_Duty_Modern_Warfare_4/"
       },
@@ -294,6 +591,7 @@
       "sourceUrl": "https://store.steampowered.com/app/4336170/Age_of_Empires_IV_Raiders_of_the_North/",
       "publishedAt": "2026-10-30T09:49:00Z",
       "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4336170/d7fd88b652f8390d84813dbb824eeec3c9e73ac8/header.jpg?t=1793294567",
       "steam": {
         "url": "https://store.steampowered.com/app/4336170/Age_of_Empires_IV_Raiders_of_the_North/"
       },

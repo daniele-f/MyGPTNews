@@ -1,13 +1,29 @@
 {
-  "generatedAt": "2026-10-30T23:10:12Z",
+  "generatedAt": "2026-11-02T09:10:21Z",
   "editions": [
+    {
+      "id": "2026-11-02T09:10:21Z",
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T09:10:21Z",
+      "updatedAt": "2026-11-02T09:10:21Z",
+      "path": "data/editions/2026-11-02T09-10-21Z.json",
+      "storyCount": 7
+    },
+    {
+      "id": "2026-11-01T09:04:01Z",
+      "date": "2026-11-01",
+      "publishedAt": "2026-11-01T09:04:01Z",
+      "updatedAt": "2026-11-01T09:04:01Z",
+      "path": "data/editions/2026-11-01T09-04-01Z.json",
+      "storyCount": 6
+    },
     {
       "id": "2026-10-30T23:10:12Z",
       "date": "2026-10-31",
       "publishedAt": "2026-10-30T23:10:12Z",
-      "updatedAt": "2026-10-30T23:10:12Z",
+      "updatedAt": "2026-10-31T09:02:20Z",
       "path": "data/editions/2026-10-30T23-10-12Z.json",
-      "storyCount": 6
+      "storyCount": 7
     },
     {
       "id": "2026-10-30T09:49:00Z",
