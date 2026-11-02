@@ -81,6 +81,17 @@ try {
   const picker = app.querySelector('[data-calendar]') as HTMLElement;
   const closePicker = () => { picker.hidden = true; trigger.setAttribute('aria-expanded', 'false'); };
   const openPicker = () => { picker.hidden = false; trigger.setAttribute('aria-expanded', 'true'); };
+  const changeMonth = (direction: StoryDirection, focusControl = false) => {
+    const [year, month] = picker.dataset.month!.split('-').map(Number);
+    const view = new Date(Date.UTC(year, month - 1 + (direction === 'next' ? 1 : -1), 1));
+    const nextMonth = `${view.getUTCFullYear()}-${String(view.getUTCMonth() + 1).padStart(2, '0')}`;
+    picker.dataset.month = nextMonth;
+    picker.innerHTML = calendarMonthView(availableDates, selectedDate, nextMonth, today);
+    if (focusControl) picker.querySelector<HTMLButtonElement>(`[data-calendar-month="${direction}"]`)?.focus();
+  };
+  bindStorySwipe(picker, direction => {
+    if (!picker.hidden) changeMonth(direction);
+  }, mobile);
   trigger.addEventListener('click', () => picker.hidden ? openPicker() : closePicker());
   picker.addEventListener('click', (event) => {
     const control = (event.target as HTMLElement).closest<HTMLButtonElement>('button');
@@ -92,14 +103,9 @@ try {
       location.assign(url);
       return;
     }
-    const direction = control.dataset.calendarMonth;
+    const direction = control.dataset.calendarMonth as StoryDirection | undefined;
     if (!direction) return;
-    const [year, month] = picker.dataset.month!.split('-').map(Number);
-    const view = new Date(Date.UTC(year, month - 1 + (direction === 'next' ? 1 : -1), 1));
-    const nextMonth = `${view.getUTCFullYear()}-${String(view.getUTCMonth() + 1).padStart(2, '0')}`;
-    picker.dataset.month = nextMonth;
-    picker.innerHTML = calendarMonthView(availableDates, selectedDate, nextMonth, today);
-    picker.querySelector<HTMLButtonElement>(`[data-calendar-month="${direction}"]`)?.focus();
+    changeMonth(direction, true);
   });
   document.addEventListener('click', event => { if (!picker.hidden && !event.composedPath().includes(picker) && !event.composedPath().includes(trigger)) closePicker(); });
   document.addEventListener('keydown', event => { if (event.key === 'Escape' && !picker.hidden) { closePicker(); trigger.focus(); } });
