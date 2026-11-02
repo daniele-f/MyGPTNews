@@ -3,7 +3,7 @@ import { loadJson } from './data';
 import { articleRoute } from './routes';
 import { dailyDates, dailyStories } from './daily-feed';
 import { calendarMonthView, homeView, stageView } from './home-view';
-import { markRead, rememberSelectedStory, selectedStoryForDay } from './state';
+import { dismissSwipeHint, markRead, rememberSelectedStory, selectedStoryForDay, swipeHintDismissed } from './state';
 import { resolveDayRoute } from './day-route';
 import { bindStorySwipe, initialStoryIndex, storyNavigationTarget, type StoryDirection } from './story-navigation';
 import { developmentFixtures } from './dev-fixtures';
@@ -29,6 +29,14 @@ try {
   let selectedIndex = initialStoryIndex(stories, routeStory?.id || selectedStoryForDay(selectedDate));
   app.innerHTML = homeView(stories, meta.id, meta.updatedAt, availableDates, selectedDate, today, selectedIndex);
   const mobile = window.matchMedia('(max-width: 800px)');
+  const swipeHint = app.querySelector<HTMLElement>('[data-swipe-hint]');
+  if (swipeHint) {
+    swipeHint.hidden = swipeHintDismissed();
+    swipeHint.querySelector('[data-dismiss-swipe-hint]')?.addEventListener('click', () => {
+      dismissSwipeHint();
+      swipeHint.hidden = true;
+    });
+  }
   const activate = (index: number, direction: StoryDirection | 'direct' = 'direct', focusDirection?: StoryDirection) => {
     const story = stories[index];
     if (!story) return;

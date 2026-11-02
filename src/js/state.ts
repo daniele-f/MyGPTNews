@@ -7,3 +7,7 @@ const selectedStoryKey = 'mygptnews.selected-story.v1';
 export const storedStoryForDay = (value: string | null, date: string) => { try { const selection = JSON.parse(value || 'null'); return selection?.date === date && typeof selection.storyId === 'string' ? selection.storyId : null; } catch { return null; } };
 export const selectedStoryForDay = (date: string) => { try { return storedStoryForDay(localStorage.getItem(selectedStoryKey), date); } catch { return null; } };
 export const rememberSelectedStory = (date: string, storyId: string) => { try { localStorage.setItem(selectedStoryKey, JSON.stringify({ date, storyId })); } catch {} };
+
+const swipeHintKey = 'mygptnews.swipe-hint-dismissed.v1';
+export const swipeHintDismissed = () => { try { return localStorage.getItem(swipeHintKey) === 'true'; } catch { return false; } };
+export const dismissSwipeHint = () => { try { localStorage.setItem(swipeHintKey, 'true'); } catch {} };

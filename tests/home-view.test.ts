@@ -7,6 +7,21 @@ const stories = [
   { id:'other', headline:'Another release', summary:'The rail briefing.', categories:['Updates'], publishedAt:'2026-10-30T09:49:00Z', featured:false, sourceUrl:'https://example.test/other' }
 ];
 
+test('offers a dismissible swipe hint outside the replaceable story stage', () => {
+  const html = homeView(stories, '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z');
+  assert.match(html, /<aside[^>]*data-swipe-hint[^>]*hidden/);
+  assert.match(html, /Swipe left or right to browse stories/);
+  assert.match(html, /<button[^>]*data-dismiss-swipe-hint[^>]*>OK<\/button>/);
+  assert.ok(html.indexOf('data-swipe-hint') < html.indexOf('data-story-stage'));
+  assert.doesNotMatch(stageView(stories[0], 'edition'), /data-swipe-hint/);
+});
+
+test('does not offer swipe instructions when there is no next story', () => {
+  for (const items of [[], [stories[0]]]) {
+    assert.doesNotMatch(homeView(items, 'edition', '2026-10-30T09:49:00Z'), /data-swipe-hint/);
+  }
+});
+
 test('renders day controls and left chevrons before rail thumbnails', () => {
   const html = homeView(stories, '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z');
   assert.match(html, /class="day-timeline"/);
