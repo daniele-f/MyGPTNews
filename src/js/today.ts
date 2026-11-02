@@ -77,6 +77,16 @@ try {
     });
   });
   const stageContainer = app.querySelector('[data-story-stage]') as HTMLElement | null;
+  if (stageContainer) {
+    let scrollbarHideTimer: number | undefined;
+    const revealScrollbar = () => {
+      stageContainer.classList.remove('is-scrollbar-idle');
+      window.clearTimeout(scrollbarHideTimer);
+      scrollbarHideTimer = window.setTimeout(() => stageContainer.classList.add('is-scrollbar-idle'), 2000);
+    };
+    ['scroll', 'pointermove', 'keydown', 'focusin'].forEach(event => stageContainer.addEventListener(event, revealScrollbar));
+    revealScrollbar();
+  }
   if (stageContainer) bindStorySwipe(stageContainer, direction => {
     const target = storyNavigationTarget(selectedIndex, stories.length, direction);
     if (target) activate(target.index, direction);

@@ -47,3 +47,8 @@ test('keeps stage navigation outside the story-swap animation', () => {
   assert.match(styles, /\.story-stage\.is-moving-previous \.stage-story > :not\(\.stage-story-navigation\)\{animation:stage-reveal-previous/);
   assert.doesNotMatch(styles, /\.story-stage\.is-moving-next \.stage-story\{animation/);
 });
+
+test('styles the desktop story scrollbar like the rail and hides it when idle', () => {
+  assert.match(styles, /@media\(min-width:801px\)\{\.story-stage\{scrollbar-color:var\(--brand-primary\) #0a1d25;scrollbar-width:thin\}/);
+  assert.match(styles, /\.story-stage\.is-scrollbar-idle\{scrollbar-color:transparent transparent\}/);
+});
