@@ -17,5 +17,5 @@ try {
   markRead(story.id);
   app.innerHTML = articleView(story, editionMeta.id);
 } catch (error: any) {
-  app.innerHTML = `<main class="state"><h1>My GPT News</h1><p>${error.message}</p><a href="../">Home</a></main>`;
+  app.innerHTML = `<main class="state"><h1>News Game+</h1><p>${error.message}</p><a href="../">Home</a></main>`;
 }
