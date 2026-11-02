@@ -118,5 +118,5 @@ try {
     }
   }
 } catch (error: any) {
-  app.innerHTML = `<main class="state"><h1>My GPT News</h1><p>${error.message}</p><a href="./">News archive</a></main>`;
+  app.innerHTML = `<main class="state"><h1>News Game+</h1><p>${error.message}</p><a href="./">News archive</a></main>`;
 }
