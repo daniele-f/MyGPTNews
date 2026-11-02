@@ -1,3 +1,4 @@
+import { externalLinkIcon, shareIcon } from './button-icons';
 import { linkifyText } from './linked-text';
 import { assetPath } from './paths';
 import { articleUrl } from './routes';
@@ -50,7 +51,7 @@ export function stageView(story: any, editionId: string, storyIndex = 0, storyCo
   const link = storyLink(story.editionId || editionId, story.id);
   const timestamp = story.updatedAt ? `Updated ${dateTime(story.updatedAt)}` : `Published ${dateTime(story.publishedAt)}`;
   const boundary = storyIndex === 0 ? ' is-first' : storyIndex === storyCount - 1 ? ' is-last' : '';
-  return `<article class="stage-story${boundary}" id="article-${esc(story.id)}" tabindex="-1">${storyNavigationView(storyIndex, storyCount)}<img class="stage-image" src="${image}" alt="" onerror="this.src='${assetPath('fallback-news.svg')}'"><div class="stage-copy"><p class="eyebrow">${story.categories.map(esc).join(' · ')}</p><h2>${headline(story)}</h2><p class="stage-summary">${linkifyText(story.summary)}</p><div class="stage-links"><a class="button" href="${link}">Read full story</a>${brandButton(story, logoToken)}<a href="${esc(story.sourceUrl)}" target="_blank" rel="noopener">Original source</a></div><p class="stage-published">${esc(timestamp)}</p></div></article>`;
+  return `<article class="stage-story${boundary}" id="article-${esc(story.id)}" tabindex="-1">${storyNavigationView(storyIndex, storyCount)}<img class="stage-image" src="${image}" alt="" onerror="this.src='${assetPath('fallback-news.svg')}'"><div class="stage-copy"><p class="eyebrow">${story.categories.map(esc).join(' · ')}</p><h2>${headline(story)}</h2><p class="stage-summary">${linkifyText(story.summary)}</p><div class="stage-links"><a class="button" href="${esc(story.sourceUrl)}" target="_blank" rel="noopener" aria-label="Original source (opens in a new tab)">${externalLinkIcon}Original source</a>${brandButton(story, logoToken)}<a class="button button-secondary" href="${link}">${shareIcon}Read full story</a></div><p class="stage-published">${esc(timestamp)}</p></div></article>`;
 }
 
 export function homeView(stories: any[], editionId: string, publishedAt: string, availableDates = [publishedAt.slice(0, 10)], selectedDate = publishedAt.slice(0, 10), today = selectedDate, selectedIndex?: number) {
