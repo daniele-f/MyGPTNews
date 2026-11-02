@@ -38,7 +38,7 @@ test('submits the header search field to the search page', () => {
 
 test('uses the title as home and keeps day navigation and search in the header', () => {
   const html = homeView(stories, '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z');
-  assert.match(html, /<a class="wordmark" href="\/">MY GPT NEWS<\/a>/);
+  assert.match(html, /class="wordmark"[^>]*>[\s\S]*?News Game<span class="brand-plus">\+<\/span>/);
   assert.doesNotMatch(html, /<a class="active" href="\/">Home<\/a>/);
   assert.match(html, /class="day-picker-trigger"[^>]*>30 Oct 2026<\/button>/);
   assert.doesNotMatch(html, /Browse archive/);
