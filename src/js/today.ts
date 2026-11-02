@@ -5,7 +5,7 @@ import { dailyDates, dailyStories } from './daily-feed';
 import { calendarMonthView, homeView, stageView } from './home-view';
 import { markRead, rememberSelectedStory, selectedStoryForDay } from './state';
 import { resolveDayRoute } from './day-route';
-import { initialStoryIndex, storyNavigationTarget, type StoryDirection } from './story-navigation';
+import { bindStorySwipe, initialStoryIndex, storyNavigationTarget, type StoryDirection } from './story-navigation';
 import { developmentFixtures } from './dev-fixtures';
 
 const app = document.querySelector('#app') as HTMLElement;
@@ -28,6 +28,7 @@ try {
   const routeStory = route && stories.find((story: any) => story.id === route.article && story.editionId === route.edition);
   let selectedIndex = initialStoryIndex(stories, routeStory?.id || selectedStoryForDay(selectedDate));
   app.innerHTML = homeView(stories, meta.id, meta.updatedAt, availableDates, selectedDate, today, selectedIndex);
+  const mobile = window.matchMedia('(max-width: 800px)');
   const activate = (index: number, direction: StoryDirection | 'direct' = 'direct', focusDirection?: StoryDirection) => {
     const story = stories[index];
     if (!story) return;
@@ -46,8 +47,16 @@ try {
   app.querySelectorAll('.rail-story').forEach((button: any) => button.addEventListener('click', () => {
     const index = Number(button.dataset.storyIndex);
     activate(index, index < selectedIndex ? 'previous' : index > selectedIndex ? 'next' : 'direct');
+    if (mobile.matches) app.querySelector('[data-story-stage]')?.scrollIntoView({
+      behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+      block: 'start'
+    });
   }));
   const stageContainer = app.querySelector('[data-story-stage]') as HTMLElement | null;
+  if (stageContainer) bindStorySwipe(stageContainer, direction => {
+    const target = storyNavigationTarget(selectedIndex, stories.length, direction);
+    if (target) activate(target.index, direction);
+  }, mobile);
   stageContainer?.addEventListener('click', event => {
     const control = (event.target as HTMLElement).closest<HTMLButtonElement>('[data-stage-previous], [data-stage-next]');
     if (!control) return;
