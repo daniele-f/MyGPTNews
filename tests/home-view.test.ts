@@ -36,9 +36,11 @@ test('submits the header search field to the search page', () => {
   assert.doesNotMatch(html, />Search<\/a>/);
 });
 
-test('uses the title as home and keeps day navigation and search in the header', () => {
+test('uses the branded logo lockup as home and keeps day navigation and search in the header', () => {
   const html = homeView(stories, '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z');
-  assert.match(html, /class="wordmark"[^>]*>[\s\S]*?News Game<span class="brand-plus">\+<\/span>/);
+  assert.match(html, /class="wordmark"[^>]*>[\s\S]*?class="brand-logo"[^>]*src="\/ng-plus\.svg"/);
+  assert.match(html, /class="brand-separator"/);
+  assert.match(html, /class="brand-wordmark"[^>]*src="\/news-game-wordmark\.svg"/);
   assert.doesNotMatch(html, /<a class="active" href="\/">Home<\/a>/);
   assert.match(html, /class="day-picker-trigger"[^>]*>30 Oct 2026<\/button>/);
   assert.doesNotMatch(html, /Browse archive/);
