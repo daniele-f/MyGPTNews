@@ -4,6 +4,11 @@ import test from 'node:test';
 
 const styles = readFileSync(new URL('../src/styles.css', import.meta.url), 'utf8');
 
+test('defines a semantic shared color palette', () => {
+  assert.match(styles, /:root\{[^}]*--color-primary:#e75a32[^}]*--color-secondary:#91d8ee[^}]*--color-background:#07171e[^}]*--color-surface:#0a1d25[^}]*--color-text:#edf0ec[^}]*--color-border:#31505b[^}]*--color-focus:#f0b85b[^}]*\}/i);
+  assert.doesNotMatch(styles.slice(styles.indexOf('}') + 1), /#[0-9a-f]{3,8}\b/i);
+});
+
 test('centers the rail chevron and keeps it hidden for the selected story', () => {
   assert.match(styles, /\.rail-chevron\{[^}]*align-self:center[^}]*transform:translate\(8px,2px\)/);
   assert.match(styles, /\.rail-story:hover \.rail-chevron,\.rail-story:focus-visible \.rail-chevron\{[^}]*transform:translate\(-4px,2px\)/);
@@ -34,7 +39,7 @@ test('insets rail content without moving its scrollbar from the page edge', () =
 });
 
 test('uses the sticky rail border as the stage divider', () => {
-  assert.match(styles, /\.story-rail\{border-left:1px solid #31505b\}/);
+  assert.match(styles, /\.story-rail\{border-left:1px solid var\(--color-border\)\}/);
   assert.doesNotMatch(styles, /\.story-rail::before/);
 });
 
@@ -49,6 +54,6 @@ test('keeps stage navigation outside the story-swap animation', () => {
 });
 
 test('styles the desktop story scrollbar like the rail and hides it when idle', () => {
-  assert.match(styles, /@media\(min-width:801px\)\{\.story-stage\{scrollbar-color:var\(--brand-primary\) #0a1d25;scrollbar-width:thin\}/);
+  assert.match(styles, /@media\(min-width:801px\)\{\.story-stage\{scrollbar-color:var\(--brand-primary\) var\(--color-surface\);scrollbar-width:thin\}/);
   assert.match(styles, /\.story-stage\.is-scrollbar-idle\{scrollbar-color:transparent transparent\}/);
 });
