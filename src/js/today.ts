@@ -57,14 +57,25 @@ try {
     app.querySelectorAll('.rail-story').forEach((button: any) => button.setAttribute('aria-pressed', String(Number(button.dataset.storyIndex) === selectedIndex)));
     if (focusDirection) stage.querySelector<HTMLButtonElement>(`[data-stage-${focusDirection}]`)?.focus();
   };
-  app.querySelectorAll('.rail-story').forEach((button: any) => button.addEventListener('click', () => {
+  const activateRailStory = (button: HTMLElement) => {
     const index = Number(button.dataset.storyIndex);
     activate(index, index < selectedIndex ? 'previous' : index > selectedIndex ? 'next' : 'direct');
     if (mobile.matches) app.querySelector('[data-story-stage]')?.scrollIntoView({
       behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
       block: 'start'
     });
-  }));
+  };
+  app.querySelectorAll<HTMLElement>('.rail-story').forEach(button => {
+    button.addEventListener('click', event => {
+      if ((event.target as HTMLElement).closest('a')) return;
+      activateRailStory(button);
+    });
+    button.addEventListener('keydown', event => {
+      if (event.key !== 'Enter' && event.key !== ' ') return;
+      event.preventDefault();
+      activateRailStory(button);
+    });
+  });
   const stageContainer = app.querySelector('[data-story-stage]') as HTMLElement | null;
   if (stageContainer) bindStorySwipe(stageContainer, direction => {
     const target = storyNavigationTarget(selectedIndex, stories.length, direction);

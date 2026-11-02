@@ -10,6 +10,8 @@ export function gamePage(story: any) {
   return { url, domain, label: story?.steam?.url ? 'Steam' : story.game.name };
 }
 
+export const gameSearchUrl = (game: string) => `${assetPath('search/')}?q=${encodeURIComponent(game)}`;
+
 export function brandButton(story: any, token = '') {
   const page = gamePage(story);
   if (!page) return '';

@@ -9,7 +9,7 @@ test('renders search cards with game links, title accents, and a Steam icon', ()
     game: { id: 'example', name: 'Example' }, categories: ['Update'], publishedAt: '2026-11-01T10:00:00Z',
     steam: { url: 'https://store.steampowered.com/app/123/' }, sourceUrl: 'https://example.com/news',
   });
-  assert.match(html, /<span class="game-title">Example<\/span> receives an update/);
+  assert.match(html, /<a class="game-title" href="\/search\/\?q=Example">Example<\/a><a href="\/article\/\?edition=edition&article=example"> receives an update<\/a>/);
   assert.match(html, /href="\/search\/\?q=Example"[^>]*>Example<\/a>/);
   assert.match(html, /src="\/steam-logo\.ico"/);
   assert.doesNotMatch(html, /class="eyebrow">Update/);

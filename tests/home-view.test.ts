@@ -121,8 +121,8 @@ test('disables unavailable story-stage directions at the boundaries', () => {
 
 test('accentuates the game name within the main headline', () => {
   const story = { ...stories[0], game:{ name:'Featured', id:'featured' } };
-  assert.match(stageView(story, '2026-10-30T09:49:00Z'), /<span class="game-title">Featured<\/span> launch/);
-  assert.match(homeView([story], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z'), /<strong><span class="game-title">Featured<\/span> launch<\/strong>/);
+  assert.match(stageView(story, '2026-10-30T09:49:00Z'), /<a class="game-title" href="\/search\/\?q=Featured">Featured<\/a> launch/);
+  assert.match(homeView([story], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z'), /<strong><a class="game-title" href="\/search\/\?q=Featured">Featured<\/a> launch<\/strong>/);
 });
 
 test('renders day navigation and a calendar limited to available dates', () => {
