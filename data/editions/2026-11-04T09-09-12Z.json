@@ -2,7 +2,7 @@
   "id": "2026-11-04T09:09:12Z",
   "date": "2026-11-04",
   "publishedAt": "2026-11-04T09:09:12Z",
-  "updatedAt": "2026-11-04T09:09:12Z",
+  "updatedAt": "2026-11-04T14:08:56Z",
   "stories": [
     {
       "id": "elder-scrolls-vi-sentinel-name-revealed-nov-2026",
@@ -106,6 +106,48 @@
       "relatedArticleIds": [
         "itchio-new-game-pages-double-discoverability-november-2026"
       ]
+    },
+    {
+      "id": "age-of-wonders-4-silver-seas-dlc-manta-update-free-weekend-2026-11-03",
+      "headline": "Age of Wonders 4 launches The Silver Seas and announces a free Steam weekend",
+      "summary": "Paradox released [The Silver Seas](https://store.steampowered.com/app/5094370/) on November 3, adding the Mercantile culture, Sharkkin and Aqualon forms, and four new spell tomes. The free Manta Update also adds trade routes and revamps naval gameplay. The base game [Age of Wonders 4](https://store.steampowered.com/app/1669000/) is scheduled to be free to play, not free to keep, on Steam from November 5 through November 9.",
+      "categories": [
+        "Releases",
+        "Updates",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Age of Wonders 4: The Silver Seas",
+        "id": "age-of-wonders-4-the-silver-seas"
+      },
+      "sourceUrl": "https://www.paradoxinteractive.com/media/press-releases/paradox-interactive/live-your-pirate-fantasy-in-the-silver-seas-for-age-of-wonders-4-today",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "featured": false,
+      "steam": {
+        "url": "https://store.steampowered.com/app/5094370/Age_of_Wonders_4_The_Silver_Seas/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-04T14:08:56Z"
+    },
+    {
+      "id": "kingdoms-and-castles-extra-large-maps-optimizations-november-2026",
+      "headline": "Kingdoms and Castles adds much larger maps and ten achievements",
+      "summary": "Lion Shield's November 3 update gives [Kingdoms and Castles](https://store.steampowered.com/app/569480/) an Extra Large map option of roughly 30,000 land tiles, up from about 9,000 on the previous Large setting. The free update also improves pathfinding, fish and tree simulation, fog of war and memory use, and adds ten achievements for existing gameplay features.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Kingdoms and Castles",
+        "id": "kingdoms-and-castles"
+      },
+      "sourceUrl": "https://steamcommunity.com/games/569480/announcements/detail/594039817059172420",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "featured": false,
+      "steam": {
+        "url": "https://store.steampowered.com/app/569480/Kingdoms_and_Castles/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-04T14:08:56Z"
     }
   ]
 }
