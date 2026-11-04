@@ -1,0 +1,111 @@
+{
+  "id": "2026-11-04T09:09:12Z",
+  "date": "2026-11-04",
+  "publishedAt": "2026-11-04T09:09:12Z",
+  "updatedAt": "2026-11-04T09:09:12Z",
+  "stories": [
+    {
+      "id": "elder-scrolls-vi-sentinel-name-revealed-nov-2026",
+      "headline": "Bethesda reveals The Elder Scrolls VI: Sentinel after eight years",
+      "summary": "Bethesda unveiled the official subtitle [Sentinel](https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-sentinel-is-finally-made-official/) in a video marking the studio's 40th anniversary. The reveal points toward Hammerfell, but Bethesda says development is ongoing and more details are still some time away. No release date or verified Steam listing was announced.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "The Elder Scrolls VI: Sentinel",
+        "id": "the-elder-scrolls-vi-sentinel"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-sentinel-is-finally-made-official/",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/52NsFuQkWyucm27va26VpP.jpg"
+    },
+    {
+      "id": "workers-resources-soviet-republic-space-program-dlc-nov-23-2026",
+      "headline": "Workers & Resources: Soviet Republic announces Space Program DLC for November 23",
+      "summary": "Hooded Horse and 3DIVISION announced [Space Program](https://store.steampowered.com/app/5303130/), a PC expansion adding rocket manufacture, orbital launches, new industries and a 1960s campaign. It is scheduled for November 23 on Steam, GOG and Epic. The base city-builder has also passed one million copies sold.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "Workers & Resources: Soviet Republic - Space Program",
+        "id": "workers-and-resources-soviet-republic-space-program"
+      },
+      "sourceUrl": "https://www.gamespress.com/workers-and-resources-soviet-republic-space-program-dlc",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://imgeucdn.gamespress.com/cdn/files/Games%20Press/2026/10/291635-f1348674/Workers___Resources_Space_Race_Key_Art_2026.05_DM_V1.png?bgcolor=transparent&format=png&mode=max&otf=y&quality=90&sky=bec60e99be3844ca51bf1b6ce3be78ef9967e547629d245748615a0eed867280&w=533",
+      "steam": {
+        "url": "https://store.steampowered.com/app/5303130/Workers_Resources_Soviet_Republic_Space_Program/"
+      }
+    },
+    {
+      "id": "ffxiv-patch-758-na-eu-same-region-matchmaking-nov-10-2026",
+      "headline": "Final Fantasy XIV expands EU and NA matchmaking across data centers on November 10",
+      "summary": "Square Enix confirmed that [Final Fantasy XIV](https://store.steampowered.com/app/39210/) Patch 7.58 will allow Duty Finder, Party Finder and more social features across logical data centers in the same North American or European physical region. The November 10 rollout should make parties and older content easier to find, although maintenance is expected to last 24 hours.",
+      "categories": [
+        "Updates",
+        "Announcements"
+      ],
+      "game": {
+        "name": "Final Fantasy XIV Online",
+        "id": "final-fantasy-xiv-online"
+      },
+      "sourceUrl": "https://na.finalfantasyxiv.com/lodestone/topics/detail/50458eeb98ca9466c69b85074f5326be0b3f3a94",
+      "publishedAt": "2026-11-02T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://img.finalfantasyxiv.com/t/50458eeb98ca9466c69b85074f5326be0b3f3a94.png?1793605640%3F1793188621=",
+      "steam": {
+        "url": "https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online/"
+      }
+    },
+    {
+      "id": "point-and-click-showcase-steam-sale-november-4-2026",
+      "headline": "Point-and-Click Showcase brings 35-plus games and a Steam sale through November 9",
+      "summary": "Amanita Design and Rusty Lake are hosting a PC adventure-game showcase on November 4 at 18:00 CET, promising premieres, release dates and demos for over 35 games. The accompanying [Steam sale](https://store.steampowered.com/curator/46551791/sale/PointandClickShowcase) runs until November 9, with discounts on dozens of point-and-click titles. No unverified discount percentages are quoted.",
+      "categories": [
+        "Deals & Events",
+        "Announcements"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/games/adventure/2-of-my-favorite-studios-are-teaming-up-for-their-first-ever-showcase-this-week-and-have-a-steam-sale-going-right-now/",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/qUqrbeiRf4jWs4ivTS3KUg.jpg"
+    },
+    {
+      "id": "vampire-crawlers-pc-game-pass-november-4-2026",
+      "headline": "Vampire Crawlers joins PC Game Pass in the new November lineup",
+      "summary": "Microsoft's first November Game Pass wave adds [Vampire Crawlers](https://store.steampowered.com/app/3265700/) to PC Game Pass on November 4. The turn-based, deckbuilding spinoff of Vampire Survivors is already sold on Steam, making its subscription debut another way for PC players to try it.",
+      "categories": [
+        "Announcements",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+        "id": "vampire-crawlers-the-turbo-wildcard-from-vampire-survivors"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/xboxs-first-wave-of-november-game-pass-releases-includes-vampire-crawlers/",
+      "publishedAt": "2026-11-03T20:51:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/Xbox-Game-Pass-November-games-1-320x180.jpg",
+      "steam": {
+        "url": "https://store.steampowered.com/app/3265700/Vampire_Crawlers_The_Turbo_Wildcard_from_Vampire_Survivors/"
+      }
+    },
+    {
+      "id": "itch-io-generative-ai-filters-content-removal-nov-3-2026",
+      "headline": "itch.io removes bulk AI uploads and adds more granular generative-AI filters",
+      "summary": "After reporting a surge in game-page creation, itch.io says it deleted several terabytes of mass-uploaded AI material and expanded browsing filters for AI-generated content. The store's clearer exclusion controls aim to help PC players discover curated indie games instead of automated spam. This is a new moderation action, not a repeat of the earlier page-count report.",
+      "categories": [
+        "Industry News",
+        "Updates"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/software/ai/just-deleted-a-couple-terabytes-of-ai-slop-itch-io-pushes-back-against-the-flood-of-ai-on-its-storefront/",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "featured": false,
+      "relatedArticleIds": [
+        "itchio-new-game-pages-double-discoverability-november-2026"
+      ]
+    }
+  ]
+}
