@@ -59,3 +59,6 @@ body:has(.search-page){background:var(--color-background);color:var(--color-text
 
 /* Mobile: breathing room below publication date; no rail side divider. */
 @media(max-width:800px){.story-stage{padding-bottom:50px}.story-rail{border-left:0}}
+
+/* Mobile rail: center each story and keep selection in place. */
+@media(max-width:800px){.rail-stories{padding-left:0}.rail-story{grid-template-columns:82px minmax(0,1fr);max-width:520px;margin-inline:auto;transform:none}.rail-chevron{display:none}.rail-story[aria-pressed=true]{width:100%;padding-left:0;transform:none;box-shadow:none;background:var(--color-selected)}}
