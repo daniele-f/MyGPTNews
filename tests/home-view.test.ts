@@ -128,6 +128,14 @@ test('links game names in the main headline but not the rail', () => {
   assert.doesNotMatch(homeView([story], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z'), /class="rail-story"[\s\S]*?href="\/search\/\?q=Featured"/);
 });
 
+test('highlights a headline-specific game name while searching by its canonical name', () => {
+  const story = { ...stories[0], headline:'Final Fantasy XIV expands matchmaking', game:{ name:'Final Fantasy XIV Online', headlineName:'Final Fantasy XIV', id:'final-fantasy-xiv-online' } };
+  const stage = stageView(story, '2026-10-30T09:49:00Z');
+  const rail = homeView([story], '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z');
+  assert.match(stage, /<a class="game-title" href="\/search\/\?q=Final%20Fantasy%20XIV%20Online">Final Fantasy XIV<\/a> expands matchmaking/);
+  assert.match(rail, /<strong><span class="game-title">Final Fantasy XIV<\/span> expands matchmaking<\/strong>/);
+});
+
 test('renders day navigation and a calendar limited to available dates', () => {
   const html = homeView(stories, '2026-10-30T09:49:00Z', '2026-10-30T09:49:00Z', ['2026-11-01', '2026-10-30', '2026-10-28'], '2026-10-30');
   assert.match(html, /aria-label="Previous available day"[^>]*href="\/?\?date=2026-10-28"/);

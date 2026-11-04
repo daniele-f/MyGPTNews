@@ -29,6 +29,7 @@
       ],
       "game": {
         "name": "Workers & Resources: Soviet Republic - Space Program",
+        "headlineName": "Workers & Resources: Soviet Republic",
         "id": "workers-and-resources-soviet-republic-space-program"
       },
       "sourceUrl": "https://www.gamespress.com/workers-and-resources-soviet-republic-space-program-dlc",
@@ -49,6 +50,7 @@
       ],
       "game": {
         "name": "Final Fantasy XIV Online",
+        "headlineName": "Final Fantasy XIV",
         "id": "final-fantasy-xiv-online"
       },
       "sourceUrl": "https://na.finalfantasyxiv.com/lodestone/topics/detail/50458eeb98ca9466c69b85074f5326be0b3f3a94",
@@ -82,6 +84,7 @@
       ],
       "game": {
         "name": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+        "headlineName": "Vampire Crawlers",
         "id": "vampire-crawlers-the-turbo-wildcard-from-vampire-survivors"
       },
       "sourceUrl": "https://www.videogameschronicle.com/news/xboxs-first-wave-of-november-game-pass-releases-includes-vampire-crawlers/",
@@ -118,11 +121,13 @@
       ],
       "game": {
         "name": "Age of Wonders 4: The Silver Seas",
+        "headlineName": "Age of Wonders 4",
         "id": "age-of-wonders-4-the-silver-seas"
       },
       "sourceUrl": "https://www.paradoxinteractive.com/media/press-releases/paradox-interactive/live-your-pirate-fantasy-in-the-silver-seas-for-age-of-wonders-4-today",
       "publishedAt": "2026-11-03T00:00:00Z",
       "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5094370/d43d3ce66c826602dcdd5490fa1a157db68919e0/header.jpg?t=1793803483",
       "steam": {
         "url": "https://store.steampowered.com/app/5094370/Age_of_Wonders_4_The_Silver_Seas/"
       },
@@ -143,6 +148,7 @@
       "sourceUrl": "https://steamcommunity.com/games/569480/announcements/detail/594039817059172420",
       "publishedAt": "2026-11-03T00:00:00Z",
       "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/569480/607d66c3818dc8d5481a7d998ebce143c50dfa82/header.jpg?t=1776710220",
       "steam": {
         "url": "https://store.steampowered.com/app/569480/Kingdoms_and_Castles/"
       },

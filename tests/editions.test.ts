@@ -71,6 +71,28 @@ test('rejects an invalid non-Steam game page URL', () => {
   assert.match(validateEdition(edition, edition.id).errors.join(' '), /game page URL/);
 });
 
+test('rejects a Steam story that has no verified image URL', () => {
+  const edition = { id:'2026-10-30T18:00:00Z', date:'2026-10-30', publishedAt:'2026-10-30T18:00:00Z', updatedAt:'2026-10-30T18:00:00Z', stories:[
+    { id:'steam-story', headline:'Steam game update', summary:'A concise summary.', categories:['Updates'], sourceUrl:'https://example.test/news', publishedAt:'2026-10-30T18:00:00Z', featured:true, steam:{ url:'https://store.steampowered.com/app/123/' } }
+  ]};
+  assert.match(validateEdition(edition, edition.id).errors.join(' '), /Steam story needs an image URL/);
+});
+
+test('rejects a game headline name that does not occur in its headline', () => {
+  const edition = { id:'2026-10-30T18:00:00Z', date:'2026-10-30', publishedAt:'2026-10-30T18:00:00Z', updatedAt:'2026-10-30T18:00:00Z', stories:[
+    { id:'game-story', headline:'The game gets an update', summary:'A concise summary.', categories:['Updates'], sourceUrl:'https://example.test/news', publishedAt:'2026-10-30T18:00:00Z', featured:true, game:{ name:'Canonical Game', headlineName:'Different Game', id:'canonical-game' } }
+  ]};
+  assert.match(validateEdition(edition, edition.id).errors.join(' '), /headline name.*headline/i);
+});
+
+test('reports an invalid headline name without throwing for a malformed headline', () => {
+  const edition = { id:'2026-10-30T18:00:00Z', date:'2026-10-30', publishedAt:'2026-10-30T18:00:00Z', updatedAt:'2026-10-30T18:00:00Z', stories:[
+    { id:'game-story', headline:42, summary:'A concise summary.', categories:['Updates'], sourceUrl:'https://example.test/news', publishedAt:'2026-10-30T18:00:00Z', featured:true, game:{ name:'Canonical Game', headlineName:'Game', id:'canonical-game' } }
+  ]};
+  assert.doesNotThrow(() => validateEdition(edition, edition.id));
+  assert.match(validateEdition(edition, edition.id).errors.join(' '), /headline name.*headline/i);
+});
+
 test('creates a missing editions directory for a fresh empty archive', async () => {
   const root = await mkdtemp(join(tmpdir(), 'mygptnews-empty-'));
   await (await import('node:fs/promises')).mkdir(join(root, 'data'), { recursive: true });
