@@ -56,3 +56,6 @@ body:has(.search-page){background:var(--color-background);color:var(--color-text
 
 /* Shared brand color */
 :root{--brand-primary:var(--color-primary)}.button,button{background:var(--brand-primary)}a:focus-visible,button:focus-visible,input:focus-visible{outline-color:var(--brand-primary)}.site-header nav a.active,.game-title,.search-page .game-title,.rail-chevron{color:var(--brand-primary)}.site-header nav a.active{border-bottom-color:var(--brand-primary)}.stage-links .button:not(.button-secondary),.search-form button,.calendar-day.is-selected{background:var(--brand-primary)}.rail-stories{scrollbar-color:var(--brand-primary) var(--color-surface)}.rail-story[aria-pressed=true]{box-shadow:inset 3px 0 var(--brand-primary)}
+
+/* Mobile: breathing room below publication date; no rail side divider. */
+@media(max-width:800px){.story-stage{padding-bottom:50px}.story-rail{border-left:0}}
