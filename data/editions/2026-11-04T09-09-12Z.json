@@ -2,7 +2,7 @@
   "id": "2026-11-04T09:09:12Z",
   "date": "2026-11-04",
   "publishedAt": "2026-11-04T09:09:12Z",
-  "updatedAt": "2026-11-04T14:08:56Z",
+  "updatedAt": "2026-11-04T19:06:01Z",
   "stories": [
     {
       "id": "elder-scrolls-vi-sentinel-name-revealed-nov-2026",
@@ -154,6 +154,49 @@
       },
       "changeType": "new",
       "updatedAt": "2026-11-04T14:08:56Z"
+    },
+    {
+      "id": "lightyear-frontier-full-release-1-0-nov-4-2026",
+      "headline": "Lightyear Frontier reaches 1.0 with two new regions and story finale",
+      "summary": "[Lightyear Frontier](https://store.steampowered.com/app/1677110/Lightyear_Frontier/) has officially left Steam Early Access on November 4 after more than two years. FRAME BREAK's 1.0 release adds Sandswept Highlands and Hollow Marsh, expands the explorable world by roughly 40%, concludes the main story and overhauls farming automation and mech customization, including the new Skyblazer flight mode. Existing saves remain usable.",
+      "categories": [
+        "Releases",
+        "Updates"
+      ],
+      "game": {
+        "name": "Lightyear Frontier",
+        "id": "lightyear-frontier"
+      },
+      "sourceUrl": "https://steamcommunity.com/games/1677110/announcements/detail/702148783426765438",
+      "publishedAt": "2026-11-04T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://mnd-assets.mynewsdesk.com/image/upload/ar_16%3A9%2Cc_fill%2Cdpr_auto%2Cf_auto%2Cg_xy_center%2Cq_auto%3Agood%2Cw_746%2Cx_1921%2Cy_1080/9heayq3jn93p1mhh15sexc",
+      "steam": {
+        "url": "https://store.steampowered.com/app/1677110/Lightyear_Frontier/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-04T19:06:01Z"
+    },
+    {
+      "id": "deep-rock-galactic-rogue-core-update-3-nov-4-2026",
+      "headline": "Deep Rock Galactic: Rogue Core launches Update 3 with Balgorath boss",
+      "summary": "Ghost Ship Games has released [Update 3](https://www.mynewsdesk.com/uk/swipe-right/pressreleases/dig-deeper-deep-rock-galactic-rogue-core-launches-update-3-3476122) for [Deep Rock Galactic: Rogue Core](https://store.steampowered.com/app/2605790/Deep_Rock_Galactic_Rogue_Core/) on Steam. The Early Access co-op shooter gains the Balgorath boss, configurable boss-fight modifiers, the Ventura shotgun and linked Quantum Warpfield teleporters. New mission variations, upgrade rerolls and a recovery option after host crashes also aim to make runs more varied and resilient.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Deep Rock Galactic: Rogue Core",
+        "id": "deep-rock-galactic-rogue-core"
+      },
+      "sourceUrl": "https://www.mynewsdesk.com/uk/swipe-right/pressreleases/dig-deeper-deep-rock-galactic-rogue-core-launches-update-3-3476122",
+      "publishedAt": "2026-11-04T12:02:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2605790/8a84d291390183d33a9629e68cdd35ad27d6217b/header_alt_assets_2.jpg?t=1793799738",
+      "steam": {
+        "url": "https://store.steampowered.com/app/2605790/Deep_Rock_Galactic_Rogue_Core/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-04T19:06:01Z"
     }
   ]
 }
