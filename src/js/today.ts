@@ -5,7 +5,7 @@ import { dailyDates, dailyStories } from './daily-feed';
 import { calendarMonthView, homeView, stageView } from './home-view';
 import { dismissSwipeHint, markRead, rememberSelectedStory, selectedStoryForDay, swipeHintDismissed } from './state';
 import { resolveDayRoute } from './day-route';
-import { bindStorySwipe, initialStoryIndex, storyNavigationTarget, type StoryDirection } from './story-navigation';
+import { bindStorySwipe, initialStoryIndex, isEditableTarget, storyDirectionForKey, storyNavigationTarget, storyStageScrollAmountForKey, type StoryDirection } from './story-navigation';
 import { developmentFixtures } from './dev-fixtures';
 
 const app = document.querySelector('#app') as HTMLElement;
@@ -97,6 +97,20 @@ try {
     const direction: StoryDirection = control.hasAttribute('data-stage-previous') ? 'previous' : 'next';
     const target = storyNavigationTarget(selectedIndex, stories.length, direction);
     if (target) activate(target.index, direction, target.focus);
+  });
+  document.addEventListener('keydown', event => {
+    const scrollAmount = storyStageScrollAmountForKey(event.key);
+    if (scrollAmount && !mobile.matches) {
+      event.preventDefault();
+      stageContainer?.scrollBy({ top: scrollAmount });
+      return;
+    }
+    const direction = storyDirectionForKey(event.key);
+    if (!direction || mobile.matches || event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey || isEditableTarget(event.target)) return;
+    const target = storyNavigationTarget(selectedIndex, stories.length, direction);
+    if (!target) return;
+    event.preventDefault();
+    activate(target.index, direction, target.focus);
   });
   const trigger = app.querySelector('.day-picker-trigger') as HTMLButtonElement;
   const picker = app.querySelector('[data-calendar]') as HTMLElement;

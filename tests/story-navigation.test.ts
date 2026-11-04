@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { initialStoryIndex, storyNavigationTarget } from '../src/js/story-navigation';
+import { initialStoryIndex, isEditableTarget, storyDirectionForKey, storyNavigationTarget, storyStageScrollAmountForKey } from '../src/js/story-navigation';
 import { selectedStoryForDay, storedStoryForDay } from '../src/js/state';
 
 test('keeps keyboard focus on an available stage direction after moving', () => {
@@ -12,6 +12,20 @@ test('keeps keyboard focus on an available stage direction after moving', () => 
 test('does not navigate beyond the first or last story', () => {
   assert.equal(storyNavigationTarget(0, 3, 'previous'), null);
   assert.equal(storyNavigationTarget(2, 3, 'next'), null);
+});
+
+test('maps desktop arrow keys to story navigation outside editable controls', () => {
+  assert.equal(storyDirectionForKey('ArrowLeft'), 'previous');
+  assert.equal(storyDirectionForKey('ArrowRight'), 'next');
+  assert.equal(storyDirectionForKey('Enter'), null);
+  assert.equal(isEditableTarget({ matches: (selector: string) => selector.includes('input') } as unknown as EventTarget), true);
+  assert.equal(isEditableTarget({ matches: () => false } as unknown as EventTarget), false);
+});
+
+test('maps vertical arrow keys to story-stage scrolling', () => {
+  assert.equal(storyStageScrollAmountForKey('ArrowUp'), -48);
+  assert.equal(storyStageScrollAmountForKey('ArrowDown'), 48);
+  assert.equal(storyStageScrollAmountForKey('ArrowLeft'), 0);
 });
 
 test('restores a saved story only for the same news day', () => {

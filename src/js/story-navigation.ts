@@ -1,5 +1,23 @@
 export type StoryDirection = 'previous' | 'next';
 
+export function storyDirectionForKey(key: string): StoryDirection | null {
+  if (key === 'ArrowLeft') return 'previous';
+  if (key === 'ArrowRight') return 'next';
+  return null;
+}
+
+export function storyStageScrollAmountForKey(key: string) {
+  if (key === 'ArrowUp') return -48;
+  if (key === 'ArrowDown') return 48;
+  return 0;
+}
+
+export function isEditableTarget(target: EventTarget | null) {
+  const element = target as { closest?: (selector: string) => unknown; matches?: (selector: string) => boolean } | null;
+  const selector = 'input, textarea, select, [contenteditable=""], [contenteditable="true"]';
+  return Boolean(element?.closest?.(selector) || element?.matches?.(selector));
+}
+
 export function initialStoryIndex(stories: any[], storyId: string | null) {
   const savedIndex = stories.findIndex(story => story.id === storyId);
   if (savedIndex >= 0) return savedIndex;
