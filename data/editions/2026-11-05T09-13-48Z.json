@@ -2,7 +2,7 @@
   "id": "2026-11-05T09:13:48Z",
   "date": "2026-11-05",
   "publishedAt": "2026-11-05T09:13:48Z",
-  "updatedAt": "2026-11-05T09:13:48Z",
+  "updatedAt": "2026-11-05T14:01:54",
   "stories": [
     {
       "id": "airframe-ultra-pc-release-november-5-2026",
@@ -46,7 +46,7 @@
     {
       "id": "gog-first-games-showcase-november-5-2026",
       "headline": "GOG hosts its first games showcase on November 5",
-      "summary": "PC storefront [GOG](https://www.gog.com/) is holding its first dedicated showcase on November 5 as part of its 18th-anniversary celebrations. It promises announcements about incoming DRM-free games, storefront features and game preservation. Specific reveals have not yet aired at the time of this morning briefing.",
+      "summary": "PC storefront [GOG](https://www.gog.com/) premieres its first dedicated showcase today, November 5, at 18:00 UTC (19:00 CET) on its official YouTube channel as part of its 18th anniversary. The presentation promises new DRM-free game additions, storefront features and further game-preservation efforts. Specific game reveals have not yet been announced ahead of the broadcast.",
       "categories": [
         "Deals & Events",
         "Announcements"
@@ -54,7 +54,9 @@
       "sourceUrl": "https://www.videogameschronicle.com/news/gog-announces-first-ever-games-showcase/",
       "publishedAt": "2026-11-04T17:27:00Z",
       "featured": false,
-      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/GOG-Showcase-320x180.jpg"
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/GOG-Showcase-320x180.jpg",
+      "changeType": "updated",
+      "updatedAt": "2026-11-05T14:01:54"
     },
     {
       "id": "wielders-of-the-essence-release-november-5-2026",
@@ -117,6 +119,26 @@
       "sourceUrl": "https://help.nexusmods.com/article/180-ai-policy-changes-2026",
       "publishedAt": "2026-11-03T00:00:00Z",
       "featured": false
+    },
+    {
+      "id": "fortnite-crew-subscription-benefits-overhaul-december-2026",
+      "headline": "Fortnite Crew ends monthly outfits and OG Pass as V-Bucks rewards increase",
+      "summary": "Epic Games says [Fortnite Crew](https://www.fortnite.com/news/big-changes-to-fortnite-crew-launching-december-5) will change on December 5. December is the final exclusive Crew Pack outfit, while the OG Pass ends; monthly V-Bucks rise from 800 to 1,000–1,600 based on subscription tenure. Members gain 20% extra Fortnite XP and non-member squadmates gain 10%. The US subscription price remains $11.99 per month and the Battle, Music, LEGO and Rocket Pass Premium benefits remain included. Fortnite has no official Steam page; visit the [official Fortnite site](https://www.fortnite.com/) instead.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Fortnite",
+        "id": "fortnite",
+        "headlineName": "Fortnite Crew",
+        "url": "https://www.fortnite.com/"
+      },
+      "sourceUrl": "https://www.fortnite.com/news/big-changes-to-fortnite-crew-launching-december-5",
+      "publishedAt": "2026-11-04T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cms-assets.unrealengine.com/cm6l5gfpm05kr07my04cqgy2x/resize%3Dfit%3Aclip%2Cwidth%3A1920/quality%3Dvalue%3A80/cmw1j8g6r7cva08mvzzu03otn",
+      "changeType": "new",
+      "updatedAt": "2026-11-05T14:01:54"
     }
   ]
 }
