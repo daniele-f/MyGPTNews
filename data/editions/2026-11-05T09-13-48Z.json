@@ -1,0 +1,122 @@
+{
+  "id": "2026-11-05T09:13:48Z",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-05T09:13:48Z",
+  "updatedAt": "2026-11-05T09:13:48Z",
+  "stories": [
+    {
+      "id": "airframe-ultra-pc-release-november-5-2026",
+      "headline": "Airframe Ultra schedules its PC combat-racing launch for November 5",
+      "summary": "Videocult and Akupara Games have scheduled [Airframe Ultra](https://store.steampowered.com/app/2522120/Airframe_Ultra/) for November 5 on PC. The fast-paced hoverbike combat racer combines online multiplayer with local split-screen racing, customizable bikes and a reputation-based progression system. Steam still lists the game as upcoming this morning, so release availability is not yet confirmed.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Airframe Ultra",
+        "id": "airframe-ultra"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/2522120/Airframe_Ultra/",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2522120/85ae9c79253627eb019c581e2fb2ace76f12cc97/header.jpg?t=1793747621",
+      "steam": {
+        "url": "https://store.steampowered.com/app/2522120/Airframe_Ultra/"
+      }
+    },
+    {
+      "id": "path-of-exile-covens-of-umbra-exilecon-reveal-november-2026",
+      "headline": "Path of Exile: Covens of Umbra launches November 13; ExileCon reveal is November 6",
+      "summary": "Grinding Gear Games has announced [Covens of Umbra](https://www.pathofexile.com/forum/view-thread/4012420), the next free expansion for the original Path of Exile. Its PC launch is scheduled for November 13 in the Pacific time zone; further details are due in an ExileCon broadcast on November 6 at 12:30 p.m. PST. [Steam](https://store.steampowered.com/app/238960/Path_of_Exile/) also carries the base game.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Path of Exile",
+        "id": "path-of-exile"
+      },
+      "sourceUrl": "https://www.pathofexile.com/forum/view-thread/4012420",
+      "publishedAt": "2026-11-02T00:32:00Z",
+      "featured": false,
+      "imageUrl": "https://web.poecdn.com/public/news/2026-11-02/CovensofUmbraAnnouncementHeader.jpg",
+      "steam": {
+        "url": "https://store.steampowered.com/app/238960/Path_of_Exile/"
+      }
+    },
+    {
+      "id": "gog-first-games-showcase-november-5-2026",
+      "headline": "GOG hosts its first games showcase on November 5",
+      "summary": "PC storefront [GOG](https://www.gog.com/) is holding its first dedicated showcase on November 5 as part of its 18th-anniversary celebrations. It promises announcements about incoming DRM-free games, storefront features and game preservation. Specific reveals have not yet aired at the time of this morning briefing.",
+      "categories": [
+        "Deals & Events",
+        "Announcements"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/gog-announces-first-ever-games-showcase/",
+      "publishedAt": "2026-11-04T17:27:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/GOG-Showcase-320x180.jpg"
+    },
+    {
+      "id": "wielders-of-the-essence-release-november-5-2026",
+      "headline": "Wielders of the Essence is scheduled to release on Steam November 5",
+      "summary": "Lavapotion's [Wielders of the Essence](https://store.steampowered.com/app/3546610/Wielders_of_the_Essence/) is due on PC November 5. The single-player bullet-heaven game mixes short horde-survival runs with persistent town-building upgrades, spells and commandable troops. Its Steam release is still marked as upcoming this morning, with a demo available.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Wielders of the Essence",
+        "id": "wielders-of-the-essence"
+      },
+      "sourceUrl": "https://www.wielders.com/",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3546610/60b406b71b60acb81f9a4c5e3405f3a051ea17f7/header.jpg?t=1793781496",
+      "steam": {
+        "url": "https://store.steampowered.com/app/3546610/Wielders_of_the_Essence/"
+      }
+    },
+    {
+      "id": "where-the-seeds-fall-steam-release-november-4-2026",
+      "headline": "Where the Seeds Fall releases on Steam with World Tree parkour adventure",
+      "summary": "Cygames released [Where the Seeds Fall](https://store.steampowered.com/app/4139580/Where_the_Seeds_Fall/) on PC on November 4. Developed by CygamesEdge and ZEREO, the single-player 3D action-adventure centers on climbing and traversing the World Tree while escorting a mysterious child. The Steam store now lists the game as released.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Where the Seeds Fall",
+        "id": "where-the-seeds-fall"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4139580/Where_the_Seeds_Fall/",
+      "publishedAt": "2026-11-04T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4139580/66f0780fdaafb7743e3ada064763522633964c95/header.jpg?t=1793857618",
+      "steam": {
+        "url": "https://store.steampowered.com/app/4139580/Where_the_Seeds_Fall/"
+      }
+    },
+    {
+      "id": "steam-game-review-backlog-12-business-days-november-2026",
+      "headline": "Valve warns Steam release reviews can now take up to 12 business days",
+      "summary": "Valve says a significant rise in Steam store and game submissions has stretched some pre-release reviews to as long as 12 business days, compared with its usual three to five. New developer checklist requirements include launching a build through Steam for at least five minutes and checking prerequisites and achievements. The review delays may affect PC release schedules; Valve has not attributed the surge to AI-generated games.",
+      "categories": [
+        "Industry News",
+        "Updates"
+      ],
+      "sourceUrl": "https://steamcommunity.com/groups/steamworks/announcements/detail/696528162820984746",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "featured": false
+    },
+    {
+      "id": "nexus-mods-mandatory-ai-disclosures-november-2026",
+      "headline": "Nexus Mods introduces mandatory AI-content disclosures for mod uploads",
+      "summary": "[Nexus Mods](https://help.nexusmods.com/article/180-ai-policy-changes-2026) is introducing distinct AI-generated, AI-assisted and AI-media disclosure labels, alongside permissions for how creators' work may be reused. New uploads must use the updated fields immediately; existing mods have a 60-day transition period from November 3, 2026 to January 2, 2027. The platform is not banning AI-generated mods.",
+      "categories": [
+        "Industry News",
+        "Updates"
+      ],
+      "sourceUrl": "https://help.nexusmods.com/article/180-ai-policy-changes-2026",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "featured": false
+    }
+  ]
+}
