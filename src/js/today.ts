@@ -55,6 +55,17 @@ try {
     void stage.offsetWidth;
     if (direction !== 'direct') stage.classList.add(`is-moving-${direction}`);
     app.querySelectorAll('.rail-story').forEach((button: any) => button.setAttribute('aria-pressed', String(Number(button.dataset.storyIndex) === selectedIndex)));
+    // Scroll only the desktop rail, never the page or the story stage.
+    if (!mobile.matches) {
+      const rail = app.querySelector<HTMLElement>('.rail-stories');
+      const selected = rail?.querySelector<HTMLElement>('.rail-story[aria-pressed="true"]');
+      if (rail && selected) {
+        const railRect = rail.getBoundingClientRect();
+        const selectedRect = selected.getBoundingClientRect();
+        if (selectedRect.top < railRect.top) rail.scrollBy({ top: selectedRect.top - railRect.top, behavior: 'auto' });
+        else if (selectedRect.bottom > railRect.bottom) rail.scrollBy({ top: selectedRect.bottom - railRect.bottom, behavior: 'auto' });
+      }
+    }
     if (focusDirection) stage.querySelector<HTMLButtonElement>(`[data-stage-${focusDirection}]`)?.focus();
   };
   const activateRailStory = (button: HTMLElement) => {
