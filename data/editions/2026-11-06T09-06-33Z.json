@@ -1,0 +1,84 @@
+{
+  "id": "2026-11-06T09:06:33Z",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-06T09:06:33Z",
+  "updatedAt": "2026-11-06T09:06:33Z",
+  "stories": [
+    {
+      "id": "ea-classics-25-games-anniversary-steam-gog-2026-11-05",
+      "headline": "EA restores 25 classic PC games for Steam and GOG, including Road Rash and Wing Commander",
+      "summary": "[Electronic Arts](https://www.ea.com/news/ea-classics-launch) has brought 25 legacy titles to Steam, GOG and the EA app. Seven anniversary editions receive modern-PC improvements, including [Road Rash: 30th Anniversary Edition](https://store.steampowered.com/app/2448570/) and [Wing Commander: 35th Anniversary Edition](https://store.steampowered.com/app/1996640/). Special launch pricing runs November 5–19; individual prices vary by store and region.",
+      "categories": [
+        "Releases",
+        "Deals & Events"
+      ],
+      "sourceUrl": "https://www.ea.com/news/ea-classics-launch",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://drop-assets.ea.com/images/5252lzaUWZ9qwTtv9at99Q/e73fee7fd7fe1d987cbca9a96958e4e8/Wave2_Collage_1920x1080.png?im=AspectCrop%3D%2816%2C9%29%2CxPosition%3D0.5%2CyPosition%3D0.5"
+    },
+    {
+      "id": "gog-galaxy-linux-and-social-showcase-2026-11-05",
+      "headline": "GOG reveals Galaxy for Linux and a new Social platform for 2027",
+      "summary": "During its November 5 anniversary showcase, [GOG](https://www.gog.com/en/anniversary) outlined a faster, customizable Galaxy client planned for Linux in 2027, alongside GOG Social, a community service with discussion and game-sharing features. GOG also opened closed-beta signups for Social and reaffirmed that the launcher will remain optional for DRM-free downloads.",
+      "categories": [
+        "Announcements",
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.gog.com/pressroom/were-celebrating-18-years-with-the-first-gog-showcase-restored-wing-commander-prophecy-gog-galaxy-announcements-and-more/",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "featured": false
+    },
+    {
+      "id": "hogwarts-legacy-dlss-5-update-november-2026",
+      "headline": "Hogwarts Legacy receives DLSS 5 neural rendering on PC",
+      "summary": "[NVIDIA](https://www.nvidia.com/en-eu/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/) says the November 5 update adds DLSS 5's 3D-guided neural rendering to improve in-game lighting and material appearance on supported GeForce RTX 50-series systems. The technology is aimed at visual fidelity rather than just resolution scaling. [Steam](https://store.steampowered.com/app/990080/).",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Hogwarts Legacy",
+        "id": "hogwarts-legacy"
+      },
+      "sourceUrl": "https://www.nvidia.com/en-eu/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/be2971b1023bccb04f993887d70ef4d2060262cf/header.jpg?t=1790708992",
+      "steam": {
+        "url": "https://store.steampowered.com/app/990080/Hogwarts_Legacy/"
+      }
+    },
+    {
+      "id": "call-of-duty-modern-warfare-4-season-one-november-6-2026",
+      "headline": "Call of Duty: Modern Warfare 4 starts Season 1 with new DMZ and multiplayer content",
+      "summary": "[Activision](https://www.callofduty.com/au/en/blog/2026/10/call-of-duty-modern-warfare-4-warzone-season-1-announcement) confirms the November 6 season includes fresh multiplayer maps and modes, a new X01 Black Site area for DMZ, weapons and events. The Warzone integration also introduces Hajin and Zodiac maps. The update went live at midnight US Eastern time. [Steam](https://store.steampowered.com/app/4435490/).",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Call of Duty: Modern Warfare 4",
+        "id": "call-of-duty-modern-warfare-4"
+      },
+      "sourceUrl": "https://www.callofduty.com/au/en/blog/2026/10/call-of-duty-modern-warfare-4-warzone-season-1-announcement",
+      "publishedAt": "2026-10-28T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/s1-mp-dmz-announcement/MW4-SEASON-1-ANNOUNCEMENT-RM.webp",
+      "steam": {
+        "url": "https://store.steampowered.com/app/4435490/Call_of_Duty_Modern_Warfare_4/"
+      }
+    },
+    {
+      "id": "intel-xess-xmx-linux-steamos-proton-experimental-november-2026",
+      "headline": "Experimental Intel XeSS project enables XMX upscaling and frame generation on Proton",
+      "summary": "A community-developed experimental build now enables Intel's XMX-accelerated XeSS super resolution and frame generation for some SteamOS and Linux games running through Proton. [PC Gamer](https://www.pcgamer.com/hardware/handheld-gaming-pcs/experimental-project-beats-intel-in-bringing-real-intel-xess-super-resolution-to-steamos-and-proton-games-on-linux/) reports early tests on an Intel-based handheld and Arc B580, but the work is unofficial, early-stage and not yet broadly validated.",
+      "categories": [
+        "Industry News",
+        "Updates"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/experimental-project-beats-intel-in-bringing-real-intel-xess-super-resolution-to-steamos-and-proton-games-on-linux/",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/xqNYPKPfuhqvZCqbXacdTR.jpg"
+    }
+  ]
+}
