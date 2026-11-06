@@ -30,8 +30,7 @@ const linkifyUrls = (text: string) => {
   return html + escapeHtml(text.slice(cursor));
 };
 
-export function linkifyText(value: unknown) {
-  const text = String(value ?? '');
+const linkifyMarkdownLinks = (text: string) => {
   let html = '';
   let cursor = 0;
   for (const match of text.matchAll(/\[([^\]\r\n]+)\]\((https?:\/\/[^\s<>'"()]+)\)/gi)) {
@@ -40,4 +39,16 @@ export function linkifyText(value: unknown) {
     cursor = match.index + match[0].length;
   }
   return html + linkifyUrls(text.slice(cursor));
+};
+
+export function linkifyText(value: unknown) {
+  const text = String(value ?? '');
+  let html = '';
+  let cursor = 0;
+  for (const match of text.matchAll(/<b>([\s\S]*?)<\/b>|\*\*([\s\S]*?)\*\*/gi)) {
+    html += linkifyMarkdownLinks(text.slice(cursor, match.index));
+    html += `<b>${linkifyMarkdownLinks(match[1] ?? match[2])}</b>`;
+    cursor = match.index + match[0].length;
+  }
+  return html + linkifyMarkdownLinks(text.slice(cursor));
 }

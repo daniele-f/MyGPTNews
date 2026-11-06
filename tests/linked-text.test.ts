@@ -25,6 +25,18 @@ for (const [name, render] of Object.entries(renderers)) {
     assert.doesNotMatch(html, /\[on Steam\]\(/);
   });
 
+  test(`${name} renders publisher bold tags and converts legacy Markdown bold`, () => {
+    const html = render('The deal is <b>not agreed</b>, but **talks continue**.');
+    assert.match(html, /The deal is <b>not agreed<\/b>, but <b>talks continue<\/b>\./);
+    assert.doesNotMatch(html, /\*\*|&lt;b&gt;/);
+  });
+
+  test(`${name} escapes unsupported and unclosed HTML or Markdown markers`, () => {
+    const html = render('Use <i>italics</i>, an unclosed <b>tag, and **literal markers.');
+    assert.match(html, /Use &lt;i&gt;italics&lt;\/i&gt;, an unclosed &lt;b&gt;tag, and \*\*literal markers\./);
+    assert.doesNotMatch(html, /<i>|<b>tag/);
+  });
+
   test(`${name} keeps surrounding punctuation outside links and balanced parentheses in URLs`, () => {
     const html = render('See (https://example.test/wiki/Game_(series)). Also http://example.test/news!');
     assert.deepEqual(links(html), [
