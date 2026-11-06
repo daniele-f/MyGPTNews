@@ -2,7 +2,7 @@
   "id": "2026-11-06T09:06:33Z",
   "date": "2026-11-06",
   "publishedAt": "2026-11-06T09:06:33Z",
-  "updatedAt": "2026-11-06T14:00:19Z",
+  "updatedAt": "2026-11-06T19:02:13Z",
   "stories": [
     {
       "id": "ea-classics-25-games-anniversary-steam-gog-2026-11-05",
@@ -113,6 +113,28 @@
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/ai54DrFGrRDcNqszBWZd8c.jpg",
       "changeType": "new",
       "updatedAt": "2026-11-06T14:00:19Z"
+    },
+    {
+      "id": "path-of-exile-2-exilecon-2026-nightfowl-twitch-drops",
+      "headline": "Path of Exile 2 confirms four Nightfowl Twitch Drops for ExileCon 2026",
+      "summary": "[Grinding Gear Games](https://steamcommunity.com/app/2694490/allnews/) has detailed ExileCon's free Twitch Drops for **Path of Exile 2** and the original Path of Exile. Watch the [official stream](https://www.twitch.tv/pathofexile) or an eligible ExileCon channel from November 6 at 21:30 CET until November 8 at 08:59 CET. Cumulative watch time unlocks Nightfowl cosmetic effects at **2, 4, 6 and 8 hours**. Link your Path of Exile and Twitch accounts and claim each reward in your Twitch Inventory before the campaign ends. The showcase keynote begins November 6 at **22:00 CET**.",
+      "categories": [
+        "Deals & Events",
+        "Announcements"
+      ],
+      "game": {
+        "name": "Path of Exile 2",
+        "id": "path-of-exile-2"
+      },
+      "sourceUrl": "https://steamcommunity.com/app/2694490/allnews/",
+      "publishedAt": "2026-11-05T20:14:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/24eeddcbda17903f03d819588757e40845f8115f/header.jpg?t=1793933420",
+      "steam": {
+        "url": "https://store.steampowered.com/app/2694490/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-06T19:02:13Z"
     }
   ]
 }
