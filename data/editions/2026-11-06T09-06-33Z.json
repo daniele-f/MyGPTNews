@@ -2,7 +2,7 @@
   "id": "2026-11-06T09:06:33Z",
   "date": "2026-11-06",
   "publishedAt": "2026-11-06T09:06:33Z",
-  "updatedAt": "2026-11-06T09:06:33Z",
+  "updatedAt": "2026-11-06T14:00:19Z",
   "stories": [
     {
       "id": "ea-classics-25-games-anniversary-steam-gog-2026-11-05",
@@ -79,6 +79,40 @@
       "publishedAt": "2026-11-05T00:00:00Z",
       "featured": false,
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/xqNYPKPfuhqvZCqbXacdTR.jpg"
+    },
+    {
+      "id": "world-of-warcraft-forever-official-launch-november-2026",
+      "headline": "World of Warcraft: Forever launches with new zones, quests and gamepad support",
+      "summary": "[Blizzard](https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-now-live) confirms **World of Warcraft: Forever** is live. The permanent companion to modern and Classic WoW launched globally on November 4 at 23:00 UTC (midnight November 5 in Belgium) and is included with a WoW subscription or Game Time. It adds new and reimagined zones, more than 1,000 quests, nine new five-player dungeons, the Skyborne race and native gamepad support. Three raids unlock on December 9.",
+      "categories": [
+        "Releases",
+        "Updates"
+      ],
+      "game": {
+        "name": "World of Warcraft: Forever",
+        "id": "world-of-warcraft-forever",
+        "url": "https://shop.battle.net/product/world-of-warcraft-forever"
+      },
+      "sourceUrl": "https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-now-live",
+      "publishedAt": "2026-11-04T23:00:00Z",
+      "featured": false,
+      "imageUrl": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/t2/T2J3BJNES7241793235431765.png",
+      "changeType": "new",
+      "updatedAt": "2026-11-06T14:00:19Z"
+    },
+    {
+      "id": "unity-buyout-talks-silver-lake-saudi-pif-november-2026",
+      "headline": "Unity reportedly in buyout talks with Silver Lake and Saudi Arabia's PIF",
+      "summary": "[PC Gamer](https://www.pcgamer.com/gaming-industry/saudi-arabia-owns-ea-and-according-to-a-reuters-report-unity-is-next/), citing a November 5 Reuters report, says Unity Software has held talks with a potential buyer consortium including Silver Lake and Saudi Arabia's Public Investment Fund. A valuation around $25 billion was discussed. **No acquisition has been agreed**, and any deal or its terms could change. The reported talks matter for studios relying on the Unity game engine.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/gaming-industry/saudi-arabia-owns-ea-and-according-to-a-reuters-report-unity-is-next/",
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/ai54DrFGrRDcNqszBWZd8c.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-06T14:00:19Z"
     }
   ]
 }
