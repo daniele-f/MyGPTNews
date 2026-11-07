@@ -2,7 +2,7 @@
   "id": "2026-11-07T09:03:53Z",
   "date": "2026-11-07",
   "publishedAt": "2026-11-07T09:03:53Z",
-  "updatedAt": "2026-11-07T13:56:22Z",
+  "updatedAt": "2026-11-07T19:04:13Z",
   "stories": [
     {
       "id": "xbox-pc-app-faster-library-insider-november-2026",
@@ -112,6 +112,50 @@
       },
       "changeType": "new",
       "updatedAt": "2026-11-07T13:56:22Z"
+    },
+    {
+      "id": "nier-automata-366gb-install-bug-november-2026",
+      "headline": "NieR: Automata Steam update triggers 366GB install requirement as Square Enix investigates",
+      "summary": "A Steam update adding Simplified Chinese, Traditional Chinese and Korean support has caused some installations to request approximately 366GB of storage instead of the usual roughly 50GB. Square Enix acknowledged the problem and is investigating. As a temporary workaround, players can open Steam Properties, select DLC and uncheck all DLC items to download the base game without the inflated storage requirement.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "NieR:Automata",
+        "headlineName": "NieR: Automata",
+        "id": "nier-automata"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/nier-automatas-latest-update-increases-game-size-from-50gb-to-366gb/",
+      "publishedAt": "2026-11-05T19:54:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2024/02/nier-automata-320x180.jpg",
+      "steam": {
+        "url": "https://store.steampowered.com/app/524220/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-07T19:04:13Z"
+    },
+    {
+      "id": "007-first-light-free-starter-pack-steam-november-2026",
+      "headline": "007 First Light launches a free Steam Starter Pack with its opening Iceland mission",
+      "summary": "IO Interactive has released 007 First Light's opening Iceland mission as a free Starter Pack on Steam and Xbox Series X|S. Progress carries into the full game if purchased. PlayStation Plus Premium members have a separate one-hour trial, while a free Starter Pack is scheduled to reach PlayStation on November 10.",
+      "categories": [
+        "Releases",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "007 First Light",
+        "id": "007-first-light"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/007-first-lights-opening-can-now-be-played-for-free/",
+      "publishedAt": "2026-11-05T16:21:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/04/007-First-Light-320x180.webp",
+      "steam": {
+        "url": "https://store.steampowered.com/app/3768760/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-07T19:04:13Z"
     }
   ]
 }
