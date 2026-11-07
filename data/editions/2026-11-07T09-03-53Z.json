@@ -2,7 +2,7 @@
   "id": "2026-11-07T09:03:53Z",
   "date": "2026-11-07",
   "publishedAt": "2026-11-07T09:03:53Z",
-  "updatedAt": "2026-11-07T09:03:53Z",
+  "updatedAt": "2026-11-07T13:56:22Z",
   "stories": [
     {
       "id": "xbox-pc-app-faster-library-insider-november-2026",
@@ -67,6 +67,51 @@
       "publishedAt": "2026-11-05T08:19:00Z",
       "featured": false,
       "imageUrl": "https://www.videogameschronicle.com/files/2024/09/playstation-30th-annivesary-pre-orders-320x180.jpg"
+    },
+    {
+      "id": "poe2-exilecon-2026-december-11-full-launch",
+      "headline": "Path of Exile 2 confirms December 11 full release with two final acts and new classes",
+      "summary": "Grinding Gear Games confirmed that Path of Exile 2 will leave Early Access and become free-to-play on December 11, with exact local unlock timing still unconfirmed. Version 1.0 completes the six-act campaign, adds the Shadow and Duelist classes, and introduces the Conquerors of Wraeclast league with fortress sieges, recruited armies and a new endgame storyline.",
+      "categories": [
+        "Releases",
+        "Announcements"
+      ],
+      "game": {
+        "name": "Path of Exile 2",
+        "id": "path-of-exile-2"
+      },
+      "sourceUrl": "https://www.pathofexile.com/forum/view-thread/4012710",
+      "publishedAt": "2026-11-06T23:45:00Z",
+      "featured": false,
+      "imageUrl": "https://web.poecdn.com/public/news/2026-11-07/ExileCon/PoE2/ENPointerPostTitle.jpg",
+      "steam": {
+        "url": "https://store.steampowered.com/app/2694490/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-07T13:56:22Z"
+    },
+    {
+      "id": "poe-covens-of-umbra-exilecon-reveal-endgame-2026",
+      "headline": "Path of Exile: Covens of Umbra reveals boss Fates, Wickerman crafting and Atlas overhaul",
+      "summary": "Grinding Gear Games detailed the original Path of Exile's free Covens of Umbra expansion at ExileCon ahead of its announced November 13 launch. The new challenge league has players confront coven witches, select difficulty-and-reward modifiers called Fates after defeating enemies, and build a Wickerman from boss remains. Changes also target the Atlas, existing league mechanics, item drops and unique loot.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Path of Exile",
+        "headlineName": "Path of Exile: Covens of Umbra",
+        "id": "path-of-exile"
+      },
+      "sourceUrl": "https://www.pathofexile.com/covens",
+      "publishedAt": "2026-11-06T23:45:00Z",
+      "featured": false,
+      "imageUrl": "https://web.poecdn.com/public/news/2026-11-07/ExileCon/PoE1/ENPointerPostTitle_full.jpg",
+      "steam": {
+        "url": "https://store.steampowered.com/app/238960/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-07T13:56:22Z"
     }
   ]
 }
