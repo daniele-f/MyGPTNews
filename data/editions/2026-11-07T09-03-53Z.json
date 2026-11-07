@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-07T09:03:53Z",
+  "date": "2026-11-07",
+  "publishedAt": "2026-11-07T09:03:53Z",
+  "updatedAt": "2026-11-07T09:03:53Z",
+  "stories": [
+    {
+      "id": "xbox-pc-app-faster-library-insider-november-2026",
+      "headline": "Xbox PC app preview promises up to 60% faster startup and a redesigned library",
+      "summary": "Microsoft is testing a revamped Xbox app for Windows with Xbox Insiders. It reports up to 60% faster startup, up to 50% faster loading for Home, Store and Game Pass pages, simpler library filters and improved social navigation. A broader rollout date has not been announced.",
+      "categories": [
+        "Updates"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/xbox-is-updating-its-pc-app-promising-60-faster-boot-times-and-an-easier-to-use-game-library/",
+      "publishedAt": "2026-11-06T12:58:00Z",
+      "featured": true,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/xbox-logo-320x180.jpg"
+    },
+    {
+      "id": "capcom-fanatical-birthday-bash-pc-sale-november-2026",
+      "headline": "Capcom PC games get discounts of up to 74% in Fanatical's Birthday Bash sale",
+      "summary": "Fanatical's Birthday Bash promotion runs through November 16. Reported Capcom offers include 40% off Resident Evil Requiem, 31% off Pragmata, 35% off Monster Hunter Wilds and 74% off Resident Evil 4 Gold Edition. Discounts were reported on November 6 and may change during the event.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/capcom-games-including-re-requiem-and-pragmata-heavily-discounted-on-pc/",
+      "publishedAt": "2026-11-06T13:35:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2025/12/biohazard-requiem-interview-20251212-370945-003-320x180.webp"
+    },
+    {
+      "id": "amazon-prime-november-2026-seven-claimable-pc-games",
+      "headline": "Amazon Prime's November PC game giveaways include WRC Generations and Jurassic World Evolution 2",
+      "summary": "Amazon has confirmed seven PC games that Prime members can claim and keep through its Luna service. WRC Generations and Squirrel with a Gun became available November 5; Jurassic World Evolution 2 and Radiolight follow November 12, with three more games arriving later in November. The claims redeem via stores or the Amazon Games app rather than requiring an ongoing subscription to keep playing.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/amazon-primes-seven-free-games-for-november-include-jurassic-world-evolution-2/",
+      "publishedAt": "2026-11-05T18:00:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2023/11/jurassic-world-evolution-2-320x180.jpg"
+    },
+    {
+      "id": "grand-theft-auto-vi-launch-gallery-november-2026",
+      "headline": "Grand Theft Auto VI shares a new launch gallery ahead of its November 19 debut",
+      "summary": "Rockstar released a new gallery of nearly 40 screenshots showing Vice City, the wider state of Leonida, and protagonists Jason and Lucia. The game is scheduled for November 19 on PlayStation 5 and Xbox Series X|S. A PC release date has not been announced.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "Grand Theft Auto VI",
+        "id": "grand-theft-auto-vi",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/rockstar-releases-nearly-40-new-gta-6-screenshots-ahead-of-launch/",
+      "publishedAt": "2026-11-05T15:41:00Z",
+      "featured": false
+    },
+    {
+      "id": "playstation-6-progress-sony-november-2026",
+      "headline": "Sony says next PlayStation development remains on schedule as PS5 sales reach 97.9 million",
+      "summary": "Sony says preparations for its next PlayStation platform are progressing on schedule, with further investment planned for the business year beginning April 2027. Its latest results put cumulative PS5 sales at 97.9 million units. Sony has not announced a PlayStation 6 launch date.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/sony-says-playstation-6-development-is-progressing-as-scheduled-as-ps5-sales-hit-97-9m/",
+      "publishedAt": "2026-11-05T08:19:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2024/09/playstation-30th-annivesary-pre-orders-320x180.jpg"
+    }
+  ]
+}
