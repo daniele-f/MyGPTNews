@@ -2,7 +2,7 @@
   "id": "2026-11-08T08:56:07Z",
   "date": "2026-11-08",
   "publishedAt": "2026-11-08T08:56:07Z",
-  "updatedAt": "2026-11-08T08:56:07Z",
+  "updatedAt": "2026-11-08T14:05:22Z",
   "stories": [
     {
       "id": "poe2-death-recap-confirmed-exilecon-2026",
@@ -77,6 +77,28 @@
       "publishedAt": "2026-11-07T00:00:00Z",
       "featured": false,
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/qDK99x7KtDSDHFZjKX9dj3.jpg"
+    },
+    {
+      "id": "pool-of-radiance-ruins-of-myth-drannor-pc-rerelease-nov-2026",
+      "headline": "Pool of Radiance: Ruins of Myth Drannor returns to PC with widescreen and bug fixes",
+      "summary": "SNEG re-released the 2001 Dungeons & Dragons dungeon crawler on Steam and GOG on November 6. The updated edition fixes numerous original bugs and adds widescreen and 4K support, full controller support, sharper visuals, an improved interface, adjustable combat speed and an optional Legacy mode. A free Steam demo is also available.",
+      "categories": [
+        "Releases",
+        "Updates"
+      ],
+      "game": {
+        "name": "Pool of Radiance: Ruins of Myth Drannor",
+        "id": "pool-of-radiance-ruins-of-myth-drannor"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/rpg/one-of-the-buggiest-d-and-d-games-ever-released-pool-of-radiance-ruins-of-myth-drannor-is-back-and-actually-playable-again/",
+      "publishedAt": "2026-11-07T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/FohMkJ4yQib5MRDt6QHJ75.jpg",
+      "steam": {
+        "url": "https://store.steampowered.com/app/4834760/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-08T14:05:22Z"
     }
   ]
 }
