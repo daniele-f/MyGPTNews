@@ -134,10 +134,81 @@ try {
     ['scroll', 'pointermove', 'keydown', 'focusin'].forEach(event => stageContainer.addEventListener(event, revealScrollbar));
     revealScrollbar();
   }
+  // During a mobile swipe, keep both neighboring stories in the viewport and
+  // translate them with the finger. Commit only after releasing the gesture.
+  let swipePreview: HTMLElement | null = null;
+  let previewDirection: StoryDirection | null = null;
+  let swipeSettling = false;
+  const dragParts = () => ({
+    current: stageContainer?.querySelector<HTMLElement>('.stage-story') || null,
+    incoming: swipePreview
+  });
+  const clearSwipePreview = () => {
+    const { current } = dragParts();
+    if (current) { current.style.transform = ''; current.style.transition = ''; }
+    swipePreview?.remove();
+    swipePreview = null;
+    previewDirection = null;
+    stageContainer?.classList.remove('is-dragging');
+    swipeSettling = false;
+  };
+  const showSwipeDrag = (dx: number) => {
+    if (!stageContainer || swipeSettling) return;
+    const direction: StoryDirection = dx < 0 ? 'next' : 'previous';
+    const target = storyNavigationTarget(selectedIndex, stories.length, direction);
+    const current = stageContainer.querySelector<HTMLElement>('.stage-story');
+    if (!current) return;
+    const width = current.getBoundingClientRect().width;
+    const distance = target ? dx : dx * .22;
+    stageContainer.classList.add('is-dragging');
+    if (previewDirection !== direction) {
+      swipePreview?.remove();
+      swipePreview = null;
+      previewDirection = direction;
+      if (target) {
+        swipePreview = document.createElement('div');
+        swipePreview.className = 'swipe-preview';
+        swipePreview.innerHTML = stageView(stories[target.index], meta.id, target.index, stories.length);
+        stageContainer.append(swipePreview);
+      }
+    }
+    current.style.transition = 'none';
+    current.style.transform = `translate3d(${distance}px,0,0)`;
+    if (swipePreview) {
+      swipePreview.style.transition = 'none';
+      swipePreview.style.transform = `translate3d(${distance + (direction === 'next' ? width : -width)}px,0,0)`;
+    }
+    revealProgress();
+  };
+  const settleSwipeDrag = (dx: number, direction: StoryDirection | null) => {
+    if (!stageContainer || swipeSettling) return;
+    const target = direction ? storyNavigationTarget(selectedIndex, stories.length, direction) : null;
+    const { current, incoming } = dragParts();
+    if (!current) { clearSwipePreview(); return; }
+    const width = current.getBoundingClientRect().width;
+    const commit = Boolean(target && incoming && previewDirection === direction);
+    swipeSettling = true;
+    const transition = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'none' : 'transform 220ms ease-out';
+    // Force a style boundary so the release animates from the finger position.
+    void current.offsetWidth;
+    current.style.transition = transition;
+    if (incoming) incoming.style.transition = transition;
+    current.style.transform = commit ? `translate3d(${direction === 'next' ? -width : width}px,0,0)` : '';
+    if (incoming) incoming.style.transform = commit ? 'translate3d(0,0,0)' :
+      `translate3d(${previewDirection === 'next' ? width : -width}px,0,0)`;
+    window.setTimeout(() => {
+      clearSwipePreview();
+      if (commit && target) activate(target.index, 'direct');
+    }, transition === 'none' ? 0 : 220);
+  };
   if (stageContainer) bindStorySwipe(stageContainer, direction => {
     const target = storyNavigationTarget(selectedIndex, stories.length, direction);
     if (target) activate(target.index, direction);
-  }, mobile);
+  }, mobile, {
+    onDrag: showSwipeDrag,
+    onRelease: settleSwipeDrag,
+    onCancel: () => settleSwipeDrag(0, null)
+  });
   stageContainer?.addEventListener('click', event => {
     const control = (event.target as HTMLElement).closest<HTMLButtonElement>('[data-stage-previous], [data-stage-next]');
     if (!control) return;
