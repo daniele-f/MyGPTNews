@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-08T08:56:07Z",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-08T08:56:07Z",
+  "updatedAt": "2026-11-08T08:56:07Z",
+  "stories": [
+    {
+      "id": "poe2-death-recap-confirmed-exilecon-2026",
+      "headline": "Path of Exile 2 will add a death recap with damage details in its December 1.0 release",
+      "summary": "Game director Jonathan Rogers confirmed at ExileCon that Path of Exile 2's December 11 version 1.0 will include a death recap explaining damage taken and how much was mitigated. Damage-over-time attribution is still incomplete, and the team is working on it. Grinding Gear Games says the feature should help players identify defensive weaknesses and report improperly balanced enemies.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Path of Exile 2",
+        "id": "path-of-exile-2"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/rpg/path-of-exile-2s-game-director-thinks-a-death-recap-will-finally-allow-us-players-to-complain-about-the-right-things/",
+      "publishedAt": "2026-11-08T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/DGA7LqKTtAjY5xuVxbZqUa.jpg",
+      "steam": {
+        "url": "https://store.steampowered.com/app/2694490/"
+      }
+    },
+    {
+      "id": "bioware-documentary-massive-effect-2027",
+      "headline": "Massive Effect: The BioWare Story documentary is planned for 2027 after the studio's closure",
+      "summary": "Director Akash Sherman says production on the documentary about BioWare was already two years underway when EA shut the studio down. The film includes interviews with founders Ray Muzyka, Greg Zeschuk and Augustine Yip as well as longtime developers and voice actor Jennifer Hale. It is currently expected in 2027, without a confirmed release date.",
+      "categories": [
+        "Announcements",
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/gaming-industry/a-bioware-documentary-was-already-in-the-works-when-the-shutdown-was-announced-with-the-studios-recent-closure-the-film-is-now-a-profound-valediction/",
+      "publishedAt": "2026-11-08T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/uSjqHDZA7WMXxsKULPqTL3.jpg"
+    },
+    {
+      "id": "bit-reactor-layoffs-star-wars-zero-company-nov-2026",
+      "headline": "Bit Reactor reportedly lays off more staff following Star Wars Zero Company's launch",
+      "summary": "PC Gamer reports that several Bit Reactor employees have said they were laid off, following earlier furloughs and the studio's decision to rehire some staff. The number of new layoffs is not confirmed. The report identifies staff in art, UI engineering and QA, despite Star Wars Zero Company reportedly reaching one million sales after launch.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/games/strategy/after-furloughing-its-developers-and-then-hiring-some-of-them-back-star-wars-zero-company-developer-has-laid-off-an-unspecified-number-of-staff/",
+      "publishedAt": "2026-11-07T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/QzGk2ZJyUzdTRQXxUM2RhW.png"
+    },
+    {
+      "id": "mass-effect-universe-sam-hulick-n7-day-rescore-2026",
+      "headline": "Mass Effect: Universe composer Sam Hulick shares his re-scored trailer for N7 Day",
+      "summary": "Mass Effect series composer Sam Hulick released his own new soundtrack edit of the leaked Mass Effect: Universe trailer for N7 Day. Hulick said BioWare had previously approached him to score an internal demo, but that work ended when the studio was shut down. The released edit is a personal tribute, not a revival announcement for the cancelled game.",
+      "categories": [
+        "Announcements",
+        "Industry News"
+      ],
+      "game": {
+        "name": "Mass Effect: Universe",
+        "id": "mass-effect-universe"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/mass-effect/mass-effect-composer-sam-hulick-releases-his-re-scored-trailer-for-n7-day-my-way-of-saying-goodbye-at-least-for-now/",
+      "publishedAt": "2026-11-07T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/VuYAMFPN58skETzPcrxBkY.jpg"
+    },
+    {
+      "id": "amd-data-center-first-2027-pc-sales-forecast",
+      "headline": "AMD says it is data-center-first and forecasts a PC market slump in 2027",
+      "summary": "In a November 5 interview, AMD CEO Lisa Su emphasized the company's expansion in AI data centers, describing AMD as a data-center-first company. Separately, during its third-quarter earnings call, Su forecast a double-digit decline in overall PC sales during 2027. Neither statement announces a new GPU price or a specific consumer hardware change.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/gaming-industry/amd-ceo-lisa-su-we-are-a-data-center-first-company/",
+      "publishedAt": "2026-11-07T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/qDK99x7KtDSDHFZjKX9dj3.jpg"
+    }
+  ]
+}
