@@ -62,3 +62,16 @@ body:has(.search-page){background:var(--color-background);color:var(--color-text
 
 /* Mobile rail: center each story and keep selection in place. */
 @media(max-width:800px){.rail-stories{padding-left:0}.rail-story{grid-template-columns:82px minmax(0,1fr);max-width:520px;margin-inline:auto;transform:none}.rail-chevron{display:none}.rail-story[aria-pressed=true]{position:relative;z-index:1;isolation:isolate;width:100%;padding-left:0;transform:none;box-shadow:none;background:transparent;border-bottom-color:transparent}.rail-story[aria-pressed=true]::before{content:"";position:absolute;z-index:-1;inset:-2px -18px;background:var(--color-selected);border:1px solid var(--brand-primary);pointer-events:none}}
+
+/* Mobile story progress: compact theme-aware marks that fade after navigation. */
+.story-progress{display:none}
+@media(max-width:800px){
+  .story-progress{position:fixed;z-index:20;right:calc(4px + env(safe-area-inset-right,0px));top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;max-height:70dvh;overflow-y:auto;overflow-x:hidden;width:28px;opacity:0;pointer-events:none;transition:opacity .35s ease;scrollbar-width:none}
+  .story-progress::-webkit-scrollbar{display:none}
+  .story-progress.is-visible{opacity:1;pointer-events:auto}
+  .story-progress-step{display:grid;place-items:center;flex:0 0 22px;width:28px;min-height:22px;padding:0;border:0;background:transparent;cursor:pointer}
+  .story-progress-step span{display:block;width:7px;height:2px;border-radius:2px;background:var(--color-text-muted);opacity:.65;transition:width .2s ease,height .2s ease,background-color .2s ease,opacity .2s ease}
+  .story-progress-step.is-active span{width:13px;height:4px;background:var(--brand-primary);opacity:1}
+  .story-progress-step:focus-visible{outline:2px solid var(--brand-primary);outline-offset:-2px}
+}
+@media(prefers-reduced-motion:reduce){.story-progress,.story-progress-step span{transition:none}}
