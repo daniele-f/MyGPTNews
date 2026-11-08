@@ -2,7 +2,7 @@
   "id": "2026-11-08T08:56:07Z",
   "date": "2026-11-08",
   "publishedAt": "2026-11-08T08:56:07Z",
-  "updatedAt": "2026-11-08T14:05:22Z",
+  "updatedAt": "2026-11-08T18:59:42Z",
   "stories": [
     {
       "id": "poe2-death-recap-confirmed-exilecon-2026",
@@ -99,6 +99,51 @@
       },
       "changeType": "new",
       "updatedAt": "2026-11-08T14:05:22Z"
+    },
+    {
+      "id": "wardogs-season-3-anticheat-sabatulo-nov-2026",
+      "headline": "WARDOGS Season 3 adds an urban map, limited mode and major anti-cheat crackdown",
+      "summary": "BULKHEAD says WARDOGS Season 3 launches November 12 with the new urban Sabatulo map, a Limited mode restricting high-end gear, and more flexible role-based unlocks. The studio says its machine-learning-assisted anti-cheat system analysed 187 million hours of gameplay and banned about 185,000 accounts. Full Season 3 patch notes are still pending.",
+      "categories": [
+        "Updates",
+        "Announcements"
+      ],
+      "game": {
+        "name": "WARDOGS",
+        "id": "wardogs"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/fps/as-wardogs-season-3-looms-bulkhead-claims-to-have-built-one-of-the-worlds-most-sophisticated-anti-cheat-systems-assisted-by-machine-learning-and-ai/",
+      "publishedAt": "2026-11-08T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/bb62feb8f59915d00bade38910f1bfdad5232b90/header_alt_assets_0.jpg?t=1791928607",
+      "steam": {
+        "url": "https://store.steampowered.com/app/1867240/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-08T18:59:42Z"
+    },
+    {
+      "id": "skyrim-aurbis-persistent-mmo-mod-nov-2026",
+      "headline": "Skyrim mod Aurbis brings persistent MMO-style multiplayer to Tamriel",
+      "summary": "The Aurbis community project turns Skyrim into a persistent shared roleplaying world, with player-created groups, an economy, crafting, cooperative dungeons, PvP, survival mechanics and more demanding character progression. The project is in invite-only early access rather than a full public release. It requires a legitimate Skyrim installation on version 1.6.1170, with a custom launcher managing the mod setup.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "The Elder Scrolls V: Skyrim Special Edition",
+        "id": "the-elder-scrolls-v-skyrim-special-edition",
+        "headlineName": "Skyrim"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/the-elder-scrolls/this-massive-mod-essentially-turns-skyrim-into-a-persistent-mmo-where-player-actions-create-lasting-consequences/",
+      "publishedAt": "2026-11-08T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/zcxc3uHvAH7FJr4rQrSwXE.jpg",
+      "steam": {
+        "url": "https://store.steampowered.com/app/489830/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-08T18:59:42Z"
     }
   ]
 }
