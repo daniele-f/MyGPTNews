@@ -88,3 +88,11 @@ body:has(.search-page){background:var(--color-background);color:var(--color-text
 @media(max-width:800px) and (prefers-reduced-motion:reduce){
   .story-stage.is-moving-next .stage-story,.story-stage.is-moving-previous .stage-story{animation:none}
 }
+
+/* Live mobile drag: preview the adjacent story without affecting vertical page scroll. */
+@media(max-width:800px){
+  .story-stage.is-dragging{overflow-x:clip}
+  .story-stage.is-dragging > .stage-story{position:relative;z-index:2;will-change:transform}
+  .story-stage .swipe-preview{position:absolute;z-index:1;inset:0 0 auto;width:100%;pointer-events:none;will-change:transform}
+  .story-stage .swipe-preview .stage-story{width:100%;max-width:none}
+}
