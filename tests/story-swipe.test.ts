@@ -83,3 +83,30 @@ test('swipes are disabled on desktop and follow viewport changes', () => {
   swipe(20);
   assert.deepEqual(directions, ['next']);
 });
+
+test('live drag callbacks update before release and can handle commit or snap back', () => {
+  const stage = new EventTarget();
+  const moves: number[] = [];
+  const releases: Array<[number, StoryDirection | null]> = [];
+  const directions: StoryDirection[] = [];
+  navigation.bindStorySwipe(stage as HTMLElement, direction => directions.push(direction), { matches: true }, {
+    onDrag: dx => moves.push(dx),
+    onRelease: (dx, direction) => releases.push([dx, direction])
+  });
+  const touch = (type: string, x: number, active: boolean) => {
+    const event = new Event(type, { cancelable: true });
+    Object.assign(event, { touches: active ? [finger(x, 100)] : [], changedTouches: [finger(x, 100)] });
+    stage.dispatchEvent(event);
+  };
+  touch('touchstart', 150, true);
+  touch('touchmove', 100, true);
+  assert.deepEqual(moves, [-50]);
+  assert.deepEqual(releases, []);
+  touch('touchend', 80, false);
+  assert.deepEqual(releases, [[-70, 'next']]);
+  assert.deepEqual(directions, []);
+  touch('touchstart', 150, true);
+  touch('touchmove', 130, true);
+  touch('touchend', 140, false);
+  assert.deepEqual(releases.at(-1), [-10, null]);
+});
