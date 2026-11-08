@@ -75,3 +75,16 @@ body:has(.search-page){background:var(--color-background);color:var(--color-text
   .story-progress-step:focus-visible{outline:2px solid var(--brand-primary);outline-offset:-2px}
 }
 @media(prefers-reduced-motion:reduce){.story-progress,.story-progress-step span{transition:none}}
+
+/* Mobile: make story changes read as horizontal panel navigation, not a text fade. */
+@media(max-width:800px) and (prefers-reduced-motion:no-preference){
+  .story-stage.is-moving-next .stage-story > :not(.stage-story-navigation),
+  .story-stage.is-moving-previous .stage-story > :not(.stage-story-navigation){animation:none}
+  .story-stage.is-moving-next .stage-story{animation:mobile-story-from-right .46s cubic-bezier(.2,.7,.2,1) both}
+  .story-stage.is-moving-previous .stage-story{animation:mobile-story-from-left .46s cubic-bezier(.2,.7,.2,1) both}
+}
+@keyframes mobile-story-from-right{from{opacity:.35;transform:translateX(min(55vw,240px))}to{opacity:1;transform:translateX(0)}}
+@keyframes mobile-story-from-left{from{opacity:.35;transform:translateX(max(-55vw,-240px))}to{opacity:1;transform:translateX(0)}}
+@media(max-width:800px) and (prefers-reduced-motion:reduce){
+  .story-stage.is-moving-next .stage-story,.story-stage.is-moving-previous .stage-story{animation:none}
+}
