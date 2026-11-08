@@ -60,7 +60,7 @@ try {
     });
     const active = progress.querySelector<HTMLElement>('.is-active');
     if (active) {
-      const top = active.offsetTop - progress.offsetTop;
+      const top = active.offsetTop;
       if (top < progress.scrollTop) progress.scrollTop = top;
       else if (top + active.offsetHeight > progress.scrollTop + progress.clientHeight) {
         progress.scrollTop = top + active.offsetHeight - progress.clientHeight;
