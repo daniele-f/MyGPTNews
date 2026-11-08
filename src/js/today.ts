@@ -42,6 +42,40 @@ try {
         .then(() => { swipeHint.hidden = true; });
     });
   }
+  const progress = app.querySelector<HTMLElement>('[data-story-progress]');
+  let progressHideTimer: number | undefined;
+  const revealProgress = () => {
+    if (!progress || !mobile.matches) return;
+    progress.classList.add('is-visible');
+    window.clearTimeout(progressHideTimer);
+    progressHideTimer = window.setTimeout(() => progress.classList.remove('is-visible'), 2500);
+  };
+  const updateProgress = (index: number) => {
+    if (!progress) return;
+    progress.querySelectorAll<HTMLButtonElement>('[data-progress-index]').forEach(button => {
+      const active = Number(button.dataset.progressIndex) === index;
+      button.classList.toggle('is-active', active);
+      if (active) button.setAttribute('aria-current', 'step');
+      else button.removeAttribute('aria-current');
+    });
+    const active = progress.querySelector<HTMLElement>('.is-active');
+    if (active) {
+      const top = active.offsetTop - progress.offsetTop;
+      if (top < progress.scrollTop) progress.scrollTop = top;
+      else if (top + active.offsetHeight > progress.scrollTop + progress.clientHeight) {
+        progress.scrollTop = top + active.offsetHeight - progress.clientHeight;
+      }
+    }
+    revealProgress();
+  };
+  progress?.addEventListener('click', event => {
+    const button = (event.target as HTMLElement).closest<HTMLButtonElement>('[data-progress-index]');
+    if (!button) return;
+    const index = Number(button.dataset.progressIndex);
+    activate(index, index < selectedIndex ? 'previous' : index > selectedIndex ? 'next' : 'direct');
+  });
+  revealProgress();
+  mobile.addEventListener('change', () => { if (mobile.matches) revealProgress(); else progress?.classList.remove('is-visible'); });
   const activate = (index: number, direction: StoryDirection | 'direct' = 'direct', focusDirection?: StoryDirection) => {
     const story = stories[index];
     if (!story) return;
@@ -50,6 +84,7 @@ try {
     const stage = app.querySelector('[data-story-stage]') as HTMLElement;
     if (!stage) return;
     selectedIndex = index;
+    updateProgress(index);
     stage.innerHTML = stageView(story, meta.id, selectedIndex, stories.length);
     stage.classList.remove('is-changing', 'is-moving-previous', 'is-moving-next');
     void stage.offsetWidth;
