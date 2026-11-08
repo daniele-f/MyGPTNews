@@ -48,7 +48,7 @@ try {
     if (!progress || !mobile.matches) return;
     progress.classList.add('is-visible');
     window.clearTimeout(progressHideTimer);
-    progressHideTimer = window.setTimeout(() => progress.classList.remove('is-visible'), 2500);
+    progressHideTimer = window.setTimeout(() => progress.classList.remove('is-visible'), 5000);
   };
   const updateProgress = (index: number) => {
     if (!progress) return;
@@ -75,6 +75,7 @@ try {
     activate(index, index < selectedIndex ? 'previous' : index > selectedIndex ? 'next' : 'direct');
   });
   revealProgress();
+  document.addEventListener('scroll', revealProgress, { passive: true, capture: true });
   mobile.addEventListener('change', () => { if (mobile.matches) revealProgress(); else progress?.classList.remove('is-visible'); });
   const activate = (index: number, direction: StoryDirection | 'direct' = 'direct', focusDirection?: StoryDirection) => {
     const story = stories[index];
