@@ -47,10 +47,14 @@ test('uses the header border instead of a fixed overlay divider', () => {
   assert.doesNotMatch(styles, /\.site-header::after/);
 });
 
-test('keeps stage navigation outside the story-swap animation', () => {
+test('retains desktop content animation and enables full-story slides only on mobile', () => {
   assert.match(styles, /\.story-stage\.is-moving-next \.stage-story > :not\(\.stage-story-navigation\)\{animation:stage-reveal-next/);
   assert.match(styles, /\.story-stage\.is-moving-previous \.stage-story > :not\(\.stage-story-navigation\)\{animation:stage-reveal-previous/);
-  assert.doesNotMatch(styles, /\.story-stage\.is-moving-next \.stage-story\{animation/);
+  const mobileSlide = styles.slice(styles.indexOf('/* Mobile: make story changes read as horizontal panel navigation'));
+  assert.match(mobileSlide, /@media\(max-width:800px\) and \(prefers-reduced-motion:no-preference\)/);
+  assert.match(mobileSlide, /\.story-stage\.is-moving-next \.stage-story\{animation:mobile-story-from-right/);
+  assert.match(mobileSlide, /\.story-stage\.is-moving-previous \.stage-story\{animation:mobile-story-from-left/);
+  assert.match(mobileSlide, /@media\(max-width:800px\) and \(prefers-reduced-motion:reduce\)/);
 });
 
 test('styles the desktop story scrollbar like the rail and hides it when idle', () => {
