@@ -236,7 +236,7 @@ try {
     const target = storyNavigationTarget(selectedIndex, stories.length, direction);
     if (!target) return;
     event.preventDefault();
-    activate(target.index, direction, target.focus);
+    activate(target.index, direction);
   });
   const trigger = app.querySelector('.day-picker-trigger') as HTMLButtonElement;
   const picker = app.querySelector('[data-calendar]') as HTMLElement;
