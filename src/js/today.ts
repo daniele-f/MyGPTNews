@@ -43,9 +43,17 @@ try {
     });
   }
   const progress = app.querySelector<HTMLElement>('[data-story-progress]');
+  const progressStage = app.querySelector<HTMLElement>('[data-story-stage]');
   let progressHideTimer: number | undefined;
   const revealProgress = () => {
     if (!progress || !mobile.matches) return;
+    const bounds = progressStage?.getBoundingClientRect();
+    const viewportCenter = window.innerHeight / 2;
+    if (!bounds || bounds.top >= viewportCenter || bounds.bottom <= viewportCenter) {
+      progress.classList.remove('is-visible');
+      window.clearTimeout(progressHideTimer);
+      return;
+    }
     progress.classList.add('is-visible');
     window.clearTimeout(progressHideTimer);
     progressHideTimer = window.setTimeout(() => progress.classList.remove('is-visible'), 5000);
