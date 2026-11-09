@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-09T09:18:31Z",
+  "date": "2026-11-09",
+  "publishedAt": "2026-11-09T09:18:31Z",
+  "updatedAt": "2026-11-09T09:18:31Z",
+  "stories": [
+    {
+      "id": "warhammer-blood-bowl-delayed-early-2027-dominion-days",
+      "headline": "Warhammer Blood Bowl delayed to early 2027 after latest playtest",
+      "summary": "Slitherine has moved Warhammer Blood Bowl's full release from 2026 to early 2027 following feedback from its latest playtest. The ongoing test now includes Arena mode, where teams try to complete ten matches without losing. Tomb Kings and Bretonnians will be free additions, while Blood Bowl 3 owners are promised a free upgrade that retains their purchased teams and cosmetics. No specific 2027 release date has been announced.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "Warhammer Blood Bowl",
+        "id": "warhammer-blood-bowl"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/sports/warhammer-blood-bowl-has-been-delayed-into-2027/",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/yYFgBZtpHgQ9MwUKngZ8tV.jpg",
+      "steam": {
+        "url": "https://store.steampowered.com/app/1016950/Blood_Bowl_3/"
+      }
+    },
+    {
+      "id": "jackbox-games-ceo-rejects-ai-generated-creative-assets-nov-2026",
+      "headline": "Jackbox Games says it has no plans to replace writers or artists with generative AI",
+      "summary": "Jackbox Games CEO Mike Bilder told PC Gamer that the studio's comedy writing and art are made by people and that it has no intention of replacing those contributions with generative AI. Bilder acknowledged potential uses for AI tools and research, but said the company does not plan to substitute AI-generated assets for its human-made creative work. The studio released The Jackbox Party Pack 12 in October.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/gaming-industry/game-development/jackbox-games-isnt-interested-in-ai-development-all-that-is-done-by-people-and-we-have-no-intention-of-changing-that/",
+      "publishedAt": "2026-11-08T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/ZimasKeFtUuoHSCqpCekQo.png"
+    },
+    {
+      "id": "zelda-ocarina-of-time-switch-2-developer-interview-nov-9",
+      "headline": "The Legend of Zelda: Ocarina of Time developers discuss the Switch 2 remake",
+      "summary": "Nintendo's November 9 regional news update highlights its four-part developer interview about the Switch 2 remake released November 5. Eiji Aonuma explains that revisiting the 1998 adventure was partly meant to help newer Zelda developers study the series' roots, while the team reflects on how exploration, Z-targeting and carefully paced progression shaped the original. The interview series was first published in other regions on November 2.",
+      "categories": [
+        "Updates",
+        "Announcements"
+      ],
+      "game": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "id": "the-legend-of-zelda-ocarina-of-time",
+        "url": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-ocarina-of-time-switch-2/"
+      },
+      "sourceUrl": "https://www.nintendo.com/my/news/article/5yiWFiiWijA6SGlgwVWAnk",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://images.ctfassets.net/pkeegl0voupm/5HFn0XkYHzMARkk2xBLN2b/b5ec2021bcd1cd31ab045503a47b9a63/atd_zelda_bnr.jpg"
+    }
+  ]
+}
