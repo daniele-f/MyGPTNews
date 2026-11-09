@@ -2,7 +2,7 @@
   "id": "2026-11-09T09:18:31Z",
   "date": "2026-11-09",
   "publishedAt": "2026-11-09T09:18:31Z",
-  "updatedAt": "2026-11-09T09:18:31Z",
+  "updatedAt": "2026-11-09T14:15:56Z",
   "stories": [
     {
       "id": "warhammer-blood-bowl-delayed-early-2027-dominion-days",
@@ -52,6 +52,46 @@
       "publishedAt": "2026-11-09T00:00:00Z",
       "featured": false,
       "imageUrl": "https://images.ctfassets.net/pkeegl0voupm/5HFn0XkYHzMARkk2xBLN2b/b5ec2021bcd1cd31ab045503a47b9a63/atd_zelda_bnr.jpg"
+    },
+    {
+      "id": "wow-forever-dungeon-kill-xp-boost-50-percent-nov9",
+      "headline": "World of Warcraft: Forever increases dungeon monster XP by 50%",
+      "summary": "Blizzard has applied a hotfix increasing experience earned from dungeon enemy kills by 50% after player feedback about the new leveling balance. Dungeon quest rewards remain an important part of progression, while repeat runs now offer more experience than before. The change was announced on November 8 and is already live.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "World of Warcraft: Forever",
+        "id": "world-of-warcraft-forever"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-bumps-dungeon-xp-from-monsters-by-50-percent-after-some-community-feedback-i-will-diplomatically-call-passionate/",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/nif2GsAiZXYPynAnTUTFSn.png",
+      "changeType": "new",
+      "updatedAt": "2026-11-09T14:15:56Z"
+    },
+    {
+      "id": "eve-online-fractured-skies-expansion-nov10-2026",
+      "headline": "EVE Online's Fractured Skies expansion arrives November 10 with faction warfare changes",
+      "summary": "EVE Online's Fractured Skies expansion launches November 10 with four navy attack battlecruisers, an updated HUD preview, new Military Campaigns and improvements for new players. It also prepares a recurring Conquest system for factional PvP, with the first Conquest expected in February 2027. Companion FPS EVE Vanguard begins its paid, always-available alpha on the same day, with ground operations unlocking activities in EVE Online.",
+      "categories": [
+        "Updates",
+        "Announcements"
+      ],
+      "game": {
+        "name": "EVE Online",
+        "id": "eve-online"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/mmo/eve-onlines-new-expansion-looks-to-make-it-simpler-than-ever-to-get-into-a-huge-space-battle-every-10-weeks-or-so-youre-gonna-know-i-can-roll-up-with-whatever-i-have-and-go-shoot-some-structures-and-have-a-big-fight/",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/sF7aJvNGHwVQoNL44cyGFj.jpg",
+      "steam": {
+        "url": "https://store.steampowered.com/app/8500/EVE_Online/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-09T14:15:56Z"
     }
   ]
 }
