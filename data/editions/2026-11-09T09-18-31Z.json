@@ -2,7 +2,7 @@
   "id": "2026-11-09T09:18:31Z",
   "date": "2026-11-09",
   "publishedAt": "2026-11-09T09:18:31Z",
-  "updatedAt": "2026-11-09T14:15:56Z",
+  "updatedAt": "2026-11-09T18:56:37Z",
   "stories": [
     {
       "id": "warhammer-blood-bowl-delayed-early-2027-dominion-days",
@@ -92,6 +92,69 @@
       },
       "changeType": "new",
       "updatedAt": "2026-11-09T14:15:56Z"
+    },
+    {
+      "id": "warhammer-40000-dark-heresy-january-28-2027-release-confirmed",
+      "headline": "Warhammer 40,000: Dark Heresy confirms January 28, 2027 release date",
+      "summary": "Owlcat Games has confirmed that its investigation-focused Warhammer 40,000 CRPG launches January 28, 2027 on PC, PlayStation 5 and Xbox Series X|S. Players build an Inquisition warband, investigate conspiracies and fight turn-based battles in the Calixis Sector. The Founder's beta closes January 7 as the studio prepares for launch; a Switch 2 version is planned for later.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "Warhammer 40,000: Dark Heresy",
+        "id": "warhammer-40000-dark-heresy"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/rpg/warhammer-40k-rogue-trader-follow-up-dark-heresy-will-launch-at-the-end-of-january/",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3710600/c9cff4a2e091c0590909762a6d4296eeee5859a1/header.jpg?t=1794240130",
+      "steam": {
+        "url": "https://store.steampowered.com/app/3710600/Warhammer_40000_Dark_Heresy/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-09T18:56:37Z"
+    },
+    {
+      "id": "nier-automata-366gb-download-bug-fixed-nov-9",
+      "headline": "NieR:Automata download-size bug fixed after 366GB downloads",
+      "summary": "Square Enix says it has identified and resolved the issue that caused some NieR:Automata downloads on Steam to swell from roughly 50GB to 366GB after a recent update. The download requirement has returned to its normal size. Square Enix has not publicly explained the underlying cause.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "NieR:Automata",
+        "id": "nier-automata"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/rpg/great-news-nier-automatas-install-size-is-no-longer-7x-bigger-than-it-should-be-it-was-366-gb/",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/eTceoVV4K4YG2qgZbVPT7H.jpg",
+      "steam": {
+        "url": "https://store.steampowered.com/app/524220/NieRAutomata/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-09T18:56:37Z"
+    },
+    {
+      "id": "fanatical-persona-5-royal-73-percent-flash-sale-nov-9",
+      "headline": "Persona 5 Royal gets 73% off in Fanatical's November 9 flash sale",
+      "summary": "Fanatical's Birthday Bash PC sale has added a 24-hour flash discount of 73% on Persona 5 Royal, alongside 63% off Dave the Diver and 75% off Command: Modern Operations. These flash deals are due to end November 10 at 17:00, while the wider promotion continues through November 16. The reported discounts are on Fanatical, not Steam, and regional prices or stock may vary.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Persona 5 Royal",
+        "id": "persona-5-royal"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/fanaticals-birthday-bash-sale-has-one-week-left-and-just-launched-a-flash-sale-with-73-off-persona-5-royal/",
+      "publishedAt": "2026-11-09T16:01:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg?t=1783356822",
+      "steam": {
+        "url": "https://store.steampowered.com/app/1687950/Persona_5_Royal/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-09T18:56:37Z"
     }
   ]
 }
