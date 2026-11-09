@@ -66,6 +66,7 @@ body:has(.search-page){background:var(--color-background);color:var(--color-text
 /* Mobile story progress: compact theme-aware marks that fade after navigation. */
 .story-progress{display:none}
 @media(max-width:800px){
+  .story-stage{padding-right:44px}
   .story-progress{position:fixed;z-index:20;right:calc(4px + env(safe-area-inset-right,0px));top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;max-height:70dvh;overflow-y:auto;overflow-x:hidden;width:28px;opacity:0;pointer-events:none;transition:opacity .35s ease;scrollbar-width:none}
   .story-progress::-webkit-scrollbar{display:none}
   .story-progress.is-visible{opacity:1;pointer-events:auto}
