@@ -1,0 +1,103 @@
+{
+  "id": "2026-11-10T09:06:15Z",
+  "date": "2026-11-10",
+  "publishedAt": "2026-11-10T09:06:15Z",
+  "updatedAt": "2026-11-10T09:06:15Z",
+  "stories": [
+    {
+      "id": "warhammer-survivors-pc-release-november-10-2026",
+      "headline": "Warhammer Survivors launches November 10 with more than 40 playable champions",
+      "summary": "Auroch Digital's officially licensed bullet-heaven action game is scheduled for PC and other platforms on November 10. Built in partnership with Warhammer and Vampire Survivors creator poncle, it brings characters from Warhammer 40,000 and Age of Sigmar into wave-based battles with more than 40 playable champions and over 70 weapons. A free Steam demo is available ahead of the full release.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Warhammer Survivors",
+        "id": "warhammer-survivors"
+      },
+      "sourceUrl": "https://www.warhammer-community.com/en-gb/articles/m5cfelii/try-the-new-demo-for-warhammer-survivors-now/",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/54104f62e4b0c1ca62ebb56f/a3bf0b86-e094-44d6-929d-445f23fce818/WS_SCREENSHOT_RELEASE-DATE_02_3840x2160.png",
+      "steam": {
+        "url": "https://store.steampowered.com/app/3669620/Warhammer_Survivors/"
+      }
+    },
+    {
+      "id": "ashes-of-the-singularity-ii-pc-launch-november-10-2026",
+      "headline": "Ashes of the Singularity II arrives November 10 with three rival factions",
+      "summary": "Oxide Games and Stardock Entertainment's large-scale sci-fi RTS is scheduled to launch on PC on November 10. The sequel adds the human United Earth Forces alongside the AI Substrate and Post-Human Coalition. Its battles focus on managing thousands of units, logistics and shifting terrain, with a single-player campaign as well as online co-op and competitive multiplayer.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Ashes of the Singularity II",
+        "id": "ashes-of-the-singularity-ii"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/3499790/Ashes_of_the_Singularity_II/",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3499790/0c833c880e8edbf2f798c92f065ec991cd962a65/header.jpg?t=1793916066",
+      "steam": {
+        "url": "https://store.steampowered.com/app/3499790/Ashes_of_the_Singularity_II/"
+      }
+    },
+    {
+      "id": "football-manager-27-pc-launch-november-10-2026",
+      "headline": "Football Manager 27 is set for its November 10 PC release",
+      "summary": "Sports Interactive and Sega list November 10 as the release date for Football Manager 27 on Steam. The football-management simulation returns with club management, tactical decision-making and squad building. Its Steam listing also confirms online multiplayer, and notes that the PC version uses Denuvo anti-tamper DRM.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Football Manager 27",
+        "id": "football-manager-27"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4530370/Football_Manager_27/",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4530370/1827516e497f3ddd2023b5ba3cd354af34a3548b/header_alt_assets_0.jpg?t=1793982134",
+      "steam": {
+        "url": "https://store.steampowered.com/app/4530370/Football_Manager_27/"
+      }
+    },
+    {
+      "id": "nocturnal-2-pc-launch-november-10-2026",
+      "headline": "Nocturnal 2 brings hand-drawn Metroidvania exploration to PC on November 10",
+      "summary": "Sunnyside Games has scheduled its hand-drawn action adventure Nocturnal 2 for November 10 on Steam. Players explore the interconnected city of Ytash with a flame-powered sword, unlock abilities that reveal new routes, and discover hidden endings. The game's Steam listing confirms full controller support.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Nocturnal 2",
+        "id": "nocturnal-2"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/2847780/Nocturnal_2/",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2847780/6b57fa23ef819357a78747bd8be5758c1012e3de/header.jpg?t=1794294996",
+      "steam": {
+        "url": "https://store.steampowered.com/app/2847780/Nocturnal_2/"
+      }
+    },
+    {
+      "id": "dreamworks-shrek-2-remastered-pc-launch-november-10-2026",
+      "headline": "DreamWorks Shrek 2 Remastered returns November 10 with four-player co-op",
+      "summary": "Aspyr is bringing its updated version of the classic Shrek 2 adventure to Steam on November 10. The remaster features rebuilt textures, 4K support, revised cutscenes, a Photo Mode and Cheat Mode. Players can explore Far Far Away alone or in up to four-player couch, online or mixed co-op.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "DreamWorks Shrek 2 Remastered",
+        "id": "dreamworks-shrek-2-remastered"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/2523740/DreamWorks_Shrek_2_Remastered/",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2523740/abfa94e9a286146554386662e218aae82716711f/header.jpg?t=1794005630",
+      "steam": {
+        "url": "https://store.steampowered.com/app/2523740/DreamWorks_Shrek_2_Remastered/"
+      }
+    }
+  ]
+}
