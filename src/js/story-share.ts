@@ -3,7 +3,11 @@ import { emailIcon, redditIcon, whatsappIcon } from './button-icons';
 export function storyShareDetails(path: string, title: string, baseUrl: string) {
   const url = new URL(path, baseUrl).href;
   const subject = encodeURIComponent(title.replace(/[\r\n]+/g, ' '));
-  const emailBody = ['Hey friend', url, 'check this out'].join('\r\n\r\n');
+  const emailBody = [
+    'Hello,',
+    'I thought you might find this story from News Game+ interesting.',
+    [title, url].join('\r\n'),
+  ].join('\r\n\r\n');
   const redditParams = new URLSearchParams({ type: 'LINK', url, title });
   return {
     title,
