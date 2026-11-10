@@ -112,7 +112,7 @@ body:has(.search-page){background:var(--color-background);color:var(--color-text
 .share-dialog .share-copy{background:var(--color-secondary);color:var(--color-background)}
 .share-dialog .share-copy:hover{background:var(--color-text)}
 .share-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
-.share-actions a{display:inline-flex;align-items:center;gap:8px}
-.share-actions a.button-secondary:hover{border-color:var(--color-secondary);background:var(--color-surface-hover)}
+.share-actions .button-secondary{display:inline-flex;align-items:center;gap:8px}
+.share-actions .button-secondary:hover{border-color:var(--color-secondary);background:var(--color-surface-hover)}
 .share-status{min-height:1.4em;margin:10px 0;color:var(--color-text-muted)}
 .share-dialog .button-secondary{border:1px solid var(--color-border-control);background:var(--color-surface-raised);color:var(--color-text)}

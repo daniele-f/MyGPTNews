@@ -1,4 +1,4 @@
-import { emailIcon, whatsappIcon } from './button-icons';
+import { discordIcon, emailIcon, whatsappIcon } from './button-icons';
 
 export function storyShareDetails(path: string, title: string, baseUrl: string) {
   const url = new URL(path, baseUrl).href;
@@ -25,9 +25,11 @@ export function bindStoryShare(app: HTMLElement) {
     <div class="share-actions">
       <a class="button button-secondary" data-share-email>${emailIcon}Email</a>
       <a class="button button-secondary" data-share-whatsapp target="_blank" rel="noopener noreferrer">${whatsappIcon}WhatsApp</a>
+      <button class="button button-secondary" type="button" data-share-discord>${discordIcon}Discord</button>
       <button class="button" type="button" data-native-share hidden>More options</button>
     </div>
     <p class="share-status" role="status"></p>
+    <p data-discord-fallback hidden><a class="button button-secondary" href="https://discord.com/channels/@me" target="_blank" rel="noopener noreferrer">Open Discord</a></p>
     <form method="dialog"><button class="button button-secondary">Close</button></form>`;
   app.append(dialog);
 
@@ -35,6 +37,9 @@ export function bindStoryShare(app: HTMLElement) {
   const copy = dialog.querySelector<HTMLButtonElement>('[data-copy-story]')!;
   const email = dialog.querySelector<HTMLAnchorElement>('[data-share-email]')!;
   const whatsapp = dialog.querySelector<HTMLAnchorElement>('[data-share-whatsapp]')!;
+  const discord = dialog.querySelector<HTMLButtonElement>('[data-share-discord]')!;
+  const discordFallback = dialog.querySelector<HTMLElement>('[data-discord-fallback]')!;
+  const discordLink = discordFallback.querySelector('a')!;
   const nativeShare = dialog.querySelector<HTMLButtonElement>('[data-native-share]')!;
   const status = dialog.querySelector<HTMLElement>('[role=status]')!;
   let current: ReturnType<typeof storyShareDetails> | undefined;
@@ -51,22 +56,41 @@ export function bindStoryShare(app: HTMLElement) {
     whatsapp.href = current.whatsapp;
     nativeShare.hidden = typeof navigator.share !== 'function' || navigator.canShare?.({ title: current.title, url: current.url }) === false;
     status.textContent = '';
+    discordFallback.hidden = true;
     dialog.showModal();
   });
 
-  copy.addEventListener('click', async () => {
+  async function copyStory(openDiscord = false) {
     const story = current;
     if (!story) return;
     try {
       await navigator.clipboard.writeText(story.url);
-      if (dialog.open && current === story) status.textContent = 'Link copied.';
     } catch {
       if (!dialog.open || current !== story) return;
       input.focus();
       input.select();
-      status.textContent = 'Copy the selected URL.';
+      status.textContent = openDiscord ? 'Copy the selected URL, then open Discord.' : 'Copy the selected URL.';
+      if (openDiscord) discordFallback.hidden = false;
+      return;
     }
-  });
+
+    if (!dialog.open || current !== story) return;
+    status.textContent = 'Link copied.';
+    if (!openDiscord) return;
+
+    const tab = window.open('about:blank', '_blank');
+    discordFallback.hidden = Boolean(tab);
+    if (tab) {
+      tab.opener = null;
+      tab.location.replace(discordLink.href);
+      status.textContent = 'Link copied. Paste it in Discord.';
+    } else {
+      status.textContent = 'Link copied. Open Discord to paste it.';
+    }
+  }
+
+  copy.addEventListener('click', () => void copyStory());
+  discord.addEventListener('click', () => void copyStory(true));
 
   nativeShare.addEventListener('click', async () => {
     const story = current;
