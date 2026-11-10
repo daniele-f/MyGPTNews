@@ -2,7 +2,7 @@
   "id": "2026-11-10T09:06:15Z",
   "date": "2026-11-10",
   "publishedAt": "2026-11-10T09:06:15Z",
-  "updatedAt": "2026-11-10T09:06:15Z",
+  "updatedAt": "2026-11-10T14:00:14Z",
   "stories": [
     {
       "id": "warhammer-survivors-pc-release-november-10-2026",
@@ -98,6 +98,70 @@
       "steam": {
         "url": "https://store.steampowered.com/app/2523740/DreamWorks_Shrek_2_Remastered/"
       }
+    },
+    {
+      "id": "final-fantasy-xiv-patch-7-58-cross-data-center-matching-2026",
+      "headline": "Final Fantasy XIV Patch 7.58 opens regional matchmaking across European and North American data centers",
+      "summary": "Square Enix's Patch 7.58 expands Duty Finder, Party Finder, Crystalline Conflict ranked matchmaking and other social functions across all logical data centers within the same physical region. European players on Chaos and Light can now find parties together without switching data centers. The patch also strengthens the Echo in AAC Heavyweight (Savage) and removes several weekly reward restrictions.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "FINAL FANTASY XIV Online",
+        "headlineName": "Final Fantasy XIV",
+        "id": "final-fantasy-xiv-online"
+      },
+      "sourceUrl": "https://na.finalfantasyxiv.com/lodestone/topics/detail/27a249e737d7b041332c7018949035b03d62c081",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39210/header.jpg?t=1793815364",
+      "steam": {
+        "url": "https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-10T14:00:14Z"
+    },
+    {
+      "id": "monster-train-2-the-punished-november-10-dlc-2026",
+      "headline": "Monster Train 2: The Punished introduces a self-damage-focused clan on November 10",
+      "summary": "Shiny Shoe's new DLC for Monster Train 2 adds The Punished, a clan led by returning character Archus and new champion Zariel. Its risk-reward mechanics include Punish effects triggered by friendly damage, and a Monolith that converts sacrificed cards into Devotion and Zeal buffs. The expansion is scheduled to release on PC and consoles November 10, and requires the base game.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Monster Train 2: The Punished",
+        "id": "monster-train-2-the-punished"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4739980/Monster_Train_2_The_Punished/",
+      "publishedAt": "2026-11-04T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4739980/be8a82d818d36cfdb559bd8c8acd9dcbc5b83673/header.jpg?t=1793737852",
+      "steam": {
+        "url": "https://store.steampowered.com/app/4739980/Monster_Train_2_The_Punished/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-10T14:00:14Z"
+    },
+    {
+      "id": "phasmophobia-ghost-hunts-for-hearts-200k-rewards-november-2026",
+      "headline": "Phasmophobia charity event raises over $200,000 and unlocks animated player rewards",
+      "summary": "Kinetic Games' Ghost Hunts for Hearts fundraiser surpassed $200,000 for the American Heart Association, exceeding the campaign's previous record. Players can log in before November 15 to claim an animated AHA Advocate ID Card and Badge unlocked by the community's fundraising milestone. The campaign also included an event-themed Twitch Drop.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Phasmophobia",
+        "id": "phasmophobia"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/horror/phasmophobia-raises-over-usd200-000-for-charity-in-the-annual-ghost-hunts-for-hearts-collaboration-with-the-american-heart-association/",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/Du7wdZLvxPiyAwoZqvRpqN.jpg",
+      "steam": {
+        "url": "https://store.steampowered.com/app/739630/Phasmophobia/"
+      },
+      "changeType": "new",
+      "updatedAt": "2026-11-10T14:00:14Z"
     }
   ]
 }
