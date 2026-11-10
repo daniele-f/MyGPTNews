@@ -20,9 +20,12 @@
       "publishedAt": "2026-11-01T09:04:01Z",
       "featured": true,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4095380/3fb8986f870e6c87bb0da141b590b667056c5e59/header.jpg?t=1792421628",
-      "steam": {
-        "url": "https://store.steampowered.com/app/4095380/"
-      }
+      "steamPages": [
+        {
+          "name": "Soulframe",
+          "url": "https://store.steampowered.com/app/4095380/"
+        }
+      ]
     },
     {
       "id": "dune-awakening-blood-and-ice-free-expansion-december-2026",
@@ -41,14 +44,17 @@
       "publishedAt": "2026-11-01T09:04:01Z",
       "featured": false,
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172710/da994ea756677c3d1d9a77accb8596a8661f4cad/header.jpg?t=1793286288",
-      "steam": {
-        "url": "https://store.steampowered.com/app/1172710/"
-      }
+      "steamPages": [
+        {
+          "name": "Dune: Awakening",
+          "url": "https://store.steampowered.com/app/1172710/"
+        }
+      ]
     },
     {
       "id": "alien-isolation-opencage-mod-tools-version-1-2026",
       "headline": "Alien: Isolation's OpenCAGE modding toolkit reaches version 1.0",
-      "summary": "Matt Filer's free OpenCAGE toolkit has reached 1.0 after years of development. It now supports extensive custom maps, missions, characters, weapons, animations and other assets, enabling much larger PC mods and total conversions. OpenCAGE is also available on Steam; [click here](https://store.steampowered.com/app/3367530/) to view it. Alien: Isolation is required.",
+      "summary": "Matt Filer's free OpenCAGE toolkit has reached 1.0 after years of development. It now supports extensive custom maps, missions, characters, weapons, animations and other assets, enabling much larger PC mods and total conversions. OpenCAGE is also available on Steam. Alien: Isolation is required.",
       "categories": [
         "Updates"
       ],
@@ -60,14 +66,21 @@
       "publishedAt": "2026-11-01T09:04:01Z",
       "featured": false,
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3367530/dda06f08fa370d3ac23bd59f0e16801ed14890e6/header_alt_assets_0.jpg?t=1793295504",
-      "steam": {
-        "url": "https://store.steampowered.com/app/214490/"
-      }
+      "steamPages": [
+        {
+          "name": "Alien: Isolation",
+          "url": "https://store.steampowered.com/app/214490/"
+        },
+        {
+          "name": "OpenCAGE",
+          "url": "https://store.steampowered.com/app/3367530/"
+        }
+      ]
     },
     {
       "id": "dark-souls-2-3-online-services-temporary-outage-october-2026",
       "headline": "FromSoftware temporarily disables Dark Souls II and III online features",
-      "summary": "FromSoftware has suspended official multiplayer services for Dark Souls II and III across platforms due to an unspecified server issue, with no restoration date announced. The outage affects co-op, invasions and online messages, making it important for PC players planning multiplayer sessions. To visit the Dark Souls II Steam page, [click here](https://store.steampowered.com/app/335300/).",
+      "summary": "FromSoftware has suspended official multiplayer services for Dark Souls II and III across platforms due to an unspecified server issue, with no restoration date announced. The outage affects co-op, invasions and online messages, making it important for PC players planning multiplayer sessions.",
       "categories": [
         "Updates"
       ],
@@ -79,9 +92,16 @@
       "publishedAt": "2026-11-01T09:04:01Z",
       "featured": false,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg?t=1748630784",
-      "steam": {
-        "url": "https://store.steampowered.com/app/374320/"
-      }
+      "steamPages": [
+        {
+          "name": "DARK SOULS III",
+          "url": "https://store.steampowered.com/app/374320/"
+        },
+        {
+          "name": "DARK SOULS II: Scholar of the First Sin",
+          "url": "https://store.steampowered.com/app/335300/"
+        }
+      ]
     },
     {
       "id": "a-new-beginning-final-cut-gog-free-giveaway-november-2026",
@@ -99,9 +119,12 @@
       "publishedAt": "2026-11-01T09:04:01Z",
       "featured": false,
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/105000/header.jpg?t=1789469040",
-      "steam": {
-        "url": "https://store.steampowered.com/app/105000/"
-      }
+      "steamPages": [
+        {
+          "name": "A New Beginning: Final Cut",
+          "url": "https://store.steampowered.com/app/105000/"
+        }
+      ]
     },
     {
       "id": "mina-the-hollower-randomizer-speedrun-options-planned-2026",
@@ -119,9 +142,12 @@
       "publishedAt": "2026-11-01T09:04:01Z",
       "featured": false,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/368fcff2cd8f5ef01c5a89060a49f9a333076a87/header.jpg?t=1793298887",
-      "steam": {
-        "url": "https://store.steampowered.com/app/1875580/"
-      }
+      "steamPages": [
+        {
+          "name": "Mina the Hollower",
+          "url": "https://store.steampowered.com/app/1875580/"
+        }
+      ]
     }
   ]
 }

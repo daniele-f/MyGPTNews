@@ -7,7 +7,7 @@
     {
       "id": "elder-scrolls-vi-sentinel-name-revealed-nov-2026",
       "headline": "Bethesda reveals The Elder Scrolls VI: Sentinel after eight years",
-      "summary": "Bethesda unveiled the official subtitle [Sentinel](https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-sentinel-is-finally-made-official/) in a video marking the studio's 40th anniversary. The reveal points toward Hammerfell, but Bethesda says development is ongoing and more details are still some time away. No release date or verified Steam listing was announced.",
+      "summary": "Bethesda unveiled the official subtitle Sentinel in a video marking the studio's 40th anniversary. The reveal points toward Hammerfell, but Bethesda says development is ongoing and more details are still some time away. No release date or verified Steam listing was announced.",
       "categories": [
         "Announcements"
       ],
@@ -23,7 +23,7 @@
     {
       "id": "workers-resources-soviet-republic-space-program-dlc-nov-23-2026",
       "headline": "Workers & Resources: Soviet Republic announces Space Program DLC for November 23",
-      "summary": "Hooded Horse and 3DIVISION announced [Space Program](https://store.steampowered.com/app/5303130/), a PC expansion adding rocket manufacture, orbital launches, new industries and a 1960s campaign. It is scheduled for November 23 on Steam, GOG and Epic. The base city-builder has also passed one million copies sold.",
+      "summary": "Hooded Horse and 3DIVISION announced Space Program, a PC expansion adding rocket manufacture, orbital launches, new industries and a 1960s campaign. It is scheduled for November 23 on Steam, GOG and Epic. The base city-builder has also passed one million copies sold.",
       "categories": [
         "Announcements"
       ],
@@ -36,14 +36,17 @@
       "publishedAt": "2026-11-03T00:00:00Z",
       "featured": false,
       "imageUrl": "https://imgeucdn.gamespress.com/cdn/files/Games%20Press/2026/10/291635-f1348674/Workers___Resources_Space_Race_Key_Art_2026.05_DM_V1.png?bgcolor=transparent&format=png&mode=max&otf=y&quality=90&sky=bec60e99be3844ca51bf1b6ce3be78ef9967e547629d245748615a0eed867280&w=533",
-      "steam": {
-        "url": "https://store.steampowered.com/app/5303130/Workers_Resources_Soviet_Republic_Space_Program/"
-      }
+      "steamPages": [
+        {
+          "name": "Workers & Resources: Soviet Republic - Space Program",
+          "url": "https://store.steampowered.com/app/5303130/Workers_Resources_Soviet_Republic_Space_Program/"
+        }
+      ]
     },
     {
       "id": "ffxiv-patch-758-na-eu-same-region-matchmaking-nov-10-2026",
       "headline": "Final Fantasy XIV expands EU and NA matchmaking across data centers on November 10",
-      "summary": "Square Enix confirmed that [Final Fantasy XIV](https://store.steampowered.com/app/39210/) Patch 7.58 will allow Duty Finder, Party Finder and more social features across logical data centers in the same North American or European physical region. The November 10 rollout should make parties and older content easier to find, although maintenance is expected to last 24 hours.",
+      "summary": "Square Enix confirmed that Final Fantasy XIV Patch 7.58 will allow Duty Finder, Party Finder and more social features across logical data centers in the same North American or European physical region. The November 10 rollout should make parties and older content easier to find, although maintenance is expected to last 24 hours.",
       "categories": [
         "Updates",
         "Announcements"
@@ -57,9 +60,12 @@
       "publishedAt": "2026-11-02T00:00:00Z",
       "featured": false,
       "imageUrl": "https://img.finalfantasyxiv.com/t/50458eeb98ca9466c69b85074f5326be0b3f3a94.png?1793605640%3F1793188621=",
-      "steam": {
-        "url": "https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online/"
-      }
+      "steamPages": [
+        {
+          "name": "Final Fantasy XIV Online",
+          "url": "https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online/"
+        }
+      ]
     },
     {
       "id": "point-and-click-showcase-steam-sale-november-4-2026",
@@ -77,7 +83,7 @@
     {
       "id": "vampire-crawlers-pc-game-pass-november-4-2026",
       "headline": "Vampire Crawlers joins PC Game Pass in the new November lineup",
-      "summary": "Microsoft's first November Game Pass wave adds [Vampire Crawlers](https://store.steampowered.com/app/3265700/) to PC Game Pass on November 4. The turn-based, deckbuilding spinoff of Vampire Survivors is already sold on Steam, making its subscription debut another way for PC players to try it.",
+      "summary": "Microsoft's first November Game Pass wave adds Vampire Crawlers to PC Game Pass on November 4. The turn-based, deckbuilding spinoff of Vampire Survivors is already sold on Steam, making its subscription debut another way for PC players to try it.",
       "categories": [
         "Announcements",
         "Deals & Events"
@@ -91,9 +97,12 @@
       "publishedAt": "2026-11-03T20:51:00Z",
       "featured": false,
       "imageUrl": "https://www.videogameschronicle.com/files/2026/11/Xbox-Game-Pass-November-games-1-320x180.jpg",
-      "steam": {
-        "url": "https://store.steampowered.com/app/3265700/Vampire_Crawlers_The_Turbo_Wildcard_from_Vampire_Survivors/"
-      }
+      "steamPages": [
+        {
+          "name": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+          "url": "https://store.steampowered.com/app/3265700/Vampire_Crawlers_The_Turbo_Wildcard_from_Vampire_Survivors/"
+        }
+      ]
     },
     {
       "id": "itch-io-generative-ai-filters-content-removal-nov-3-2026",
@@ -113,7 +122,7 @@
     {
       "id": "age-of-wonders-4-silver-seas-dlc-manta-update-free-weekend-2026-11-03",
       "headline": "Age of Wonders 4 launches The Silver Seas and announces a free Steam weekend",
-      "summary": "Paradox released [The Silver Seas](https://store.steampowered.com/app/5094370/) on November 3, adding the Mercantile culture, Sharkkin and Aqualon forms, and four new spell tomes. The free Manta Update also adds trade routes and revamps naval gameplay. The base game [Age of Wonders 4](https://store.steampowered.com/app/1669000/) is scheduled to be free to play, not free to keep, on Steam from November 5 through November 9.",
+      "summary": "Paradox released The Silver Seas on November 3, adding the Mercantile culture, Sharkkin and Aqualon forms, and four new spell tomes. The free Manta Update also adds trade routes and revamps naval gameplay. The base game Age of Wonders 4 is scheduled to be free to play, not free to keep, on Steam from November 5 through November 9.",
       "categories": [
         "Releases",
         "Updates",
@@ -128,16 +137,23 @@
       "publishedAt": "2026-11-03T00:00:00Z",
       "featured": false,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5094370/d43d3ce66c826602dcdd5490fa1a157db68919e0/header.jpg?t=1793803483",
-      "steam": {
-        "url": "https://store.steampowered.com/app/5094370/Age_of_Wonders_4_The_Silver_Seas/"
-      },
       "changeType": "new",
-      "updatedAt": "2026-11-04T14:08:56Z"
+      "updatedAt": "2026-11-04T14:08:56Z",
+      "steamPages": [
+        {
+          "name": "Age of Wonders 4: The Silver Seas",
+          "url": "https://store.steampowered.com/app/5094370/Age_of_Wonders_4_The_Silver_Seas/"
+        },
+        {
+          "name": "Age of Wonders 4",
+          "url": "https://store.steampowered.com/app/1669000/"
+        }
+      ]
     },
     {
       "id": "kingdoms-and-castles-extra-large-maps-optimizations-november-2026",
       "headline": "Kingdoms and Castles adds much larger maps and ten achievements",
-      "summary": "Lion Shield's November 3 update gives [Kingdoms and Castles](https://store.steampowered.com/app/569480/) an Extra Large map option of roughly 30,000 land tiles, up from about 9,000 on the previous Large setting. The free update also improves pathfinding, fish and tree simulation, fog of war and memory use, and adds ten achievements for existing gameplay features.",
+      "summary": "Lion Shield's November 3 update gives Kingdoms and Castles an Extra Large map option of roughly 30,000 land tiles, up from about 9,000 on the previous Large setting. The free update also improves pathfinding, fish and tree simulation, fog of war and memory use, and adds ten achievements for existing gameplay features.",
       "categories": [
         "Updates"
       ],
@@ -149,16 +165,19 @@
       "publishedAt": "2026-11-03T00:00:00Z",
       "featured": false,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/569480/607d66c3818dc8d5481a7d998ebce143c50dfa82/header.jpg?t=1776710220",
-      "steam": {
-        "url": "https://store.steampowered.com/app/569480/Kingdoms_and_Castles/"
-      },
       "changeType": "new",
-      "updatedAt": "2026-11-04T14:08:56Z"
+      "updatedAt": "2026-11-04T14:08:56Z",
+      "steamPages": [
+        {
+          "name": "Kingdoms and Castles",
+          "url": "https://store.steampowered.com/app/569480/Kingdoms_and_Castles/"
+        }
+      ]
     },
     {
       "id": "lightyear-frontier-full-release-1-0-nov-4-2026",
       "headline": "Lightyear Frontier reaches 1.0 with two new regions and story finale",
-      "summary": "[Lightyear Frontier](https://store.steampowered.com/app/1677110/Lightyear_Frontier/) has officially left Steam Early Access on November 4 after more than two years. FRAME BREAK's 1.0 release adds Sandswept Highlands and Hollow Marsh, expands the explorable world by roughly 40%, concludes the main story and overhauls farming automation and mech customization, including the new Skyblazer flight mode. Existing saves remain usable.",
+      "summary": "Lightyear Frontier has officially left Steam Early Access on November 4 after more than two years. FRAME BREAK's 1.0 release adds Sandswept Highlands and Hollow Marsh, expands the explorable world by roughly 40%, concludes the main story and overhauls farming automation and mech customization, including the new Skyblazer flight mode. Existing saves remain usable.",
       "categories": [
         "Releases",
         "Updates"
@@ -171,16 +190,19 @@
       "publishedAt": "2026-11-04T00:00:00Z",
       "featured": false,
       "imageUrl": "https://mnd-assets.mynewsdesk.com/image/upload/ar_16%3A9%2Cc_fill%2Cdpr_auto%2Cf_auto%2Cg_xy_center%2Cq_auto%3Agood%2Cw_746%2Cx_1921%2Cy_1080/9heayq3jn93p1mhh15sexc",
-      "steam": {
-        "url": "https://store.steampowered.com/app/1677110/Lightyear_Frontier/"
-      },
       "changeType": "new",
-      "updatedAt": "2026-11-04T19:06:01Z"
+      "updatedAt": "2026-11-04T19:06:01Z",
+      "steamPages": [
+        {
+          "name": "Lightyear Frontier",
+          "url": "https://store.steampowered.com/app/1677110/Lightyear_Frontier/"
+        }
+      ]
     },
     {
       "id": "deep-rock-galactic-rogue-core-update-3-nov-4-2026",
       "headline": "Deep Rock Galactic: Rogue Core launches Update 3 with Balgorath boss",
-      "summary": "Ghost Ship Games has released [Update 3](https://www.mynewsdesk.com/uk/swipe-right/pressreleases/dig-deeper-deep-rock-galactic-rogue-core-launches-update-3-3476122) for [Deep Rock Galactic: Rogue Core](https://store.steampowered.com/app/2605790/Deep_Rock_Galactic_Rogue_Core/) on Steam. The Early Access co-op shooter gains the Balgorath boss, configurable boss-fight modifiers, the Ventura shotgun and linked Quantum Warpfield teleporters. New mission variations, upgrade rerolls and a recovery option after host crashes also aim to make runs more varied and resilient.",
+      "summary": "Ghost Ship Games has released Update 3 for Deep Rock Galactic: Rogue Core on Steam. The Early Access co-op shooter gains the Balgorath boss, configurable boss-fight modifiers, the Ventura shotgun and linked Quantum Warpfield teleporters. New mission variations, upgrade rerolls and a recovery option after host crashes also aim to make runs more varied and resilient.",
       "categories": [
         "Updates"
       ],
@@ -192,11 +214,14 @@
       "publishedAt": "2026-11-04T12:02:00Z",
       "featured": false,
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2605790/8a84d291390183d33a9629e68cdd35ad27d6217b/header_alt_assets_2.jpg?t=1793799738",
-      "steam": {
-        "url": "https://store.steampowered.com/app/2605790/Deep_Rock_Galactic_Rogue_Core/"
-      },
       "changeType": "new",
-      "updatedAt": "2026-11-04T19:06:01Z"
+      "updatedAt": "2026-11-04T19:06:01Z",
+      "steamPages": [
+        {
+          "name": "Deep Rock Galactic: Rogue Core",
+          "url": "https://store.steampowered.com/app/2605790/Deep_Rock_Galactic_Rogue_Core/"
+        }
+      ]
     }
   ]
 }

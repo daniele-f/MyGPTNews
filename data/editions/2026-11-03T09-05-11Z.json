@@ -7,7 +7,7 @@
     {
       "id": "thief-dark-project-remastered-december-3-tarnished-mirror-2026",
       "headline": "Thief: The Dark Project Remastered is dated for December 3 with a new campaign",
-      "summary": "Nightdive Studios, Eidos-Montréal and Atari confirmed that [Thief: The Dark Project Remastered](https://store.steampowered.com/app/4200960/) launches on PC on December 3. The KEX Engine remaster includes the original game, Thief Gold content and The Tarnished Mirror, a new campaign by the creators of the acclaimed Black Parade fan expansion. A significant return for a landmark PC stealth series.",
+      "summary": "Nightdive Studios, Eidos-Montréal and Atari confirmed that Thief: The Dark Project Remastered launches on PC on December 3. The KEX Engine remaster includes the original game, Thief Gold content and The Tarnished Mirror, a new campaign by the creators of the acclaimed Black Parade fan expansion. A significant return for a landmark PC stealth series.",
       "categories": [
         "Announcements"
       ],
@@ -19,14 +19,17 @@
       "publishedAt": "2026-11-03T09:05:11Z",
       "featured": true,
       "imageUrl": "https://imgeucdn.gamespress.com/cdn/files/Games%20Press/2026/06/072153-e478646d/Thief-KeyArt_3840x2160.png?bgcolor=transparent&format=png&mode=max&otf=y&quality=90&sky=eb9606cc2291f3a52b6cb7ee53c78ad4b294f07853034754b6cbaa2db343d808&w=533",
-      "steam": {
-        "url": "https://store.steampowered.com/app/4200960/"
-      }
+      "steamPages": [
+        {
+          "name": "Thief: The Dark Project Remastered",
+          "url": "https://store.steampowered.com/app/4200960/"
+        }
+      ]
     },
     {
       "id": "division-2-echoes-central-park-dlc-november-3-2026",
       "headline": "The Division 2's Echoes of Central Park DLC is scheduled for November 3",
-      "summary": "Ubisoft plans to release [The Division 2: Echoes of Central Park](https://store.steampowered.com/app/5109260/) today, November 3. This paid story DLC opens Central Park and the Upper West Side for a new flashback campaign, playable solo or in co-op, with additional skills and gear. The Steam listing remained in pre-purchase status when checked, so availability has not yet been confirmed.",
+      "summary": "Ubisoft plans to release The Division 2: Echoes of Central Park today, November 3. This paid story DLC opens Central Park and the Upper West Side for a new flashback campaign, playable solo or in co-op, with additional skills and gear. The Steam listing remained in pre-purchase status when checked, so availability has not yet been confirmed.",
       "categories": [
         "Releases",
         "Announcements"
@@ -39,14 +42,17 @@
       "publishedAt": "2026-11-03T09:05:11Z",
       "featured": false,
       "imageUrl": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/MaYT5rlK4icyMmvsUgx29/3ef8fbeda50308692f864fe8cb582168/TD2_EchoesofCentralPark_Keyart.jpg",
-      "steam": {
-        "url": "https://store.steampowered.com/app/5109260/"
-      }
+      "steamPages": [
+        {
+          "name": "Tom Clancy's The Division 2: Echoes of Central Park",
+          "url": "https://store.steampowered.com/app/5109260/"
+        }
+      ]
     },
     {
       "id": "godzilla-destroy-all-monsters-melee-remastered-steam-nov3-2026",
       "headline": "Godzilla: Destroy All Monsters Melee Remastered targets PC release today",
-      "summary": "Atari and Pipeworks have scheduled [Godzilla: Destroy All Monsters Melee Remastered](https://store.steampowered.com/app/4251460/) for November 3 on Steam. The updated 2002 monster arena fighter features 12 playable kaiju, eight arenas, refreshed visuals and new online multiplayer alongside local play. Its Steam page confirmed the release date but had not yet shown user reviews.",
+      "summary": "Atari and Pipeworks have scheduled Godzilla: Destroy All Monsters Melee Remastered for November 3 on Steam. The updated 2002 monster arena fighter features 12 playable kaiju, eight arenas, refreshed visuals and new online multiplayer alongside local play. Its Steam page confirmed the release date but had not yet shown user reviews.",
       "categories": [
         "Releases"
       ],
@@ -58,14 +64,17 @@
       "publishedAt": "2026-11-03T09:05:11Z",
       "featured": false,
       "imageUrl": "https://atari.com/cdn/shop/files/AtomicScreenC.webp?v=1780401703&width=1600",
-      "steam": {
-        "url": "https://store.steampowered.com/app/4251460/"
-      }
+      "steamPages": [
+        {
+          "name": "Godzilla: Destroy All Monsters Melee Remastered",
+          "url": "https://store.steampowered.com/app/4251460/"
+        }
+      ]
     },
     {
       "id": "archeage-chronicles-early-access-november-3-2026",
       "headline": "ArcheAge Chronicles enters its scheduled Steam Early Access launch day",
-      "summary": "XLGAMES has scheduled [ArcheAge Chronicles](https://store.steampowered.com/app/3218230/) for Steam Early Access on November 3 in US Pacific time. The Unreal Engine 5 open-world action MMORPG combines combat, exploration, cooperative dungeons and PvP in Auroria. Steam was still showing pre-purchase status when checked, so the launch is not yet confirmed live.",
+      "summary": "XLGAMES has scheduled ArcheAge Chronicles for Steam Early Access on November 3 in US Pacific time. The Unreal Engine 5 open-world action MMORPG combines combat, exploration, cooperative dungeons and PvP in Auroria. Steam was still showing pre-purchase status when checked, so the launch is not yet confirmed live.",
       "categories": [
         "Releases",
         "Announcements"
@@ -78,14 +87,17 @@
       "publishedAt": "2026-11-03T09:05:11Z",
       "featured": false,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/header.jpg?t=1793752512",
-      "steam": {
-        "url": "https://store.steampowered.com/app/3218230/"
-      }
+      "steamPages": [
+        {
+          "name": "ArcheAge Chronicles",
+          "url": "https://store.steampowered.com/app/3218230/"
+        }
+      ]
     },
     {
       "id": "loftia-solarpunk-mmo-steam-early-access-november-3-2026",
       "headline": "Cozy solarpunk MMO Loftia is scheduled for Steam Early Access today",
-      "summary": "Qloud Games lists November 3 for [Loftia](https://store.steampowered.com/app/2320980/)'s Steam Early Access debut. The cooperative, sustainability-themed life sim centers on farming, crafting, building homes, looking after animals and working with other players on community projects. The store page still showed Coming Soon to Early Access at the time of checking.",
+      "summary": "Qloud Games lists November 3 for Loftia's Steam Early Access debut. The cooperative, sustainability-themed life sim centers on farming, crafting, building homes, looking after animals and working with other players on community projects. The store page still showed Coming Soon to Early Access at the time of checking.",
       "categories": [
         "Releases"
       ],
@@ -97,9 +109,12 @@
       "publishedAt": "2026-11-03T09:05:11Z",
       "featured": false,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/header.jpg?t=1793732506",
-      "steam": {
-        "url": "https://store.steampowered.com/app/2320980/"
-      }
+      "steamPages": [
+        {
+          "name": "Loftia",
+          "url": "https://store.steampowered.com/app/2320980/"
+        }
+      ]
     },
     {
       "id": "valve-steam-frame-october-2026-vr-hardware-survey",

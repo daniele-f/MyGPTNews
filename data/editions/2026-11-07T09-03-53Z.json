@@ -84,11 +84,14 @@
       "publishedAt": "2026-11-06T23:45:00Z",
       "featured": false,
       "imageUrl": "https://web.poecdn.com/public/news/2026-11-07/ExileCon/PoE2/ENPointerPostTitle.jpg",
-      "steam": {
-        "url": "https://store.steampowered.com/app/2694490/"
-      },
       "changeType": "new",
-      "updatedAt": "2026-11-07T13:56:22Z"
+      "updatedAt": "2026-11-07T13:56:22Z",
+      "steamPages": [
+        {
+          "name": "Path of Exile 2",
+          "url": "https://store.steampowered.com/app/2694490/"
+        }
+      ]
     },
     {
       "id": "poe-covens-of-umbra-exilecon-reveal-endgame-2026",
@@ -107,11 +110,14 @@
       "publishedAt": "2026-11-06T23:45:00Z",
       "featured": false,
       "imageUrl": "https://web.poecdn.com/public/news/2026-11-07/ExileCon/PoE1/ENPointerPostTitle_full.jpg",
-      "steam": {
-        "url": "https://store.steampowered.com/app/238960/"
-      },
       "changeType": "new",
-      "updatedAt": "2026-11-07T13:56:22Z"
+      "updatedAt": "2026-11-07T13:56:22Z",
+      "steamPages": [
+        {
+          "name": "Path of Exile",
+          "url": "https://store.steampowered.com/app/238960/"
+        }
+      ]
     },
     {
       "id": "nier-automata-366gb-install-bug-november-2026",
@@ -129,11 +135,14 @@
       "publishedAt": "2026-11-05T19:54:00Z",
       "featured": false,
       "imageUrl": "https://www.videogameschronicle.com/files/2024/02/nier-automata-320x180.jpg",
-      "steam": {
-        "url": "https://store.steampowered.com/app/524220/"
-      },
       "changeType": "new",
-      "updatedAt": "2026-11-07T19:04:13Z"
+      "updatedAt": "2026-11-07T19:04:13Z",
+      "steamPages": [
+        {
+          "name": "NieR:Automata",
+          "url": "https://store.steampowered.com/app/524220/"
+        }
+      ]
     },
     {
       "id": "007-first-light-free-starter-pack-steam-november-2026",
@@ -151,11 +160,14 @@
       "publishedAt": "2026-11-05T16:21:00Z",
       "featured": false,
       "imageUrl": "https://www.videogameschronicle.com/files/2026/04/007-First-Light-320x180.webp",
-      "steam": {
-        "url": "https://store.steampowered.com/app/3768760/"
-      },
       "changeType": "new",
-      "updatedAt": "2026-11-07T19:04:13Z"
+      "updatedAt": "2026-11-07T19:04:13Z",
+      "steamPages": [
+        {
+          "name": "007 First Light",
+          "url": "https://store.steampowered.com/app/3768760/"
+        }
+      ]
     }
   ]
 }

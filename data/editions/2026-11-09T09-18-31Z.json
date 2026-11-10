@@ -19,9 +19,12 @@
       "publishedAt": "2026-11-09T00:00:00Z",
       "featured": true,
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/yYFgBZtpHgQ9MwUKngZ8tV.jpg",
-      "steam": {
-        "url": "https://store.steampowered.com/app/1016950/Blood_Bowl_3/"
-      }
+      "steamPages": [
+        {
+          "name": "Warhammer Blood Bowl",
+          "url": "https://store.steampowered.com/app/1016950/Blood_Bowl_3/"
+        }
+      ]
     },
     {
       "id": "jackbox-games-ceo-rejects-ai-generated-creative-assets-nov-2026",
@@ -87,11 +90,14 @@
       "publishedAt": "2026-11-09T00:00:00Z",
       "featured": false,
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/sF7aJvNGHwVQoNL44cyGFj.jpg",
-      "steam": {
-        "url": "https://store.steampowered.com/app/8500/EVE_Online/"
-      },
       "changeType": "new",
-      "updatedAt": "2026-11-09T14:15:56Z"
+      "updatedAt": "2026-11-09T14:15:56Z",
+      "steamPages": [
+        {
+          "name": "EVE Online",
+          "url": "https://store.steampowered.com/app/8500/EVE_Online/"
+        }
+      ]
     },
     {
       "id": "warhammer-40000-dark-heresy-january-28-2027-release-confirmed",
@@ -108,11 +114,14 @@
       "publishedAt": "2026-11-09T00:00:00Z",
       "featured": false,
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3710600/c9cff4a2e091c0590909762a6d4296eeee5859a1/header.jpg?t=1794240130",
-      "steam": {
-        "url": "https://store.steampowered.com/app/3710600/Warhammer_40000_Dark_Heresy/"
-      },
       "changeType": "new",
-      "updatedAt": "2026-11-09T18:56:37Z"
+      "updatedAt": "2026-11-09T18:56:37Z",
+      "steamPages": [
+        {
+          "name": "Warhammer 40,000: Dark Heresy",
+          "url": "https://store.steampowered.com/app/3710600/Warhammer_40000_Dark_Heresy/"
+        }
+      ]
     },
     {
       "id": "nier-automata-366gb-download-bug-fixed-nov-9",
@@ -129,11 +138,14 @@
       "publishedAt": "2026-11-09T00:00:00Z",
       "featured": false,
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/eTceoVV4K4YG2qgZbVPT7H.jpg",
-      "steam": {
-        "url": "https://store.steampowered.com/app/524220/NieRAutomata/"
-      },
       "changeType": "new",
-      "updatedAt": "2026-11-09T18:56:37Z"
+      "updatedAt": "2026-11-09T18:56:37Z",
+      "steamPages": [
+        {
+          "name": "NieR:Automata",
+          "url": "https://store.steampowered.com/app/524220/NieRAutomata/"
+        }
+      ]
     },
     {
       "id": "fanatical-persona-5-royal-73-percent-flash-sale-nov-9",
@@ -150,11 +162,14 @@
       "publishedAt": "2026-11-09T16:01:00Z",
       "featured": false,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg?t=1783356822",
-      "steam": {
-        "url": "https://store.steampowered.com/app/1687950/Persona_5_Royal/"
-      },
       "changeType": "new",
-      "updatedAt": "2026-11-09T18:56:37Z"
+      "updatedAt": "2026-11-09T18:56:37Z",
+      "steamPages": [
+        {
+          "name": "Persona 5 Royal",
+          "url": "https://store.steampowered.com/app/1687950/Persona_5_Royal/"
+        }
+      ]
     }
   ]
 }

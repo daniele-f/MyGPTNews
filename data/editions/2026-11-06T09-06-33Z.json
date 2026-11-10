@@ -7,7 +7,7 @@
     {
       "id": "ea-classics-25-games-anniversary-steam-gog-2026-11-05",
       "headline": "EA restores 25 classic PC games for Steam and GOG, including Road Rash and Wing Commander",
-      "summary": "[Electronic Arts](https://www.ea.com/news/ea-classics-launch) has brought 25 legacy titles to Steam, GOG and the EA app. Seven anniversary editions receive modern-PC improvements, including [Road Rash: 30th Anniversary Edition](https://store.steampowered.com/app/2448570/) and [Wing Commander: 35th Anniversary Edition](https://store.steampowered.com/app/1996640/). Special launch pricing runs November 5–19; individual prices vary by store and region.",
+      "summary": "Electronic Arts has brought 25 legacy titles to Steam, GOG and the EA app. Seven anniversary editions receive modern-PC improvements, including Road Rash: 30th Anniversary Edition and Wing Commander: 35th Anniversary Edition. Special launch pricing runs November 5–19; individual prices vary by store and region.",
       "categories": [
         "Releases",
         "Deals & Events"
@@ -15,7 +15,17 @@
       "sourceUrl": "https://www.ea.com/news/ea-classics-launch",
       "publishedAt": "2026-11-05T00:00:00Z",
       "featured": true,
-      "imageUrl": "https://drop-assets.ea.com/images/5252lzaUWZ9qwTtv9at99Q/e73fee7fd7fe1d987cbca9a96958e4e8/Wave2_Collage_1920x1080.png?im=AspectCrop%3D%2816%2C9%29%2CxPosition%3D0.5%2CyPosition%3D0.5"
+      "imageUrl": "https://drop-assets.ea.com/images/5252lzaUWZ9qwTtv9at99Q/e73fee7fd7fe1d987cbca9a96958e4e8/Wave2_Collage_1920x1080.png?im=AspectCrop%3D%2816%2C9%29%2CxPosition%3D0.5%2CyPosition%3D0.5",
+      "steamPages": [
+        {
+          "name": "Road Rash: 30th Anniversary Edition",
+          "url": "https://store.steampowered.com/app/2448570/"
+        },
+        {
+          "name": "Wing Commander: 35th Anniversary Edition",
+          "url": "https://store.steampowered.com/app/1996640/"
+        }
+      ]
     },
     {
       "id": "gog-galaxy-linux-and-social-showcase-2026-11-05",
@@ -32,7 +42,7 @@
     {
       "id": "hogwarts-legacy-dlss-5-update-november-2026",
       "headline": "Hogwarts Legacy receives DLSS 5 neural rendering on PC",
-      "summary": "[NVIDIA](https://www.nvidia.com/en-eu/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/) says the November 5 update adds DLSS 5's 3D-guided neural rendering to improve in-game lighting and material appearance on supported GeForce RTX 50-series systems. The technology is aimed at visual fidelity rather than just resolution scaling. [Steam](https://store.steampowered.com/app/990080/).",
+      "summary": "NVIDIA says the November 5 update adds DLSS 5's 3D-guided neural rendering to improve in-game lighting and material appearance on supported GeForce RTX 50-series systems. The technology is aimed at visual fidelity rather than just resolution scaling.",
       "categories": [
         "Updates"
       ],
@@ -44,14 +54,17 @@
       "publishedAt": "2026-11-03T00:00:00Z",
       "featured": false,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/be2971b1023bccb04f993887d70ef4d2060262cf/header.jpg?t=1790708992",
-      "steam": {
-        "url": "https://store.steampowered.com/app/990080/Hogwarts_Legacy/"
-      }
+      "steamPages": [
+        {
+          "name": "Hogwarts Legacy",
+          "url": "https://store.steampowered.com/app/990080/Hogwarts_Legacy/"
+        }
+      ]
     },
     {
       "id": "call-of-duty-modern-warfare-4-season-one-november-6-2026",
       "headline": "Call of Duty: Modern Warfare 4 starts Season 1 with new DMZ and multiplayer content",
-      "summary": "[Activision](https://www.callofduty.com/au/en/blog/2026/10/call-of-duty-modern-warfare-4-warzone-season-1-announcement) confirms the November 6 season includes fresh multiplayer maps and modes, a new X01 Black Site area for DMZ, weapons and events. The Warzone integration also introduces Hajin and Zodiac maps. The update went live at 06:00. [Steam](https://store.steampowered.com/app/4435490/).",
+      "summary": "Activision confirms the November 6 season includes fresh multiplayer maps and modes, a new X01 Black Site area for DMZ, weapons and events. The Warzone integration also introduces Hajin and Zodiac maps. The update went live at 06:00.",
       "categories": [
         "Updates"
       ],
@@ -63,14 +76,17 @@
       "publishedAt": "2026-10-28T00:00:00Z",
       "featured": false,
       "imageUrl": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/s1-mp-dmz-announcement/MW4-SEASON-1-ANNOUNCEMENT-RM.webp",
-      "steam": {
-        "url": "https://store.steampowered.com/app/4435490/Call_of_Duty_Modern_Warfare_4/"
-      }
+      "steamPages": [
+        {
+          "name": "Call of Duty: Modern Warfare 4",
+          "url": "https://store.steampowered.com/app/4435490/Call_of_Duty_Modern_Warfare_4/"
+        }
+      ]
     },
     {
       "id": "intel-xess-xmx-linux-steamos-proton-experimental-november-2026",
       "headline": "Experimental Intel XeSS project enables XMX upscaling and frame generation on Proton",
-      "summary": "A community-developed experimental build now enables Intel's XMX-accelerated XeSS super resolution and frame generation for some SteamOS and Linux games running through Proton. [PC Gamer](https://www.pcgamer.com/hardware/handheld-gaming-pcs/experimental-project-beats-intel-in-bringing-real-intel-xess-super-resolution-to-steamos-and-proton-games-on-linux/) reports early tests on an Intel-based handheld and Arc B580, but the work is unofficial, early-stage and not yet broadly validated.",
+      "summary": "A community-developed experimental build now enables Intel's XMX-accelerated XeSS super resolution and frame generation for some SteamOS and Linux games running through Proton. PC Gamer reports early tests on an Intel-based handheld and Arc B580, but the work is unofficial, early-stage and not yet broadly validated.",
       "categories": [
         "Industry News",
         "Updates"
@@ -83,7 +99,7 @@
     {
       "id": "world-of-warcraft-forever-official-launch-november-2026",
       "headline": "World of Warcraft: Forever launches with new zones, quests and gamepad support",
-      "summary": "[Blizzard](https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-now-live) confirms <b>World of Warcraft: Forever</b> is live. The permanent companion to modern and Classic WoW launched globally on November 5 at 00:00 and is included with a WoW subscription or Game Time. It adds new and reimagined zones, more than 1,000 quests, nine new five-player dungeons, the Skyborne race and native gamepad support. Three raids unlock on December 9.",
+      "summary": "Blizzard confirms <b>World of Warcraft: Forever</b> is live. The permanent companion to modern and Classic WoW launched globally on November 5 at 00:00 and is included with a WoW subscription or Game Time. It adds new and reimagined zones, more than 1,000 quests, nine new five-player dungeons, the Skyborne race and native gamepad support. Three raids unlock on December 9.",
       "categories": [
         "Releases",
         "Updates"
@@ -103,7 +119,7 @@
     {
       "id": "unity-buyout-talks-silver-lake-saudi-pif-november-2026",
       "headline": "Unity reportedly in buyout talks with Silver Lake and Saudi Arabia's PIF",
-      "summary": "[PC Gamer](https://www.pcgamer.com/gaming-industry/saudi-arabia-owns-ea-and-according-to-a-reuters-report-unity-is-next/), citing a November 5 Reuters report, says Unity Software has held talks with a potential buyer consortium including Silver Lake and Saudi Arabia's Public Investment Fund. A valuation around $25 billion was discussed. <b>No acquisition has been agreed</b>, and any deal or its terms could change. The reported talks matter for studios relying on the Unity game engine.",
+      "summary": "PC Gamer, citing a November 5 Reuters report, says Unity Software has held talks with a potential buyer consortium including Silver Lake and Saudi Arabia's Public Investment Fund. A valuation around $25 billion was discussed. <b>No acquisition has been agreed</b>, and any deal or its terms could change. The reported talks matter for studios relying on the Unity game engine.",
       "categories": [
         "Industry News"
       ],
@@ -117,7 +133,7 @@
     {
       "id": "path-of-exile-2-exilecon-2026-nightfowl-twitch-drops",
       "headline": "Path of Exile 2 confirms four Nightfowl Twitch Drops for ExileCon 2026",
-      "summary": "[Grinding Gear Games](https://steamcommunity.com/app/2694490/allnews/) has detailed ExileCon's free Twitch Drops for <b>Path of Exile 2</b> and the original Path of Exile. Watch the [official stream](https://www.twitch.tv/pathofexile) or an eligible ExileCon channel from November 6 at 21:30 until November 8 at 08:59. Cumulative watch time unlocks Nightfowl cosmetic effects at <b>2, 4, 6 and 8 hours</b>. Link your Path of Exile and Twitch accounts and claim each reward in your Twitch Inventory before the campaign ends. The showcase keynote begins November 6 at <b>22:00</b>.",
+      "summary": "Grinding Gear Games has detailed ExileCon's free Twitch Drops for <b>Path of Exile 2</b> and the original Path of Exile. Watch the [official stream](https://www.twitch.tv/pathofexile) or an eligible ExileCon channel from November 6 at 21:30 until November 8 at 08:59. Cumulative watch time unlocks Nightfowl cosmetic effects at <b>2, 4, 6 and 8 hours</b>. Link your Path of Exile and Twitch accounts and claim each reward in your Twitch Inventory before the campaign ends. The showcase keynote begins November 6 at <b>22:00</b>.",
       "categories": [
         "Deals & Events",
         "Announcements"
@@ -130,11 +146,18 @@
       "publishedAt": "2026-11-05T20:14:00Z",
       "featured": false,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/24eeddcbda17903f03d819588757e40845f8115f/header.jpg?t=1793933420",
-      "steam": {
-        "url": "https://store.steampowered.com/app/2694490/"
-      },
       "changeType": "new",
-      "updatedAt": "2026-11-06T19:02:13Z"
+      "updatedAt": "2026-11-06T19:02:13Z",
+      "steamPages": [
+        {
+          "name": "Path of Exile 2",
+          "url": "https://store.steampowered.com/app/2694490/"
+        },
+        {
+          "name": "Path of Exile",
+          "url": "https://store.steampowered.com/app/238960/"
+        }
+      ]
     }
   ]
 }

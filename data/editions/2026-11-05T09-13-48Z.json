@@ -7,7 +7,7 @@
     {
       "id": "airframe-ultra-pc-release-november-5-2026",
       "headline": "Airframe Ultra schedules its PC combat-racing launch for November 5",
-      "summary": "Videocult and Akupara Games have scheduled [Airframe Ultra](https://store.steampowered.com/app/2522120/Airframe_Ultra/) for November 5 on PC. The fast-paced hoverbike combat racer combines online multiplayer with local split-screen racing, customizable bikes and a reputation-based progression system. Steam still lists the game as upcoming this morning, so release availability is not yet confirmed.",
+      "summary": "Videocult and Akupara Games have scheduled Airframe Ultra for November 5 on PC. The fast-paced hoverbike combat racer combines online multiplayer with local split-screen racing, customizable bikes and a reputation-based progression system. Steam still lists the game as upcoming this morning, so release availability is not yet confirmed.",
       "categories": [
         "Releases"
       ],
@@ -19,14 +19,17 @@
       "publishedAt": "2026-11-05T00:00:00Z",
       "featured": true,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2522120/85ae9c79253627eb019c581e2fb2ace76f12cc97/header.jpg?t=1793747621",
-      "steam": {
-        "url": "https://store.steampowered.com/app/2522120/Airframe_Ultra/"
-      }
+      "steamPages": [
+        {
+          "name": "Airframe Ultra",
+          "url": "https://store.steampowered.com/app/2522120/Airframe_Ultra/"
+        }
+      ]
     },
     {
       "id": "path-of-exile-covens-of-umbra-exilecon-reveal-november-2026",
       "headline": "Path of Exile: Covens of Umbra launches November 13; ExileCon reveal is November 6",
-      "summary": "Grinding Gear Games has announced [Covens of Umbra](https://www.pathofexile.com/forum/view-thread/4012420), the next free expansion for the original Path of Exile. Its PC launch is scheduled for November 13 in the Pacific time zone; further details are due in an ExileCon broadcast on November 6 at 12:30 p.m. PST. [Steam](https://store.steampowered.com/app/238960/Path_of_Exile/) also carries the base game.",
+      "summary": "Grinding Gear Games has announced Covens of Umbra, the next free expansion for the original Path of Exile. Its PC launch is scheduled for November 13 in the Pacific time zone; further details are due in an ExileCon broadcast on November 6 at 12:30 p.m. PST. Steam also carries the base game.",
       "categories": [
         "Announcements",
         "Updates"
@@ -39,9 +42,12 @@
       "publishedAt": "2026-11-02T00:32:00Z",
       "featured": false,
       "imageUrl": "https://web.poecdn.com/public/news/2026-11-02/CovensofUmbraAnnouncementHeader.jpg",
-      "steam": {
-        "url": "https://store.steampowered.com/app/238960/Path_of_Exile/"
-      }
+      "steamPages": [
+        {
+          "name": "Path of Exile",
+          "url": "https://store.steampowered.com/app/238960/Path_of_Exile/"
+        }
+      ]
     },
     {
       "id": "gog-first-games-showcase-november-5-2026",
@@ -61,7 +67,7 @@
     {
       "id": "wielders-of-the-essence-release-november-5-2026",
       "headline": "Wielders of the Essence is scheduled to release on Steam November 5",
-      "summary": "Lavapotion's [Wielders of the Essence](https://store.steampowered.com/app/3546610/Wielders_of_the_Essence/) is due on PC November 5. The single-player bullet-heaven game mixes short horde-survival runs with persistent town-building upgrades, spells and commandable troops. Its Steam release is still marked as upcoming this morning, with a demo available.",
+      "summary": "Lavapotion's Wielders of the Essence is due on PC November 5. The single-player bullet-heaven game mixes short horde-survival runs with persistent town-building upgrades, spells and commandable troops. Its Steam release is still marked as upcoming this morning, with a demo available.",
       "categories": [
         "Releases"
       ],
@@ -73,14 +79,17 @@
       "publishedAt": "2026-11-05T00:00:00Z",
       "featured": false,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3546610/60b406b71b60acb81f9a4c5e3405f3a051ea17f7/header.jpg?t=1793781496",
-      "steam": {
-        "url": "https://store.steampowered.com/app/3546610/Wielders_of_the_Essence/"
-      }
+      "steamPages": [
+        {
+          "name": "Wielders of the Essence",
+          "url": "https://store.steampowered.com/app/3546610/Wielders_of_the_Essence/"
+        }
+      ]
     },
     {
       "id": "where-the-seeds-fall-steam-release-november-4-2026",
       "headline": "Where the Seeds Fall releases on Steam with World Tree parkour adventure",
-      "summary": "Cygames released [Where the Seeds Fall](https://store.steampowered.com/app/4139580/Where_the_Seeds_Fall/) on PC on November 4. Developed by CygamesEdge and ZEREO, the single-player 3D action-adventure centers on climbing and traversing the World Tree while escorting a mysterious child. The Steam store now lists the game as released.",
+      "summary": "Cygames released Where the Seeds Fall on PC on November 4. Developed by CygamesEdge and ZEREO, the single-player 3D action-adventure centers on climbing and traversing the World Tree while escorting a mysterious child. The Steam store now lists the game as released.",
       "categories": [
         "Releases"
       ],
@@ -92,9 +101,12 @@
       "publishedAt": "2026-11-04T00:00:00Z",
       "featured": false,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4139580/66f0780fdaafb7743e3ada064763522633964c95/header.jpg?t=1793857618",
-      "steam": {
-        "url": "https://store.steampowered.com/app/4139580/Where_the_Seeds_Fall/"
-      }
+      "steamPages": [
+        {
+          "name": "Where the Seeds Fall",
+          "url": "https://store.steampowered.com/app/4139580/Where_the_Seeds_Fall/"
+        }
+      ]
     },
     {
       "id": "steam-game-review-backlog-12-business-days-november-2026",
@@ -111,7 +123,7 @@
     {
       "id": "nexus-mods-mandatory-ai-disclosures-november-2026",
       "headline": "Nexus Mods introduces mandatory AI-content disclosures for mod uploads",
-      "summary": "[Nexus Mods](https://help.nexusmods.com/article/180-ai-policy-changes-2026) is introducing distinct AI-generated, AI-assisted and AI-media disclosure labels, alongside permissions for how creators' work may be reused. New uploads must use the updated fields immediately; existing mods have a 60-day transition period from November 3, 2026 to January 2, 2027. The platform is not banning AI-generated mods.",
+      "summary": "Nexus Mods is introducing distinct AI-generated, AI-assisted and AI-media disclosure labels, alongside permissions for how creators' work may be reused. New uploads must use the updated fields immediately; existing mods have a 60-day transition period from November 3, 2026 to January 2, 2027. The platform is not banning AI-generated mods.",
       "categories": [
         "Industry News",
         "Updates"
@@ -123,7 +135,7 @@
     {
       "id": "fortnite-crew-subscription-benefits-overhaul-december-2026",
       "headline": "Fortnite Crew ends monthly outfits and OG Pass as V-Bucks rewards increase",
-      "summary": "Epic Games says [Fortnite Crew](https://www.fortnite.com/news/big-changes-to-fortnite-crew-launching-december-5) will change on December 5. December is the final exclusive Crew Pack outfit, while the OG Pass ends; monthly V-Bucks rise from 800 to 1,000–1,600 based on subscription tenure. Members gain 20% extra Fortnite XP and non-member squadmates gain 10%. The US subscription price remains $11.99 per month and the Battle, Music, LEGO and Rocket Pass Premium benefits remain included. Fortnite has no official Steam page; visit the [official Fortnite site](https://www.fortnite.com/) instead.",
+      "summary": "Epic Games says Fortnite Crew will change on December 5. December is the final exclusive Crew Pack outfit, while the OG Pass ends; monthly V-Bucks rise from 800 to 1,000–1,600 based on subscription tenure. Members gain 20% extra Fortnite XP and non-member squadmates gain 10%. The US subscription price remains $11.99 per month and the Battle, Music, LEGO and Rocket Pass Premium benefits remain included. Fortnite has no official Steam page.",
       "categories": [
         "Updates"
       ],
@@ -143,7 +155,7 @@
     {
       "id": "pillars-of-eternity-games-pc-controller-support-public-beta-nov-2026",
       "headline": "Pillars of Eternity and Deadfire open full controller-support betas on PC",
-      "summary": "Obsidian's November 4 public tests bring native gamepad support to both [Pillars of Eternity](https://store.steampowered.com/app/291650/Pillars_of_Eternity/) and [Pillars of Eternity II: Deadfire](https://store.steampowered.com/app/560130/Pillars_of_Eternity_II_Deadfire/) on Steam, GOG and Xbox on PC. Both RPGs can be played with a controller from character creation through the end, in real-time-with-pause or turn-based mode, including Deadfire's ship combat. Deadfire's beta also revises turn-based initiative and action costs. On Steam, owners can opt into `public_beta` through each game's Betas settings; Obsidian warns the test builds may contain bugs.",
+      "summary": "Obsidian's November 4 public tests bring native gamepad support to both Pillars of Eternity and Pillars of Eternity II: Deadfire on Steam, GOG and Xbox on PC. Both RPGs can be played with a controller from character creation through the end, in real-time-with-pause or turn-based mode, including Deadfire's ship combat. Deadfire's beta also revises turn-based initiative and action costs. On Steam, owners can opt into `public_beta` through each game's Betas settings; Obsidian warns the test builds may contain bugs.",
       "categories": [
         "Updates"
       ],
@@ -155,11 +167,18 @@
       "publishedAt": "2026-11-04T00:00:00Z",
       "featured": false,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/291650/header.jpg?t=1783357801",
-      "steam": {
-        "url": "https://store.steampowered.com/app/291650/Pillars_of_Eternity/"
-      },
       "changeType": "new",
-      "updatedAt": "2026-11-05T19:04:32Z"
+      "updatedAt": "2026-11-05T19:04:32Z",
+      "steamPages": [
+        {
+          "name": "Pillars of Eternity",
+          "url": "https://store.steampowered.com/app/291650/Pillars_of_Eternity/"
+        },
+        {
+          "name": "Pillars of Eternity II: Deadfire",
+          "url": "https://store.steampowered.com/app/560130/Pillars_of_Eternity_II_Deadfire/"
+        }
+      ]
     }
   ]
 }

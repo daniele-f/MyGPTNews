@@ -7,7 +7,7 @@
     {
       "id": "selaco-machines-of-war-chapter-two-november-13-2026",
       "headline": "Selaco's free Machines of War chapter arrives November 13 with 19 maps",
-      "summary": "Altered Orbit Studios will release [Selaco](https://store.steampowered.com/app/1592280/)'s free Chapter 2 on November 13, adding 19 campaign maps and an estimated six to eight hours of content. Its update also rebuilds enemy AI, adds heavy weapons and revises Chapter 1. Existing saves will be incompatible, but players can jump directly into the new chapter.",
+      "summary": "Altered Orbit Studios will release Selaco's free Chapter 2 on November 13, adding 19 campaign maps and an estimated six to eight hours of content. Its update also rebuilds enemy AI, adds heavy weapons and revises Chapter 1. Existing saves will be incompatible, but players can jump directly into the new chapter.",
       "categories": [
         "Announcements",
         "Updates"
@@ -20,14 +20,17 @@
       "publishedAt": "2026-11-02T09:10:21Z",
       "featured": true,
       "imageUrl": "https://clan.fastly.steamstatic.com/images//40325504/a8749a52bdc30f7ac0cf5b9acbc167e716929c9a.png",
-      "steam": {
-        "url": "https://store.steampowered.com/app/1592280/"
-      }
+      "steamPages": [
+        {
+          "name": "Selaco",
+          "url": "https://store.steampowered.com/app/1592280/"
+        }
+      ]
     },
     {
       "id": "mass-effect-legendary-edition-multiplayer-mod-n7-day-2026",
       "headline": "Modders plan to restore Mass Effect Legendary Edition multiplayer on November 7",
-      "summary": "The ME3Tweaks team plans to bring the missing multiplayer mode to [Mass Effect Legendary Edition](https://store.steampowered.com/app/1328670/) on N7 Day, November 7. The community project promises remastered visuals, controller and HDR support, networking upgrades, additional modes and private-server options. It is a fan-made mod, not an official BioWare update.",
+      "summary": "The ME3Tweaks team plans to bring the missing multiplayer mode to Mass Effect Legendary Edition on N7 Day, November 7. The community project promises remastered visuals, controller and HDR support, networking upgrades, additional modes and private-server options. It is a fan-made mod, not an official BioWare update.",
       "categories": [
         "Announcements",
         "Updates"
@@ -40,14 +43,17 @@
       "publishedAt": "2026-11-02T09:10:21Z",
       "featured": false,
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1328670/header.jpg?t=1777395134",
-      "steam": {
-        "url": "https://store.steampowered.com/app/1328670/"
-      }
+      "steamPages": [
+        {
+          "name": "Mass Effect Legendary Edition",
+          "url": "https://store.steampowered.com/app/1328670/"
+        }
+      ]
     },
     {
       "id": "gravhounds-steam-early-access-november-2-2026",
       "headline": "GRAVHOUNDS targets November 2 Steam Early Access launch",
-      "summary": "[GRAVHOUNDS](https://store.steampowered.com/app/2440760/) is scheduled to enter Steam Early Access on November 2. The cooperative action builder supports one to four players who explore hostile planets, gather resources, construct defenses and attempt to extract safely. The Steam listing still marked it as coming soon when checked, so the launch should not be treated as completed.",
+      "summary": "GRAVHOUNDS is scheduled to enter Steam Early Access on November 2. The cooperative action builder supports one to four players who explore hostile planets, gather resources, construct defenses and attempt to extract safely. The Steam listing still marked it as coming soon when checked, so the launch should not be treated as completed.",
       "categories": [
         "Releases",
         "Announcements"
@@ -60,14 +66,17 @@
       "publishedAt": "2026-11-02T09:10:21Z",
       "featured": false,
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2440760/2432c78a467c370bcfa566baa22f0939df5219b0/header.jpg?t=1792425956",
-      "steam": {
-        "url": "https://store.steampowered.com/app/2440760/"
-      }
+      "steamPages": [
+        {
+          "name": "GRAVHOUNDS",
+          "url": "https://store.steampowered.com/app/2440760/"
+        }
+      ]
     },
     {
       "id": "chronicles-medieval-studio-funding-loss-threatens-early-access-2026",
       "headline": "Chronicles: Medieval's planned Early Access release faces funding crisis",
-      "summary": "Raw Power Games says funding for [Chronicles: Medieval](https://store.steampowered.com/app/2231020/) has been withdrawn, placing the studio at risk of closing even as its open-world medieval sandbox nears Early Access. The Steam listing still targets 2027. The project has not been confirmed canceled, but its future is uncertain while the team seeks a way forward.",
+      "summary": "Raw Power Games says funding for Chronicles: Medieval has been withdrawn, placing the studio at risk of closing even as its open-world medieval sandbox nears Early Access. The Steam listing still targets 2027. The project has not been confirmed canceled, but its future is uncertain while the team seeks a way forward.",
       "categories": [
         "Industry News"
       ],
@@ -79,9 +88,12 @@
       "publishedAt": "2026-11-02T09:10:21Z",
       "featured": false,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231020/322a3e5e98ce955972508f8ae5a6eb569ee40742/header.jpg?t=1791486435",
-      "steam": {
-        "url": "https://store.steampowered.com/app/2231020/"
-      }
+      "steamPages": [
+        {
+          "name": "Chronicles: Medieval",
+          "url": "https://store.steampowered.com/app/2231020/"
+        }
+      ]
     },
     {
       "id": "itchio-new-game-pages-double-discoverability-november-2026",
@@ -98,7 +110,7 @@
     {
       "id": "melvor-idle-2-runescape-adventure-jagex-early-access-nov17-2026",
       "headline": "Melvor Idle 2 becomes an official RuneScape adventure ahead of November 17 launch",
-      "summary": "Jagex and Games by Malcs have made [Melvor Idle 2](https://store.steampowered.com/app/3218350/) an officially branded RuneScape spinoff, now subtitled A RuneScape Adventure. Steam lists November 17 for Early Access. The follow-up expands idle skill progression and quests, with the developers saying it will have no microtransactions.",
+      "summary": "Jagex and Games by Malcs have made Melvor Idle 2 an officially branded RuneScape spinoff, now subtitled A RuneScape Adventure. Steam lists November 17 for Early Access. The follow-up expands idle skill progression and quests, with the developers saying it will have no microtransactions.",
       "categories": [
         "Announcements"
       ],
@@ -110,22 +122,24 @@
       "publishedAt": "2026-11-02T09:10:21Z",
       "featured": false,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218350/21b3f6881a12eef86b7c17b21640b396f3510f92/header.jpg?t=1793260534",
-      "steam": {
-        "url": "https://store.steampowered.com/app/3218350/"
-      }
+      "steamPages": [
+        {
+          "name": "Melvor Idle 2",
+          "url": "https://store.steampowered.com/app/3218350/"
+        }
+      ]
     },
     {
       "id": "world-of-warcraft-forever-global-launch-november-4-2026",
       "headline": "World of Warcraft: Forever launches November 4, included with subscription",
-      "summary": "Blizzard confirms [World of Warcraft: Forever](https://news.blizzard.com/en-us/article/24301508/pre-purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth) launches globally on November 4 at 3 p.m. PST, included with existing World of Warcraft subscription or game time. This reimagined original-Azeroth experience is distributed through Battle.net; no Steam store page exists.",
+      "summary": "Blizzard confirms World of Warcraft: Forever launches globally on November 4 at 3 p.m. PST, included with existing World of Warcraft subscription or game time. This reimagined original-Azeroth experience is distributed through Battle.net; no Steam store page exists.",
       "categories": [
         "Releases",
         "Announcements"
       ],
       "game": {
         "name": "World of Warcraft: Forever",
-        "id": "world-of-warcraft-forever",
-        "url": "https://news.blizzard.com/en-us/article/24301508/pre-purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth"
+        "id": "world-of-warcraft-forever"
       },
       "sourceUrl": "https://news.blizzard.com/en-us/article/24301508/pre-purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth",
       "publishedAt": "2026-11-02T09:10:21Z",

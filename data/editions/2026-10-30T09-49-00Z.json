@@ -19,11 +19,14 @@
       "publishedAt": "2026-10-30T09:49:00Z",
       "featured": true,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793261976",
-      "steam": {
-        "url": "https://store.steampowered.com/app/4115450/Phantom_Blade_Zero/"
-      },
       "changeType": "updated",
-      "updatedAt": "2026-10-30T22:23:16Z"
+      "updatedAt": "2026-10-30T22:23:16Z",
+      "steamPages": [
+        {
+          "name": "Phantom Blade Zero",
+          "url": "https://store.steampowered.com/app/4115450/Phantom_Blade_Zero/"
+        }
+      ]
     },
     {
       "id": "crimson-desert-charting-unknown-dlc-release-2026-10-29",
@@ -41,9 +44,12 @@
       "publishedAt": "2026-10-30T09:49:00Z",
       "featured": false,
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5001840/ed9f91c5529b5e043f58b5fa99de414c3c007772/header.jpg?t=1793335501",
-      "steam": {
-        "url": "https://store.steampowered.com/app/5001840/Crimson_Desert_Enhanced_Charting_the_Unknown/"
-      }
+      "steamPages": [
+        {
+          "name": "Crimson Desert Enhanced",
+          "url": "https://store.steampowered.com/app/5001840/Crimson_Desert_Enhanced_Charting_the_Unknown/"
+        }
+      ]
     },
     {
       "id": "age-of-empires-iv-raiders-of-the-north-release-2026-10-29",
@@ -61,9 +67,12 @@
       "publishedAt": "2026-10-30T09:49:00Z",
       "featured": false,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4336170/d7fd88b652f8390d84813dbb824eeec3c9e73ac8/header.jpg?t=1793294567",
-      "steam": {
-        "url": "https://store.steampowered.com/app/4336170/Age_of_Empires_IV_Raiders_of_the_North/"
-      }
+      "steamPages": [
+        {
+          "name": "Age of Empires IV",
+          "url": "https://store.steampowered.com/app/4336170/Age_of_Empires_IV_Raiders_of_the_North/"
+        }
+      ]
     },
     {
       "id": "planet-coaster-2-spooktacular-pack-release-2026-10-29",
@@ -81,9 +90,12 @@
       "publishedAt": "2026-10-30T09:49:00Z",
       "featured": false,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362340/e28b1315a74e6dc38f4b00a5e090df1bb8327de5/header.jpg?t=1793272943",
-      "steam": {
-        "url": "https://store.steampowered.com/app/5362340/Planet_Coaster_2_Spooktacular_Pack/"
-      }
+      "steamPages": [
+        {
+          "name": "Planet Coaster 2",
+          "url": "https://store.steampowered.com/app/5362340/Planet_Coaster_2_Spooktacular_Pack/"
+        }
+      ]
     },
     {
       "id": "cairn-deep-water-free-dlc-release-2026-10-29",
@@ -102,9 +114,12 @@
       "publishedAt": "2026-10-30T09:49:00Z",
       "featured": false,
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4487450/b0b38b2aa0767d5b08553820b59f98c2c7540f00/header.jpg?t=1793289251",
-      "steam": {
-        "url": "https://store.steampowered.com/app/4487450/Cairn_On_the_Trail_Deep_Water/"
-      }
+      "steamPages": [
+        {
+          "name": "Cairn",
+          "url": "https://store.steampowered.com/app/4487450/Cairn_On_the_Trail_Deep_Water/"
+        }
+      ]
     },
     {
       "id": "atmosfar-steam-early-access-launch-2026-10-29",
@@ -121,9 +136,12 @@
       "publishedAt": "2026-10-30T09:49:00Z",
       "featured": false,
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1798230/96e6f00d5ecb7c37ba07577ac02ac75fad16055a/header.jpg?t=1793341656",
-      "steam": {
-        "url": "https://store.steampowered.com/app/1798230/ATMOSFAR/"
-      }
+      "steamPages": [
+        {
+          "name": "ATMOSFAR",
+          "url": "https://store.steampowered.com/app/1798230/ATMOSFAR/"
+        }
+      ]
     },
     {
       "id": "queens-domain-steam-release-2026-10-30",
@@ -140,11 +158,14 @@
       "publishedAt": "2026-10-30T09:49:00Z",
       "featured": false,
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1799840/1a209734951f53b019ec9fa03f835def14f2a968/header.jpg?t=1793124111",
-      "steam": {
-        "url": "https://store.steampowered.com/app/1799840/Queens_Domain/"
-      },
       "changeType": "updated",
-      "updatedAt": "2026-10-30T22:23:16Z"
+      "updatedAt": "2026-10-30T22:23:16Z",
+      "steamPages": [
+        {
+          "name": "Queen's Domain",
+          "url": "https://store.steampowered.com/app/1799840/Queens_Domain/"
+        }
+      ]
     },
     {
       "id": "monster-train-2-the-punished-announced-2026-10-28",
@@ -161,9 +182,12 @@
       "publishedAt": "2026-10-30T09:49:00Z",
       "featured": false,
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4739980/be8a82d818d36cfdb559bd8c8acd9dcbc5b83673/header.jpg?t=1793196542",
-      "steam": {
-        "url": "https://store.steampowered.com/app/4739980/Monster_Train_2_The_Punished/"
-      }
+      "steamPages": [
+        {
+          "name": "Monster Train 2",
+          "url": "https://store.steampowered.com/app/4739980/Monster_Train_2_The_Punished/"
+        }
+      ]
     },
     {
       "id": "hexologic-steam-free-to-keep-promotion-2026-10-29",
@@ -180,15 +204,18 @@
       "publishedAt": "2026-10-30T09:49:00Z",
       "featured": false,
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/785890/header.jpg?t=1793292026",
-      "steam": {
-        "url": "https://store.steampowered.com/app/785890/Hexologic/"
-      },
       "price": {
         "amount": 0,
         "currency": "USD",
         "discountPercent": 100,
         "checkedAt": "2026-10-30T09:49:00Z"
-      }
+      },
+      "steamPages": [
+        {
+          "name": "Hexologic",
+          "url": "https://store.steampowered.com/app/785890/Hexologic/"
+        }
+      ]
     },
     {
       "id": "stardeus-v015-major-update-2026-10-29",
@@ -205,11 +232,14 @@
       "publishedAt": "2026-10-30T09:52:48Z",
       "featured": false,
       "imageUrl": "https://clan.fastly.steamstatic.com/images/38884233/9ca0370ce4b94da3464ec2f778053ec29e0c582d.png",
-      "steam": {
-        "url": "https://store.steampowered.com/app/1380910/Stardeus/"
-      },
       "changeType": "new",
-      "updatedAt": "2026-10-30T09:52:48Z"
+      "updatedAt": "2026-10-30T09:52:48Z",
+      "steamPages": [
+        {
+          "name": "Stardeus",
+          "url": "https://store.steampowered.com/app/1380910/Stardeus/"
+        }
+      ]
     },
     {
       "id": "sorry-were-closed-epic-free-2026-10-29",
@@ -226,9 +256,6 @@
       "publishedAt": "2026-10-30T09:52:48Z",
       "featured": false,
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1796580/header.jpg?t=1788536861",
-      "steam": {
-        "url": "https://store.steampowered.com/app/1796580/Sorry_Were_Closed/"
-      },
       "price": {
         "amount": 0,
         "currency": "USD",
@@ -236,7 +263,13 @@
         "checkedAt": "2026-10-30T09:52:48Z"
       },
       "changeType": "new",
-      "updatedAt": "2026-10-30T09:52:48Z"
+      "updatedAt": "2026-10-30T09:52:48Z",
+      "steamPages": [
+        {
+          "name": "Sorry We're Closed",
+          "url": "https://store.steampowered.com/app/1796580/Sorry_Were_Closed/"
+        }
+      ]
     },
     {
       "id": "assassins-creed-valhalla-new-game-plus-november-2026",
@@ -253,12 +286,15 @@
       "sourceUrl": "https://www.ubisoft.com/en-us/game/assassins-creed/news/MW9NJgNmVSPHu2AVCFHH9/assassins-creed-fall-2026-update",
       "publishedAt": "2026-10-30T22:23:16Z",
       "featured": false,
-      "steam": {
-        "url": "https://store.steampowered.com/app/2208920/Assassins_Creed_Valhalla/"
-      },
       "imageUrl": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3cUHzsC8bzifFPxrzngazP/17a7ff944f034a65de86ee374412bdaf/ACV_-_Arise_Main_Asset_-_EN.jpg",
       "changeType": "new",
-      "updatedAt": "2026-10-30T22:23:16Z"
+      "updatedAt": "2026-10-30T22:23:16Z",
+      "steamPages": [
+        {
+          "name": "Assassin's Creed Valhalla",
+          "url": "https://store.steampowered.com/app/2208920/Assassins_Creed_Valhalla/"
+        }
+      ]
     },
     {
       "id": "modern-warfare-4-itaewon-footage-removal-announced-2026-10-30",
@@ -276,11 +312,14 @@
       "publishedAt": "2026-10-30T22:23:16Z",
       "featured": false,
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4435490/0c492be3204835d71e8b454b6eb1817f8ff68c0d/header.jpg?t=1793390552",
-      "steam": {
-        "url": "https://store.steampowered.com/app/4435490/Call_of_Duty_Modern_Warfare_4/"
-      },
       "changeType": "new",
-      "updatedAt": "2026-10-30T22:23:16Z"
+      "updatedAt": "2026-10-30T22:23:16Z",
+      "steamPages": [
+        {
+          "name": "Call of Duty: Modern Warfare 4",
+          "url": "https://store.steampowered.com/app/4435490/Call_of_Duty_Modern_Warfare_4/"
+        }
+      ]
     }
   ]
 }
