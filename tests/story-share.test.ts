@@ -16,4 +16,9 @@ test('shares the exact article permalink from a search page on GitHub Pages', ()
   const whatsapp = new URL(details.whatsapp);
   assert.equal(whatsapp.origin, 'https://wa.me');
   assert.equal(whatsapp.searchParams.get('text'), title + '\n' + expected);
+  const reddit = new URL(details.reddit);
+  assert.equal(reddit.origin + reddit.pathname, 'https://www.reddit.com/submit');
+  assert.equal(reddit.searchParams.get('type'), 'LINK');
+  assert.equal(reddit.searchParams.get('url'), expected);
+  assert.equal(reddit.searchParams.get('title'), title);
 });

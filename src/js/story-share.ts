@@ -1,11 +1,13 @@
-import { discordIcon, emailIcon, whatsappIcon } from './button-icons';
+import { discordIcon, emailIcon, redditIcon, whatsappIcon } from './button-icons';
 
 export function storyShareDetails(path: string, title: string, baseUrl: string) {
   const url = new URL(path, baseUrl).href;
   const subject = encodeURIComponent(title.replace(/[\r\n]+/g, ' '));
+  const redditParams = new URLSearchParams({ type: 'LINK', url, title });
   return {
     title,
     url,
+    reddit: `https://www.reddit.com/submit?${redditParams}`,
     email: `mailto:?subject=${subject}&body=${encodeURIComponent(url)}`,
     whatsapp: `https://wa.me/?text=${encodeURIComponent(`${title}\n${url}`)}`,
   };
@@ -26,6 +28,7 @@ export function bindStoryShare(app: HTMLElement) {
       <a class="button button-secondary" data-share-email>${emailIcon}Email</a>
       <a class="button button-secondary" data-share-whatsapp target="_blank" rel="noopener noreferrer">${whatsappIcon}WhatsApp</a>
       <button class="button button-secondary" type="button" data-share-discord>${discordIcon}Discord</button>
+      <a class="button button-secondary" data-share-reddit target="_blank" rel="noopener noreferrer">${redditIcon}Reddit</a>
       <button class="button" type="button" data-native-share hidden>More options</button>
     </div>
     <p class="share-status" role="status"></p>
@@ -40,6 +43,7 @@ export function bindStoryShare(app: HTMLElement) {
   const discord = dialog.querySelector<HTMLButtonElement>('[data-share-discord]')!;
   const discordFallback = dialog.querySelector<HTMLElement>('[data-discord-fallback]')!;
   const discordLink = discordFallback.querySelector('a')!;
+  const reddit = dialog.querySelector<HTMLAnchorElement>('[data-share-reddit]')!;
   const nativeShare = dialog.querySelector<HTMLButtonElement>('[data-native-share]')!;
   const status = dialog.querySelector<HTMLElement>('[role=status]')!;
   let current: ReturnType<typeof storyShareDetails> | undefined;
@@ -54,6 +58,7 @@ export function bindStoryShare(app: HTMLElement) {
     input.value = current.url;
     email.href = current.email;
     whatsapp.href = current.whatsapp;
+    reddit.href = current.reddit;
     nativeShare.hidden = typeof navigator.share !== 'function' || navigator.canShare?.({ title: current.title, url: current.url }) === false;
     status.textContent = '';
     discordFallback.hidden = true;
