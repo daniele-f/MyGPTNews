@@ -1,3 +1,5 @@
+import { emailIcon, whatsappIcon } from './button-icons';
+
 export function storyShareDetails(path: string, title: string, baseUrl: string) {
   const url = new URL(path, baseUrl).href;
   const subject = encodeURIComponent(title.replace(/[\r\n]+/g, ' '));
@@ -16,11 +18,13 @@ export function bindStoryShare(app: HTMLElement) {
   dialog.innerHTML = `
     <h2 id="share-dialog-title">Share story</h2>
     <label for="share-story-url">Story URL</label>
-    <input id="share-story-url" type="url" readonly>
+    <div class="share-url-row">
+      <input id="share-story-url" type="url" readonly>
+      <button class="button share-copy" type="button" data-copy-story autofocus>Copy</button>
+    </div>
     <div class="share-actions">
-      <button class="button" type="button" data-copy-story autofocus>Copy link</button>
-      <a class="button" data-share-email>Email</a>
-      <a class="button" data-share-whatsapp target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      <a class="button button-secondary" data-share-email>${emailIcon}Email</a>
+      <a class="button button-secondary" data-share-whatsapp target="_blank" rel="noopener noreferrer">${whatsappIcon}WhatsApp</a>
       <button class="button" type="button" data-native-share hidden>More options</button>
     </div>
     <p class="share-status" role="status"></p>
