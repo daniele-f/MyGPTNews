@@ -12,7 +12,7 @@ test('shares the exact article permalink from a search page on GitHub Pages', ()
   const email = new URL(details.email);
   assert.equal(email.protocol, 'mailto:');
   assert.equal(email.searchParams.get('subject'), title);
-  assert.equal(email.searchParams.get('body'), expected);
+  assert.equal(email.searchParams.get('body'), 'Hey friend\r\n\r\n' + expected + '\r\n\r\ncheck this out');
   const whatsapp = new URL(details.whatsapp);
   assert.equal(whatsapp.origin, 'https://wa.me');
   assert.equal(whatsapp.searchParams.get('text'), title + '\n' + expected);

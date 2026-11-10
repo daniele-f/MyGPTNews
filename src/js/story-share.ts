@@ -3,12 +3,13 @@ import { emailIcon, redditIcon, whatsappIcon } from './button-icons';
 export function storyShareDetails(path: string, title: string, baseUrl: string) {
   const url = new URL(path, baseUrl).href;
   const subject = encodeURIComponent(title.replace(/[\r\n]+/g, ' '));
+  const emailBody = ['Hey friend', url, 'check this out'].join('\r\n\r\n');
   const redditParams = new URLSearchParams({ type: 'LINK', url, title });
   return {
     title,
     url,
     reddit: `https://www.reddit.com/submit?${redditParams}`,
-    email: `mailto:?subject=${subject}&body=${encodeURIComponent(url)}`,
+    email: `mailto:?subject=${subject}&body=${encodeURIComponent(emailBody)}`,
     whatsapp: `https://wa.me/?text=${encodeURIComponent(`${title}\n${url}`)}`,
   };
 }
