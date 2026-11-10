@@ -12,5 +12,6 @@ test('renders search cards with game links, title accents, and a Steam icon', ()
   assert.match(html, /<a class="game-title" href="\/search\/\?q=Example">Example<\/a><a href="\/article\/\?edition=edition&article=example"> receives an update<\/a>/);
   assert.match(html, /href="\/search\/\?q=Example"[^>]*>Example<\/a>/);
   assert.match(html, /href="https:\/\/store\.steampowered\.com\/app\/123\/"[^>]*>.*src="\/steam-logo\.ico"[^>]*>Steam page<\/a>/);
+  assert.match(html, /<button[^>]*data-share-path="\/article\/\?edition=edition&amp;article=example"[^>]*>.*Share<\/button>/);
   assert.doesNotMatch(html, /class="eyebrow">Update/);
 });

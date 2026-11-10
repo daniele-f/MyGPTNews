@@ -1,4 +1,5 @@
 import '../styles.css';
+import { bindStoryShare } from './story-share';
 import { loadJson } from './data';
 import { card } from './render';
 import { searchStories } from './search';
@@ -11,6 +12,7 @@ try {
   const params = new URLSearchParams(location.search);
   const initialQuery = params.get('q') || '';
   app.innerHTML = `<header class="site-header search-header"><a class="wordmark" href="../" aria-label="News Game+ home"><img class="brand-logo" src="../ng-plus.svg" alt="" aria-hidden="true"><span class="brand-separator" aria-hidden="true"></span><img class="brand-wordmark" src="../news-game-wordmark.svg" alt="" aria-hidden="true"></a><a class="search-back" href="../">← Today’s news</a></header><main class="search-page"><section class="search-intro"><h1>Find an article</h1><form class="search-form" role="search"><label for="q">Search the archives</label><div><input id="q" name="q" type="search" value="${esc(initialQuery)}" placeholder="Game, studio, or topic" autocomplete="off"><button type="submit">Search</button></div></form></section><section class="search-results" aria-live="polite"><p id="count" class="search-count"></p><div id="results"></div></section></main>`;
+  bindStoryShare(app);
   const query = document.querySelector('#q') as HTMLInputElement;
   const results = document.querySelector('#results') as HTMLElement;
   const count = document.querySelector('#count') as HTMLElement;

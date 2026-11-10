@@ -10,6 +10,7 @@ const externalLink = (url: string, label: string, icon = '') =>
 export function storyLinksView(story: {
   id: string;
   sourceUrl: string;
+  headline: string;
   steamPages?: { name: string; url: string }[];
   steam?: { url?: string };
   game?: { name: string; url?: string };
@@ -24,6 +25,6 @@ export function storyLinksView(story: {
   const permalink = esc(articleUrl(editionId, story.id));
   return `<section class="story-links" aria-label="Links">
     <${heading}>Links</${heading}>
-    <div class="stage-links">${externalLink(story.sourceUrl, 'Original source', externalLinkIcon)}${gameLinks}${officialPage ? externalLink(officialPage.url, 'Official game page', externalLinkIcon) : ''}<a class="button button-secondary" href="${permalink}">${shareIcon}Story link</a></div>
+    <div class="stage-links">${externalLink(story.sourceUrl, 'Original source', externalLinkIcon)}${gameLinks}${officialPage ? externalLink(officialPage.url, 'Official game page', externalLinkIcon) : ''}<button class="button button-secondary" type="button" aria-haspopup="dialog" data-share-path="${permalink}" data-share-title="${esc(story.headline)}">${shareIcon}Share</button></div>
   </section>`;
 }

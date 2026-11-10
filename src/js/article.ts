@@ -1,4 +1,5 @@
 import '../styles.css';
+import { bindStoryShare } from './story-share';
 import { loadJson } from './data';
 import { articleRoute } from './routes';
 import { markRead } from './state';
@@ -16,6 +17,7 @@ try {
   if (!story) throw Error('That article is unavailable.');
   markRead(story.id);
   app.innerHTML = articleView(story, editionMeta.id);
+  bindStoryShare(app);
 } catch (error: any) {
   app.innerHTML = `<main class="state"><h1>News Game+</h1><p>${error.message}</p><a href="../">Home</a></main>`;
 }

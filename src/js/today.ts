@@ -1,4 +1,5 @@
 import '../styles.css';
+import { bindStoryShare } from './story-share';
 import { loadJson } from './data';
 import { articleRoute } from './routes';
 import { dailyDates, dailyStories } from './daily-feed';
@@ -28,6 +29,7 @@ try {
   const routeStory = route && stories.find((story: any) => story.id === route.article && story.editionId === route.edition);
   let selectedIndex = initialStoryIndex(stories, routeStory?.id || selectedStoryForDay(selectedDate));
   app.innerHTML = homeView(stories, meta.id, meta.updatedAt, availableDates, selectedDate, today, selectedIndex);
+  const shareDialog = bindStoryShare(app);
   const mobile = window.matchMedia('(max-width: 800px)');
   const swipeHint = app.querySelector<HTMLElement>('[data-swipe-hint]');
   if (swipeHint) {
@@ -225,6 +227,7 @@ try {
     if (target) activate(target.index, direction, target.focus);
   });
   document.addEventListener('keydown', event => {
+    if (shareDialog.open) return;
     const scrollAmount = storyStageScrollAmountForKey(event.key);
     if (scrollAmount && !mobile.matches) {
       event.preventDefault();

@@ -9,7 +9,7 @@ test('renders a detail view with historical price and source link', () => {
   assert.match(html, /Original source/);
 });
 
-test('lists each Steam page by game name alongside the story permalink', () => {
+test('lists each Steam page by game name alongside the story Share button', () => {
   const html = articleView({
     id:'roundup', headline:'Two releases', summary:'Release roundup.', categories:['Releases'],
     sourceUrl:'https://example.test/story', publishedAt:'2026-10-30T09:49:00Z',
@@ -22,5 +22,5 @@ test('lists each Steam page by game name alongside the story permalink', () => {
   assert.match(links, /<h2>Links<\/h2>/);
   assert.match(links, /href="https:\/\/store\.steampowered\.com\/app\/123\/"[^>]*>.*Steam page .*First Game<\/a>/);
   assert.match(links, /href="https:\/\/store\.steampowered\.com\/app\/456\/"[^>]*>.*Steam page .*Second Game<\/a>/);
-  assert.match(links, /href="\/article\/\?edition=edition&amp;article=roundup"[^>]*>.*Story link<\/a>/);
+  assert.match(links, /data-share-path="\/article\/\?edition=edition&amp;article=roundup"[^>]*>.*Share<\/button>/);
 });

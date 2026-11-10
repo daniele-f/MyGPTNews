@@ -48,12 +48,12 @@ test('uses the branded logo lockup as home and keeps day navigation and search i
   assert.match(html, /class="header-search"/);
 });
 
-test('renders a selected story with a shareable story link in the Links section', () => {
-  const html = stageView(stories[1], '2026-10-30T09:49:00Z');
+test('renders a selected story with a Share button for its own edition and story', () => {
+  const html = stageView({ ...stories[1], editionId:'2026-10-30T09:49:00Z' }, 'different-edition');
   assert.match(html, /Another release/);
-  assert.match(html, /href="\/article\/\?edition=2026-10-30T09%3A49%3A00Z&amp;article=other"/);
-  assert.match(html, /<section[^>]*>[\s\S]*?>Links<\/h3>[\s\S]*?Original source<\/a>[\s\S]*?Story link<\/a><\/div>\s*<\/section>/);
-  assert.doesNotMatch(html, /Read full story|Steam page/);
+  assert.match(html, /data-share-path="\/article\/\?edition=2026-10-30T09%3A49%3A00Z&amp;article=other"/);
+  assert.match(html, /<section[^>]*>[\s\S]*?>Links<\/h3>[\s\S]*?Original source<\/a>[\s\S]*?Share<\/button><\/div>\s*<\/section>/);
+  assert.doesNotMatch(html, /Read full story|Story link|Steam page/);
 });
 
 test('uses the first remaining story when no featured story is supplied', () => {
