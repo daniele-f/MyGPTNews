@@ -33,7 +33,7 @@ export function bindStoryShare(app: HTMLElement) {
     </div>
     <p class="share-status" role="status"></p>
     <p data-discord-fallback hidden><a class="button button-secondary" href="https://discord.com/channels/@me" target="_blank" rel="noopener noreferrer">Open Discord</a></p>
-    <form method="dialog"><button class="button button-secondary">Close</button></form>`;
+    <form method="dialog"><button class="button">Close</button></form>`;
   app.append(dialog);
 
   const input = dialog.querySelector<HTMLInputElement>('#share-story-url')!;
@@ -108,6 +108,19 @@ export function bindStoryShare(app: HTMLElement) {
         status.textContent = 'Device sharing is unavailable. Choose another option.';
       }
     }
+  });
+
+  const isBackdrop = (event: MouseEvent) => {
+    if (event.target !== dialog) return false;
+    const { left, right, top, bottom } = dialog.getBoundingClientRect();
+    return event.clientX < left || event.clientX >= right || event.clientY < top || event.clientY >= bottom;
+  };
+
+  let pressedBackdrop = false;
+  dialog.addEventListener('pointerdown', event => { pressedBackdrop = isBackdrop(event); });
+  dialog.addEventListener('click', event => {
+    if (pressedBackdrop && isBackdrop(event)) dialog.close();
+    pressedBackdrop = false;
   });
 
   dialog.addEventListener('close', () => {
