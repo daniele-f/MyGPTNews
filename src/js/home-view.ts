@@ -48,7 +48,9 @@ const storyNavigationView = (index: number, total: number) => `<nav class="stage
 
 export function stageView(story: any, editionId: string, storyIndex = 0, storyCount = 1) {
   const image = esc(story.imageUrl || assetPath('fallback-news.svg'));
-  const timestamp = story.updatedAt ? `Updated ${dateTime(story.updatedAt)}` : `Published ${dateTime(story.publishedAt)}`;
+  const timestamp = story.changeType === 'updated' && story.updatedAt
+    ? `Updated ${dateTime(story.updatedAt)}`
+    : `Published ${dateTime(story.publishedAt)}`;
   const boundary = storyIndex === 0 ? ' is-first' : storyIndex === storyCount - 1 ? ' is-last' : '';
   return `<article class="stage-story${boundary}" id="article-${esc(story.id)}" tabindex="-1">${storyNavigationView(storyIndex, storyCount)}<img class="stage-image" src="${image}" alt="" onerror="this.src='${assetPath('fallback-news.svg')}'"><div class="stage-copy"><p class="eyebrow">${story.categories.map(esc).join(' · ')}</p><h2>${headline(story)}</h2><p class="stage-summary">${linkifyText(story.summary)}</p><p class="stage-published">${esc(timestamp)}</p>${storyLinksView(story, story.editionId || editionId)}</div></article>`;
 }

@@ -81,9 +81,21 @@ test('renders the publication date and time at the bottom of the main story', ()
 });
 
 test('uses the update timestamp when a story was updated', () => {
-  const html = stageView({ ...stories[0], updatedAt:'2026-10-30T12:00:00Z' }, '2026-10-30T09:49:00Z');
+  const html = stageView({ ...stories[0], changeType:'updated', updatedAt:'2026-10-30T12:00:00Z' }, '2026-10-30T09:49:00Z');
   assert.match(html, /class="stage-published">Updated 30 Oct 2026, 13:00<\/p>/);
   assert.doesNotMatch(html, /Published 30 Oct 2026, 10:49/);
+});
+
+test('shows the publication timestamp for a story added in a later run', () => {
+  const html = stageView({ ...stories[0], changeType:'new', updatedAt:'2026-10-30T12:00:00Z' }, '2026-10-30T09:49:00Z');
+  assert.match(html, /class="stage-published">Published 30 Oct 2026, 10:49<\/p>/);
+});
+
+test('requires both a revision marker and a timestamp to display Updated', () => {
+  for (const metadata of [{ updatedAt:'2026-10-30T12:00:00Z' }, { changeType:'updated' }]) {
+    const html = stageView({ ...stories[0], ...metadata }, '2026-10-30T09:49:00Z');
+    assert.match(html, /class="stage-published">Published 30 Oct 2026, 10:49<\/p>/);
+  }
 });
 
 test('shows category tags without publication state in the rail', () => {
