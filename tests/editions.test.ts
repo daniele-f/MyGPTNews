@@ -99,3 +99,20 @@ test('creates a missing editions directory for a fresh empty archive', async () 
   const indexes = await prepareEditions(root);
   assert.deepEqual(indexes['archive.json'].editions, []);
 });
+
+test('validates named Steam app links and requires a story image', () => {
+  const edition = { id:'2026-10-30T18:00:00Z', date:'2026-10-30', publishedAt:'2026-10-30T18:00:00Z', updatedAt:'2026-10-30T18:00:00Z', stories: [{
+    ...story('roundup', 'https://example.test/roundup'), categories:['Releases'], publishedAt:'2026-10-30T18:00:00Z',
+    steamPages:[
+      { name:'First', url:'https://store.steampowered.com/app/123/' },
+      { name:'Second', url:'https://store.steampowered.com/app/456/Second/' },
+    ],
+  }] };
+  assert.deepEqual(validateEdition(edition).errors, []);
+  const roundup = edition.stories[0];
+  const errorsFor = (changes: object) => validateEdition({ ...edition, stories:[{ ...roundup, ...changes }] }).errors.join(' ');
+  assert.match(errorsFor({ imageUrl:undefined }), /Steam story needs an image URL/);
+  assert.match(errorsFor({ steamPages:[{ name:'First', url:'https://example.test/app/123/' }] }), /invalid Steam page/);
+  assert.match(errorsFor({ steamPages:[{ name:'', url:roundup.steamPages[0].url }] }), /invalid Steam page/);
+  assert.match(errorsFor({ steamPages:[roundup.steamPages[0], { name:'Duplicate', url:'https://store.steampowered.com/app/123/Duplicate/' }] }), /duplicate Steam app/i);
+});

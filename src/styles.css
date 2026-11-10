@@ -97,3 +97,8 @@ body:has(.search-page){background:var(--color-background);color:var(--color-text
   .story-stage .swipe-preview{position:absolute;z-index:1;inset:0 0 auto;width:100%;pointer-events:none;will-change:transform}
   .story-stage .swipe-preview .stage-story{width:100%;max-width:none}
 }
+
+.story-links{margin-top:22px}
+.story-links :is(h2,h3){margin:0 0 8px;color:var(--color-text-muted);font-size:.85rem}
+.story-links .stage-links{margin-top:0;flex-wrap:wrap}
+.story-links .stage-links .steam-page-icon{display:block;width:16px;height:16px;aspect-ratio:1;flex:none;background:none}

@@ -24,7 +24,7 @@ Research and selection:
 
 - For a new daily edition, select 5–9 of the most relevant updates when enough strong stories exist.
 - For later runs on the same day, add only genuinely worthwhile new stories or meaningful factual revisions. Do not add filler merely to reach a target count.
-- For every game mentioned, include a verified Steam store link when one exists. If no Steam page exists, clearly state that no Steam page exists; never invent one.
+- For every game mentioned, record its verified Steam store app link as a named `steamPages` entry per `PUBLISHING.md`. Omit pages that cannot be verified.
 - Include a relevant verified image URL when available. Do not fabricate images, Steam data, prices, dates, sources, or claims.
 - Include source links for every story.
 
@@ -79,4 +79,4 @@ After a successful commit, report:
 
 ## Link presentation
 
-Use inline Markdown links in the published story text. Link descriptive text—such as a game title, publisher, source name, or “Steam”—rather than showing bare `https://…` URLs. Do not alter the edition JSON URL fields, which must remain verified raw URLs for the site to consume.
+The site builds the Links section from the raw `sourceUrl` and `steamPages` URLs and generates the story permalink. Keep those links out of the summary. Use descriptive Markdown links for other inline references.

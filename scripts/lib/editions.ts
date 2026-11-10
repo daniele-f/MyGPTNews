@@ -14,6 +14,26 @@ export function brusselsDate(value: string) {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Brussels', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(value));
 }
 
+function validateSteamPages(value: unknown, label: string, errors: string[]) {
+  if (!Array.isArray(value) || value.length === 0) {
+    errors.push(`${label} needs a nonempty steamPages array.`);
+    return;
+  }
+
+  const appIds = new Set<string>();
+  for (const page of value) {
+    const url = typeof page?.url === 'string' && URL.canParse(page.url) ? new URL(page.url) : null;
+    const appId = url?.pathname.match(/^\/app\/([1-9]\d*)(?:\/|$)/)?.[1];
+    if (typeof page?.name !== 'string' || !page.name.trim() || url?.origin !== 'https://store.steampowered.com' || url.username || url.password || !appId) {
+      errors.push(`${label} has an invalid Steam page.`);
+      continue;
+    }
+    if (appIds.has(appId)) errors.push(`${label} has a duplicate Steam app: ${appId}.`);
+    appIds.add(appId);
+    if (page.releaseDate !== undefined && !isDate(page.releaseDate)) errors.push(`${label} has an invalid Steam release date.`);
+  }
+}
+
 export function validateEdition(edition: any, expectedId?: string) {
   const errors: string[] = [];
   if (!edition || typeof edition !== 'object') return { valid: false, errors: ['Edition must be an object.'] };
@@ -35,7 +55,8 @@ export function validateEdition(edition: any, expectedId?: string) {
     if (story?.changeType && !isDate(story?.updatedAt)) errors.push(`${label} needs an updatedAt timestamp for its changeType.`);
     if (story?.game && (typeof story.game.name !== 'string' || typeof story.game.id !== 'string')) errors.push(`${label} game needs name and id.`);
     if (story?.game?.headlineName !== undefined && (typeof story.game.headlineName !== 'string' || !story.game.headlineName.trim() || typeof story.headline !== 'string' || !story.headline.toLocaleLowerCase().includes(story.game.headlineName.toLocaleLowerCase()))) errors.push(`${label} game headline name must occur in the headline.`);
-    if (story?.steam?.url && !story?.imageUrl) errors.push(`${label} Steam story needs an image URL.`);
+    if (story?.steamPages !== undefined) validateSteamPages(story.steamPages, label, errors);
+    if ((story?.steam?.url || story?.steamPages?.length) && !story?.imageUrl) errors.push(`${label} Steam story needs an image URL.`);
     for (const [field, value] of [['image URL', story?.imageUrl], ['Steam URL', story?.steam?.url], ['game page URL', story?.game?.url]] as const) if (value) try { normalizeUrl(value); } catch { errors.push(`${label} has an invalid ${field}.`); }
     if (story?.steam?.releaseDate && !isDate(story.steam.releaseDate)) errors.push(`${label} has an invalid Steam release date.`);
     if (story?.price && (!isDate(story.price.checkedAt) || typeof story.price.amount !== 'number')) errors.push(`${label} has an invalid price observation.`);

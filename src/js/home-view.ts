@@ -1,17 +1,13 @@
-import { externalLinkIcon, shareIcon } from './button-icons';
+import { storyLinksView } from './story-links';
 import { linkifyText } from './linked-text';
 import { assetPath } from './paths';
-import { articleUrl } from './routes';
-import { brandButton, gameSearchUrl } from './game-link';
+import { gameSearchUrl } from './game-link';
 
 const esc = (value: unknown) => String(value ?? '').replace(/[&<>'"]/g, character => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', "'":'&#39;', '"':'&quot;' }[character] as string));
-const storyLink = (editionId: string, storyId: string) => esc(articleUrl(editionId, storyId));
 const date = (value: string) => new Date(value).toLocaleDateString('en-GB', { day:'2-digit', month:'short', year:'numeric', timeZone:'Europe/Brussels' });
 const dateTime = (value: string) => new Date(value).toLocaleString('en-GB', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit', timeZone:'Europe/Brussels' });
 const headline = (story: any) => { const value=String(story.headline||''), game=story.game, headlineName=game?.headlineName||game?.name; if(!headlineName) return esc(value); const index=value.toLocaleLowerCase().indexOf(String(headlineName).toLocaleLowerCase()); return index<0?esc(value):`${esc(value.slice(0,index))}<a class="game-title" href="${esc(gameSearchUrl(game.name))}">${esc(value.slice(index,index+String(headlineName).length))}</a>${esc(value.slice(index+String(headlineName).length))}`; };
 const railHeadline = (story: any) => { const value=String(story.headline||''), game=story.game, headlineName=game?.headlineName||game?.name; if(!headlineName) return esc(value); const index=value.toLocaleLowerCase().indexOf(String(headlineName).toLocaleLowerCase()); return index<0?esc(value):`${esc(value.slice(0,index))}<span class="game-title">${esc(value.slice(index,index+String(headlineName).length))}</span>${esc(value.slice(index+String(headlineName).length))}`; };
-const logoToken = import.meta.env?.VITE_LOGO_DEV_TOKEN || '';
-const steamPreview = Boolean(import.meta.env?.DEV);
 const dayUrl = (value: string) => `${assetPath('')}?date=${encodeURIComponent(value)}`;
 const dateParts = (value: string) => value.split('-').map(Number) as [number, number, number];
 const dayKey = (year: number, month: number, day: number) => `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
@@ -52,10 +48,9 @@ const storyNavigationView = (index: number, total: number) => `<nav class="stage
 
 export function stageView(story: any, editionId: string, storyIndex = 0, storyCount = 1) {
   const image = esc(story.imageUrl || assetPath('fallback-news.svg'));
-  const link = storyLink(story.editionId || editionId, story.id);
   const timestamp = story.updatedAt ? `Updated ${dateTime(story.updatedAt)}` : `Published ${dateTime(story.publishedAt)}`;
   const boundary = storyIndex === 0 ? ' is-first' : storyIndex === storyCount - 1 ? ' is-last' : '';
-  return `<article class="stage-story${boundary}" id="article-${esc(story.id)}" tabindex="-1">${storyNavigationView(storyIndex, storyCount)}<img class="stage-image" src="${image}" alt="" onerror="this.src='${assetPath('fallback-news.svg')}'"><div class="stage-copy"><p class="eyebrow">${story.categories.map(esc).join(' · ')}</p><h2>${headline(story)}</h2><p class="stage-summary">${linkifyText(story.summary)}</p><div class="stage-links"><a class="button" href="${esc(story.sourceUrl)}" target="_blank" rel="noopener" aria-label="Original source (opens in a new tab)">${externalLinkIcon}Original source</a>${brandButton(story, logoToken, steamPreview)}<a class="button button-secondary" href="${link}">${shareIcon}Read full story</a></div><p class="stage-published">${esc(timestamp)}</p></div></article>`;
+  return `<article class="stage-story${boundary}" id="article-${esc(story.id)}" tabindex="-1">${storyNavigationView(storyIndex, storyCount)}<img class="stage-image" src="${image}" alt="" onerror="this.src='${assetPath('fallback-news.svg')}'"><div class="stage-copy"><p class="eyebrow">${story.categories.map(esc).join(' · ')}</p><h2>${headline(story)}</h2><p class="stage-summary">${linkifyText(story.summary)}</p><p class="stage-published">${esc(timestamp)}</p>${storyLinksView(story, story.editionId || editionId)}</div></article>`;
 }
 
 export function homeView(stories: any[], editionId: string, publishedAt: string, availableDates = [publishedAt.slice(0, 10)], selectedDate = publishedAt.slice(0, 10), today = selectedDate, selectedIndex?: number) {
