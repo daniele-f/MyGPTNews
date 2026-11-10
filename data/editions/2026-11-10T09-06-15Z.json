@@ -2,7 +2,7 @@
   "id": "2026-11-10T09:06:15Z",
   "date": "2026-11-10",
   "publishedAt": "2026-11-10T09:06:15Z",
-  "updatedAt": "2026-11-10T14:00:14Z",
+  "updatedAt": "2026-11-10T19:03:49Z",
   "stories": [
     {
       "id": "warhammer-survivors-pc-release-november-10-2026",
@@ -162,6 +162,96 @@
       },
       "changeType": "new",
       "updatedAt": "2026-11-10T14:00:14Z"
+    },
+    {
+      "id": "steam-deck-steam-store-average-fps-data-november-2026",
+      "headline": "Steam now shows real-world Steam Deck frame rates on game store pages",
+      "summary": "Valve has begun displaying opt-in player performance data for Steam Deck on Steam store pages. For games tested for Deck compatibility, including Verified, Playable and Unsupported titles, users can open the Steam Deck Compatibility details to see average frame rates and a histogram of observed performance. The figures provide a clearer indication of how games actually run on LCD and OLED Deck models before buying.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/steam-now-lets-you-see-exactly-what-frame-rate-you-should-get-in-games-using-a-steam-deck/",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/ayjXuyTNyLQvfidxvnbpF.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-10T19:03:49Z"
+    },
+    {
+      "id": "thief-dark-project-remastered-stephen-russell-garrett-2026",
+      "headline": "Thief: The Dark Project Remastered brings back Stephen Russell as Garrett",
+      "summary": "Nightdive Studios has confirmed that Stephen Russell is returning to voice master thief Garrett in The Tarnished Mirror, the new narrative campaign included with Thief: The Dark Project Remastered. Russell discussed his history with the character in a new Nightdive interview. The remaster launches on PC on December 3 and includes original Thief and Thief Gold material alongside the new campaign.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "Thief: The Dark Project Remastered",
+        "id": "thief-the-dark-project-remastered"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/fps/fallout-and-elder-scrolls-actor-stephen-russell-returns-as-garrett-in-thief-the-tarnished-mirror-great-to-be-back-with-the-old-guy/",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/RDwPQiHTqMuwLwsAVsSxNV.jpg",
+      "steamPages": [
+        {
+          "name": "Thief: The Dark Project Remastered",
+          "url": "https://store.steampowered.com/app/4200960/Thief_The_Dark_Project_Remastered/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-10T19:03:49Z"
+    },
+    {
+      "id": "playstation-plus-pc-cloud-streaming-ending-december-2026",
+      "headline": "PlayStation Plus is ending PC cloud streaming on December 10",
+      "summary": "Sony has announced that it will retire the PlayStation Plus app for PC on December 10, removing the ability to stream PlayStation Plus games through that Windows app. Sony says fewer than 0.4% of eligible Premium members use it. PlayStation Plus subscriptions and benefits on PS5 and PS4 are unaffected.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/playstation-announces-end-of-pc-streaming-in-december/",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2025/06/playstation-plus-320x180.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-10T19:03:49Z"
+    },
+    {
+      "id": "bioware-founders-discuss-reuniting-for-mass-effect-dragon-age-2026",
+      "headline": "BioWare veterans discuss reuniting to revive Mass Effect and Dragon Age",
+      "summary": "BioWare co-founder Trent Oster is exploring whether former developers could reunite around the studio's dormant franchises after EA's closure of BioWare. Former creative director James Ohlen publicly welcomed the idea of working on Dragon Age again. Oster says access to the intellectual property and funding are major hurdles; there is no announced acquisition, revived studio or confirmed new game.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/bioware-co-founder-and-star-wars-kotor-director-say-theyre-interested-in-reuniting-to-try-and-save-biowares-ip/",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2021/06/Mass-Effect-Legendary-Edition-art-320x180.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-10T19:03:49Z"
+    },
+    {
+      "id": "big-walk-house-house-ai-development-disclosure-november-2026",
+      "headline": "Big Walk developer discloses limited LLM use and plans AI policy",
+      "summary": "House House has added an AI-use disclosure to its official Big Walk FAQ after debate involving Independent Games Festival jurors. The developer says LLMs were used sparingly to troubleshoot technical issues near the end of development, and estimates that well under 0.1% of the game's code was related to that work. It says generative AI was not used elsewhere in production and plans to establish a formal internal policy.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "Big Walk",
+        "id": "big-walk"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/puzzle/big-walk-developer-reveals-it-used-generative-ai-sparingly-estimates-well-under-0-1-percent-was-actually-coded-using-llms/",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/62eeee1507dbac905e128a62f2ce690550238db0/header.jpg?t=1785911674",
+      "steamPages": [
+        {
+          "name": "Big Walk",
+          "url": "https://store.steampowered.com/app/1478500/Big_Walk/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-10T19:03:49Z"
     }
   ]
 }
