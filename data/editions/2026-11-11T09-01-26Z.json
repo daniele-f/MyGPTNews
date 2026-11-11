@@ -2,7 +2,7 @@
   "id": "2026-11-11T09:01:26Z",
   "date": "2026-11-11",
   "publishedAt": "2026-11-11T09:01:26Z",
-  "updatedAt": "2026-11-11T09:01:26Z",
+  "updatedAt": "2026-11-11T14:00:01Z",
   "stories": [
     {
       "id": "marathon-symbiosis-pve-open-play-week-december-2026",
@@ -97,6 +97,119 @@
       "featured": false,
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/UoEzWoavREo9zwpFLKCqC.jpg",
       "relatedArticleIds": []
+    },
+    {
+      "id": "the-outer-worlds-2-side-effects-guaranteed-dlc-december-2026",
+      "headline": "The Outer Worlds 2: Side Effects Guaranteed DLC arrives December 2",
+      "summary": "Obsidian has announced Side Effects Guaranteed, the first of two story expansions for The Outer Worlds 2. The December 2 DLC sends players to the new Elysium Valley region, adds weapons, perks, flaws and a level cap of 36, and offers an alternate start. Its choices will affect the second expansion, planned for spring 2027.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "The Outer Worlds 2",
+        "id": "the-outer-worlds-2"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/the-outer-worlds-2s-first-story-expansion-announced/",
+      "publishedAt": "2026-11-10T18:47:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/The-Outer-Worlds-2-DLC-320x180.jpg",
+      "steamPages": [
+        {
+          "name": "The Outer Worlds 2: Side Effects Guaranteed",
+          "url": "https://store.steampowered.com/app/4465910/The_Outer_Worlds_2_Side_Effects_Guaranteed/"
+        },
+        {
+          "name": "The Outer Worlds 2",
+          "url": "https://store.steampowered.com/app/1449110/The_Outer_Worlds_2/"
+        }
+      ],
+      "relatedArticleIds": [],
+      "changeType": "new",
+      "updatedAt": "2026-11-11T14:00:01Z"
+    },
+    {
+      "id": "overwatch-competitive-six-v-six-role-queue-december-2026",
+      "headline": "Overwatch brings 6v6 role queue to competitive play on December 8",
+      "summary": "Blizzard will test a 2-2-2 competitive role-queue mode from December 8, running for the first four weeks of Season 6. Existing 5v5 role queue and 6v6 open queue will remain available. The team says it will monitor matchmaking wait times across the expanded lineup.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Overwatch",
+        "id": "overwatch"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/overwatch-brings-back-6v6-role-queue-following-player-feedback/",
+      "publishedAt": "2026-11-10T18:39:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/5c208b2699cd38ed6125d039be388fa744db54a4/header_alt_assets_23.jpg?t=1793732501",
+      "steamPages": [
+        {
+          "name": "Overwatch",
+          "url": "https://store.steampowered.com/app/2357570/Overwatch_2/"
+        }
+      ],
+      "relatedArticleIds": [],
+      "changeType": "new",
+      "updatedAt": "2026-11-11T14:00:01Z"
+    },
+    {
+      "id": "marvel-rivals-season-11-nightcrawler-dracula-november-2026",
+      "headline": "Marvel Rivals confirms Nightcrawler and Dracula for Season 11",
+      "summary": "Nightcrawler joins Marvel Rivals as a Strategist when Season 11 begins November 13. Dracula has also been confirmed as playable and is planned for the mid-season update expected in December. His role has not yet been announced.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Marvel Rivals",
+        "id": "marvel-rivals"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/marvel-rivals-confirms-nightcrawler-and-dracula-as-playable-characters/",
+      "publishedAt": "2026-11-10T18:37:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/Marvel-Rivals-Dracula-320x180.jpg",
+      "steamPages": [
+        {
+          "name": "Marvel Rivals",
+          "url": "https://store.steampowered.com/app/2767030/Marvel_Rivals/"
+        }
+      ],
+      "relatedArticleIds": [],
+      "changeType": "new",
+      "updatedAt": "2026-11-11T14:00:01Z"
+    },
+    {
+      "id": "zelda-ocarina-of-time-switch-2-five-point-two-million-sales-november-2026",
+      "headline": "The Legend of Zelda: Ocarina of Time remake sells over 5.2 million in four days",
+      "summary": "Nintendo says its Switch 2 remake sold more than 5.2 million copies worldwide from its November 5 launch through November 9, including 810,000 copies in Japan. That makes it Nintendo's fastest-selling Switch 2 game over its first four days, counting physical and digital copies.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "id": "the-legend-of-zelda-ocarina-of-time"
+      },
+      "sourceUrl": "https://www.nintendo.co.jp/corporate/release/en/2026/261111.html",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/NS2_TheLegendofZeldaOcarinaofTime_scrn_13-320x180.jpg",
+      "relatedArticleIds": [],
+      "changeType": "new",
+      "updatedAt": "2026-11-11T14:00:01Z"
+    },
+    {
+      "id": "playstation-five-one-hundred-million-shipped-november-2026",
+      "headline": "PlayStation 5 passes 100 million consoles shipped worldwide",
+      "summary": "Sony's official sales data lists more than 100 million PS5 consoles shipped as of November 10, 2026. The milestone comes about six years after the console launched and follows 2.6 million shipments in Sony's July–September quarter.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/playstation-5-officially-clears-100-million-consoles-shipped/",
+      "publishedAt": "2026-11-11T11:22:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2020/12/PS5-twitter-320x196.jpg",
+      "relatedArticleIds": [],
+      "changeType": "new",
+      "updatedAt": "2026-11-11T14:00:01Z"
     }
   ]
 }
