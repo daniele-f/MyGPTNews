@@ -2,7 +2,7 @@
   "id": "2026-11-11T09:01:26Z",
   "date": "2026-11-11",
   "publishedAt": "2026-11-11T09:01:26Z",
-  "updatedAt": "2026-11-11T14:00:01Z",
+  "updatedAt": "2026-11-11T19:04:49Z",
   "stories": [
     {
       "id": "marathon-symbiosis-pve-open-play-week-december-2026",
@@ -210,6 +210,91 @@
       "relatedArticleIds": [],
       "changeType": "new",
       "updatedAt": "2026-11-11T14:00:01Z"
+    },
+    {
+      "id": "dark-souls-2-and-3-online-servers-restored-november-2026",
+      "headline": "Dark Souls 2 and 3 multiplayer restored after nearly two weeks offline",
+      "summary": "FromSoftware has restored online features for Dark Souls 2 and Dark Souls 3 following an unexplained server issue that disrupted both games for nearly two weeks. Players can once again use the official co-op, invasions and messaging systems, although the developer has not detailed what caused the outage.",
+      "categories": [
+        "Updates"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/games/dark-souls/dark-souls-2-and-3-multiplayer-is-back-we-still-dont-know-what-went-wrong-but-at-least-it-didnt-take-almost-a-year-to-fix-it/",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/TwRkXYr4TgjdEKjC4xvjz7.jpg",
+      "steamPages": [
+        {
+          "name": "Dark Souls II: Scholar of the First Sin",
+          "url": "https://store.steampowered.com/app/335300/DARK_SOULS_II_Scholar_of_the_First_Sin/"
+        },
+        {
+          "name": "Dark Souls III",
+          "url": "https://store.steampowered.com/app/374320/DARK_SOULS_III/"
+        }
+      ],
+      "relatedArticleIds": [],
+      "changeType": "new",
+      "updatedAt": "2026-11-11T19:04:49Z"
+    },
+    {
+      "id": "world-of-warcraft-forever-higher-level-quests-extra-gold-november-2026",
+      "headline": "World of Warcraft: Forever now awards extra gold for most level 48+ quests",
+      "summary": "Blizzard's November 10 hotfixes add gold rewards to most quests for level 48 and above, giving max-level players another way to earn currency. The change replaces the incentive of the original game's level-60 XP-to-gold conversion; repeatable, trivial and certain item-reward quests are excluded.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "World of Warcraft: Forever",
+        "id": "world-of-warcraft-forever",
+        "url": "https://worldofwarcraft.blizzard.com/en-us/forever/"
+      },
+      "sourceUrl": "https://news.blizzard.com/en-gb/article/24315281/wow-forever-hotfixes-november-10-2026",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/8aFJkNpnCky3pWYeEqNyH8.png",
+      "relatedArticleIds": [],
+      "changeType": "new",
+      "updatedAt": "2026-11-11T19:04:49Z"
+    },
+    {
+      "id": "marvel-rivals-hate-speech-reporting-penalties-november-2026",
+      "headline": "Marvel Rivals explains reporting error and tougher chat bans",
+      "summary": "Creative director Guangyun Chen says a September configuration mistake briefly replaced the Hate Speech reporting option with Crime. NetEase corrected the error and overhauled penalties for abusive language, with the most serious violations now subject to chat bans of up to 365 days.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Marvel Rivals",
+        "id": "marvel-rivals"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-creative-director-addresses-hate-speech-controversy-and-promises-weve-ramped-up-our-disciplinary-measures/",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/ruwTABdYAKNih34QkCHxsf.jpg",
+      "steamPages": [
+        {
+          "name": "Marvel Rivals",
+          "url": "https://store.steampowered.com/app/2767030/Marvel_Rivals/"
+        }
+      ],
+      "relatedArticleIds": [],
+      "changeType": "new",
+      "updatedAt": "2026-11-11T19:04:49Z"
+    },
+    {
+      "id": "microsoft-auto-super-resolution-rog-xbox-ally-x-undocked-november-2026",
+      "headline": "Microsoft launches Auto SR upscaling for Xbox Ally X handhelds",
+      "summary": "Microsoft's Auto Super Resolution is now available in the regular Windows release on ROG Xbox Ally X and Ally X20 handhelds, including undocked play. The NPU-assisted upscaler offers a new performance mode supporting up to 120 fps in compatible games, particularly those without well-implemented built-in upscaling.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/microsofts-own-upscaler-and-alternative-to-fsr-just-landed-on-xbox-ally-x-handhelds-actually-uses-an-npu-for-something-useful/",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/YP43KX8Ttr8qaaXDtVVoU8.jpg",
+      "relatedArticleIds": [],
+      "changeType": "new",
+      "updatedAt": "2026-11-11T19:04:49Z"
     }
   ]
 }
