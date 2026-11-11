@@ -1,0 +1,102 @@
+{
+  "id": "2026-11-11T09:01:26Z",
+  "date": "2026-11-11",
+  "publishedAt": "2026-11-11T09:01:26Z",
+  "updatedAt": "2026-11-11T09:01:26Z",
+  "stories": [
+    {
+      "id": "marathon-symbiosis-pve-open-play-week-december-2026",
+      "headline": "Marathon reveals Expedition PvE mode and December 8 free-play week",
+      "summary": "Bungie's Symbiosis update arrives December 8 with Expedition, a permanent co-op PvE roguelite mode, alongside the Bishop runner shell, a social space and a Team Deathmatch beta. Everyone can play the full game free from December 8 to 15, with earned progress retained if they later buy it.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Marathon",
+        "id": "marathon"
+      },
+      "sourceUrl": "https://www.bungie.net/7/en/News/Article/symbiosis_open_play_week_crew_up",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/qsoUEKZJuZjDSsWKVnbSzh.jpg",
+      "steamPages": [
+        {
+          "name": "Marathon",
+          "url": "https://store.steampowered.com/app/3065800/Marathon/"
+        }
+      ],
+      "relatedArticleIds": []
+    },
+    {
+      "id": "monster-hunter-wilds-ascendance-steam-beta-listing-november-2026",
+      "headline": "Monster Hunter Wilds: Ascendance beta listing spotted on Steam",
+      "summary": "Capcom renamed the old Monster Hunter Wilds beta app to reference Ascendance and added expansion artwork. That points to a possible test for the 2027 expansion, but Capcom has not announced a public beta or its timing.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "Monster Hunter Wilds",
+        "id": "monster-hunter-wilds"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/action/capcom-quietly-updates-the-monster-hunter-wilds-beta-listing-on-steam-indicating-a-possible-expansion-playtest/",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg?t=1787549555",
+      "steamPages": [
+        {
+          "name": "Monster Hunter Wilds",
+          "url": "https://store.steampowered.com/app/2246340/Monster_Hunter_Wilds/"
+        }
+      ],
+      "relatedArticleIds": []
+    },
+    {
+      "id": "shadowkey-reforged-free-pc-port-november-11-2026",
+      "headline": "Shadowkey Reforged targets November 11 launch for PC",
+      "summary": "The unofficial, free rebuild of the Nokia N-Gage Elder Scrolls RPG is scheduled for Windows, macOS and Android. Its new engine supports widescreen, controller input and optional modernized visuals and mechanics while requiring players to supply their own original Shadowkey game files.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Shadowkey Reforged",
+        "id": "shadowkey-reforged",
+        "url": "https://shadowkey.omracreative.ie/"
+      },
+      "sourceUrl": "https://shadowkey.omracreative.ie/",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shadowkey.omracreative.ie/assets/img/title-new.webp?v=2",
+      "relatedArticleIds": []
+    },
+    {
+      "id": "sony-cancels-fairgames-haven-no-layoffs-november-2026",
+      "headline": "Sony cancels Fairgames but says Haven Studios will avoid layoffs",
+      "summary": "Sony has cancelled Haven Studios' planned multiplayer heist shooter following playtest results that reportedly fell short of its goals. PlayStation says Haven will instead collaborate with other development teams, with no layoffs resulting from the cancellation.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "Fairgame$",
+        "headlineName": "Fairgames",
+        "id": "fairgame"
+      },
+      "sourceUrl": "https://www.pcgamer.com/gaming-industry/sony-cancels-another-live-service-game-ahead-of-release-but-at-least-there-wont-be-any-layoffs-this-time/",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "featured": false,
+      "relatedArticleIds": []
+    },
+    {
+      "id": "steam-australia-nine-year-account-age-verification-november-2026",
+      "headline": "Steam adds nine-year account history option to Australian age verification",
+      "summary": "Valve now automatically accepts eligible Australian Steam accounts as age-verified when they are at least nine years old and have kept consistent email address or billing information. This provides an alternative to credit-card verification, although Valve acknowledges some users still cannot verify their age.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/software/platforms/steams-age-verification-in-australia-now-takes-your-accounts-age-into-consideration/",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/UoEzWoavREo9zwpFLKCqC.jpg",
+      "relatedArticleIds": []
+    }
+  ]
+}
