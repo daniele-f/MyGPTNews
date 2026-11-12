@@ -27,10 +27,22 @@ try {
   const stories = dailyStories(dayMetas, editions, selectedDate);
   const availableDates = dailyDates(archive.editions);
   const routeStory = route && stories.find((story: any) => story.id === route.article && story.editionId === route.edition);
-  let selectedIndex = initialStoryIndex(stories, routeStory?.id || selectedStoryForDay(selectedDate));
+  // An explicit date selection always starts at the first story, not the last story viewed that day.
+  const isDateNavigation = !route && new URLSearchParams(location.search).has('date');
+  let selectedIndex = isDateNavigation ? 0 : initialStoryIndex(stories, routeStory?.id || selectedStoryForDay(selectedDate));
   app.innerHTML = homeView(stories, meta.id, meta.updatedAt, availableDates, selectedDate, today, selectedIndex);
   const shareDialog = bindStoryShare(app);
   const mobile = window.matchMedia('(max-width: 800px)');
+  // Date links load a new document. Restore the story-stage position after rendering,
+  // rather than allowing browser scroll restoration to reopen the previous reading position.
+  if (isDateNavigation) {
+    history.scrollRestoration = 'manual';
+    requestAnimationFrame(() => {
+      const stage = app.querySelector<HTMLElement>('[data-story-stage]');
+      if (mobile.matches) stage?.scrollIntoView({ behavior: 'instant', block: 'start' });
+      else stage?.scrollTo({ top: 0, behavior: 'instant' });
+    });
+  }
   const swipeHint = app.querySelector<HTMLElement>('[data-swipe-hint]');
   if (swipeHint) {
     swipeHint.hidden = swipeHintDismissed();
@@ -129,7 +141,6 @@ try {
   const activateRailStory = (button: HTMLElement) => {
     const index = Number(button.dataset.storyIndex);
     activate(index, index < selectedIndex ? 'previous' : index > selectedIndex ? 'next' : 'direct');
-
   };
   app.querySelectorAll<HTMLElement>('.rail-story').forEach(button => {
     button.addEventListener('click', event => {
