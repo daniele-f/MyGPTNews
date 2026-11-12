@@ -2,7 +2,7 @@
   "id": "2026-11-12T08:55:08Z",
   "date": "2026-11-12",
   "publishedAt": "2026-11-12T08:55:08Z",
-  "updatedAt": "2026-11-12T08:55:08Z",
+  "updatedAt": "2026-11-12T14:04:13Z",
   "stories": [
     {
       "id": "9-kings-1-0-full-release-november-12-2026",
@@ -122,6 +122,108 @@
         }
       ],
       "relatedArticleIds": []
+    },
+    {
+      "id": "witcher-3-songs-of-the-past-polish-voice-ai-consent-2026",
+      "headline": "The Witcher 3: Songs of the Past uses AI to restore Geralt's Polish voice",
+      "summary": "CD Projekt Red says Polish Geralt actor Jacek Rozenek recorded his dialogue for the upcoming Songs of the Past expansion, then consented to Respeecher processing those recordings to resemble his earlier performance. The approach was chosen because his voice changed following a 2019 stroke; the studio says it was not used to replace his acting.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "The Witcher 3: Wild Hunt",
+        "id": "the-witcher-3-wild-hunt",
+        "headlineName": "The Witcher 3"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/the-witcher-3-expansion-uses-ai-to-adjust-geralts-polish-voiceover-because-the-actor-suffered-a-stroke/",
+      "publishedAt": "2026-11-11T21:51:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/09/the-witcher-3-songs-of-the-past-320x180.jpg",
+      "steamPages": [
+        {
+          "name": "The Witcher 3: Wild Hunt — Songs of the Past",
+          "url": "https://store.steampowered.com/app/5006530/The_Witcher_3_Wild_Hunt_Songs_of_the_Past/"
+        },
+        {
+          "name": "The Witcher 3: Wild Hunt — Remastered",
+          "url": "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-12T14:04:13Z"
+    },
+    {
+      "id": "beyond-skyrim-bruma-2-0-new-dungeons-playstation-2026",
+      "headline": "Beyond Skyrim: Bruma 2.0 expands the mod and reaches PlayStation",
+      "summary": "The free Skyrim mod's 2.0 update adds dungeons, a larger explorable area, equipment, spells and improvements to existing content. It also brings Bruma to PS4 and PS5. Saves from older versions are incompatible, so returning players must start a new save.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Beyond Skyrim: Bruma",
+        "id": "beyond-skyrim-bruma"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/fan-mod-beyond-skyrim-bruma-gets-huge-update-and-playstation-port/",
+      "publishedAt": "2026-11-11T15:58:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/Beyond-Skyrim-Bruma-320x180.jpg",
+      "steamPages": [
+        {
+          "name": "The Elder Scrolls V: Skyrim Special Edition",
+          "url": "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-12T14:04:13Z"
+    },
+    {
+      "id": "id-software-veterans-hidden-horses-danger-pay-2026",
+      "headline": "Former id Software developers found Hidden Horses and unveil Danger Pay",
+      "summary": "More than 20 former id Software developers have formed employee-owned studio Hidden Horses following layoffs. Its debut project, Danger Pay, is a single-player FPS inspired by deadly game shows, The Running Man and Smash TV, with a Kickstarter campaign seeking development funding.",
+      "categories": [
+        "Announcements",
+        "Industry News"
+      ],
+      "game": {
+        "name": "Danger Pay",
+        "id": "danger-pay"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/a-group-of-developers-laid-off-from-id-software-have-formed-new-studio-hidden-horses/",
+      "publishedAt": "2026-11-12T11:20:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/hidden-horses-320x180.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-12T14:04:13Z"
+    },
+    {
+      "id": "black-forest-games-independent-third-signal-group-2026",
+      "headline": "Black Forest Games buys itself out of THQ Nordic and forms Third Signal",
+      "summary": "The studio behind the Destroy All Humans remakes is independent again following a management buyout from THQ Nordic. Black Forest Games is the founding member of new studio group Third Signal, which plans to support developer-led premium PC and console games. Other member studios have not yet been announced.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/destroy-all-humans-remake-dev-black-forest-has-bought-itself-out-from-thq-nordic-and-formed-a-new-group-of-indie-studios/",
+      "publishedAt": "2026-11-12T10:11:00Z",
+      "featured": false,
+      "changeType": "new",
+      "updatedAt": "2026-11-12T14:04:13Z"
+    },
+    {
+      "id": "marvel-1943-rise-of-hydra-not-cancelled-report-2026",
+      "headline": "Marvel 1943: Rise of Hydra reportedly remains in development",
+      "summary": "After a social-media cancellation rumour, Bloomberg's Jason Schreier reported that Skydance Games told Marvel 1943 developers the project had not been cancelled and work was continuing toward its next milestone. The previously delayed game has no confirmed release date, and the report does not guarantee that its plans cannot change.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Marvel 1943: Rise of Hydra",
+        "id": "marvel-1943-rise-of-hydra"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/marvel-1943-rise-of-hydra-staff-were-reportedly-told-the-game-hasnt-been-cancelled-despite-online-rumour/",
+      "publishedAt": "2026-11-12T13:12:00Z",
+      "featured": false,
+      "changeType": "new",
+      "updatedAt": "2026-11-12T14:04:13Z"
     }
   ]
 }
