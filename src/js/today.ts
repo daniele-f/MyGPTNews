@@ -87,6 +87,16 @@ try {
   revealProgress();
   document.addEventListener('scroll', revealProgress, { passive: true, capture: true });
   mobile.addEventListener('change', () => { if (mobile.matches) revealProgress(); else progress?.classList.remove('is-visible'); });
+  const scrollToStoryStart = (stage: HTMLElement) => {
+    if (mobile.matches) {
+      stage.scrollIntoView({
+        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+        block: 'start'
+      });
+    } else {
+      stage.scrollTo({ top: 0, behavior: 'instant' });
+    }
+  };
   const activate = (index: number, direction: StoryDirection | 'direct' = 'direct', focusDirection?: StoryDirection) => {
     const story = stories[index];
     if (!story) return;
@@ -94,9 +104,11 @@ try {
     rememberSelectedStory(selectedDate, story.id);
     const stage = app.querySelector('[data-story-stage]') as HTMLElement;
     if (!stage) return;
+    const storyChanged = index !== selectedIndex;
     selectedIndex = index;
     updateProgress(index);
     stage.innerHTML = stageView(story, meta.id, selectedIndex, stories.length);
+    if (storyChanged) scrollToStoryStart(stage);
     stage.classList.remove('is-changing', 'is-moving-previous', 'is-moving-next');
     void stage.offsetWidth;
     if (direction !== 'direct') stage.classList.add(`is-moving-${direction}`);
@@ -117,10 +129,7 @@ try {
   const activateRailStory = (button: HTMLElement) => {
     const index = Number(button.dataset.storyIndex);
     activate(index, index < selectedIndex ? 'previous' : index > selectedIndex ? 'next' : 'direct');
-    if (mobile.matches) app.querySelector('[data-story-stage]')?.scrollIntoView({
-      behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
-      block: 'start'
-    });
+
   };
   app.querySelectorAll<HTMLElement>('.rail-story').forEach(button => {
     button.addEventListener('click', event => {
