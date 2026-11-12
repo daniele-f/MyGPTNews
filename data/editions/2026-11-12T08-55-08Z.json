@@ -1,0 +1,127 @@
+{
+  "id": "2026-11-12T08:55:08Z",
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-12T08:55:08Z",
+  "updatedAt": "2026-11-12T08:55:08Z",
+  "stories": [
+    {
+      "id": "9-kings-1-0-full-release-november-12-2026",
+      "headline": "9 Kings reaches version 1.0 on November 12 with new modes",
+      "summary": "Sad Socket's roguelike kingdom builder is scheduled to leave early access today. Version 1.0 expands the card pool and introduces Joker customization, Quest and Endless modes, and asynchronous multiplayer, alongside progression and quality-of-life improvements.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "9 Kings",
+        "id": "9-kings"
+      },
+      "sourceUrl": "https://steamcommunity.com/app/2784470/allnews/",
+      "publishedAt": "2026-09-16T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/640a138fbc6918daa276a4653360eca9e4488b65/header.jpg?t=1794330208",
+      "steamPages": [
+        {
+          "name": "9 Kings",
+          "url": "https://store.steampowered.com/app/2784470/9_Kings/"
+        }
+      ],
+      "relatedArticleIds": []
+    },
+    {
+      "id": "ball-x-pit-risen-ballbylon-expansion-november-12-2026",
+      "headline": "BALL x PIT: Risen Ballbylon expansion arrives November 12",
+      "summary": "Devolver Digital's expansion is scheduled for today and takes the roguelite above the pit to four new battlefields. It adds eight playable characters, 24 balls, 45 passives, more than 40 enemies and 20 new buildings. Players need the base game, and the expansion content becomes accessible after completing it.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "BALL x PIT",
+        "id": "ball-x-pit"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4008250/BALL_x_PIT_Risen_Ballbylon/",
+      "publishedAt": "2026-09-20T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4008250/3b1487d99f642027927a3d5fb299d4c7d4e0119f/header.jpg?t=1793813747",
+      "steamPages": [
+        {
+          "name": "BALL x PIT: Risen Ballbylon",
+          "url": "https://store.steampowered.com/app/4008250/BALL_x_PIT_Risen_Ballbylon/"
+        },
+        {
+          "name": "BALL x PIT",
+          "url": "https://store.steampowered.com/app/2062430/BALL_x_PIT/"
+        }
+      ],
+      "relatedArticleIds": []
+    },
+    {
+      "id": "sonic-pico-park-steam-release-november-12-2026",
+      "headline": "SONIC PICO PARK brings 2-to-8-player co-op to PC on November 12",
+      "summary": "TECOPARK and PICO PARK Inc. are scheduled to launch a Sonic the Hedgehog crossover puzzle-platformer today. Two to eight players can tackle cooperative levels locally or online, using familiar Sonic mechanics such as Spin Dash, loops, springs and rings. Online play supports cross-platform multiplayer.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "SONIC PICO PARK",
+        "id": "sonic-pico-park"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4304060/SONIC_PICO_PARK/",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4304060/193353d185ee1af3d51068346d9d1a32e81e8ec5/header.jpg?t=1792544482",
+      "steamPages": [
+        {
+          "name": "SONIC PICO PARK",
+          "url": "https://store.steampowered.com/app/4304060/SONIC_PICO_PARK/"
+        }
+      ],
+      "relatedArticleIds": []
+    },
+    {
+      "id": "golden-joystick-awards-2026-requiem-crimson-desert-winners",
+      "headline": "Resident Evil Requiem wins Golden Joystick GOTY; Crimson Desert takes PC prize",
+      "summary": "At the November 11 Golden Joystick Awards, Resident Evil Requiem won Ultimate Game of the Year, Console Game of the Year, Best Game Trailer and Best Lead Performer. Crimson Desert was voted PC Game of the Year.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/games/crimson-desert-wins-pc-game-of-the-year-at-the-2026-golden-joystick-awards/",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/5uSFBL8SwZsL8eN6i48NTm.jpg",
+      "steamPages": [
+        {
+          "name": "Resident Evil Requiem",
+          "url": "https://store.steampowered.com/app/3764200/Resident_Evil_Requiem/"
+        },
+        {
+          "name": "Crimson Desert Enhanced",
+          "url": "https://store.steampowered.com/app/3321460/"
+        }
+      ],
+      "relatedArticleIds": []
+    },
+    {
+      "id": "path-of-exile-covens-of-umbra-november-13-2026",
+      "headline": "Path of Exile's Covens of Umbra expansion launches November 13",
+      "summary": "Grinding Gear Games plans to release its free Covens of Umbra expansion on November 13 Pacific time. The new challenge league introduces witch covens, boss Fates that increase difficulty and rewards, and customizable Wickerman powers. Scarabs make way for Threads of Creation, alongside a redesigned Atlas passive tree and loot changes.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Path of Exile",
+        "id": "path-of-exile"
+      },
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000004.000188965.html",
+      "publishedAt": "2026-11-07T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/19a8acaddb5659ef3c1c91e5d6beb89abf10718d/header.jpg?t=1794430224",
+      "steamPages": [
+        {
+          "name": "Path of Exile",
+          "url": "https://store.steampowered.com/app/238960/Path_of_Exile/"
+        }
+      ],
+      "relatedArticleIds": []
+    }
+  ]
+}
