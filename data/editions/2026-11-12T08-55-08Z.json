@@ -2,7 +2,7 @@
   "id": "2026-11-12T08:55:08Z",
   "date": "2026-11-12",
   "publishedAt": "2026-11-12T08:55:08Z",
-  "updatedAt": "2026-11-12T14:04:13Z",
+  "updatedAt": "2026-11-12T19:00:29Z",
   "stories": [
     {
       "id": "9-kings-1-0-full-release-november-12-2026",
@@ -224,6 +224,73 @@
       "featured": false,
       "changeType": "new",
       "updatedAt": "2026-11-12T14:04:13Z"
+    },
+    {
+      "id": "halo-campaign-evolved-firefight-four-player-pve-winter-2026",
+      "headline": "Halo: Campaign Evolved will add four-player Firefight this winter",
+      "summary": "Halo Studios' remake is getting a free four-player PvE Firefight mode in a winter update. Xbox has not announced an exact release date. More details are planned for Halo Fest on December 12-13, and Xbox FanFest attendees can try the mode on November 12.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Halo: Campaign Evolved",
+        "id": "halo-campaign-evolved"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/halo-campaign-evolved-is-getting-firefight-in-a-free-update/",
+      "publishedAt": "2026-11-12T18:46:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/Halo-Firefight-update-320x180.jpg",
+      "steamPages": [
+        {
+          "name": "Halo: Campaign Evolved",
+          "url": "https://store.steampowered.com/app/2806050/Halo_Campaign_Evolved/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-12T19:00:29Z"
+    },
+    {
+      "id": "darktide-sisters-novitiate-class-december-7-2026",
+      "headline": "Warhammer 40,000: Darktide adds Sisters Novitiate on December 7",
+      "summary": "Fatshark's new paid Sisters Novitiate class brings the Adepta Sororitas to Tertium with Faith-driven abilities and a distinct talent system. The December 7 launch also includes a free update adding the Meltagun, which both Sisters Novitiate and Veteran players can use.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Warhammer 40,000: Darktide",
+        "id": "warhammer-40000-darktide"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/fps/darktides-getting-a-sisters-of-battle-class-on-december-7/",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5026140/6f19f0cdfa81fee32f82b00b27e22067e0c63804/header.jpg?t=1794502288",
+      "steamPages": [
+        {
+          "name": "Warhammer 40,000: Darktide - Sisters Novitiate Class",
+          "url": "https://store.steampowered.com/app/5026140/Warhammer_40000_Darktide_Sisters_Novitiate_Class/"
+        },
+        {
+          "name": "Warhammer 40,000: Darktide",
+          "url": "https://store.steampowered.com/app/1361210/Warhammer_40000_Darktide/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-12T19:00:29Z"
+    },
+    {
+      "id": "gdc-state-of-game-industry-survey-layoffs-34-percent-2026",
+      "headline": "GDC survey: 34% of respondents faced layoffs in the past two years",
+      "summary": "A new GDC State of the Game Industry survey of more than 2,600 professionals found 34% had been laid off in the previous two years, up from 28% in the earlier survey. Of those reporting layoffs, 54% said they were still unemployed. These figures describe survey respondents, not the entire global industry.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/one-in-three-games-industry-professionals-surveyed-by-gdc-were-laid-off-in-the-past-two-years-more-than-in-its-last-report/",
+      "publishedAt": "2026-11-12T17:04:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2024/01/game-developer-1-768x433-1-320x180.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-12T19:00:29Z"
     }
   ]
 }
