@@ -1,0 +1,111 @@
+{
+  "id": "2026-11-13T09:04:28Z",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-13T09:04:28Z",
+  "updatedAt": "2026-11-13T09:04:28Z",
+  "stories": [
+    {
+      "id": "derelikt-pc-release-november-13-2026",
+      "headline": "DERELIKT brings PS1-style sci-fi horror to PC on November 13",
+      "summary": "Visuwyg and Hyperstrange are scheduled to release their narrative retro FPS later today on PC. Set at a failing research outpost near Saturn, the game blends survival-horror combat, environmental puzzles and exploration in a claustrophobic science-fiction setting. A demo is already available.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "DERELIKT",
+        "id": "derelikt"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/3810510/DERELIKT/",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "featured": true,
+      "steamPages": [
+        {
+          "name": "DERELIKT",
+          "url": "https://store.steampowered.com/app/3810510/DERELIKT/"
+        }
+      ],
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3810510/45f23f4a1143f49de0962289003d6b269fa970bd/header.jpg?t=1794494816"
+    },
+    {
+      "id": "exterminauts-pc-closed-beta-november-13-2026",
+      "headline": "Exterminauts closed PC beta begins November 13",
+      "summary": "Behaviour Interactive and Level Infinite's three-player cooperative PvE shooter begins a closed PC test at 03:00 today. The test introduces specialized power-tool weapons, new objectives, additional alien pests and another hostile worksite. Players can request access through Steam, although invitations are not guaranteed.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Exterminauts",
+        "id": "exterminauts"
+      },
+      "sourceUrl": "https://www.gamespress.com/BEHAVIOUR-INTERACTIVES-EXTERMINAUTS-LAUNCHES-CLOSED-BETA-ON-PC",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "featured": false,
+      "steamPages": [
+        {
+          "name": "Exterminauts",
+          "url": "https://store.steampowered.com/app/4039200/Exterminauts/"
+        }
+      ],
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4039200/0e30505cfcc40d2b2b5aa556ec66c22d4fb46c6f/header.jpg?t=1794536364"
+    },
+    {
+      "id": "id-software-hugo-martin-next-game-confirmed-2026",
+      "headline": "id Software confirms a new Hugo Martin-led game after layoffs",
+      "summary": "The studio says its teams in Texas and Frankfurt are developing their next project under game director Hugo Martin. The confirmation follows layoffs at Xbox and id Software, but the developer has not revealed the game's name, platforms, release date or gameplay. It says more details will take time.",
+      "categories": [
+        "Announcements",
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/id-software-confirms-its-working-on-a-new-game-after-layoffs/",
+      "publishedAt": "2026-11-12T21:38:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2021/06/id-software-sign-320x213.jpg"
+    },
+    {
+      "id": "marvel-rivals-config-mod-fair-play-stutter-optimization-2026",
+      "headline": "Marvel Rivals warns against unfair mods and tweaks, plans stutter fixes",
+      "summary": "Creative director Guangyun Chen says modifications that grant combat advantages, such as simplified maps, amplified enemy footsteps or memory injection, are forbidden and may result in penalties. The studio also says it is working on client optimizations to address stuttering, but has not confirmed when those fixes will arrive.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Marvel Rivals",
+        "id": "marvel-rivals"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-draws-a-line-in-the-sand-when-it-comes-to-using-mods-and-configs-to-get-an-unfair-combat-advantage-but-that-doesnt-help-players-looking-for-a-stutter-fix/",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "featured": false,
+      "steamPages": [
+        {
+          "name": "Marvel Rivals",
+          "url": "https://store.steampowered.com/app/2767030/Marvel_Rivals/"
+        }
+      ],
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2767030/4c1bfbd580030210d8006af8bc1cca594c1f1635/header.jpg?t=1794453707"
+    },
+    {
+      "id": "nvidia-jensen-huang-resigns-colette-kress-interim-ceo-2026",
+      "headline": "Nvidia CEO Jensen Huang resigns; Colette Kress takes interim role",
+      "summary": "Nvidia confirmed co-founder Jensen Huang has stepped down as CEO, president and board director. Chief financial officer Colette Kress is serving as interim CEO while the board begins a search for a permanent successor. The company says it expects its product roadmap and customer commitments to continue without interruption.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "featured": false
+    },
+    {
+      "id": "pc-gaming-show-most-wanted-december-3-2026",
+      "headline": "PC Gaming Show: Most Wanted returns December 3 with a top 20 countdown",
+      "summary": "PC Gamer will broadcast its Most Wanted event on December 3, with Frankie Ward returning as host and Midas and Jules Gill leading the pre-show. The program will count down 20 anticipated PC games, with new game announcements and trailers expected during the broadcast.",
+      "categories": [
+        "Announcements",
+        "Deals & Events"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/gaming-industry/events-conferences/award-winning-presenter-frankie-ward-returns-to-bring-you-this-years-pc-gaming-show-most-wanted/",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "featured": false
+    }
+  ]
+}
