@@ -2,7 +2,7 @@
   "id": "2026-11-13T09:04:28Z",
   "date": "2026-11-13",
   "publishedAt": "2026-11-13T09:04:28Z",
-  "updatedAt": "2026-11-13T09:04:28Z",
+  "updatedAt": "2026-11-13T14:05:28Z",
   "stories": [
     {
       "id": "derelikt-pc-release-november-13-2026",
@@ -106,6 +106,101 @@
       "sourceUrl": "https://www.pcgamer.com/gaming-industry/events-conferences/award-winning-presenter-frankie-ward-returns-to-bring-you-this-years-pc-gaming-show-most-wanted/",
       "publishedAt": "2026-11-12T00:00:00Z",
       "featured": false
+    },
+    {
+      "id": "wolfenstein-3-machinegames-production-confirmed-2026",
+      "headline": "Wolfenstein 3 officially enters production at MachineGames",
+      "summary": "Xbox and MachineGames have confirmed that Wolfenstein 3 is in production, with BJ Blazkowicz returning and actors Brian Bloom and Debra Wilson involved. The studio has not announced a release window or platforms. The confirmation follows years of speculation about a third main entry in the series.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "Wolfenstein 3",
+        "id": "wolfenstein-3"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/machinegames-has-finally-officially-confirmed-that-wolfenstein-3-is-in-development/",
+      "publishedAt": "2026-11-13T09:47:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2025/09/wolfenstein-320x180.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-13T14:05:28Z"
+    },
+    {
+      "id": "fable-november-2026-four-minute-gameplay-trailer",
+      "headline": "Fable shows four minutes of new Albion gameplay",
+      "summary": "Xbox has released a four-minute gameplay trailer for Playground Games' Fable reboot, following two heroes through Deepwood and showcasing dialogue, exploration, melee and ranged combat, and magic. The open-world RPG is scheduled to launch on February 23, 2027, with a Steam pre-purchase page already available.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "Fable",
+        "id": "fable"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/rpg/new-4-minute-fable-gameplay-trailer-shows-a-game-that-doesnt-look-much-like-fable/",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/vQV33tgAikCCCHGpnBucEo.jpg",
+      "steamPages": [
+        {
+          "name": "Fable",
+          "url": "https://store.steampowered.com/app/2769570/Fable/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-13T14:05:28Z"
+    },
+    {
+      "id": "hearts-of-iron-iv-expansion-pass-3-americas-romania-2026",
+      "headline": "Hearts of Iron IV Expansion Pass 3 brings a US overhaul and Romania DLC",
+      "summary": "Paradox released Expansion Pass 3 on November 12, outlining a major rework of the United States and other American nations in the upcoming expansion, alongside more diplomatic options in a future theater pack. A Romania-focused add-on arrives on November 19, while the pass's three newly arranged songs are available immediately.",
+      "categories": [
+        "Updates",
+        "Releases"
+      ],
+      "game": {
+        "name": "Hearts of Iron IV",
+        "id": "hearts-of-iron-iv"
+      },
+      "sourceUrl": "https://www.paradoxinteractive.com/media/press-releases/paradox-interactive/new-hearts-of-iron-iv-expansion-pass-brings-star-spangled-add-on",
+      "publishedAt": "2026-11-12T14:03:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4758580/1c6ee94b30ce31a7c9c6eb724b3305db24499dbb/header.jpg?t=1794562863",
+      "steamPages": [
+        {
+          "name": "Hearts of Iron IV",
+          "url": "https://store.steampowered.com/app/394360/Hearts_of_Iron_IV/"
+        },
+        {
+          "name": "Hearts of Iron IV: Expansion Pass 3",
+          "url": "https://store.steampowered.com/app/4758580/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-13T14:05:28Z"
+    },
+    {
+      "id": "overwatch-jeff-kaplan-2026-blizzard-executive-disputes",
+      "headline": "Overwatch ex-director Jeff Kaplan describes years of Blizzard clashes",
+      "summary": "Former Overwatch director Jeff Kaplan says he frequently disagreed with Blizzard executives over the game's direction from 2018 onward, opposed the early announcement of Overwatch 2, and resisted pressure to put new heroes behind payments. The claims come from a new retrospective interview about the period before his 2021 departure, not a current change to the game.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "Overwatch",
+        "id": "overwatch"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/jeff-kaplan-says-there-was-constant-fighting-between-him-and-blizzard-years-before-he-left/",
+      "publishedAt": "2026-11-12T19:50:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/Jeff-Kaplan-320x180.jpg",
+      "steamPages": [
+        {
+          "name": "Overwatch",
+          "url": "https://store.steampowered.com/app/2357570/Overwatch_2/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-13T14:05:28Z"
     }
   ]
 }
