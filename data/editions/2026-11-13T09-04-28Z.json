@@ -2,7 +2,7 @@
   "id": "2026-11-13T09:04:28Z",
   "date": "2026-11-13",
   "publishedAt": "2026-11-13T09:04:28Z",
-  "updatedAt": "2026-11-13T14:05:28Z",
+  "updatedAt": "2026-11-13T19:03:37Z",
   "stories": [
     {
       "id": "derelikt-pc-release-november-13-2026",
@@ -201,6 +201,72 @@
       ],
       "changeType": "new",
       "updatedAt": "2026-11-13T14:05:28Z"
+    },
+    {
+      "id": "path-of-exile-covens-of-umbra-launch-twitch-drops-nov-13-2026",
+      "headline": "Path of Exile: Covens of Umbra launches at 20:00 with Twitch Drops",
+      "summary": "Grinding Gear Games' free 3.30 expansion is scheduled to start at 20:00 today on PC and consoles. Covens of Umbra adds a new challenge league, Fates that increase boss difficulty and rewards, a revamped Atlas and Threads of Creation replacing Scarabs. A launch Twitch Drops campaign runs until November 22 at 20:00, granting the Umbral Tentacle Slam Rare Finisher Effect after three hours watching eligible streams. A separate Umbral Portal Effect requires two eligible paid or gifted Twitch subscriptions.",
+      "categories": [
+        "Releases",
+        "Updates",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Path of Exile",
+        "id": "path-of-exile"
+      },
+      "sourceUrl": "https://steamcommunity.com/ogg/238960/announcements/detail/690899935132910180",
+      "publishedAt": "2026-11-12T21:57:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/19a8acaddb5659ef3c1c91e5d6beb89abf10718d/header.jpg?t=1794430224",
+      "steamPages": [
+        {
+          "name": "Path of Exile",
+          "url": "https://store.steampowered.com/app/238960/Path_of_Exile/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-13T19:03:37Z"
+    },
+    {
+      "id": "overwatch-hudson-new-season-six-damage-hero-november-2026",
+      "headline": "Overwatch season 6's omnic detective is named Hudson, and he's a Damage hero",
+      "summary": "Blizzard developers inadvertently revealed that the upcoming omnic detective is named Hudson during a conversation about his design. Originally planned as a Support hero, Hudson was moved to the Damage role as his mechanics evolved. Game director Aaron Keller says the character received the highest scores of any hero tested by the studio's internal and external research groups. A precise arrival date has not been announced.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Overwatch",
+        "id": "overwatch"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/fps/overwatchs-creative-director-accidentally-leaks-the-name-of-season-6s-upcoming-hero-and-reveals-that-he-got-the-highest-scores-of-any-hero-that-weve-tested/",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/3Gjr7LFEeaPTb7rKe6a2xh.png",
+      "steamPages": [
+        {
+          "name": "Overwatch",
+          "url": "https://store.steampowered.com/app/2357570/Overwatch_2/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-13T19:03:37Z"
+    },
+    {
+      "id": "amd-adrenalin-26-11-1-fixes-excessive-ssd-writes-nov-2026",
+      "headline": "AMD Adrenalin 26.11.1 fixes excessive system-drive writes on newer Radeon cards",
+      "summary": "AMD's optional Adrenalin Edition 26.11.1 driver lists fixes for excessive system-drive writes while idle on Radeon RX 7000-series graphics cards and newer, plus unwanted writes when resizing or moving windows. The company has not established how much SSD wear the issue may have caused, and it has not confirmed an equivalent fix for older RX 6000-series cards. This is an optional driver release rather than an automatic update.",
+      "categories": [
+        "Industry News",
+        "Updates"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/hardware/graphics-cards/amd-has-patched-its-ssd-eating-gpu-driver-bug-with-an-optional-adrenalin-update-for-rx-7000-series-graphics-cards-and-above/",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/HhgRs2q5wjBRkGzn6o32Mh.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-13T19:03:37Z"
     }
   ]
 }
