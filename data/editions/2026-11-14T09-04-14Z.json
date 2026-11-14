@@ -2,7 +2,7 @@
   "id": "2026-11-14T09:04:14Z",
   "date": "2026-11-14",
   "publishedAt": "2026-11-14T09:04:14Z",
-  "updatedAt": "2026-11-14T09:04:14Z",
+  "updatedAt": "2026-11-14T13:55:19Z",
   "stories": [
     {
       "id": "pioner-development-and-server-shutdown-november-2026",
@@ -155,6 +155,44 @@
         }
       ],
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/b44s8hV8RRuLwftHWbopk.jpg"
+    },
+    {
+      "id": "gdc-2026-survey-game-developer-generative-ai-usage-and-sentiment",
+      "headline": "GDC survey: 40% of game developers use generative AI, but 55% see harm",
+      "summary": "A GDC industry survey of more than 2,600 respondents found that 40% use generative AI at work, up from 36% in the previous survey. While 55% said its impact on the games industry is negative, 35% called it mixed and 8% positive. Among respondents using AI, research and brainstorming were the most common activities, followed by coding and debugging.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/software/ai/40-percent-of-game-developers-use-generative-ai-according-to-a-new-report-but-more-than-half-reckon-the-technology-has-a-negative-impact-on-the-games-industry/",
+      "publishedAt": "2026-11-14T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/Kig4bpRgMrvxFJcjUprT4Y.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-14T13:55:19Z"
+    },
+    {
+      "id": "indiana-jones-great-circle-cut-gta-wanted-system-development-2026",
+      "headline": "Indiana Jones and the Great Circle once tested a GTA-style wanted system",
+      "summary": "MachineGames design director Jens Andersson says the team once experimented with a Grand Theft Auto-style wanted level that brought in reinforcements when players fired guns. The aim was to keep gunplay from overwhelming Indiana Jones's improvisational fighting style. Developers ultimately relied on slower reloading and plentiful breakable melee weapons instead. The comments describe a discarded prototype, not an upcoming gameplay update.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "Indiana Jones and the Great Circle",
+        "id": "indiana-jones-and-the-great-circle"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/action/indiana-jones-and-the-great-circle-once-had-a-grand-theft-auto-inspired-wanted-system-because-machinegames-was-afraid-players-would-kill-all-the-nazis-with-just-guns/",
+      "publishedAt": "2026-11-14T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/BU3qVd2qNLkVKS9g95TYsD.jpg",
+      "steamPages": [
+        {
+          "name": "Indiana Jones and the Great Circle",
+          "url": "https://store.steampowered.com/app/2677660/Indiana_Jones_and_the_Great_Circle/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-14T13:55:19Z"
     }
   ]
 }
