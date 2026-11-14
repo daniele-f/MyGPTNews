@@ -1,0 +1,160 @@
+{
+  "id": "2026-11-14T09:04:14Z",
+  "date": "2026-11-14",
+  "publishedAt": "2026-11-14T09:04:14Z",
+  "updatedAt": "2026-11-14T09:04:14Z",
+  "stories": [
+    {
+      "id": "pioner-development-and-server-shutdown-november-2026",
+      "headline": "PIONER ends development as studio says it cannot fund its servers",
+      "summary": "GFAGames says it has been unable to secure the funding needed to keep developing and operating its post-apocalyptic multiplayer shooter. PIONER entered Steam Early Access in December 2025, but the studio now plans to shut the game down. No server-offline date has been announced, and the developer has not confirmed refunds.",
+      "categories": [
+        "Industry News",
+        "Updates"
+      ],
+      "game": {
+        "name": "PIONER",
+        "id": "pioner"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/fps/a-survival-game-we-once-called-stalker-and-tarkovs-alien-baby-is-closing-down-less-than-a-year-after-launch/",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "featured": true,
+      "steamPages": [
+        {
+          "name": "PIONER",
+          "url": "https://store.steampowered.com/app/3105890/PIONER/",
+          "releaseDate": "2025-12-16T00:00:00Z"
+        }
+      ],
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/BBZv25a4mg7z9HrBRBStEj.jpg"
+    },
+    {
+      "id": "spirit-crossing-steam-release-november-16-2026",
+      "headline": "Spirit Crossing launches its cozy multiplayer world on Steam November 16",
+      "summary": "Spry Fox's upcoming cozy building and exploration MMO lets players decorate a mountain home, befriend spirits and choose how much they interact with other players. Its Steam listing confirms a November 16 PC release, with solo-friendly play as well as shared activities.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Spirit Crossing",
+        "id": "spirit-crossing"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/yes-some-brave-games-are-still-launching-on-steam-during-gta-6-launch-week/",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "featured": false,
+      "steamPages": [
+        {
+          "name": "Spirit Crossing",
+          "url": "https://store.steampowered.com/app/2321960/Spirit_Crossing/",
+          "releaseDate": "2026-11-16T00:00:00Z"
+        }
+      ],
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/mvFBGwdcSkyWc6CSUSmHCZ.jpg"
+    },
+    {
+      "id": "league-worlds-2026-final-november-14",
+      "headline": "League of Legends Worlds final: Gen.G meets Bilibili Gaming today",
+      "summary": "The 2026 World Championship concludes in Brooklyn on November 14, with South Korea's Gen.G facing China's Bilibili Gaming in a best-of-five final. Riot's opening ceremony and final are scheduled to begin at 20:00, with broadcasts on the official LoL Esports channels.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "League of Legends",
+        "id": "league-of-legends",
+        "url": "https://www.leagueoflegends.com/en-us/"
+      },
+      "sourceUrl": "https://lolesports.com/en-PH/news/worlds-2026-opening-ceremony-presented-by-mastercard",
+      "publishedAt": "2026-11-10T13:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c758bf0981ffdd7e3d45c3a5590386eece6da317-1920x1080.jpg?accountingTag=lol_esports&auto=format&fit=max&w=3840"
+    },
+    {
+      "id": "lol-esports-2027-first-stand-msi-worlds-cities",
+      "headline": "LoL Esports reveals 2027 Worlds in Japan and South Korea, MSI in Valencia",
+      "summary": "Riot has announced an expanded First Stand: All In tournament in China in 2027, with the event moving to Southeast Asia in 2028. The 2027 Mid-Season Invitational will be held in Valencia, Spain. Worlds 2027 will stage its Swiss round in Nagoya, then move to South Korea for the knockouts and Seoul final. Dates and further format details are still to come.",
+      "categories": [
+        "Announcements",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "League of Legends",
+        "id": "league-of-legends",
+        "headlineName": "LoL Esports",
+        "url": "https://www.leagueoflegends.com/en-us/"
+      },
+      "sourceUrl": "https://lolesports.com/en-US/news/lol-esports-2027-and-beyond",
+      "publishedAt": "2026-11-13T23:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8b9778b0c79cdd1e7cfe735fe71f68ec7f8c9480-1920x1080.jpg"
+    },
+    {
+      "id": "crimson-desert-pearl-abyss-expanded-ai-pipeline-2026",
+      "headline": "Crimson Desert developer Pearl Abyss expands AI use across its pipeline",
+      "summary": "In its latest earnings letter, Pearl Abyss says it is extending AI-assisted work across concept validation, repetitive tasks, content-production support and testing. The developer says gameplay and content decisions remain in human hands. The statement follows controversy over AI-generated artwork previously found in Crimson Desert.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "Crimson Desert",
+        "id": "crimson-desert"
+      },
+      "sourceUrl": "https://www.pcgamer.com/software/ai/dont-like-ai-in-games-crimson-desert-studio-pearl-abyss-aint-care-its-expanding-ai-use-throughout-our-entire-development-pipeline/",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "featured": false,
+      "steamPages": [
+        {
+          "name": "Crimson Desert Enhanced",
+          "url": "https://store.steampowered.com/app/3321460/CRIMSON_DESERT/"
+        }
+      ],
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1794478066"
+    },
+    {
+      "id": "xbox-original-classics-pc-backwards-compatibility-november-2026",
+      "headline": "21 original Xbox games added to the PC backward-compatibility catalogue",
+      "summary": "Microsoft's PC backward-compatibility catalogue has expanded by 21 original Xbox titles, bringing the total to 25. Four entries now include achievements. The additions are legacy Xbox versions made available through the compatibility programme, rather than newly released Steam editions.",
+      "categories": [
+        "Updates",
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/21-original-xbox-games-are-now-on-pc-via-backward-compatibility/",
+      "publishedAt": "2026-11-12T22:01:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/Original-Xbox-games-on-PC-320x180.jpg"
+    },
+    {
+      "id": "fanatical-steam-deck-verified-build-your-own-bundle-november-2026",
+      "headline": "Fanatical launches build-your-own Steam Deck Verified game bundle",
+      "summary": "The Play on the Go Elite Collection promotion lets customers pick from 20 Steam Deck Verified games. At the time of the November 13 announcement, US prices started at $15 for two selections and fell to $7 per game when buying five or more. Bundle availability and regional prices can change.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/fanaticals-new-play-on-the-go-deal-lets-your-build-your-own-bundle-of-steam-deck-verified-games/",
+      "publishedAt": "2026-11-13T14:58:00Z",
+      "featured": false
+    },
+    {
+      "id": "marvel-rivals-storm-summer-skin-upgrade-december-2026",
+      "headline": "Marvel Rivals will upgrade Storm's summer costume to Legendary tier",
+      "summary": "NetEase says it plans to upgrade Storm's summer costume to Legendary rarity around Christmas following feedback about uneven cosmetic support across heroes. The team also outlined new costumes and effects for Human Torch in early December and Cloak and Dagger in February. The dates remain targets rather than firm launch commitments.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Marvel Rivals",
+        "id": "marvel-rivals"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/third-person-shooter/season-10-has-been-a-challenging-one-for-us-marvel-rivals-is-upgrading-storms-summer-skin-after-favouritism-complaints/",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "featured": false,
+      "steamPages": [
+        {
+          "name": "Marvel Rivals",
+          "url": "https://store.steampowered.com/app/2767030/Marvel_Rivals/",
+          "releaseDate": "2024-12-05T00:00:00Z"
+        }
+      ],
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/b44s8hV8RRuLwftHWbopk.jpg"
+    }
+  ]
+}
