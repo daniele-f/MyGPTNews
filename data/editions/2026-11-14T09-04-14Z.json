@@ -2,7 +2,7 @@
   "id": "2026-11-14T09:04:14Z",
   "date": "2026-11-14",
   "publishedAt": "2026-11-14T09:04:14Z",
-  "updatedAt": "2026-11-14T13:55:19Z",
+  "updatedAt": "2026-11-14T18:59:53.211Z",
   "stories": [
     {
       "id": "pioner-development-and-server-shutdown-november-2026",
@@ -193,6 +193,32 @@
       ],
       "changeType": "new",
       "updatedAt": "2026-11-14T13:55:19Z"
+    },
+    {
+      "id": "umamusume-pretty-derby-2027-f1-japanese-grand-prix-130r",
+      "headline": "Umamusume: Pretty Derby takes over Suzuka's 130R corner for 2027 F1 Japanese Grand Prix",
+      "summary": "Cygames has become the first founding partner of the 2027 Formula 1 Japanese Grand Prix, acquiring naming rights to Suzuka's famous 130R corner. It will be called Umamusume 130R for about a year beginning November 20. The game will also have a fan-zone booth at the April 9–11, 2027 race, although Cygames says no promotional materials will be displayed at the corner during the F1 Grand Prix itself.",
+      "categories": [
+        "Industry News",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Umamusume: Pretty Derby",
+        "id": "umamusume-pretty-derby"
+      },
+      "sourceUrl": "https://www.cygames.co.jp/en/news/id-25178",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "featured": false,
+      "steamPages": [
+        {
+          "name": "Umamusume: Pretty Derby",
+          "url": "https://store.steampowered.com/app/3224770/Umamusume_Pretty_Derby/",
+          "releaseDate": "2025-06-24T00:00:00Z"
+        }
+      ],
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3224770/d7ddfe8985d7be8db7a0195d5c482c4438ed929d/header.jpg?t=1773306345",
+      "changeType": "new",
+      "updatedAt": "2026-11-14T18:59:53.211Z"
     }
   ]
 }
