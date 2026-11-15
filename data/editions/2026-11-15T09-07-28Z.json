@@ -1,0 +1,121 @@
+{
+  "id": "2026-11-15T09:07:28Z",
+  "date": "2026-11-15",
+  "publishedAt": "2026-11-15T09:07:28Z",
+  "updatedAt": "2026-11-15T09:07:28Z",
+  "stories": [
+    {
+      "id": "league-worlds-2026-bilibili-gaming-defeats-geng-final",
+      "headline": "Bilibili Gaming wins League of Legends Worlds 2026, defeating Gen.G 3-1",
+      "summary": "Bilibili Gaming beat Gen.G 3-1 in the November 14 Worlds grand final. Riot's official results confirm the victory, giving BLG the 2026 championship after a best-of-five final.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "League of Legends",
+        "id": "league-of-legends",
+        "url": "https://www.leagueoflegends.com/en-us/"
+      },
+      "sourceUrl": "https://lolesports.com/en-US",
+      "publishedAt": "2026-11-15T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c758bf0981ffdd7e3d45c3a5590386eece6da317-1920x1080.jpg?accountingTag=lol_esports&auto=format&fit=max&w=3840"
+    },
+    {
+      "id": "wow-forever-november-13-dungeon-xp-hotfix-command-judgement",
+      "headline": "World of Warcraft: Forever cuts dungeon XP for trivial enemies in mixed-level parties",
+      "summary": "Blizzard's November 13 hotfix makes a dungeon kill award zero experience to everyone if the enemy is trivial to at least one party member, limiting high-level boosting. The same patch makes Paladin Judgement of Command count as a melee attack again, while other judgements remain ranged.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "World of Warcraft: Forever",
+        "id": "world-of-warcraft-forever"
+      },
+      "sourceUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/nGEgktqvFSg7YMjusbfHAb.png"
+    },
+    {
+      "id": "gta-6-soundtrack-vinyl-tracklist-leak-corroborated-november-2026",
+      "headline": "GTA 6 soundtrack leak backed by music-industry sources ahead of launch",
+      "summary": "A leaked vinyl soundtrack tracklist has reportedly been corroborated by sources speaking to Rolling Stone and Billboard. It includes songs associated with Lana Del Rey, Playboi Carti, Justice and Keith Richards. Rockstar has not independently announced the tracklist. The game is due on consoles November 19, with no confirmed PC release date.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "Grand Theft Auto VI",
+        "headlineName": "GTA 6",
+        "id": "grand-theft-auto-vi"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-soundtrack-leak-confirmed-accurate-with-new-songs-from-lana-del-rey-playboi-carti-and-keith-richards/",
+      "publishedAt": "2026-11-15T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/AkvZgaawSvDoiAwX5qbvvY.jpg"
+    },
+    {
+      "id": "doom-the-dark-ages-revelations-slaughter-mode-november-16-2026",
+      "headline": "DOOM: The Dark Ages | Revelations adds Slaughter Mode on November 16",
+      "summary": "The new Slaughter Mode launches November 16 for DOOM: The Dark Ages | Revelations. The horde-style mode features escalating rounds of randomized enemy encounters, bosses and arenas, according to the announcement shared by Xbox leadership.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "DOOM: The Dark Ages",
+        "id": "doom-the-dark-ages"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/header.jpg?t=1793834110",
+      "steamPages": [
+        {
+          "name": "DOOM: The Dark Ages",
+          "url": "https://store.steampowered.com/app/3017860/DOOM_The_Dark_Ages/"
+        },
+        {
+          "name": "DOOM: The Dark Ages | Revelations",
+          "url": "https://store.steampowered.com/app/3469450/DOOM_The_Dark_Ages__Revelations/"
+        }
+      ]
+    },
+    {
+      "id": "crusader-kings-iii-silk-and-silver-november-17-release-preview",
+      "headline": "Crusader Kings III: Silk & Silver expansion releases November 17",
+      "summary": "Paradox's next major expansion adds landless merchant companies, trade routes spanning more than 40 goods, and new ways to gain political power within republics. Silk & Silver is scheduled for November 17 and requires the Crusader Kings III base game.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Crusader Kings III",
+        "id": "crusader-kings-iii"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4232910/Crusader_Kings_III_Silk_Silver/",
+      "publishedAt": "2026-10-19T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/8a7e814d13f8e73c0d40471f585ece908f9be282/header.jpg?t=1792414688",
+      "steamPages": [
+        {
+          "name": "Crusader Kings III",
+          "url": "https://store.steampowered.com/app/1158310/Crusader_Kings_III/"
+        },
+        {
+          "name": "Crusader Kings III: Silk & Silver",
+          "url": "https://store.steampowered.com/app/4232910/Crusader_Kings_III_Silk_Silver/"
+        }
+      ]
+    },
+    {
+      "id": "steam-auto-battler-rpg-fest-november-16-to-23-2026",
+      "headline": "Steam Auto-Battler RPG Fest begins November 16",
+      "summary": "Valve's themed PC gaming event runs November 16-23, spotlighting games where players build and upgrade units that battle automatically. The festival can feature discounted games, demos, free titles and upcoming releases, but no specific participating discounts are confirmed yet.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "sourceUrl": "https://partner.steamgames.com/doc/marketing/upcoming_events?language=english",
+      "publishedAt": "2026-11-15T00:00:00Z",
+      "featured": false
+    }
+  ]
+}
