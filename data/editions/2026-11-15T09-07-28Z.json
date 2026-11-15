@@ -2,7 +2,7 @@
   "id": "2026-11-15T09:07:28Z",
   "date": "2026-11-15",
   "publishedAt": "2026-11-15T09:07:28Z",
-  "updatedAt": "2026-11-15T09:07:28Z",
+  "updatedAt": "2026-11-15T14:03:48Z",
   "stories": [
     {
       "id": "league-worlds-2026-bilibili-gaming-defeats-geng-final",
@@ -116,6 +116,55 @@
       "sourceUrl": "https://partner.steamgames.com/doc/marketing/upcoming_events?language=english",
       "publishedAt": "2026-11-15T00:00:00Z",
       "featured": false
+    },
+    {
+      "id": "chronicles-medieval-coffee-stain-acquisition-raw-power-bankruptcy-2026",
+      "headline": "Chronicles: Medieval development continues as Coffee Stain buys the IP after studio bankruptcy",
+      "summary": "Coffee Stain has agreed to buy the Chronicles: Medieval IP and related assets from bankrupt Raw Power Games for DKK 36.75 million. A new company owned 75% by Coffee Stain and 25% by key original developers will continue development, with Coffee Stain providing funding. The Steam page still lists 2027 for Early Access, but the new team has not confirmed its release schedule.",
+      "categories": [
+        "Industry News",
+        "Announcements"
+      ],
+      "game": {
+        "name": "Chronicles: Medieval",
+        "id": "chronicles-medieval"
+      },
+      "sourceUrl": "https://coffeestain.com/release/coffee-stain-enters-into-agreement-to-acquire-chronicles-medieval-ip/",
+      "publishedAt": "2026-11-13T23:08:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/XKegTpWNWNwSysdkzRKN3o.jpg",
+      "steamPages": [
+        {
+          "name": "Chronicles: Medieval",
+          "url": "https://store.steampowered.com/app/2231020/Chronicles_Medieval/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-15T14:03:48Z"
+    },
+    {
+      "id": "dune-awakening-update-15200-fully-offline-single-player",
+      "headline": "Dune: Awakening adds fully offline single-player support in update 1.5.20.0",
+      "summary": "Funcom's update 1.5.20.0 lets players access Dune: Awakening's single-player mode without an Internet connection, including creating and deleting solo characters. The change follows the introduction of single-player mode in September, when an Internet connection was still required.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Dune: Awakening",
+        "id": "dune-awakening"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/survival-crafting/former-survival-mmo-dune-awakening-can-now-be-played-without-requiring-an-internet-connection-at-any-point-as-its-much-requested-offline-mode-arrives/",
+      "publishedAt": "2026-11-15T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/BZPSyzyi8PwUy6nwAn4z6Y.jpg",
+      "steamPages": [
+        {
+          "name": "Dune: Awakening",
+          "url": "https://store.steampowered.com/app/1172710/Dune_Awakening/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-15T14:03:48Z"
     }
   ]
 }
