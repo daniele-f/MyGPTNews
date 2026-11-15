@@ -2,7 +2,7 @@
   "id": "2026-11-15T09:07:28Z",
   "date": "2026-11-15",
   "publishedAt": "2026-11-15T09:07:28Z",
-  "updatedAt": "2026-11-15T14:03:48Z",
+  "updatedAt": "2026-11-15T19:01:16Z",
   "stories": [
     {
       "id": "league-worlds-2026-bilibili-gaming-defeats-geng-final",
@@ -165,6 +165,74 @@
       ],
       "changeType": "new",
       "updatedAt": "2026-11-15T14:03:48Z"
+    },
+    {
+      "id": "league-of-legends-new-dawn-client-map-champions-2026",
+      "headline": "League of Legends announces New Dawn overhaul with a new client and visual revamp",
+      "summary": "Riot has unveiled New Dawn, a planned League of Legends overhaul featuring a modernized client, refreshed Summoner's Rift visuals and new ways to play and develop champions. The teaser shows examples of possible new champion interactions, but Riot has not announced a release date.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "League of Legends",
+        "id": "league-of-legends",
+        "url": "https://www.leagueoflegends.com/en-us/"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/moba/league-of-legends-will-get-an-overhaul-called-new-dawn-with-new-visuals-build-options-and-an-updated-client/",
+      "publishedAt": "2026-11-15T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/9ioSw2Gug8fVTiMxZ36YyA.png",
+      "changeType": "new",
+      "updatedAt": "2026-11-15T19:01:16Z"
+    },
+    {
+      "id": "slay-the-spire-2-the-fool-blitz-dread-public-beta-2026",
+      "headline": "Slay the Spire 2 public beta adds The Fool and two new modes",
+      "summary": "Mega Crit's v0.113.0 public beta introduces The Fool, a bow-wielding new character whose attacks use Aim and arrow mechanics, as well as Blitz and Dread modes. The additions are available through the public-beta branch on Steam rather than the main game, and the studio expects significant further balance changes.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Slay the Spire 2",
+        "id": "slay-the-spire-2"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/roguelike/slay-the-spire-2-has-a-new-character-in-testing-and-shes-really-quite-busted/",
+      "publishedAt": "2026-11-15T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/b0958d387dc366211e0f353443710cfcf9fdb020/header.jpg?t=1787169309",
+      "steamPages": [
+        {
+          "name": "Slay the Spire 2",
+          "url": "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-15T19:01:16Z"
+    },
+    {
+      "id": "horu-massive-scale-strategy-game-kickstarter-2026",
+      "headline": "Horu promises massive simultaneous land-and-space RTS battles in new Kickstarter campaign",
+      "summary": "Solo developer GlassBeaver is crowdfunding Horu, a science-fantasy RTS and 4X hybrid built around enormous armies, space fleets, planetary invasions, espionage and resource management. Its battles are designed to run simultaneously across multiple fronts, while its Steam page currently lists Q3 2028 as the planned release window.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "Horu",
+        "id": "horu"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/rts/this-rts-inspired-by-star-wars-empire-at-war-promises-colossal-space-encounters-and-planetary-battles-with-hundreds-of-thousands-of-units/",
+      "publishedAt": "2026-11-15T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/hhLWdaiVBvMyPsbkoeiiuW.jpg",
+      "steamPages": [
+        {
+          "name": "Horu",
+          "url": "https://store.steampowered.com/app/1297450/Horu/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-15T19:01:16Z"
     }
   ]
 }
