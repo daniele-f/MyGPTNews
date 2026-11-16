@@ -2,7 +2,7 @@
   "id": "2026-11-16T09:13:18Z",
   "date": "2026-11-16",
   "publishedAt": "2026-11-16T09:13:18Z",
-  "updatedAt": "2026-11-16T14:42:33Z",
+  "updatedAt": "2026-11-16T19:09:31Z",
   "stories": [
     {
       "id": "marathon-symbiosis-december-8-expedition-pve-open-play-week",
@@ -171,8 +171,8 @@
     },
     {
       "id": "spirit-crossing-pc-release-date-november-16",
-      "headline": "Spirit Crossing prepares for November 16 PC launch",
-      "summary": "Spry Fox's cozy multiplayer adventure is scheduled to unlock on Steam today. Explore a cloud-top world, help lost spirits, build and decorate a home, and meet other players at your own pace. The developers say progress from the earlier Steam demo will carry over to the full game. At the latest store check, the game was not yet unlocked.",
+      "headline": "Spirit Crossing launches on PC November 16 with introductory discount",
+      "summary": "Spry Fox's cozy multiplayer adventure is now released on Steam. Explore a cloud-top world, help lost spirits, build and decorate a home, and meet other players at your own pace. The developers say progress from the earlier Steam demo carries over to the full game. An introductory 10% discount is listed through November 23.",
       "categories": [
         "Releases"
       ],
@@ -190,8 +190,8 @@
           "url": "https://store.steampowered.com/app/2321960/Spirit_Crossing/"
         }
       ],
-      "changeType": "new",
-      "updatedAt": "2026-11-16T14:42:33Z"
+      "changeType": "updated",
+      "updatedAt": "2026-11-16T19:09:31Z"
     },
     {
       "id": "steam-auto-battler-rpg-fest-november-16-23-2026",
@@ -220,6 +220,72 @@
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/RZ8a3C2bRtPfEBwCrN9W9j.jpg",
       "changeType": "new",
       "updatedAt": "2026-11-16T14:42:33Z"
+    },
+    {
+      "id": "foxhole-engines-of-war-update-68-december-7-2026",
+      "headline": "Foxhole unveils Engines of War update for December 7",
+      "summary": "Siege Camp's 68th Foxhole update arrives December 7, expanding its persistent battlefield with light submarines, sonar patrol boats, torpedo bombers, mobile radar jammers and anti-air battle tanks. Logistics and engineering players gain concrete trucks, new defensive bunkers, ship throttle controls and interface improvements. The update is scheduled, not live yet.",
+      "categories": [
+        "Updates",
+        "Announcements"
+      ],
+      "game": {
+        "name": "Foxhole",
+        "id": "foxhole"
+      },
+      "sourceUrl": "https://store.steampowered.com/news/app/505460/view/676256257153172154",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://clan.fastly.steamstatic.com/images/25880686/98938362926ac97249123675b20a4ad1aa9f8d0f.png",
+      "steamPages": [
+        {
+          "name": "Foxhole",
+          "url": "https://store.steampowered.com/app/505460/Foxhole/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-16T19:09:31Z"
+    },
+    {
+      "id": "rainbow-six-siege-operation-vital-signal-doc-rework-ranked-november-2026",
+      "headline": "Rainbow Six Siege reveals Operation Vital Signal with Doc overhaul and Ranked split",
+      "summary": "Ubisoft's Year 11 Season 4, Operation Vital Signal, is due in December. Doc's new E-HEAL Monitor can remotely heal or revive teammates, Ranked separates Solo/Duo and Flex queues, and Bank receives a targeted map update. The season also adds the MBZ-19 defender weapon, a new social hub and balancing changes. An exact season launch date has not been announced.",
+      "categories": [
+        "Updates",
+        "Announcements"
+      ],
+      "game": {
+        "name": "Tom Clancy's Rainbow Six Siege",
+        "headlineName": "Rainbow Six Siege",
+        "id": "rainbow-six-siege"
+      },
+      "sourceUrl": "https://newsroom.ubisoft-press.com/rainbow-sixr-siege-operation-vital-signal-gibt-den-takt-fur-year-11-season-4-vor",
+      "publishedAt": "2026-11-15T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/1c7b1ea3405a69c54429e2aa3dc31f3cbbeaa456/header_alt_assets_28.jpg?t=1792001976",
+      "steamPages": [
+        {
+          "name": "Tom Clancy's Rainbow Six Siege",
+          "url": "https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Siege"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-16T19:09:31Z"
+    },
+    {
+      "id": "xbox-project-helix-console-supports-pc-games-ronald-november-16",
+      "headline": "Xbox Project Helix is designed as a console that also plays PC games",
+      "summary": "Xbox's next-generation VP Jason Ronald says Project Helix is being built as a console first, with access to PC games and four generations of Xbox titles. He emphasized a simple, instant-play experience alongside deeper performance settings for power users. Microsoft is pursuing neural rendering to improve performance without proportional hardware cost increases. No launch date has been announced.",
+      "categories": [
+        "Industry News",
+        "Announcements"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/xbox-says-project-helix-is-a-console-that-can-play-pc-games-not-a-pc-that-can-play-console-games/",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/03/HCq_qMNa4AANvrQ-320x180.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-16T19:09:31Z"
     }
   ]
 }
