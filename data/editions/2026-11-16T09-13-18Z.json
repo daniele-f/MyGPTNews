@@ -2,7 +2,7 @@
   "id": "2026-11-16T09:13:18Z",
   "date": "2026-11-16",
   "publishedAt": "2026-11-16T09:13:18Z",
-  "updatedAt": "2026-11-16T09:13:18Z",
+  "updatedAt": "2026-11-16T14:42:33Z",
   "stories": [
     {
       "id": "marathon-symbiosis-december-8-expedition-pve-open-play-week",
@@ -126,6 +126,100 @@
       "publishedAt": "2026-11-03T00:00:00Z",
       "featured": false,
       "imageUrl": "https://www.videogameschronicle.com/files/2026/11/fanatical-birthday-bash-320x180.jpeg"
+    },
+    {
+      "id": "wow-forever-dungeon-xp-12-level-limit-hotfix-november-16",
+      "headline": "World of Warcraft: Forever narrows dungeon XP penalty to 12-level gap",
+      "summary": "Blizzard has revised its dungeon anti-boosting hotfix after the first version blocked experience for ordinary groups in dungeons with wide enemy level ranges. XP is now nullified only when a higher-level party member is more than 12 levels above the enemies. The revised restriction is live but does not apply to dungeon instances already underway when the change was deployed.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "World of Warcraft: Forever",
+        "id": "world-of-warcraft-forever"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-continued-to-wrestle-with-dungeons-as-blizzard-admits-it-briefly-missed-the-mark-on-hotfixes-over-the-weekend/",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/EMFje4YyDtSifrnT2j8fpj.png",
+      "changeType": "new",
+      "updatedAt": "2026-11-16T14:42:33Z"
+    },
+    {
+      "id": "overwatch-hudson-dps-support-rework-keller-november-16",
+      "headline": "Overwatch director explains why Hudson changed from Support to Damage",
+      "summary": "Game director Aaron Keller says the upcoming omnic detective Hudson began development as a Support hero, but the team struggled to make that version work. Testing Hudson as a Damage hero produced a much stronger result, Keller says, explaining the decision amid player disappointment over Season 6 adding another DPS instead of a new Support.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Overwatch",
+        "id": "overwatch"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/fps/game-dev-isnt-always-straightforward-overwatchs-director-responds-to-players-upset-about-season-6s-hero-being-a-dps/",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/5c208b2699cd38ed6125d039be388fa744db54a4/header_alt_assets_23.jpg?t=1793732501",
+      "steamPages": [
+        {
+          "name": "Overwatch",
+          "url": "https://store.steampowered.com/app/2357570/Overwatch/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-16T14:42:33Z"
+    },
+    {
+      "id": "spirit-crossing-pc-release-date-november-16",
+      "headline": "Spirit Crossing prepares for November 16 PC launch",
+      "summary": "Spry Fox's cozy multiplayer adventure is scheduled to unlock on Steam today. Explore a cloud-top world, help lost spirits, build and decorate a home, and meet other players at your own pace. The developers say progress from the earlier Steam demo will carry over to the full game. At the latest store check, the game was not yet unlocked.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Spirit Crossing",
+        "id": "spirit-crossing"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/2321960/Spirit_Crossing/",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2321960/ef5229ee7c51162c7233296443ef0520408387cd/header.jpg?t=1794773454",
+      "steamPages": [
+        {
+          "name": "Spirit Crossing",
+          "url": "https://store.steampowered.com/app/2321960/Spirit_Crossing/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-16T14:42:33Z"
+    },
+    {
+      "id": "steam-auto-battler-rpg-fest-november-16-23-2026",
+      "headline": "Steam Auto-Battler RPG Fest opens November 16 at 19:00",
+      "summary": "Valve's themed Steam event runs from November 16 at 19:00 to November 23 at 19:00, featuring games where combat plays out automatically but strategy comes from building and upgrading units. Steamworks says the festival will highlight discounted games, upcoming releases and playable demos. Exact participating discounts were not confirmed before opening.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "sourceUrl": "https://partner.steamgames.com/doc/marketing/upcoming_events/themed_sales/auto_battler_rpg_2026",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "featured": false,
+      "changeType": "new",
+      "updatedAt": "2026-11-16T14:42:33Z"
+    },
+    {
+      "id": "steamos-3-10-preview-nvidia-amd-vrr-november-2026",
+      "headline": "SteamOS 3.10 Preview improves Nvidia GPU support and AMD HDMI 2.1 VRR",
+      "summary": "Valve's November 13 SteamOS 3.10.0 Preview improves Nvidia graphics stability and performance, adds Mesh Shader support for Turing and newer GPUs, and fixes rendering corruption in Shadow of the Tomb Raider and The Surge 2. AMD GPUs gain HDMI 2.1 VRR, FRL and ALLM support. This is a Preview-channel build based on Linux kernel 7.3, not a stable release.",
+      "categories": [
+        "Updates",
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/hardware/steam-machines/the-latest-steamos-update-improves-support-on-nvidia-powered-pcs-makes-swapping-your-rig-to-the-os-less-painful/",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/RZ8a3C2bRtPfEBwCrN9W9j.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-16T14:42:33Z"
     }
   ]
 }
