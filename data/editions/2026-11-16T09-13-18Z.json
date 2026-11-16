@@ -1,0 +1,144 @@
+{
+  "id": "2026-11-16T09:13:18Z",
+  "date": "2026-11-16",
+  "publishedAt": "2026-11-16T09:13:18Z",
+  "updatedAt": "2026-11-16T09:13:18Z",
+  "stories": [
+    {
+      "id": "marathon-symbiosis-december-8-expedition-pve-open-play-week",
+      "headline": "Marathon reveals Symbiosis PvE mode and December 8 free-play week",
+      "summary": "Bungie's Symbiosis update arrives December 8 with Expedition, a permanent PvE-only mode built around three escalating runs. It also introduces the Limbo social hub, a 3v3 Deathmatch beta, the blade-wielding Bishop shell and a transformed Perimeter map. Everyone can play free from December 8 to 15, with earned progress retained if they later buy the game.",
+      "categories": [
+        "Updates",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Marathon",
+        "id": "marathon"
+      },
+      "sourceUrl": "https://press.bungie.com/First-look-Marathon-Symbiosis-gameplay-trailer-reveals-whats-coming-De",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://imguscdn.gamespress.com/cdn/files/Bungie/2026/11/092216-ac935a18/Symbiosis_Extraction.jpg?bgcolor=white&format=jpg&mode=max&otf=y&quality=90&sky=b828314b88a7c23d2aa05ed7a25ea23f672649cb9afa0bc882ffd1796d249961&w=600",
+      "steamPages": [
+        {
+          "name": "Marathon",
+          "url": "https://store.steampowered.com/app/3065800/Marathon/"
+        }
+      ]
+    },
+    {
+      "id": "helldivers-2-cosmetic-mods-next-hotfix-eac-november-2026",
+      "headline": "Helldivers 2 plans hotfix to restore some cosmetic mods after anti-cheat backlash",
+      "summary": "Arrowhead says its switch to Easy Anti-Cheat disrupted cosmetic modifications and that adjustments in the next hotfix should allow some non-gameplay mods to work again. Gameplay-altering mods remain unsupported and may be treated as cheats. The studio also acknowledged delayed quality-of-life fixes and outlined improvements for early December, without confirming a hotfix date.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Helldivers 2",
+        "id": "helldivers-2"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/third-person-shooter/after-cracking-down-on-cheat-mods-in-helldivers-2-and-taking-another-steam-review-beating-arrowhead-plans-hotfix-that-should-allow-harmless-cosmetics/",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/850e2f9e5bb15c5706bb9a1edc832f4f782e8be5/header.jpg?t=1793395133",
+      "steamPages": [
+        {
+          "name": "Helldivers 2",
+          "url": "https://store.steampowered.com/app/553850/HELLDIVERS_2/"
+        }
+      ]
+    },
+    {
+      "id": "golden-joystick-awards-2026-requiem-crimson-desert-winners",
+      "headline": "Resident Evil Requiem and Crimson Desert lead the 2026 Golden Joystick winners",
+      "summary": "At the November 11 Golden Joystick Awards, Resident Evil Requiem took Ultimate Game of the Year and three other prizes, while Crimson Desert won PC Game of the Year. Meccha Chameleon won four awards, including Best Multiplayer Game, and The Witcher 4 received Most Wanted Game. The results were announced at the 44th annual ceremony.",
+      "categories": [
+        "Deals & Events",
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/games/crimson-desert-wins-pc-game-of-the-year-at-the-2026-golden-joystick-awards/",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/8cwHruc7CjmQWEBmKthDWX.jpg"
+    },
+    {
+      "id": "harma-dark-fantasy-deckbuilder-early-access-november-16",
+      "headline": "HARMA targets November 16 Early Access launch with dark-fantasy deckbuilding",
+      "summary": "IndirectShine's pixel-art roguelike deckbuilder is listed for November 16 Early Access on Steam. Players manipulate three artifact activations to influence card effects, with a story campaign across four acts, two playable characters and more than 300 cards and artifacts. A demo is already available, and the game has Steam Deck Verified status.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "HARMA",
+        "id": "harma"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/2483700/HARMA/",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483700/16ef2cf7570d03f263f6df2b2e3ea01c199a0566/header.jpg?t=1794795041",
+      "steamPages": [
+        {
+          "name": "HARMA",
+          "url": "https://store.steampowered.com/app/2483700/HARMA/"
+        }
+      ]
+    },
+    {
+      "id": "trafficity-city-builder-traffic-simulation-november-16",
+      "headline": "Trafficity launches November 16 with detailed road and traffic simulation",
+      "summary": "Onramp Games' PC and Mac city builder is scheduled for November 16. Its focus is road engineering, from roundabouts and custom traffic lights to lane connections and complex interchanges, all tested by an agent-based traffic model. It also offers procedural maps, four biomes, three difficulty levels and a relaxed Chill Mode.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Trafficity",
+        "id": "trafficity"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/5185750/Trafficity/",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5185750/cba1f3195974a89cac41d5ae9c56e6bed1809b56/header.jpg?t=1794652056",
+      "steamPages": [
+        {
+          "name": "Trafficity",
+          "url": "https://store.steampowered.com/app/5185750/Trafficity/"
+        }
+      ]
+    },
+    {
+      "id": "here-comes-the-horde-november-16-incremental-autobattler",
+      "headline": "Here Comes the Horde arrives November 16 with massive castle-defense battles",
+      "summary": "Polished Games' incremental auto-battler is scheduled for November 16. Defend a castle against undead waves by recruiting peasants, knights, archers and mages, with battles designed to scale to tens of thousands of units. The game advertises 30 levels, hundreds of upgrades, voiced character banter and a playable demo.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Here Comes the Horde",
+        "id": "here-comes-the-horde"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/5066010/Here_Comes_the_Horde/",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066010/660ba25cbec114093ff8245eeafc64e779518a05/header.jpg?t=1794435061",
+      "steamPages": [
+        {
+          "name": "Here Comes the Horde",
+          "url": "https://store.steampowered.com/app/5066010/Here_Comes_the_Horde/"
+        }
+      ]
+    },
+    {
+      "id": "fanatical-birthday-bash-pc-game-sale-ends-november-16",
+      "headline": "Fanatical's Birthday Bash PC game sale ends November 16",
+      "summary": "The PC key retailer's Birthday Bash promotion concludes on November 16 after discounts spanning Sega, Capcom, Bethesda, Bandai Namco and other publishers. The event has also featured rotating 24-hour flash deals. Previously reported prices and percentages may have changed, so check the retailer's live offers before purchasing.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/fanaticals-birthday-bash-sale-is-now-on-offering-heavy-discounts-on-a-number-of-bigpc-games/",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/fanatical-birthday-bash-320x180.jpeg"
+    }
+  ]
+}
