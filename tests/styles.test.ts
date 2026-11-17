@@ -74,3 +74,9 @@ test('mobile entrance animations do not retain transforms after completing', () 
   assert.match(mobileSlide, /\.story-stage\.is-moving-next \.stage-story\{animation:mobile-story-from-right [^}]* backwards\}/);
   assert.match(mobileSlide, /\.story-stage\.is-moving-previous \.stage-story\{animation:mobile-story-from-left [^}]* backwards\}/);
 });
+
+test('the swipe preview inherits the stage padding so incoming stories align with the current story', () => {
+  assert.match(styles, /\.story-stage \.swipe-preview\{[^}]*width:100%;padding:inherit;/);
+  assert.match(styles, /\.story-stage\{padding-right:20px\}/);
+  assert.match(styles, /\*\{box-sizing:border-box\}/);
+});
