@@ -68,3 +68,9 @@ test('uses a more compact headline scale on story stage and article pages', () =
   assert.match(styles, /\.stage-copy h2\{font-size:clamp\(1\.9rem,9vw,3\.4rem\)/);
   assert.match(styles, /\.article-detail h1\{font-size:clamp\(2rem,10vw,3\.4rem\)/);
 });
+
+test('mobile entrance animations do not retain transforms after completing', () => {
+  const mobileSlide = styles.slice(styles.indexOf('/* Mobile: make story changes read as horizontal panel navigation'));
+  assert.match(mobileSlide, /\.story-stage\.is-moving-next \.stage-story\{animation:mobile-story-from-right [^}]* backwards\}/);
+  assert.match(mobileSlide, /\.story-stage\.is-moving-previous \.stage-story\{animation:mobile-story-from-left [^}]* backwards\}/);
+});

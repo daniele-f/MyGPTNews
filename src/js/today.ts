@@ -188,6 +188,9 @@ try {
     const target = storyNavigationTarget(selectedIndex, stories.length, direction);
     const current = stageContainer.querySelector<HTMLElement>('.stage-story');
     if (!current) return;
+    // Rail selection leaves an entrance animation on the stage. Remove it
+    // before the finger-driven transform takes over.
+    stageContainer.classList.remove('is-moving-previous', 'is-moving-next');
     const width = current.getBoundingClientRect().width;
     const distance = target ? dx : dx * .22;
     stageContainer.classList.add('is-dragging');
