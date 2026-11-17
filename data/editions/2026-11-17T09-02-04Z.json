@@ -2,7 +2,7 @@
   "id": "2026-11-17T09:02:04Z",
   "date": "2026-11-17",
   "publishedAt": "2026-11-17T09:02:04Z",
-  "updatedAt": "2026-11-17T14:06:18Z",
+  "updatedAt": "2026-11-17T18:59:33Z",
   "stories": [
     {
       "id": "melvor-idle-2-early-access-november-17-patch-notes",
@@ -296,6 +296,72 @@
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/Zb9knsapKKuVr4cW9QJkc8.jpg",
       "changeType": "new",
       "updatedAt": "2026-11-17T14:06:18Z"
+    },
+    {
+      "id": "game-awards-2026-grand-theft-auto-vi-eight-nominations",
+      "headline": "Grand Theft Auto VI earns eight Game Awards nominations before release",
+      "summary": "The Game Awards announced its 2026 nominees today. Grand Theft Auto VI is up for eight awards, including Game of the Year, Best Game Direction, Best Narrative and Best Performance for Manni L. Perez as Lucia. The ceremony takes place December 10, with public voting open through December 9. Its November 19 launch is on consoles; Rockstar has not confirmed a PC release date.",
+      "categories": [
+        "Industry News",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Grand Theft Auto VI",
+        "id": "grand-theft-auto-vi",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/gta-6-is-the-most-nominated-game-at-the-game-awards-2026/",
+      "publishedAt": "2026-11-17T17:15:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/56601a04-2026_tga_keyart_16x9-copy-scaled-1-320x180.webp",
+      "changeType": "new",
+      "updatedAt": "2026-11-17T18:59:33Z"
+    },
+    {
+      "id": "firaxis-layoffs-heather-hazen-xcom-november-17-2026",
+      "headline": "Firaxis cuts roughly one-third of its staff as studio head departs",
+      "summary": "2K has confirmed restructuring and layoffs at Firaxis, with Bloomberg reporting around 60 jobs lost, roughly one-third of its workforce. Studio head Heather Hazen is also leaving. A new, unannounced XCOM project reportedly missed a significant development milestone earlier this year, though the publisher has not confirmed those project details.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/gaming-industry/civilization-dev-firaxis-reportedly-lays-off-a-third-of-its-staff-studio-head-departs/",
+      "publishedAt": "2026-11-17T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/V4dgv2YNB3gESELLNoEvna.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-17T18:59:33Z"
+    },
+    {
+      "id": "playstation-uk-storefront-class-action-dismissed-november-17-2026",
+      "headline": "UK tribunal dismisses $2.6 billion PlayStation Store pricing lawsuit",
+      "summary": "The UK's Competition Appeal Tribunal has rejected a class action alleging that Sony's closed PlayStation Store and 30% sales commission led to excessive game prices. The claimants sought around $2.6 billion in damages. The ruling preserves the current storefront model in this case, while similar proceedings in other regions remain separate.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/playstation-beats-2-6-billion-lawsuit-over-its-game-prices/",
+      "publishedAt": "2026-11-17T16:08:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2021/03/PlayStation-Store-b-320x181.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-17T18:59:33Z"
+    },
+    {
+      "id": "zelda-ocarina-of-time-remake-million-us-physical-sales-november-17",
+      "headline": "The Legend of Zelda: Ocarina of Time remake tops one million US physical sales in its first week",
+      "summary": "Circana reports that the Switch 2 remake sold more than one million physical copies in the US during its first week, making it the country's best-selling physical game of 2026 so far. Nintendo separately announced that worldwide sales had reached 5.2 million physical and digital copies in the first four days. This is a notable console-only release rather than a PC launch.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "id": "the-legend-of-zelda-ocarina-of-time"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/zelda-ocarina-of-time-remake-is-the-best-selling-physical-game-in-the-us-in-2026-so-far-passing-1-million-in-its-first-week/",
+      "publishedAt": "2026-11-17T09:24:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/NS2_TheLegendofZeldaOcarinaofTime_scrn_02-320x180.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-17T18:59:33Z"
     }
   ]
 }
