@@ -2,7 +2,7 @@
   "id": "2026-11-17T09:02:04Z",
   "date": "2026-11-17",
   "publishedAt": "2026-11-17T09:02:04Z",
-  "updatedAt": "2026-11-17T09:02:04Z",
+  "updatedAt": "2026-11-17T14:06:18Z",
   "stories": [
     {
       "id": "melvor-idle-2-early-access-november-17-patch-notes",
@@ -207,6 +207,95 @@
           "url": "https://store.steampowered.com/app/4259360/Milki_Delivery/"
         }
       ]
+    },
+    {
+      "id": "wow-forever-blackmaw-hold-gold-farm-hotfix-november-17",
+      "headline": "World of Warcraft: Forever hotfix ends lucrative Blackmaw Hold gold farm",
+      "summary": "A Blackmaw Hold dungeon room with roughly 30 non-elite Blackmaw Devotees enabled unusually lucrative repeated farming, with some players reporting thousands of gold earned. Blizzard has removed the mobs' loot in a hotfix. The long-term impact on the game's economy and any further action against players remain unclear.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "World of Warcraft: Forever",
+        "id": "world-of-warcraft-forever",
+        "url": "https://worldofwarcraft.blizzard.com/en-us/forever/"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-economy-has-a-problem-as-a-now-hotfixed-grind-rakes-in-thousands-of-gold-for-the-people-who-got-in-early/",
+      "publishedAt": "2026-11-17T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/dZ63uY6YcJey8Wnr6q6664.png",
+      "changeType": "new",
+      "updatedAt": "2026-11-17T14:06:18Z"
+    },
+    {
+      "id": "star-wars-galactic-racer-free-play-splitscreen-2027",
+      "headline": "Star Wars: Galactic Racer adds local split-screen and Free Play in early 2027",
+      "summary": "Fuse Games has announced a free post-launch update introducing local split-screen racing for up to four players and a Free Play mode. Players will be able to choose their vehicle, character, planet and track for custom single races. The studio says the features are coming in early 2027, without a more precise date.",
+      "categories": [
+        "Updates",
+        "Announcements"
+      ],
+      "game": {
+        "name": "STAR WARS: Galactic Racer™",
+        "headlineName": "Star Wars: Galactic Racer",
+        "id": "star-wars-galactic-racer"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/star-wars-galactic-racer-is-getting-split-screen-multiplayer-and-a-new-free-play-mode/",
+      "publishedAt": "2026-11-17T11:16:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/97215eb609882139ce6a28419116be23fcf5ac86/header.jpg?t=1791388584",
+      "steamPages": [
+        {
+          "name": "STAR WARS: Galactic Racer™",
+          "url": "https://store.steampowered.com/app/4078430/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-17T14:06:18Z"
+    },
+    {
+      "id": "battlefield-6-sam-cooper-new-general-manager",
+      "headline": "Battlefield 6 gets new general manager as Sam Cooper joins from Call of Duty",
+      "summary": "Electronic Arts has appointed Sam Cooper as general manager of Battlefield after Bryan Beede moved into a broader EA group general manager role. Cooper previously led global product management and live-service work on Call of Duty. The appointment does not itself announce any Battlefield 6 gameplay changes.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "Battlefield™ 6",
+        "headlineName": "Battlefield 6",
+        "id": "battlefield-6"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/fps/ex-call-of-duty-live-service-manager-joins-ea-as-the-new-gm-of-battlefield/",
+      "publishedAt": "2026-11-17T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/KaRU4cwYRgyJywqKiY7HDi.jpg",
+      "steamPages": [
+        {
+          "name": "Battlefield™ 6",
+          "url": "https://store.steampowered.com/app/2807960/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-17T14:06:18Z"
+    },
+    {
+      "id": "grand-theft-auto-vi-2022-hacker-guilty-plea-november-16",
+      "headline": "Grand Theft Auto VI hacker pleads guilty over 2022 Rockstar breach",
+      "summary": "Arion Kurtaj, the Lapsus$ member behind the 2022 leak of early Grand Theft Auto VI footage, pleaded guilty to hacking Rockstar Games and other attacks on November 16. The plea follows a reassessment of his fitness to stand trial. Rockstar's game is scheduled for a November 19 console launch; no PC release has been confirmed.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "Grand Theft Auto VI",
+        "id": "grand-theft-auto-vi",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-hacker-pleads-guilty-to-all-charges/",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/Zb9knsapKKuVr4cW9QJkc8.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-17T14:06:18Z"
     }
   ]
 }
