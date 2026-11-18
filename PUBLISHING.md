@@ -19,4 +19,6 @@ For later runs on the same day:
 - Do not add either marker merely because a schedule ran. Do not repeat a story with a new ID or duplicate its source URL.
 - Existing baseline stories from the day’s first run omit `changeType`.
 
-Validate locally with `npm run verify` when a checkout is available; otherwise commit only the target JSON file and let the repository’s GitHub Actions verification decide deployment.
+Before adding a story, compare its `id` and normalized `sourceUrl` against every story in every file under `data/editions/`, including previous days. Use `normalizeUrl` from `scripts/lib/url.ts` so tracking parameters, fragments, and trailing slashes do not hide duplicates. Generated indexes may be stale; do not rely on them alone. Skip reporting already covered by an earlier edition rather than republishing it with a new ID or changing the source URL to bypass validation. Same-day factual revisions update the existing story in place.
+
+Run `npm run verify` successfully against the complete archive before committing or pushing. If verification fails, fix the target edition and rerun it; never push a known validation failure. If a current checkout or verification tooling is unavailable, hold publication until verification can run. Commit and push only the target edition JSON file; leave generated indexes out of the commit.
