@@ -1,0 +1,168 @@
+{
+  "id": "2026-11-18T09:05:44Z",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-18T09:05:44Z",
+  "updatedAt": "2026-11-18T09:05:44Z",
+  "stories": [
+    {
+      "id": "wow-forever-blackmaw-hold-exploit-sanctions-gold-removal-november-18",
+      "headline": "World of Warcraft: Forever removes exploit gold and suspends Blackmaw Hold abusers",
+      "summary": "Blizzard says several hundred accounts deliberately abused Blackmaw Hold enemies that incorrectly dropped elite-level loot. It has restricted the affected accounts' economy access while removing illicitly earned gold and suspended players responsible for serious abuse. The studio says ordinary players who ran the dungeon legitimately are not being penalized. This follows the earlier hotfix that ended the farming loophole.",
+      "categories": [
+        "Updates",
+        "Industry News"
+      ],
+      "game": {
+        "name": "World of Warcraft: Forever",
+        "id": "world-of-warcraft-forever",
+        "url": "https://worldofwarcraft.blizzard.com/en-us/forever/"
+      },
+      "sourceUrl": "https://us.forums.blizzard.com/en/wow/t/actions-for-blackmaw-hold-abuse-november-17/2419757/1",
+      "publishedAt": "2026-11-17T18:38:00Z",
+      "featured": true
+    },
+    {
+      "id": "wow-forever-november-17-hotfix-ubrs-paladin-shaman",
+      "headline": "World of Warcraft: Forever hotfix restores Upper Blackrock Spire difficulty",
+      "summary": "Blizzard's November 17 hotfix corrects Upper Blackrock Spire encounters that were dealing less damage and had less health than intended. The same update changes the Paladin Soulforge Armor tank set's bonus from Strength to Spell Power and addresses Shaman Flurry behavior and battleground mount preparation.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "World of Warcraft: Forever",
+        "id": "world-of-warcraft-forever",
+        "url": "https://worldofwarcraft.blizzard.com/en-us/forever/"
+      },
+      "sourceUrl": "https://worldofwarcraft.blizzard.com/en-us/news/24315281/wow-forever-hotfixes-november-17-2026",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "featured": false
+    },
+    {
+      "id": "darktide-sisters-novitiate-class-weapons-december-7",
+      "headline": "Warhammer 40,000: Darktide details Sisters Novitiate weapons ahead of December 7 launch",
+      "summary": "Fatshark's Sisters Novitiate playable-class DLC arrives December 7. Its zeal-driven arsenal includes the Condemnor Stake Thrower, a crossbow capable of pinning enemies to walls, and holy grenades. The class also uses Acts of Faith abilities, while a related free update introduces new equipment for existing classes.",
+      "categories": [
+        "Updates",
+        "Announcements"
+      ],
+      "game": {
+        "name": "Warhammer 40,000: Darktide",
+        "id": "warhammer-40000-darktide"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/fps/darktides-new-sister-novitiate-class-gets-a-holy-hand-grenade-and-a-crossbow-that-can-pin-enemies-to-walls/",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5026140/6f19f0cdfa81fee32f82b00b27e22067e0c63804/header.jpg?t=1794825463",
+      "steamPages": [
+        {
+          "name": "Warhammer 40,000: Darktide - Sisters Novitiate Class",
+          "url": "https://store.steampowered.com/app/5026140/Warhammer_40000_Darktide_Sisters_Novitiate_Class/"
+        },
+        {
+          "name": "Warhammer 40,000: Darktide",
+          "url": "https://store.steampowered.com/app/1361210/Warhammer_40000_Darktide/"
+        }
+      ]
+    },
+    {
+      "id": "wolfenstein-3-officially-in-development-machinegames-november-2026",
+      "headline": "Wolfenstein 3 officially in development at MachineGames",
+      "summary": "MachineGames and Xbox have formally confirmed work on Wolfenstein 3. Behind-the-scenes footage shows voice performers involved in the next chapter of B.J. Blazkowicz's story, but the studio has not announced a release date or target window.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "Wolfenstein 3",
+        "id": "wolfenstein-3"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/machinegames-has-finally-officially-confirmed-that-wolfenstein-3-is-in-development/",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "featured": false
+    },
+    {
+      "id": "volvys-adventure-reslimed-november-19-giveaway",
+      "headline": "Volvy’s Adventure: Reslimed launches November 19 with a GTA VI-themed giveaway",
+      "summary": "Devolver Digital's doinksoft-developed retro platformer is scheduled to launch on Steam November 19, with four distinct worlds inspired by classic games. The publisher is promoting the release with a tongue-in-cheek giveaway involving Grand Theft Auto VI preloads; no GTA VI PC release has been announced.",
+      "categories": [
+        "Releases",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Volvy’s Adventure: Reslimed",
+        "id": "volvys-adventure-reslimed"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/you-can-win-a-free-devolver-digital-game-if-you-delete-gta-6/",
+      "publishedAt": "2026-11-17T22:09:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4523120/bd01ad0f41f47272b6f1459de015d2494b24a422/header.jpg?t=1793281784",
+      "steamPages": [
+        {
+          "name": "Volvy’s Adventure: Reslimed",
+          "url": "https://store.steampowered.com/app/4523120/Volvys_Adventure_Reslimed/"
+        }
+      ]
+    },
+    {
+      "id": "vice-magic-city-mayhem-november-18-steam-launch",
+      "headline": "Vice: Magic City Mayhem targets November 18 PC launch with retro action",
+      "summary": "This neon-soaked, top-down action adventure is scheduled for Steam release today. Inspired by 8-bit dungeon exploration and 1980s Miami, it combines combat, puzzles and equipment upgrades with a crime-comedy setting and strange encounters.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Vice: Magic City Mayhem",
+        "id": "vice-magic-city-mayhem"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/2972820/",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2972820/0e39f98ecc298f117930f978f881031fc625c3fb/header.jpg?t=1794798928",
+      "steamPages": [
+        {
+          "name": "Vice: Magic City Mayhem",
+          "url": "https://store.steampowered.com/app/2972820/"
+        }
+      ]
+    },
+    {
+      "id": "gta-vi-november-19-console-midnight-regional-rollout",
+      "headline": "Grand Theft Auto VI begins rolling console launch at midnight November 19",
+      "summary": "Rockstar's long-awaited release begins at midnight on November 19 in each console region, so players in earlier time zones gain access first. The launch covers PlayStation 5 and Xbox Series X|S. Rockstar has not announced a PC release date.",
+      "categories": [
+        "Releases",
+        "Industry News"
+      ],
+      "game": {
+        "name": "Grand Theft Auto VI",
+        "id": "grand-theft-auto-vi",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-release-time-date/",
+      "publishedAt": "2026-11-17T00:00:00Z",
+      "featured": false
+    },
+    {
+      "id": "dokev-late-2028-pearl-abyss-ai-production-update",
+      "headline": "DokeV still targets late 2028 as Pearl Abyss expands AI-assisted production",
+      "summary": "Pearl Abyss says its creature-collecting adventure DokeV remains targeted for late 2028. The studio also described greater use of AI tools for design experimentation, repetitive work and testing, while saying its developers remain responsible for core game content. Similar tools have supported production of Crimson Desert Enhanced.",
+      "categories": [
+        "Announcements",
+        "Industry News"
+      ],
+      "game": {
+        "name": "DokeV",
+        "id": "dokev"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/crimson-desert-studio-pearl-abyss-says-it-now-uses-ai-across-various-stages-of-development/",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1794478066",
+      "steamPages": [
+        {
+          "name": "Crimson Desert Enhanced",
+          "url": "https://store.steampowered.com/app/3321460/Crimson_Desert_Enhanced/"
+        }
+      ]
+    }
+  ]
+}
