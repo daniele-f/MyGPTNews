@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-19T18:59:26Z",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-19T18:59:26Z",
+  "updatedAt": "2026-11-19T18:59:26Z",
+  "stories": [
+    {
+      "id": "gta-vi-official-console-launch-november-19-2026",
+      "headline": "Grand Theft Auto VI officially launches on PS5 and Xbox Series X|S",
+      "summary": "Rockstar confirms its long-awaited Vice City crime game is now available worldwide on PlayStation 5 and Xbox Series X|S. Jason and Lucia's story unfolds across Leonida, and today's official launch announcement also details an accompanying 34-track album. There is still no announced PC release date.",
+      "categories": [
+        "Releases",
+        "Industry News"
+      ],
+      "game": {
+        "name": "Grand Theft Auto VI",
+        "id": "grand-theft-auto-vi",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available",
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "blacksmith-master-1-0-pc-launch-discount-november-19",
+      "headline": "Blacksmith Master hits 1.0 with new smithing systems and a 50% Steam offer",
+      "summary": "Untitled Studio's medieval workshop management sim has left Early Access. The full PC release expands production with master workers, new craftable siege machines and additional items, while existing Early Access saves remain compatible. The Steam storefront lists a 50% launch discount through December 3.",
+      "categories": [
+        "Releases",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Blacksmith Master",
+        "id": "blacksmith-master"
+      },
+      "sourceUrl": "https://steamcommunity.com/games/2292800/announcements/detail/683019270749159668",
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2292800/a4e8efa3d8a738c3011f6b50dd57475a7ba2c782/header.jpg?t=1795111301",
+      "steamPages": [
+        {
+          "name": "Blacksmith Master",
+          "url": "https://store.steampowered.com/app/2292800/Blacksmith_Master/"
+        }
+      ],
+      "price": {
+        "amount": 9.99,
+        "currency": "EUR",
+        "discountPercent": 50,
+        "checkedAt": "2026-11-19T18:59:26Z"
+      }
+    },
+    {
+      "id": "ubisoft-montreal-quebec-166-layoffs-november-19",
+      "headline": "Ubisoft confirms 166 layoffs across Montréal and Québec City",
+      "summary": "Ubisoft says it is cutting 166 positions across its Canadian operations, just under 4% of its Canadian workforce. The company attributes the reductions to changing production priorities, while VGC reports that many affected roles are connected to cancelled or rescoped projects. Ubisoft says affected staff will receive severance and career-transition support.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/ubisoft-is-laying-off-166-staff-in-its-montreal-and-quebec-city-offices/",
+      "publishedAt": "2026-11-19T15:15:00Z",
+      "featured": false
+    },
+    {
+      "id": "ubisoft-motherbrain-generative-ai-subsidiary-november-19",
+      "headline": "Ubisoft establishes Motherbrain subsidiary for AI-driven gameplay",
+      "summary": "Ubisoft's latest earnings report confirms Motherbrain as a dedicated subsidiary developing generative-AI technologies for gameplay. The team previously built the Teammates experiment involving conversational NPCs, and Ubisoft says its work will support creators across the company. No independently released Motherbrain game has been confirmed.",
+      "categories": [
+        "Industry News",
+        "Announcements"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/ubisoft-has-founded-a-studio-dedicated-to-generative-ai-in-games/",
+      "publishedAt": "2026-11-19T17:26:00Z",
+      "featured": false
+    }
+  ]
+}
