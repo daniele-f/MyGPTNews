@@ -2,7 +2,7 @@
   "id": "2026-11-20T09:02:21Z",
   "date": "2026-11-20",
   "publishedAt": "2026-11-20T09:02:21Z",
-  "updatedAt": "2026-11-20T14:08:16Z",
+  "updatedAt": "2026-11-20T19:09:15Z",
   "stories": [
     {
       "id": "valve-steam-machine-memory-shortages-pricing-november-19-2026",
@@ -214,6 +214,82 @@
       ],
       "changeType": "new",
       "updatedAt": "2026-11-20T14:08:16Z"
+    },
+    {
+      "id": "crusader-kings-iii-free-weekend-steam-70-percent-november-20-2026",
+      "headline": "Crusader Kings III is free to play this weekend and 70% off",
+      "summary": "Paradox's medieval grand-strategy game is free to play on Steam until November 23 at 19:00. The base game is also 70% off until November 30; the recently released Silk & Silver expansion is sold separately. Free-weekend access ends when the trial closes unless the player purchases the game.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Crusader Kings III",
+        "id": "crusader-kings-iii"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/1158310/Crusader_Kings_III/",
+      "publishedAt": "2026-11-19T18:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/9d06a62089bd4747589431ac1c8bc3112841d528/header_alt_assets_12.jpg?t=1795167672",
+      "steamPages": [
+        {
+          "name": "Crusader Kings III",
+          "url": "https://store.steampowered.com/app/1158310/Crusader_Kings_III/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-20T19:09:15Z"
+    },
+    {
+      "id": "myth-of-empires-throne-season-4-realm-soaring-skies-november-20-2026",
+      "headline": "Myth of Empires: Throne Season 4 launches with flying mounts",
+      "summary": "Realm of Soaring Skies began November 20 at 15:00, opening the 64 km² Voidbound Realm map with floating islands, tameable Mystic Crane and Wildfire Phoenix mounts, and the Northern Azure Kun platform that supports building in flight. The free-to-play seasonal sandbox also adds Sect Challenges, individual leaderboards, and new rewards.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Myth of Empires: Throne",
+        "id": "myth-of-empires-throne"
+      },
+      "sourceUrl": "https://steamcommunity.com/app/4510830/allnews/",
+      "publishedAt": "2026-11-20T14:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4510830/3bfa4b4bb2e41c450e37df2c201f3f2935e7165f/header.jpg?t=1795055477",
+      "steamPages": [
+        {
+          "name": "Myth of Empires: Throne",
+          "url": "https://store.steampowered.com/app/4510830/Myth_of_Empires_Throne/"
+        },
+        {
+          "name": "Myth of Empires: Throne - Voidbound Realm",
+          "url": "https://store.steampowered.com/app/5424360/Myth_of_Empires_Throne_Voidbound_Realm/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-20T19:09:15Z"
+    },
+    {
+      "id": "death-stranding-collection-steam-black-friday-bundle-november-20-2026",
+      "headline": "Death Stranding Collection pairs both games in a new Steam bundle",
+      "summary": "Kojima Productions has introduced a limited-time Steam bundle combining DEATH STRANDING DIRECTOR'S CUT and DEATH STRANDING 2: ON THE BEACH for the Black Friday period. Steam applies a bundle discount, and players who already own one title can complete the set without buying it again. The publisher has not specified an end date.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "sourceUrl": "https://www.kojimaproductions.jp/ja/death-stranding_holiday-2027",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1793287496",
+      "steamPages": [
+        {
+          "name": "DEATH STRANDING DIRECTOR'S CUT",
+          "url": "https://store.steampowered.com/app/1850570/DEATH_STRANDING_DIRECTORS_CUT/"
+        },
+        {
+          "name": "DEATH STRANDING 2: ON THE BEACH",
+          "url": "https://store.steampowered.com/app/3280350/DEATH_STRANDING_2_ON_THE_BEACH/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-20T19:09:15Z"
     }
   ]
 }
