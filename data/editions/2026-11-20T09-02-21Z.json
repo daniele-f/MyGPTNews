@@ -2,7 +2,7 @@
   "id": "2026-11-20T09:02:21Z",
   "date": "2026-11-20",
   "publishedAt": "2026-11-20T09:02:21Z",
-  "updatedAt": "2026-11-20T09:02:21Z",
+  "updatedAt": "2026-11-20T14:08:16Z",
   "stories": [
     {
       "id": "valve-steam-machine-memory-shortages-pricing-november-19-2026",
@@ -122,6 +122,98 @@
           "url": "https://store.steampowered.com/app/1933370/Mark_of_the_Deep/"
         }
       ]
+    },
+    {
+      "id": "gta-vi-sensor-tower-estimates-24-million-day-one-sales-november-20-2026",
+      "headline": "GTA 6 first-day sales estimated at 24.58 million copies",
+      "summary": "Market-intelligence firm Sensor Tower estimates Grand Theft Auto VI sold 24.58 million copies in its first day, generating about $2.36 billion worldwide. It estimates roughly three-quarters of sales were on PlayStation 5. These are third-party estimates, not confirmed figures: Rockstar and Take-Two have not announced official first-day totals.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "Grand Theft Auto VI",
+        "id": "grand-theft-auto-vi",
+        "headlineName": "GTA 6",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/gta-6-sold-around-25-million-copies-and-made-2-36-billion-in-its-first-day-estimates-suggest/",
+      "publishedAt": "2026-11-20T09:42:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/gta-grand-theft-auto-6-pic04-320x180.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-20T14:08:16Z"
+    },
+    {
+      "id": "black-mesa-anomalous-improvements-steam-deck-verified-november-2026",
+      "headline": "Black Mesa gets Steam Deck Verified status in major overhaul",
+      "summary": "Crowbar Collective's Anomalous Improvements Update brings Steam Deck Verified status and much better out-of-the-box controller support to the Half-Life remake. It also overhauls the interface, improves engine performance and mod support, and upgrades lighting and interior reflections. The developer's Xen comparison shows frame rates rising from roughly 130 to 170 fps in one scene.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Black Mesa",
+        "id": "black-mesa"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/fps/valve-sanctioned-half-life-remake-black-mesa-gets-a-mondo-update-and-a-steam-deck-verified-badge/",
+      "publishedAt": "2026-11-17T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/pMdagYk4XbWFuoqaCLMikg.jpg",
+      "steamPages": [
+        {
+          "name": "Black Mesa",
+          "url": "https://store.steampowered.com/app/362890/Black_Mesa/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-20T14:08:16Z"
+    },
+    {
+      "id": "soldiers-at-war-sneg-steam-re-release-november-20-2026",
+      "headline": "Soldiers at War heads to Steam for the first time on November 20",
+      "summary": "SNEG's Steam release of the 1998 World War II turn-based tactics game is scheduled for November 20. Players lead an eight-soldier squad through 18 linked missions, including D-Day and Monte Cassino. This PC re-release adds modern Windows compatibility, widescreen support, Steam achievements and cloud saves.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Soldiers at War",
+        "id": "soldiers-at-war"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4834810/Soldiers_at_War/",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4834810/fc415a44a3c01a19d318bd5dfe24c0d0f2d5d31a/header.jpg?t=1795131536",
+      "steamPages": [
+        {
+          "name": "Soldiers at War",
+          "url": "https://store.steampowered.com/app/4834810/Soldiers_at_War/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-20T14:08:16Z"
+    },
+    {
+      "id": "theocracy-sneg-steam-re-release-november-20-2026",
+      "headline": "Theocracy returns on Steam with modern Windows support and FSR scaling",
+      "summary": "SNEG is bringing Philos Laboratories' 2000 strategy game to Steam on November 20. Set in 15th-century Mexico, it combines real-time strategy, city building and empire management as players try to unite Aztec tribes before the Spanish invasion. The updated PC edition retains its original 800x600 resolution but adds FSR 1 scaling, Steam achievements and cloud saves.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Theocracy",
+        "id": "theocracy"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4834790/Theocracy/",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4834790/ae7f5655b1e22726e01ea5e69f471f46a2cbac73/header.jpg?t=1795131477",
+      "steamPages": [
+        {
+          "name": "Theocracy",
+          "url": "https://store.steampowered.com/app/4834790/Theocracy/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-20T14:08:16Z"
     }
   ]
 }
