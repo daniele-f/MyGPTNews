@@ -1,0 +1,127 @@
+{
+  "id": "2026-11-20T09:02:21Z",
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-20T09:02:21Z",
+  "updatedAt": "2026-11-20T09:02:21Z",
+  "stories": [
+    {
+      "id": "valve-steam-machine-memory-shortages-pricing-november-19-2026",
+      "headline": "Valve warns Steam Machine prices may rise as 2TB supply tightens",
+      "summary": "Valve says sharply rising memory and storage costs are making Steam Machine production more expensive and less predictable. The 512GB model is currently available after existing reservations were fulfilled, but Valve has closed the 2TB waitlist and cannot yet confirm future stock levels or pricing.",
+      "categories": [
+        "Industry News",
+        "Updates"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/hardware/steam-machines/valve-may-raise-steam-machine-prices-yet-again-memory-and-storage-costs-continue-to-increase-at-unprecedented-levels/",
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/zqsrHzvvdH8TSRH7TBeRfh.jpg"
+    },
+    {
+      "id": "gta-vi-gta-plus-singleplayer-perks-november-20-2026",
+      "headline": "Grand Theft Auto VI adds GTA+ perks to its single-player campaign",
+      "summary": "PC Gamer reports that Rockstar's $7.99 monthly GTA+ subscription now offers benefits inside Grand Theft Auto VI's single-player mode, including an exclusive car and garage, free public transport and rentals, and discounts on in-game purchases. Players who preordered receive one free month. The game remains console-only, with no announced PC release date.",
+      "categories": [
+        "Updates",
+        "Industry News"
+      ],
+      "game": {
+        "name": "Grand Theft Auto VI",
+        "id": "grand-theft-auto-vi",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-for-gta-6-singleplayer-is-like-subscription-based-horse-armor/",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/HKGxD9wNvKf9rW4v3SmVdT.jpg"
+    },
+    {
+      "id": "warlords-iv-heroes-of-etheria-steam-return-november-20-2026",
+      "headline": "Warlords IV: Heroes of Etheria returns to PC on Steam today",
+      "summary": "SNEG plans to release the 2003 fantasy strategy game on Steam on November 20. The updated edition adds support for modern resolutions including 4K, borderless widescreen play, community patch improvements, the fan-made Amthor campaign, Steam achievements and cloud saves. Its ten factions and tactical one-on-one battles remain intact.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Warlords IV: Heroes of Etheria",
+        "id": "warlords-iv-heroes-of-etheria"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4834780/Warlords_IV_Heroes_of_Etheria/",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4834780/23946064c065eb1d3881740a5d0385501299c810/header.jpg?t=1795131321",
+      "steamPages": [
+        {
+          "name": "Warlords IV: Heroes of Etheria",
+          "url": "https://store.steampowered.com/app/4834780/Warlords_IV_Heroes_of_Etheria/"
+        }
+      ]
+    },
+    {
+      "id": "rock-band-simulator-steam-launch-november-20-2026",
+      "headline": "Rock Band Simulator targets November 20 launch on Steam",
+      "summary": "PlayWay and KONTRĀST MEDIA's first-person music life sim is scheduled to release on PC today. Set in a rough 1990s neighbourhood, it mixes rhythm-based concerts and band management with odd jobs, gear upgrades, and tough choices over seven in-game days. A free demo is already available on Steam.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Rock Band Simulator",
+        "id": "rock-band-simulator"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4697880/Rock_Band_Simulator/",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4697880/f877bbbcf9f2a65170626d39dce5740814cc3053/header.jpg?t=1795090942",
+      "steamPages": [
+        {
+          "name": "Rock Band Simulator",
+          "url": "https://store.steampowered.com/app/4697880/Rock_Band_Simulator/"
+        }
+      ]
+    },
+    {
+      "id": "network-cyber-security-simulator-early-access-november-20-2026",
+      "headline": "Network & Cyber Security Simulator prepares its PC Early Access debut",
+      "summary": "The first-person networking and cybersecurity sim is scheduled to begin Steam Early Access on November 20. Players can connect physical network equipment, configure VLANs, SSH and NAT through a simulated terminal, investigate security alerts, and practise defending against SQL injection and cross-site scripting. A demo is available before launch.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Network & Cyber Security Simulator",
+        "id": "network-cyber-security-simulator"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4986050/Network_Cyber_Security_Simulator/",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4986050/bd5bc5d279084e9829cfa44c9b5b873b1c13011e/header.jpg?t=1794328988",
+      "steamPages": [
+        {
+          "name": "Network & Cyber Security Simulator",
+          "url": "https://store.steampowered.com/app/4986050/Network_Cyber_Security_Simulator/"
+        }
+      ]
+    },
+    {
+      "id": "mark-of-the-deep-epic-free-to-keep-november-19-2026",
+      "headline": "Mark of the Deep is free to keep on Epic Games Store until November 26",
+      "summary": "Epic's PC storefront lists Mad Mimic's pirate-themed action adventure at 100% off through November 26 at 17:00. The game mixes Metroidvania-style exploration with Souls-like combat as players search a cursed island for their missing crew. The giveaway applies to the Epic Games Store edition, not the separate Steam listing.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Mark of the Deep",
+        "id": "mark-of-the-deep"
+      },
+      "sourceUrl": "https://store.epicgames.com/p/mark-of-the-deep-f7dc08?lang=en-US",
+      "publishedAt": "2026-11-19T16:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1933370/d353e340086cd4d46263cfe02c25469b56c87862/header.jpg?t=1771853035",
+      "steamPages": [
+        {
+          "name": "Mark of the Deep",
+          "url": "https://store.steampowered.com/app/1933370/Mark_of_the_Deep/"
+        }
+      ]
+    }
+  ]
+}
