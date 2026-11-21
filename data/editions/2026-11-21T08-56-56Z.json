@@ -2,7 +2,7 @@
   "id": "2026-11-21T08:56:56Z",
   "date": "2026-11-21",
   "publishedAt": "2026-11-21T08:56:56Z",
-  "updatedAt": "2026-11-21T08:56:56Z",
+  "updatedAt": "2026-11-21T14:00:38Z",
   "stories": [
     {
       "id": "gta-vi-take-two-day-one-3-79-billion-november-20-2026",
@@ -89,6 +89,56 @@
       "publishedAt": "2026-11-20T00:00:00Z",
       "featured": false,
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/cJzBTfpfhiEthMEfnToL5D.jpg"
+    },
+    {
+      "id": "total-war-warhammer-40000-alpha-strike-fleets-campaign-november-19-2026",
+      "headline": "Total War: WARHAMMER 40,000 showcases fleets and Space Marine campaign systems",
+      "summary": "Creative Assembly's 80-minute Alpha Strike livestream shows an Ultramarines campaign across the Praevoss system. Fleets transport armies between planets, provide orbital bombardments and deliver reinforcements via drop pods, while losses of Space Marines are deliberately difficult to replace. Each star system functions as its own campaign, with some progress carrying forward. A release date has not been announced.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Total War: WARHAMMER 40,000",
+        "id": "total-war-warhammer-40000"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/strategy/over-an-hour-of-new-total-war-warhammer-40-000-campaign-footage-shows-gear-customization-fleet-mechanics-and-emphasizes-space-marines-are-not-always-trusted-and-hard-to-replace/",
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4199910/fcb5b083b8f42f5dde4480aefa0294420ddf6b19/header.jpg?t=1784712557",
+      "steamPages": [
+        {
+          "name": "Total War: WARHAMMER 40,000",
+          "url": "https://store.steampowered.com/app/4199910/Total_War_WARHAMMER_40000/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-21T14:00:38Z"
+    },
+    {
+      "id": "minecraft-dungeons-ii-humblers-awaken-dlc-december-1-announced-november-15-2026",
+      "headline": "Minecraft Dungeons II reveals The Humblers Awaken DLC for December 1",
+      "summary": "Mojang has announced The Humblers Awaken, the first paid Minecraft Dungeons II expansion, for December 1. It adds new quests in the Sift, three active artifacts, four passive talismans and cosmetic rewards. A free update alongside it introduces daily and weekly trial dungeons, more weapons and armor, and returning heroes from the original Minecraft Dungeons as playable skins.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Minecraft Dungeons II",
+        "id": "minecraft-dungeons-ii"
+      },
+      "sourceUrl": "https://www.minecraft.net/en-us/article/the-humblers-awaken",
+      "publishedAt": "2026-11-15T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/spicewood/key-art/DLC1_Header_1170x500.jpg?v=1794576927335",
+      "steamPages": [
+        {
+          "name": "Minecraft Dungeons II",
+          "url": "https://store.steampowered.com/app/1912410/Minecraft_Dungeons_II/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-21T14:00:38Z"
     }
   ]
 }
