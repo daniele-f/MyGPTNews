@@ -2,7 +2,7 @@
   "id": "2026-11-21T08:56:56Z",
   "date": "2026-11-21",
   "publishedAt": "2026-11-21T08:56:56Z",
-  "updatedAt": "2026-11-21T14:00:38Z",
+  "updatedAt": "2026-11-21T18:56:38Z",
   "stories": [
     {
       "id": "gta-vi-take-two-day-one-3-79-billion-november-20-2026",
@@ -139,6 +139,56 @@
       ],
       "changeType": "new",
       "updatedAt": "2026-11-21T14:00:38Z"
+    },
+    {
+      "id": "deltarune-chapter-6-structurally-complete-chapter-7-started-november-2026",
+      "headline": "DELTARUNE Chapter 6 reaches playable draft as Chapter 7 work begins",
+      "summary": "Toby Fox says DELTARUNE Chapter 6 can now be played from beginning to end, with its maps, battles and events in place. Localisation and preliminary testing are starting, although some scenes still need polish before full testing. Work has also begun on Chapter 7. Chapter 6 remains targeted for 2027 and will be a free update for owners of the game.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "DELTARUNE",
+        "id": "deltarune"
+      },
+      "sourceUrl": "https://toby.fangamer.com/newsletters/fall26/",
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/7ccda5b1631d2e60cc756a3271e845dbb9168821/header.jpg?t=1782314340",
+      "steamPages": [
+        {
+          "name": "DELTARUNE",
+          "url": "https://store.steampowered.com/app/1671210/DELTARUNE/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-21T18:56:38Z"
+    },
+    {
+      "id": "persona-6-atlus-producer-promises-shorter-wait-future-entries-november-2026",
+      "headline": "Persona 6 producer says Atlus aims to shorten future Persona waits",
+      "summary": "P-Studio general producer Kazuhisa Wada says Atlus is working to reduce the long gaps between numbered Persona games after Persona 6. He cautions that large-scale RPG development can still take five years or more and offers no concrete timetable. Persona 6 itself remains undated, though its PC Steam wishlist page is live.",
+      "categories": [
+        "Industry News",
+        "Announcements"
+      ],
+      "game": {
+        "name": "Persona 6",
+        "id": "persona-6"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/rpg/seven-years-on-since-persona-5-royal-atlus-says-people-wont-have-to-wait-as-long-as-they-have-previously-for-the-next-game-after-persona-6/",
+      "publishedAt": "2026-11-21T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/RtNxgB4RG4rJNWfzDhWpnc.jpg",
+      "steamPages": [
+        {
+          "name": "Persona 6",
+          "url": "https://store.steampowered.com/app/2649560/Persona_6/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-21T18:56:38Z"
     }
   ]
 }
