@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-21T08:56:56Z",
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-21T08:56:56Z",
+  "updatedAt": "2026-11-21T08:56:56Z",
+  "stories": [
+    {
+      "id": "gta-vi-take-two-day-one-3-79-billion-november-20-2026",
+      "headline": "Grand Theft Auto VI reaches $3.79 billion in estimated first-day sales",
+      "summary": "Take-Two and Rockstar say Grand Theft Auto VI generated an estimated $3.79 billion in worldwide retail sales during its November 19 launch day, based on the company's estimates. Take-Two also reports 32.5 million units sold before release. The game launched for PlayStation 5 and Xbox Series X|S; no PC release date has been announced.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "Grand Theft Auto VI",
+        "id": "grand-theft-auto-vi",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      "sourceUrl": "https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://mms.businesswire.com/media/20261120446139/en/2978423/4/Grand_Theft_Auto_VI_Official_Cover_Art_Hi-Res.jpg"
+    },
+    {
+      "id": "nvidia-geforce-driver-621-24-excessive-ssd-writes-november-20-2026",
+      "headline": "Nvidia GeForce driver 621.24 linked to excessive SSD writes",
+      "summary": "PC Gamer reports that Nvidia's GeForce driver 621.24 is associated with repeated SSD writes by NVDisplay.Container.exe, sometimes reaching tens of gigabytes per hour. Affected users can inspect the process's I/O Write Bytes in Windows Task Manager. The earlier 621.01 driver has been reported as a workaround while the cause is investigated.",
+      "categories": [
+        "Updates",
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/hardware/graphics-cards/pc-gamers-notice-nvidias-drivers-hammering-their-ssds-with-tens-of-gb-hr-of-unnecessary-writes-revert-to-621-01-asap/",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/rhWu44sDqYPTAiiJjUGKsE.jpg"
+    },
+    {
+      "id": "winter-burrow-below-the-ice-fishing-dlc-december-9-2026",
+      "headline": "Winter Burrow reveals Below the Ice fishing DLC for December 9",
+      "summary": "Pine Creek Games has announced Below the Ice, a paid Winter Burrow DLC releasing December 9. The expansion adds a frozen wetlands biome, ice fishing, three fishing-rod upgrades, a new character and questline, meals, and decorative items. A free accompanying update adds a sixth toolbelt slot and bug fixes for all players.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Winter Burrow",
+        "id": "winter-burrow"
+      },
+      "sourceUrl": "https://steamcommunity.com/app/3008740/allnews/",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://clan.akamai.steamstatic.com/images/45053476/9a7544363e4c4d172a270a6045f8f8490b8a3e48.png",
+      "steamPages": [
+        {
+          "name": "Winter Burrow - Below the Ice",
+          "url": "https://store.steampowered.com/app/5455540/Winter_Burrow_Below_the_Ice/"
+        },
+        {
+          "name": "Winter Burrow",
+          "url": "https://store.steampowered.com/app/3008740/Winter_Burrow/"
+        }
+      ]
+    },
+    {
+      "id": "fanatical-capcom-black-friday-build-your-own-bundle-november-20-2026",
+      "headline": "Capcom games feature in Fanatical's new Black Friday PC bundle",
+      "summary": "Fanatical has launched a build-your-own Capcom collection with 27 Steam products, including multi-game compilations. VGC reports that customers can choose at least two items, with prices per selection decreasing as the bundle grows. As reported November 20, the eight-item tier costs $6.20 or £6.20 per selection; regional prices may differ.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/fanaticals-black-friday-build-your-own-capcom-collection-bundle-lets-you-stock-up-on-classics-from-6-20-per-game/",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/7c6c4e38-1a00-471e-8524-79fa1a0a495f-320x180.jpeg"
+    },
+    {
+      "id": "gta-vi-fake-pc-port-malware-scam-warning-november-20-2026",
+      "headline": "Fake Grand Theft Auto VI PC port is being used as malware bait",
+      "summary": "NordVPN's threat intelligence team warns that a fake Grand Theft Auto VI PC port is being used to lure players into downloading malicious software. A toolkit reportedly advertised for sale includes account-stealing malware, a cryptominer and a crypto-wallet drainer. Rockstar has not announced a PC version, so claims of a working PC download should be treated as scams.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "Grand Theft Auto VI",
+        "id": "grand-theft-auto-vi",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/a-gta-6-pc-scam-kit-using-a-fake-pc-port-as-bait-is-available-for-usd200-on-the-dark-web-says-nordvpn-so-watch-what-you-click/",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/cJzBTfpfhiEthMEfnToL5D.jpg"
+    }
+  ]
+}
