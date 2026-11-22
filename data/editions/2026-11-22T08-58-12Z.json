@@ -1,0 +1,114 @@
+{
+  "id": "2026-11-22T08:58:12Z",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-22T08:58:12Z",
+  "updatedAt": "2026-11-22T08:58:12Z",
+  "stories": [
+    {
+      "id": "goat-simulator-3-ticket-to-dizzyworld-pc-release-november-19-2026",
+      "headline": "Goat Simulator 3 launches Ticket to Dizzyworld theme-park expansion",
+      "summary": "Coffee Stain North released Ticket to Dizzyworld for Goat Simulator 3 on PC and consoles. The expansion adds a theme-park map with 24 events, eight playable goats, 77 gear pieces, rideable attractions and Dizzy Tokens to spend on rewards. The expansion requires the base game.",
+      "categories": [
+        "Releases",
+        "Updates"
+      ],
+      "game": {
+        "name": "Goat Simulator 3",
+        "id": "goat-simulator-3"
+      },
+      "sourceUrl": "https://www.goatsimulator3.com/updates/ticket-to-dizzyworld/",
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://a.storyblok.com/f/158607/1920x1080/df1272714e/dizzyworld_1920x1080.jpg/m/fit-in/1920x1080",
+      "steamPages": [
+        {
+          "name": "Goat Simulator 3 - Ticket to Dizzyworld",
+          "url": "https://store.steampowered.com/app/4882180/Goat_Simulator_3__Ticket_to_Dizzyworld/"
+        },
+        {
+          "name": "Goat Simulator 3",
+          "url": "https://store.steampowered.com/app/850190/"
+        }
+      ]
+    },
+    {
+      "id": "baldurs-gate-3-shadowheart-prequel-novel-revealed-november-22-2026",
+      "headline": "Baldur's Gate 3 reveals Shadowheart prequel novel",
+      "summary": "An official Baldur's Gate 3 novel focused on Shadowheart is in development, written by fantasy author Tasha Suri. The story explores Shadowheart's past within the Church of Shar through a mystery involving fellow initiate Nocturne. A publication date has not been confirmed.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "Baldur's Gate 3",
+        "id": "baldurs-gate-3"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/baldurs-gate/astarions-baldurs-gate-3-prequel-novel-infuriated-fans-now-its-shadowhearts-turn/",
+      "publishedAt": "2026-11-22T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/ZzLc6TsxfGskr3J8FoCT7G.jpg",
+      "steamPages": [
+        {
+          "name": "Baldur's Gate 3",
+          "url": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/"
+        }
+      ]
+    },
+    {
+      "id": "wow-forever-gear-bonuses-location-encounter-design-november-20-2026",
+      "headline": "World of Warcraft: Forever designer explains a move away from universal best-in-slot gear",
+      "summary": "Senior item designer Aidan Moon says World of Warcraft: Forever aims to make equipment choices more situational. Bonuses tied to environments and creature subtypes could reward players for preparing different gear sets for different encounters, rather than relying on one universally optimal setup.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "World of Warcraft: Forever",
+        "id": "world-of-warcraft-forever"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-item-designer-wants-to-get-rid-of-bis-encouraging-players-who-want-to-sweatily-optimise-to-bring-unique-sets-of-gear-to-raids/",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/M468cwcQutVSyhiQd5AcBA.png"
+    },
+    {
+      "id": "steam-black-friday-discounts-hub-november-26-30-2026",
+      "headline": "Steam schedules a Black Friday deals hub for November 26 to 30",
+      "summary": "Valve says Steam will not run an official platform-wide Black Friday Fest. Instead, its Discounts & Events page will highlight eligible discounts from November 26 through November 30. The promotion is separate from the Steam Winter Sale, which begins December 17.",
+      "categories": [
+        "Deals & Events",
+        "Announcements"
+      ],
+      "sourceUrl": "https://partner.steamgames.com/doc/marketing/upcoming_events",
+      "publishedAt": "2026-11-22T00:00:00Z",
+      "featured": false
+    },
+    {
+      "id": "gta-6-comcast-quarter-peak-network-traffic-november-21-2026",
+      "headline": "GTA 6 reportedly accounted for nearly a quarter of Comcast traffic at launch",
+      "summary": "Comcast says network traffic on the November 19 launch day for Grand Theft Auto VI was 31% above its typical level. At peak, game-related downloads made up nearly one-quarter of traffic on Comcast's own network. The figures do not refer to global internet traffic.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "Grand Theft Auto VI",
+        "id": "grand-theft-auto-vi",
+        "headlineName": "GTA 6",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/comcast-at-peak-gta6-accounted-for-nearly-a-quarter-of-all-internet-traffic/",
+      "publishedAt": "2026-11-21T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/e3fPzBmapimeiWj59SBAiQ.jpg"
+    },
+    {
+      "id": "wizards-of-the-coast-ai-copyright-settlement-authors-share-november-21-2026",
+      "headline": "Wizards of the Coast gives D&D writers its share of AI copyright settlement",
+      "summary": "Wizards of the Coast says it will pass its portion of a copyright settlement involving AI company Anthropic to the affected Dungeons & Dragons writers, rather than retaining a publisher share. The decision follows a settlement over the use of books in AI training.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/games/rpg/wizards-of-the-coast-to-pass-full-ai-copyright-payout-to-d-and-d-writers/",
+      "publishedAt": "2026-11-21T00:00:00Z",
+      "featured": false
+    }
+  ]
+}
