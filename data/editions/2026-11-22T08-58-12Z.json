@@ -2,7 +2,7 @@
   "id": "2026-11-22T08:58:12Z",
   "date": "2026-11-22",
   "publishedAt": "2026-11-22T08:58:12Z",
-  "updatedAt": "2026-11-22T08:58:12Z",
+  "updatedAt": "2026-11-22T18:57:50Z",
   "stories": [
     {
       "id": "goat-simulator-3-ticket-to-dizzyworld-pc-release-november-19-2026",
@@ -109,6 +109,76 @@
       "sourceUrl": "https://www.pcgamer.com/games/rpg/wizards-of-the-coast-to-pass-full-ai-copyright-payout-to-d-and-d-writers/",
       "publishedAt": "2026-11-21T00:00:00Z",
       "featured": false
+    },
+    {
+      "id": "warframe-black-friday-2026-steam-packs-up-to-50-percent-november-30",
+      "headline": "Warframe Black Friday sale cuts PC bundle prices by up to 50% through November 30",
+      "summary": "Digital Extremes is discounting selected Warframe premium bundles and TennoGen cosmetics on PC and Steam. The Starter Weapon Pack is 50% off, the Constellations Complete Collection is 20% off, and several retiring packs have discounts. The PC sale ends November 30 at 17:00.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Warframe",
+        "id": "warframe"
+      },
+      "sourceUrl": "https://www.warframe.com/en/news/warframe-black-friday-sale-2026",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://www-static.warframe.com/uploads/thumbnails/87b5c3cad3f424ad7c98d8bb0c880a0a_1600x900.jpg",
+      "steamPages": [
+        {
+          "name": "Warframe",
+          "url": "https://store.steampowered.com/app/230410/Warframe/"
+        },
+        {
+          "name": "Warframe: Starter Weapon Pack",
+          "url": "https://store.steampowered.com/app/2803600/Warframe_Starter_Weapon_Pack/"
+        },
+        {
+          "name": "Warframe: Constellations Complete Collection",
+          "url": "https://store.steampowered.com/app/4735390/Warframe_Constellations_Complete_Collection/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-22T18:57:50Z"
+    },
+    {
+      "id": "road-of-dust-and-sorrow-free-demo-pc-horror-spotlight-november-22-2026",
+      "headline": "The Road of Dust and Sorrow's free PC demo showcases atmospheric pixel-art horror",
+      "summary": "A new PC Gamer hands-on spotlights The Road of Dust and Sorrow's playable Steam demo. The 1990s-inspired side-scrolling horror adventure follows a mother protecting her daughter through a monster-filled wasteland, combining scavenging, combat and puzzles. Steam currently lists February 19, 2027 as its planned release date.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "The Road of Dust and Sorrow",
+        "id": "the-road-of-dust-and-sorrow"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/horror/this-90s-inspired-horror-game-has-one-of-the-coolest-post-apocalyptic-worlds-ive-ever-seen/",
+      "publishedAt": "2026-11-22T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/9NRHokYQAAJfSkWEZafGdc.png",
+      "steamPages": [
+        {
+          "name": "The Road of Dust and Sorrow",
+          "url": "https://store.steampowered.com/app/3895110/The_Road_of_Dust_and_Sorrow/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-22T18:57:50Z"
+    },
+    {
+      "id": "atari-et-creator-ai-game-oversupply-1983-comparison-november-22-2026",
+      "headline": "Atari E.T. designer compares AI-game flood to the market glut before the 1983 crash",
+      "summary": "At a DevGAMM Lisbon talk, former Atari developer Howard Scott Warshaw compared the surge of AI-assisted game creation to the low-quality oversupply that preceded the 1983 US videogame crash. He said he does not expect another crash, arguing better discovery filters will be needed while AI also gives inventive developers new opportunities.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/gaming-industry/game-development/the-designer-of-ataris-notorious-e-t-likens-the-deluge-of-ai-games-to-events-that-preceded-the-80s-industry-crash-there-was-a-glut-of-crap-on-the-market/",
+      "publishedAt": "2026-11-22T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/wWpvRCE5GXHwEVaYibPhMU.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-22T18:57:50Z"
     }
   ]
 }
