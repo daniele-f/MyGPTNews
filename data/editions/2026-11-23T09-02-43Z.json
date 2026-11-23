@@ -2,7 +2,7 @@
   "id": "2026-11-23T09:02:43Z",
   "date": "2026-11-23",
   "publishedAt": "2026-11-23T09:02:43Z",
-  "updatedAt": "2026-11-23T14:00:34Z",
+  "updatedAt": "2026-11-23T19:04:18Z",
   "stories": [
     {
       "id": "unreal-engine-6-removes-blueprints-verse-ai-migration-november-20-2026",
@@ -106,6 +106,63 @@
       "imageUrl": "https://www.videogameschronicle.com/files/2022/08/mikami-320x180.png",
       "changeType": "new",
       "updatedAt": "2026-11-23T14:00:34Z"
+    },
+    {
+      "id": "workers-resources-soviet-republic-space-program-launched-with-discounts-november-23-2026",
+      "headline": "Workers & Resources: Soviet Republic - Space Program launches on PC with discounts",
+      "summary": "Hooded Horse confirms that the Space Program expansion for Workers & Resources: Soviet Republic is now available on PC. Players can build rocket factories, research propulsion, run missions from a control center, launch satellites and space stations, and play a new 1960s Baikonur campaign. The publisher also announced a 10% launch discount on the DLC for two weeks and a 75% discount on the base game.",
+      "categories": [
+        "Releases",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Workers & Resources: Soviet Republic - Space Program",
+        "id": "workers-and-resources-soviet-republic-space-program"
+      },
+      "sourceUrl": "https://www.gamespress.com/en-US/workers-and-resources-soviet-republic-space-program-dlc-out-now",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://imgeucdn.gamespress.com/cdn/files/Games%20Press/2026/10/291635-f1348674/Workers___Resources_Space_Race_Key_Art_2026.05_DM_V1.png?bgcolor=transparent&format=png&mode=max&otf=y&quality=90&sky=bec60e99be3844ca51bf1b6ce3be78ef9967e547629d245748615a0eed867280&w=533",
+      "steamPages": [
+        {
+          "name": "Workers & Resources: Soviet Republic - Space Program",
+          "url": "https://store.steampowered.com/app/5303130/Workers__Resources_Soviet_Republic__Space_Program/"
+        },
+        {
+          "name": "Workers & Resources: Soviet Republic",
+          "url": "https://store.steampowered.com/app/784150/Workers__Resources_Soviet_Republic/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-23T19:04:18Z"
+    },
+    {
+      "id": "fanatical-black-friday-sale-daily-pc-flash-deals-november-23-2026",
+      "headline": "Fanatical launches Black Friday PC game sale with daily flash deals",
+      "summary": "Fanatical's Black Friday promotion is now live with discounts across thousands of PC games. In addition to the main sale, a new group of flash deals rotates every 24 hours through November 29. Video Games Chronicle reports that the event includes both recent releases and older PC favourites, with individual discounts varying by title and day.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/fanaticals-black-friday-sale-includes-daily-flash-deals-resident-evil-requiem-is-currently-42-off/",
+      "publishedAt": "2026-11-23T16:17:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/dV5kBC0A-320x192.jpeg",
+      "changeType": "new",
+      "updatedAt": "2026-11-23T19:04:18Z"
+    },
+    {
+      "id": "bioware-mark-darrah-one-franchise-survival-ea-november-23-2026",
+      "headline": "Former BioWare producer says one-franchise focus might have helped it survive EA",
+      "summary": "Former Dragon Age executive producer Mark Darrah argues that BioWare struggled to fund several major franchises under Electronic Arts' financial constraints. In a new interview, he suggests the studio might have improved its survival chances by concentrating on just one franchise, though he acknowledges that other EA studios tried that approach without success. His comments revisit the decisions behind BioWare's closure rather than announce any new games.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/gaming-industry/former-dragon-age-boss-questions-whether-bioware-should-have-become-a-one-project-studio-dropping-either-mass-effect-or-dragon-age-to-survive-ea/",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/DwespHGqzmDvYn4tMdwrRF.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-23T19:04:18Z"
     }
   ]
 }
