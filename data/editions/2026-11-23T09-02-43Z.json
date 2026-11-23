@@ -2,7 +2,7 @@
   "id": "2026-11-23T09:02:43Z",
   "date": "2026-11-23",
   "publishedAt": "2026-11-23T09:02:43Z",
-  "updatedAt": "2026-11-23T09:02:43Z",
+  "updatedAt": "2026-11-23T14:00:34Z",
   "stories": [
     {
       "id": "unreal-engine-6-removes-blueprints-verse-ai-migration-november-20-2026",
@@ -78,6 +78,34 @@
           "url": "https://store.steampowered.com/app/570/Dota_2/"
         }
       ]
+    },
+    {
+      "id": "banjo-kazooie-activision-franchise-job-listing-november-23-2026",
+      "headline": "Activision job listing names Banjo-Kazooie among its franchises",
+      "summary": "An Activision job advertisement for a project manager in emerging franchises lists Banjo-Kazooie alongside Halo, Age of Empires and Sea of Thieves as properties associated with the publisher after Microsoft's studio reshuffle. The role concerns an upcoming premium console and PC title, but the listing does not confirm a new Banjo-Kazooie game or say which franchise the position supports.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/activision-refers-itself-as-the-home-of-banjo-kazooie-in-new-job-listing/",
+      "publishedAt": "2026-11-23T09:56:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2023/08/banjo-kazooie-1-320x180.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-23T14:00:34Z"
+    },
+    {
+      "id": "shinji-mikami-shift-up-generative-ai-development-remarks-november-23-2026",
+      "headline": "Shinji Mikami criticizes generative AI while testing it as a game-development tool",
+      "summary": "Speaking with Shift Up CEO Kim Hyung-tae at G-STAR 2026, Resident Evil creator Shinji Mikami said he sometimes wishes generative AI would disappear, even as he experiments with turning his own 2D concepts into 3D previews. Shift Up says it now begins projects with human-made artwork and uses AI only for supporting tasks before further artist refinement. Mikami also voiced concern that core creative jobs could eventually become less human-led.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/resident-evil-creator-shinji-mikami-says-he-wishes-ai-would-disappear-entirely-but-that-he-experiments-with-it-as-a-tool/",
+      "publishedAt": "2026-11-23T13:23:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2022/08/mikami-320x180.png",
+      "changeType": "new",
+      "updatedAt": "2026-11-23T14:00:34Z"
     }
   ]
 }
