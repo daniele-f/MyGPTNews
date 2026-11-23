@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-23T09:02:43Z",
+  "date": "2026-11-23",
+  "publishedAt": "2026-11-23T09:02:43Z",
+  "updatedAt": "2026-11-23T09:02:43Z",
+  "stories": [
+    {
+      "id": "unreal-engine-6-removes-blueprints-verse-ai-migration-november-20-2026",
+      "headline": "Unreal Engine 6 drops Blueprints as Epic shifts to Verse and AI migration",
+      "summary": "Epic Games has confirmed that Unreal Engine 6, including its Early Access release, will not include Blueprints or the Actor Gameplay Framework. Gameplay development will instead use Verse and Scene Graph. Epic expects AI-assisted tools to ease migration from Unreal Engine 5 and says it has prototyped a conversion of more than 20,000 Fortnite Blueprints into roughly three million lines of Verse. Unreal Engine 5 projects can continue using the existing workflow.",
+      "categories": [
+        "Industry News",
+        "Announcements"
+      ],
+      "sourceUrl": "https://www.unrealengine.com/news/an-update-on-blueprints-and-the-path-to-ue6",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://cms-assets.unrealengine.com/AiKUh5PQCTaOFnmJDZJBfz/resize=width:1920/quality=value:90/auto_image/cmwp1neu21f5s08ocivvd4wok"
+    },
+    {
+      "id": "binding-of-isaac-repentance-plus-ai-music-removed-november-23-2026",
+      "headline": "The Binding of Isaac: Repentance+ removes AI music after Steam backlash",
+      "summary": "A Crime Mode challenge added to The Binding of Isaac: Repentance+ contained music whose file metadata indicated it had been generated using Suno, despite no AI-content disclosure on the DLC's Steam page. Recent user reviews dropped to Overwhelmingly Negative, with only 8% positive at the time of reporting. Creator Edmund McMillen said he had not known about the music, and a subsequent update removed it.",
+      "categories": [
+        "Updates",
+        "Industry News"
+      ],
+      "game": {
+        "name": "The Binding of Isaac: Repentance+",
+        "id": "the-binding-of-isaac-repentance-plus"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/roguelike/binding-of-isaac-dlc-adds-ai-music-in-gta-6-parodying-update-despite-not-having-an-ai-disclosure-steam-reviews-drop-to-overwhelmingly-negative-music-gets-pulled/",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/HNtA6QWZH23oHdCY8geRZU.jpg",
+      "steamPages": [
+        {
+          "name": "The Binding of Isaac: Repentance+",
+          "url": "https://store.steampowered.com/app/3353470/"
+        },
+        {
+          "name": "The Binding of Isaac: Rebirth",
+          "url": "https://store.steampowered.com/app/250900/"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-driver-621-35-hotfix-still-writes-ssd-november-22-2026",
+      "headline": "Nvidia driver 621.35 hotfix reportedly fails to stop excessive SSD writes",
+      "summary": "Nvidia released GeForce driver hotfix 621.35 to address unusually heavy SSD writes from newer drivers, but affected users report that the logging problem can return after a reboot. PC Gamer cites one report of approximately 4.5 GB of unnecessary writes per hour after the hotfix. Reverting to driver 621.01 remains a reported workaround while a more reliable fix is awaited.",
+      "categories": [
+        "Industry News",
+        "Updates"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/hardware/graphics-cards/nvidia-released-a-hotfix-for-its-driver-hammering-your-ssd-but-it-doesnt-actually-work/",
+      "publishedAt": "2026-11-22T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/8N9tGF8SW8x4iuVV9hNLRR.jpg"
+    },
+    {
+      "id": "dota-2-update-7-42-greater-horn-of-battle-november-22-2026",
+      "headline": "Dota 2 patch 7.42 introduces lane-pushing Greater Horn of Battle",
+      "summary": "Valve's Dota 2 patch 7.42 adds the Greater Horn of Battle, a Tormentor drop that summons powerful creeps across all three lanes. Other changes raise base hero health from 120 to 200, reduce the health gained per strength point, change Glyph of Fortification cooldown behavior, and introduce passive experience gain even while dead. The changes could help matches progress more quickly, though their effect on game length is not yet established.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Dota 2",
+        "id": "dota-2"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/moba/new-dota-2-patch-tries-to-help-games-end-faster-adds-an-item-that-summons-super-creeps-in-every-lane-at-once/",
+      "publishedAt": "2026-11-22T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1791407503",
+      "steamPages": [
+        {
+          "name": "Dota 2",
+          "url": "https://store.steampowered.com/app/570/Dota_2/"
+        }
+      ]
+    }
+  ]
+}
