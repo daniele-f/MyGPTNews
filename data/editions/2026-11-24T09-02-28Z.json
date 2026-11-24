@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-24T09:02:28Z",
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-24T09:02:28Z",
+  "updatedAt": "2026-11-24T09:02:28Z",
+  "stories": [
+    {
+      "id": "steam-awards-2026-nominations-hall-of-fame-november-23",
+      "headline": "Steam Awards 2026 nominations open with a 10th-anniversary Hall of Fame",
+      "summary": "Valve opened nominations on November 23 for 14 categories, including three returning categories focused on long play sessions, unconventional games and job simulators. A special Hall of Fame award will pit previous Game of the Year winners against one another. Nominations close on <b>November 30 at 19:00</b>. Finalist voting begins alongside the Steam Winter Sale on December 17 and ends January 2 at 19:00.",
+      "categories": [
+        "Deals & Events",
+        "Announcements"
+      ],
+      "sourceUrl": "https://store.steampowered.com/steamawards/nominations/2026",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "stellaris-willpower-expansion-4-6-corona-borealis-november-23-2026",
+      "headline": "Stellaris launches Willpower expansion alongside free 4.6 update",
+      "summary": "Paradox Interactive released Willpower on November 23, introducing ideologies that can spread between empires, new diplomatic and espionage options, a movable Galactic Hall and three origins. The expansion is included in the Season 10 Expansion Pass or available separately at a suggested €24.99. The free 4.6 Corona Borealis patch also arrived with balance changes and systems updates.",
+      "categories": [
+        "Releases",
+        "Updates"
+      ],
+      "game": {
+        "name": "Stellaris",
+        "id": "stellaris"
+      },
+      "sourceUrl": "https://www.paradoxinteractive.com/media/press-releases/paradox-interactive/new-willpower-expansion-available-today-for-stellaris",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/10564cf8d4fa657d16cf03f36a7eed0986af8434/header_alt_assets_15.jpg?t=1795442199",
+      "steamPages": [
+        {
+          "name": "Stellaris: Willpower",
+          "url": "https://store.steampowered.com/app/4241440/Stellaris_Willpower/",
+          "releaseDate": "2026-11-23T00:00:00Z"
+        },
+        {
+          "name": "Stellaris",
+          "url": "https://store.steampowered.com/app/281990/Stellaris/",
+          "releaseDate": "2016-05-09T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "dead-by-daylight-terrifier-chapter-november-24-2026",
+      "headline": "Dead by Daylight: Terrifier chapter is scheduled for today",
+      "summary": "Behaviour Interactive lists November 24 as the release date for its Terrifier crossover. The chapter brings Art the Clown as a Killer and Sienna Shaw as a Survivor, while the new Hartshorne Mall map will be available to all players. Buying the DLC unlocks two exclusive cosmetic items. The Steam listing had not yet confirmed availability at the time of this briefing.",
+      "categories": [
+        "Releases",
+        "Updates"
+      ],
+      "game": {
+        "name": "Dead by Daylight",
+        "id": "dead-by-daylight"
+      },
+      "sourceUrl": "https://deadbydaylight.com/game/chapters/terrifier/",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://deadbydaylight.com/static/28e8dfe446b8f5100ccb395edee4a379/691d2/DBD_WAFFLE_CHAPTER_LOGO_ORIGINAL_VERSION_1920x1080_532b7369b6.png",
+      "steamPages": [
+        {
+          "name": "Dead by Daylight: Terrifier",
+          "url": "https://store.steampowered.com/app/5510420/Dead_by_Daylight_Terrifier/",
+          "releaseDate": "2026-11-24T00:00:00Z"
+        },
+        {
+          "name": "Dead by Daylight",
+          "url": "https://store.steampowered.com/app/381210/Dead_by_Daylight/"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-jensen-huang-reinstated-ceo-november-23-2026",
+      "headline": "Nvidia reinstates Jensen Huang as CEO after November resignation",
+      "summary": "Nvidia announced on November 23 that its board unanimously reinstated Jensen Huang as president, chief executive and board member. Interim CEO Colette Kress remains chief financial officer. The company says an independent board investigation will continue and that it is strengthening its export-control and national-security compliance oversight. The announcement reverses the leadership change reported earlier this month.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-has-been-reinstated-as-nvidia-ceo-i-take-this-responsibility-with-the-greatest-humility-and-renewed-commitment/",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/hJkLN4Zb3pgAj9NTkYDL6f.jpg",
+      "relatedArticleIds": [
+        "nvidia-jensen-huang-resigns-colette-kress-interim-ceo-2026"
+      ]
+    }
+  ]
+}
