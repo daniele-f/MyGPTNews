@@ -2,7 +2,7 @@
   "id": "2026-11-24T09:02:28Z",
   "date": "2026-11-24",
   "publishedAt": "2026-11-24T09:02:28Z",
-  "updatedAt": "2026-11-24T14:00:47Z",
+  "updatedAt": "2026-11-24T19:01:02Z",
   "stories": [
     {
       "id": "steam-awards-2026-nominations-hall-of-fame-november-23",
@@ -130,6 +130,79 @@
       ],
       "changeType": "new",
       "updatedAt": "2026-11-24T14:00:47Z"
+    },
+    {
+      "id": "symphony-of-war-ii-dominion-announcement-november-24-2026",
+      "headline": "Symphony of War II: Dominion announced for PC in 2027",
+      "summary": "Dancing Dragon Games and publisher Hooded Horse revealed a standalone tactical RPG sequel set generations after the original. Players build squads from over 100 classes, manage troops and resources between chapters, and fight battles on land and at sea using customizable warships. The Steam wishlist page is live, with no exact release date announced.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "Symphony of War II: Dominion",
+        "id": "symphony-of-war-ii-dominion"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/2710210/Symphony_of_War_II_Dominion/",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2710210/5448fcc6076ee6357fb3249563da3af6232fd5cb/header.jpg?t=1795530024",
+      "steamPages": [
+        {
+          "name": "Symphony of War II: Dominion",
+          "url": "https://store.steampowered.com/app/2710210/Symphony_of_War_II_Dominion/"
+        }
+      ],
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "featured": false,
+      "changeType": "new",
+      "updatedAt": "2026-11-24T19:01:02Z"
+    },
+    {
+      "id": "ffxiv-na-eu-cross-region-travel-december-1-2026",
+      "headline": "Final Fantasy XIV opens travel between North America and Europe on December 1",
+      "summary": "Square Enix will temporarily enable travel between North American and European physical data centers during maintenance on December 1 to help manage queues around Patch 8.0. Players from both regions can also continue visiting Oceania. The developer is considering making the arrangement permanent based on feedback, although distant servers may introduce higher latency.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Final Fantasy XIV Online",
+        "headlineName": "Final Fantasy XIV",
+        "id": "final-fantasy-xiv-online"
+      },
+      "sourceUrl": "https://na.finalfantasyxiv.com/lodestone/topics/detail/3e0f3cebb70090699b4e20503d5494d8e33e7df5",
+      "imageUrl": "https://img.finalfantasyxiv.com/t/3e0f3cebb70090699b4e20503d5494d8e33e7df5.png?1795510726%3F1795159597=",
+      "steamPages": [
+        {
+          "name": "Final Fantasy XIV Online",
+          "url": "https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online/",
+          "releaseDate": "2014-02-18T00:00:00Z"
+        }
+      ],
+      "relatedArticleIds": [
+        "ffxiv-patch-758-na-eu-same-region-matchmaking-nov-10-2026"
+      ],
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "featured": false,
+      "changeType": "new",
+      "updatedAt": "2026-11-24T19:01:02Z"
+    },
+    {
+      "id": "wow-forever-sunder-armor-debuff-testing-november-24-2026",
+      "headline": "World of Warcraft: Forever players report possible Sunder Armor bug",
+      "summary": "Community combat-log testing and limited independent testing by PC Gamer suggest that Sunder Armor and other armor-reduction effects may provide far less physical damage benefit than intended. Sunder Armor appears to retain its threat-generation function. Blizzard had not acknowledged the reported issue in its hotfix notes at the time of reporting, so the bug remains unconfirmed.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "World of Warcraft: Forever",
+        "id": "world-of-warcraft-forever",
+        "url": "https://worldofwarcraft.blizzard.com/en-us/forever/"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-been-chasing-bugs-and-gold-exploits-over-the-weekend-and-now-it-turns-out-sunder-armor-might-just-not-be-working/",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/ziAidtFyz3aDf7yhuiejdA.png",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "featured": false,
+      "changeType": "new",
+      "updatedAt": "2026-11-24T19:01:02Z"
     }
   ]
 }
