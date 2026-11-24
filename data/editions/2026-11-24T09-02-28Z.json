@@ -2,7 +2,7 @@
   "id": "2026-11-24T09:02:28Z",
   "date": "2026-11-24",
   "publishedAt": "2026-11-24T09:02:28Z",
-  "updatedAt": "2026-11-24T09:02:28Z",
+  "updatedAt": "2026-11-24T14:00:47Z",
   "stories": [
     {
       "id": "steam-awards-2026-nominations-hall-of-fame-november-23",
@@ -87,6 +87,49 @@
       "relatedArticleIds": [
         "nvidia-jensen-huang-resigns-colette-kress-interim-ceo-2026"
       ]
+    },
+    {
+      "id": "steam-community-market-personalized-home-watchlist-november-2026",
+      "headline": "Steam Community Market adds personalized homepage, watchlists and easier repricing",
+      "summary": "Valve rolled out a redesigned Community Market on November 23. The homepage now surfaces trending items from games you play and lets you save listings, item types or filtered searches to a watchlist. Sellers can change a listing's price without taking it down, and Steam's mobile app supports inline transaction confirmations. The changes are available to all users.",
+      "categories": [
+        "Updates",
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/software/platforms/steam-revamps-its-marketplace-for-the-2nd-time-this-year/",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/GGNVohdzdZcSEHAHnu9de8.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-24T14:00:47Z"
+    },
+    {
+      "id": "queens-domain-fan-map-save-progress-tracking-november-2026",
+      "headline": "Queen's Domain gets an interactive fan-made 3D map with save-file tracking",
+      "summary": "PC Gamer highlighted a community-built map of the retro fantasy RPG on November 23. Created by Leny15, the [interactive map](https://queensdomain.leny15.me/3d-en.html) lets players explore the interconnected island from above and import a save file to calculate completion progress and mark discovered collectibles and secrets. It is an unofficial companion tool, not an in-game update.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Queen's Domain",
+        "id": "queens-domain"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/rpg/this-fan-made-map-shows-why-queens-domain-is-the-true-goty-and-you-can-even-upload-your-save-to-it-to-track-the-things-you-have-left-to-find/",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/MQ8iSphECjHieTyQxXxJAa.jpg",
+      "steamPages": [
+        {
+          "name": "Queen's Domain",
+          "url": "https://store.steampowered.com/app/1799840/Queens_Domain/",
+          "releaseDate": "2026-10-30T00:00:00Z"
+        }
+      ],
+      "relatedArticleIds": [
+        "queens-domain-steam-release-2026-10-30"
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-24T14:00:47Z"
     }
   ]
 }
