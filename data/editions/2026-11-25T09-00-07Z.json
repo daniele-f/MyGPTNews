@@ -1,0 +1,107 @@
+{
+  "id": "2026-11-25T09:00:07Z",
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-25T09:00:07Z",
+  "updatedAt": "2026-11-25T09:00:07Z",
+  "stories": [
+    {
+      "id": "diablo-iv-season-tyraels-gambit-december-1-2026",
+      "headline": "Diablo IV keeps anniversary bosses permanently as Season 16 arrives December 1",
+      "summary": "Season of Tyrael’s Gambit starts on <b>December 1 at 18:30</b>. Blizzard is adding a paired Reaper boss encounter, new War Plans progression options and Horadric items. The Prime Evil Council in Uber Tristram, Moophisto, the Diablo world boss and several legacy items will remain available in both Seasonal and Eternal realms after the current season ends. Patch 3.3.0 pre-download begins November 30 at 19:00 on Battle.net and consoles.",
+      "categories": [
+        "Updates",
+        "Announcements"
+      ],
+      "game": {
+        "name": "Diablo IV",
+        "id": "diablo-iv"
+      },
+      "sourceUrl": "https://news.blizzard.com/en-gb/article/24316979/advance-the-war-against-death-in-season-of-tyraels-gambit",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/80f21a42e378b93e8fbb68ee43103be8ab84891b/header.jpg?t=1789491624",
+      "steamPages": [
+        {
+          "name": "Diablo IV",
+          "url": "https://store.steampowered.com/app/2344520/Diablo_IV/",
+          "releaseDate": "2023-10-17T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-geforce-621-40-ssd-log-write-fix-november-24-2026",
+      "headline": "Nvidia GeForce 621.40 addresses the excessive SSD writes bug",
+      "summary": "Nvidia released a new Game Ready driver on November 24 whose official release notes list a fix for excessive background writes to its log file. Early user testing reported by PC Gamer suggests the new version succeeds where the previous 621.35 hotfix failed. The release is available for Windows 10 and 11.",
+      "categories": [
+        "Updates",
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/hardware/graphics-cards/nvidia-patch-finally-eradicates-the-ssd-hammering-bug-its-last-hotfix-didnt-actually-fix/",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/UZCzR9Jjj3aY2bSV34gieb.jpg",
+      "relatedArticleIds": [
+        "nvidia-driver-621-35-hotfix-still-writes-ssd-november-22-2026",
+        "nvidia-geforce-driver-621-24-excessive-ssd-writes-november-20-2026"
+      ]
+    },
+    {
+      "id": "arctic-drive-early-access-november-25-2026",
+      "headline": "Arctic Drive targets November 25 Early Access launch on PC",
+      "summary": "This first-person survival road trip is scheduled to arrive on Steam today. Explore a procedurally generated frozen wilderness alone or with up to three friends, scavenging fuel, food and vehicle parts. Customizable off-road vehicles and trailers double as mobile shelters against blizzards and freezing temperatures. The game also has a demo.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Arctic Drive",
+        "id": "arctic-drive"
+      },
+      "sourceUrl": "https://www.bonusstage.co/games/arctic-drive",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://www.bonusstage.co/_next/image?q=75&url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ftasrkd0s%2Fproduction%2F88282ff9f18e43d6ff5fd92238814a237866a8f6-1232x706.png%3Frect%3D0%2C7%2C1232%2C693%26w%3D1600%26h%3D900%26fit%3Dcrop&w=3840",
+      "steamPages": [
+        {
+          "name": "Arctic Drive",
+          "url": "https://store.steampowered.com/app/4009490/Arctic_Drive/",
+          "releaseDate": "2026-11-25T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "athelan-battlegrounds-free-to-play-steam-release-november-25-2026",
+      "headline": "Athelan Battlegrounds schedules its free-to-play tactics debut for November 25",
+      "summary": "A two-person indie team is preparing to launch this competitive turn-based tactics game on Steam today. Players assemble champion teams for strategic PvP matches, with positioning and ability cooldowns determining the outcome. The developers promise cosmetic-only purchases and no pay-to-win mechanics. A custom puzzle editor and a free demo are also available.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Athelan Battlegrounds",
+        "id": "athelan-battlegrounds"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/3572070/Athelan_Battlegrounds/",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/68136f6bb7f03d228d919f98/5822c744-8716-45ee-ad9d-5bb72c86a115/logo-png.png",
+      "steamPages": [
+        {
+          "name": "Athelan Battlegrounds",
+          "url": "https://store.steampowered.com/app/3572070/Athelan_Battlegrounds/",
+          "releaseDate": "2026-11-25T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "gravity-well-studio-hibernation-funding-november-24-2026",
+      "headline": "Gravity Well enters hibernation without releasing its first game",
+      "summary": "The independent studio founded in 2020 by former Apex Legends developers Drew McCoy and Jon Shiring has stopped active operations after failing to secure replacement funding. More than 40 employees were laid off in October. The studio says it still believes in its unreleased game and is inviting potential funding partners to get in touch.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/gaming-industry/studio-founded-by-former-apex-legends-leaders-is-closing-without-releasing-a-game/",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/38KyYr2LFKt4GnrNmQQhRC.jpg"
+    }
+  ]
+}
