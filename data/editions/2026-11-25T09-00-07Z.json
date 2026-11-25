@@ -2,7 +2,7 @@
   "id": "2026-11-25T09:00:07Z",
   "date": "2026-11-25",
   "publishedAt": "2026-11-25T09:00:07Z",
-  "updatedAt": "2026-11-25T13:56:19Z",
+  "updatedAt": "2026-11-25T18:55:38Z",
   "stories": [
     {
       "id": "diablo-iv-season-tyraels-gambit-december-1-2026",
@@ -47,8 +47,8 @@
     },
     {
       "id": "arctic-drive-early-access-november-25-2026",
-      "headline": "Arctic Drive targets November 25 Early Access launch on PC",
-      "summary": "This first-person survival road trip is scheduled to arrive on Steam today. Explore a procedurally generated frozen wilderness alone or with up to three friends, scavenging fuel, food and vehicle parts. Customizable off-road vehicles and trailers double as mobile shelters against blizzards and freezing temperatures. The game also has a demo.",
+      "headline": "Arctic Drive launches in Early Access on PC",
+      "summary": "The first-person survival road trip is now available in Steam Early Access, as confirmed by its store page. Explore a procedurally generated frozen wilderness alone or with up to three friends, scavenging fuel, food and vehicle parts. Customizable off-road vehicles and trailers double as mobile shelters against blizzards and freezing temperatures.",
       "categories": [
         "Releases"
       ],
@@ -66,12 +66,14 @@
           "url": "https://store.steampowered.com/app/4009490/Arctic_Drive/",
           "releaseDate": "2026-11-25T00:00:00Z"
         }
-      ]
+      ],
+      "changeType": "updated",
+      "updatedAt": "2026-11-25T18:55:38Z"
     },
     {
       "id": "athelan-battlegrounds-free-to-play-steam-release-november-25-2026",
-      "headline": "Athelan Battlegrounds schedules its free-to-play tactics debut for November 25",
-      "summary": "A two-person indie team is preparing to launch this competitive turn-based tactics game on Steam today. Players assemble champion teams for strategic PvP matches, with positioning and ability cooldowns determining the outcome. The developers promise cosmetic-only purchases and no pay-to-win mechanics. A custom puzzle editor and a free demo are also available.",
+      "headline": "Athelan Battlegrounds launches as a free-to-play tactics game",
+      "summary": "The two-person indie team's competitive turn-based tactics game is now available on Steam. Players assemble champion teams for strategic PvP matches, with positioning and ability cooldowns determining the outcome. The developers promise cosmetic-only purchases and no pay-to-win mechanics. The game also features a custom puzzle editor.",
       "categories": [
         "Releases"
       ],
@@ -89,7 +91,9 @@
           "url": "https://store.steampowered.com/app/3572070/Athelan_Battlegrounds/",
           "releaseDate": "2026-11-25T00:00:00Z"
         }
-      ]
+      ],
+      "changeType": "updated",
+      "updatedAt": "2026-11-25T18:55:38Z"
     },
     {
       "id": "gravity-well-studio-hibernation-funding-november-24-2026",
@@ -184,6 +188,66 @@
       "featured": false,
       "changeType": "new",
       "updatedAt": "2026-11-25T13:56:19Z"
+    },
+    {
+      "id": "hollow-knight-silksong-sea-of-sorrow-cherry-time-november-27-2026",
+      "headline": "Hollow Knight: Silksong expansion update scheduled for November 27",
+      "summary": "Team Cherry will host a Cherry Time presentation on November 27, with an update on its Sea of Sorrow expansion alongside other announcements. The expansion is planned as a free update for owners of the base game, with new areas and bosses. Its exact release date has not been confirmed.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Hollow Knight: Silksong",
+        "id": "hollow-knight-silksong"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/team-cherry-will-share-an-update-on-silksongs-dlc-on-november-27/",
+      "publishedAt": "2026-11-25T17:58:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2025/12/hollow-knight-silksong-sea-of-sorrow-320x180.jpg",
+      "steamPages": [
+        {
+          "name": "Hollow Knight: Silksong",
+          "url": "https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/",
+          "releaseDate": "2025-09-04T00:00:00Z"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-25T18:55:38Z"
+    },
+    {
+      "id": "witcher-4-sony-marketing-agreement-november-2026",
+      "headline": "The Witcher 4 gets a Sony marketing agreement as CD Projekt targets 2028",
+      "summary": "CD Projekt Red disclosed a partnership with Sony Interactive Entertainment during its latest earnings report. The agreement covers the upcoming game's marketing campaign as well as the presence of the company's games on PlayStation and PlayStation Plus. It does not establish platform exclusivity for The Witcher 4. The game remains on track for its planned 2028 launch.",
+      "categories": [
+        "Industry News",
+        "Announcements"
+      ],
+      "game": {
+        "name": "The Witcher 4",
+        "id": "the-witcher-4",
+        "url": "https://www.thewitcher.com/pl/en/witcher4"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/cdpr-has-entered-a-marketing-agreement-with-sony-for-the-witcher-4/",
+      "publishedAt": "2026-11-24T18:38:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2024/12/The-Witcher-4-1-320x180.jpeg",
+      "changeType": "new",
+      "updatedAt": "2026-11-25T18:55:38Z"
+    },
+    {
+      "id": "atari-homebrew-awards-cancelled-ai-november-2026",
+      "headline": "Atari Homebrew Awards cancelled after eight years amid AI judging concerns",
+      "summary": "The organizer of the annual retro game development awards has cancelled the event after struggling to establish fair eligibility rules for AI-assisted entries. The host said prohibiting all AI use would exclude some experienced developers, while allowing it would make it difficult to distinguish human programming from generated games. The possibility of a future return remains open.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/software/ai/ai-kills-another-coding-competition-i-was-not-at-all-interested-in-giving-awards-to-the-output-of-large-language-models/",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/BvZt97gX78J4Yyb7GMzhA3.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-25T18:55:38Z"
     }
   ]
 }
