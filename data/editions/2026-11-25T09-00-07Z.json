@@ -2,7 +2,7 @@
   "id": "2026-11-25T09:00:07Z",
   "date": "2026-11-25",
   "publishedAt": "2026-11-25T09:00:07Z",
-  "updatedAt": "2026-11-25T09:00:07Z",
+  "updatedAt": "2026-11-25T13:56:19Z",
   "stories": [
     {
       "id": "diablo-iv-season-tyraels-gambit-december-1-2026",
@@ -102,6 +102,88 @@
       "publishedAt": "2026-11-24T00:00:00Z",
       "featured": false,
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/38KyYr2LFKt4GnrNmQQhRC.jpg"
+    },
+    {
+      "id": "exoprimal-end-of-service-september-2027-november-25-2026",
+      "headline": "Exoprimal will shut down permanently on September 30, 2027",
+      "summary": "Capcom has confirmed that its online dinosaur action game will become unplayable on <b>September 30, 2027 at 05:00</b>. Sales of premium Survival Pass tiers have already ended. The base game and other downloadable content will be removed from stores on March 31, 2027 at 03:00, but existing owners can continue downloading and playing the game until the servers close.",
+      "categories": [
+        "Industry News",
+        "Updates"
+      ],
+      "game": {
+        "name": "Exoprimal",
+        "id": "exoprimal"
+      },
+      "sourceUrl": "https://info.exoprimal.com/en/pages/important_261125_001/",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1286320/header.jpg?t=1795568630",
+      "steamPages": [
+        {
+          "name": "Exoprimal",
+          "url": "https://store.steampowered.com/app/1286320/Exoprimal/",
+          "releaseDate": "2023-07-13T00:00:00Z"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-25T13:56:19Z"
+    },
+    {
+      "id": "cyberpunk-2-development-team-199-november-2026",
+      "headline": "Cyberpunk 2 development team grows to 199, with 320 planned by late 2027",
+      "summary": "CD Projekt Red's latest financial results show that the sequel's development team grew from 184 in July to 199 at the end of October. The studio aims to reach about 200 developers by the end of 2026 and 320 by the end of 2027. Management says development is progressing well, but has not provided a date for the transition into full production or a release date.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "Cyberpunk 2",
+        "id": "cyberpunk-2"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/cyberpunk-2s-development-team-has-grown-with-plans-to-get-even-bigger-next-year/",
+      "publishedAt": "2026-11-24T22:14:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2025/04/cyberpunk-320x180.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-25T13:56:19Z"
+    },
+    {
+      "id": "terminus-day-zero-free-steam-release-november-2026",
+      "headline": "Terminus: Day Zero is out now as a free PC survival adventure",
+      "summary": "Longplay Studios has released a short, standalone zombie survival adventure for Windows. Players guide Daisy through the first day of an outbreak, relying on hiding, closing doors and escaping rather than fighting. The developer estimates a playthrough at about 30 minutes. The complete game is free, not a demo.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Terminus: Day Zero",
+        "id": "terminus-day-zero"
+      },
+      "sourceUrl": "https://store.steampowered.com/news/app/4416380/view/702159569166533457",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4416390/40e0a1dd657fd5c7d7c23bb365c92811a9bdc205/header.jpg?t=1795480354",
+      "steamPages": [
+        {
+          "name": "Terminus: Day Zero",
+          "url": "https://store.steampowered.com/app/4416390/Terminus_Day_Zero/",
+          "releaseDate": "2026-11-23T00:00:00Z"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-25T13:56:19Z"
+    },
+    {
+      "id": "valve-proton-11-0-3-15-playable-games-november-24-2026",
+      "headline": "Proton 11.0-3 adds 15 playable titles and extensive Linux gaming fixes",
+      "summary": "Valve's November 24 release of its Windows game compatibility layer lists 15 newly playable titles. It also resolves a range of controller, audio, rendering and launcher problems, restores compatibility lost in earlier Proton 11 builds and adds early support for 32-bit OpenXR. Several fixes target Steam Deck and Steam Frame behavior.",
+      "categories": [
+        "Updates"
+      ],
+      "sourceUrl": "https://github.com/ValveSoftware/Proton/releases/tag/proton-11.0-3",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "featured": false,
+      "changeType": "new",
+      "updatedAt": "2026-11-25T13:56:19Z"
     }
   ]
 }
