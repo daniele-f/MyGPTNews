@@ -2,7 +2,7 @@
   "id": "2026-11-26T09:01:10Z",
   "date": "2026-11-26",
   "publishedAt": "2026-11-26T09:01:10Z",
-  "updatedAt": "2026-11-26T09:01:10Z",
+  "updatedAt": "2026-11-26T13:56:17Z",
   "stories": [
     {
       "id": "bread-and-fred-epic-free-to-keep-november-26-2026",
@@ -29,10 +29,11 @@
     },
     {
       "id": "appulse-pinball-shooter-pc-release-november-26-2026",
-      "headline": "Appulse brings pinball-inspired roguelite shooting to PC today",
-      "summary": "Raw Fury and Le Rado are targeting November 26 for the launch of this top-down action roguelite. Gun recoil and pinball flippers control movement as players defend their mothership from robots, board enemy ships and assemble builds from randomized upgrades. Steam still lists the game as an upcoming release; a demo is available.",
+      "headline": "Appulse launches on PC with a 20% introductory discount",
+      "summary": "Raw Fury and Le Rado released this top-down action roguelite on November 26. Gun recoil and pinball flippers control movement as players defend their mothership from robots, board enemy ships and assemble builds from randomized upgrades. Steam confirms the game is available with a 20% launch discount through December 10, and a demo remains available.",
       "categories": [
-        "Releases"
+        "Releases",
+        "Deals & Events"
       ],
       "game": {
         "name": "Appulse",
@@ -48,7 +49,9 @@
           "url": "https://store.steampowered.com/app/3498700/Appulse/",
           "releaseDate": "2026-11-26T00:00:00Z"
         }
-      ]
+      ],
+      "changeType": "updated",
+      "updatedAt": "2026-11-26T13:56:17Z"
     },
     {
       "id": "the-temple-free-cosmic-horror-steam-release-november-24-2026",
@@ -87,6 +90,53 @@
       "relatedArticleIds": [
         "ubisoft-motherbrain-generative-ai-subsidiary-november-19"
       ]
+    },
+    {
+      "id": "wow-forever-alterac-valley-class-hotfix-november-25-2026",
+      "headline": "World of Warcraft: Forever rebalances Alterac Valley and buffs Balance Druids",
+      "summary": "Blizzard's November 25 hotfix shifts Alterac Valley rewards away from rushing the opposing general and toward capturing objectives, while strengthening enemy NPCs. Balance Druids gain revised talents and 10% additional Arcane and Nature damage in Moonkin Form. Hunter and Warlock pets can critically strike again, Paladin Exorcism can now crit, and Judgements refresh correctly. Eligible Paladin and Warlock mount quests now grant Journeyman Riding, and Scarlet Subterfuge's disguise lasts an hour instead of 30 minutes.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "World of Warcraft: Forever",
+        "id": "world-of-warcraft-forever",
+        "url": "https://worldofwarcraft.blizzard.com/en-us/forever/"
+      },
+      "sourceUrl": "https://worldofwarcraft.blizzard.com/en-us/news/24315281/wow-forever-hotfixes-november-25-2026",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/YJ5vJFWoz3QLVoJbjGjZv4.png",
+      "changeType": "new",
+      "updatedAt": "2026-11-26T13:56:17Z"
+    },
+    {
+      "id": "warhammer-survivors-hotfix-2-1-8-xp-balance-november-25-2026",
+      "headline": "Warhammer Survivors hotfix makes every enemy drop XP",
+      "summary": "Auroch Digital released hotfix 2.1.8 on Steam on November 25. A new low-value experience gem ensures every defeated enemy grants XP. Several weapons receive damage or aiming improvements, enemy health is reduced for foes such as Beasts of Nurgle and the Carnifex, and miniboss health bars and shorter chest animations improve readability and pacing. Console and mobile availability is pending.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "Warhammer Survivors",
+        "id": "warhammer-survivors"
+      },
+      "sourceUrl": "https://store.steampowered.com/news/app/3669620/view/683019904491716640",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3669620/dc61fccdeec6b05a58fbcdd7b1d0bbbe1f6999ea/header.jpg?t=1795688349",
+      "steamPages": [
+        {
+          "name": "Warhammer Survivors",
+          "url": "https://store.steampowered.com/app/3669620/Warhammer_Survivors/",
+          "releaseDate": "2026-11-10T00:00:00Z"
+        }
+      ],
+      "relatedArticleIds": [
+        "warhammer-survivors-pc-release-november-10-2026"
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-26T13:56:17Z"
     }
   ]
 }
