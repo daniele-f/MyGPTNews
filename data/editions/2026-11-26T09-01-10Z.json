@@ -2,12 +2,12 @@
   "id": "2026-11-26T09:01:10Z",
   "date": "2026-11-26",
   "publishedAt": "2026-11-26T09:01:10Z",
-  "updatedAt": "2026-11-26T13:56:17Z",
+  "updatedAt": "2026-11-26T18:58:43Z",
   "stories": [
     {
       "id": "bread-and-fred-epic-free-to-keep-november-26-2026",
-      "headline": "Bread & Fred is scheduled to go free on the Epic Games Store today",
-      "summary": "The co-op precision platformer is scheduled to be free to claim from November 26 through December 3. Two tethered penguins must coordinate jumps, swings and wall grabs to climb a snowy mountain, with a solo mode also available. Claim the game during the offer to keep it in your library. [Epic Games Store](https://store.epicgames.com/p/bread-and-fred-1db362). The giveaway is not yet confirmed live.",
+      "headline": "Bread & Fred is now free to keep on the Epic Games Store",
+      "summary": "The co-op precision platformer is now free to claim on the Epic Games Store until December 3 at 17:00. Two tethered penguins must coordinate jumps, swings and wall grabs to climb a snowy mountain, with a solo mode also available. Claim the game before the offer expires to keep it in your library. [Epic Games Store](https://store.epicgames.com/p/bread-and-fred-1db362).",
       "categories": [
         "Deals & Events"
       ],
@@ -25,7 +25,9 @@
           "url": "https://store.steampowered.com/app/1607680/BreadFred/",
           "releaseDate": "2023-05-23T00:00:00Z"
         }
-      ]
+      ],
+      "changeType": "updated",
+      "updatedAt": "2026-11-26T18:58:43Z"
     },
     {
       "id": "appulse-pinball-shooter-pc-release-november-26-2026",
@@ -137,6 +139,45 @@
       ],
       "changeType": "new",
       "updatedAt": "2026-11-26T13:56:17Z"
+    },
+    {
+      "id": "rayman-legends-retold-story-deep-dive-november-25-2026",
+      "headline": "Rayman Legends Retold reveals its new story and voiced cinematics",
+      "summary": "Ubisoft's November 25 story deep dive explains how a mysterious figure and corrupted Teensies threaten the Glade of Dreams. The reimagined platformer features four playable heroes, a rebuilt Land of the Livid Dead, fully voiced cinematics and a new narrative. It launches December 3 on PC and consoles, with up to four-player local co-op.",
+      "categories": [
+        "Announcements"
+      ],
+      "game": {
+        "name": "Rayman Legends Retold",
+        "id": "rayman-legends-retold"
+      },
+      "sourceUrl": "https://news.ubisoft.com/en-gb/article/4uRQDF1sJI9W1RUc0jsOgL/rayman-legends-retold-story-deep-dive-expanded-narrative-voiced-cinematics-localizations-and-more",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4084710/4fc23980ce04f33d7dc91bf38d74591ec00015cb/header.jpg?t=1795183629",
+      "steamPages": [
+        {
+          "name": "Rayman Legends Retold",
+          "url": "https://store.steampowered.com/app/4084710/Rayman_Legends_Retold/",
+          "releaseDate": "2026-12-03T00:00:00Z"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-26T18:58:43Z"
+    },
+    {
+      "id": "rockstar-workers-vote-against-union-recognition-november-26-2026",
+      "headline": "Rockstar workers vote against formal union recognition",
+      "summary": "According to the IWGB, 75% of participating Rockstar employees voted against a union recognition agreement and 25% supported it. The ballot drew 1,544 voters, with turnout above 93%. The existing union will continue organizing, but Rockstar will not be obliged to engage in regular collective bargaining under the proposed agreement.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.pcgamer.com/gaming-industry/rockstar-workers-vote-overwhelmingly-against-union-recognition/",
+      "publishedAt": "2026-11-26T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/8bWzD2svqkkDRbjEc2FpZc.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-26T18:58:43Z"
     }
   ]
 }
