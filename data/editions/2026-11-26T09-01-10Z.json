@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-26T09:01:10Z",
+  "date": "2026-11-26",
+  "publishedAt": "2026-11-26T09:01:10Z",
+  "updatedAt": "2026-11-26T09:01:10Z",
+  "stories": [
+    {
+      "id": "bread-and-fred-epic-free-to-keep-november-26-2026",
+      "headline": "Bread & Fred is scheduled to go free on the Epic Games Store today",
+      "summary": "The co-op precision platformer is scheduled to be free to claim from November 26 through December 3. Two tethered penguins must coordinate jumps, swings and wall grabs to climb a snowy mountain, with a solo mode also available. Claim the game during the offer to keep it in your library. [Epic Games Store](https://store.epicgames.com/p/bread-and-fred-1db362). The giveaway is not yet confirmed live.",
+      "categories": [
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Bread & Fred",
+        "id": "bread-and-fred"
+      },
+      "sourceUrl": "https://www.pcgamer.com/epic-games-store-free-games-list/",
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1607680/header.jpg?t=1773071421",
+      "steamPages": [
+        {
+          "name": "Bread & Fred",
+          "url": "https://store.steampowered.com/app/1607680/BreadFred/",
+          "releaseDate": "2023-05-23T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "appulse-pinball-shooter-pc-release-november-26-2026",
+      "headline": "Appulse brings pinball-inspired roguelite shooting to PC today",
+      "summary": "Raw Fury and Le Rado are targeting November 26 for the launch of this top-down action roguelite. Gun recoil and pinball flippers control movement as players defend their mothership from robots, board enemy ships and assemble builds from randomized upgrades. Steam still lists the game as an upcoming release; a demo is available.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Appulse",
+        "id": "appulse"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/3498700/Appulse/",
+      "publishedAt": "2026-11-26T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3498700/5551d6ea2d075752c744830204eb47a5376817ed/header.jpg?t=1795434153",
+      "steamPages": [
+        {
+          "name": "Appulse",
+          "url": "https://store.steampowered.com/app/3498700/Appulse/",
+          "releaseDate": "2026-11-26T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "the-temple-free-cosmic-horror-steam-release-november-24-2026",
+      "headline": "The Temple offers a free cosmic horror adventure on Steam",
+      "summary": "Solo developer Klems released this approximately two-hour science-fiction horror game on November 24. Explore an abandoned aquatic colony in a submarine, an airship and an orbital shuttle, managing each vehicle's distinct systems while solving puzzles and uncovering the fate of the colonists. The complete game is free to play.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "The Temple",
+        "id": "the-temple"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/5303440/The_Temple/",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5303440/02e1267ab16ff58063e2fcf7fd477c8f379bf744/header.jpg?t=1795521652",
+      "steamPages": [
+        {
+          "name": "The Temple",
+          "url": "https://store.steampowered.com/app/5303440/The_Temple/",
+          "releaseDate": "2026-11-24T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ubisoft-generative-ai-project-pitch-requirements-report-november-25-2026",
+      "headline": "Ubisoft reportedly asks teams to justify not using generative AI",
+      "summary": "VGC reports that developers pitching new projects at Ubisoft are being asked to explain how they would use generative AI, or why they would choose not to. The claims are attributed to unnamed sources speaking to Vertical Slice, and do not establish a confirmed company-wide mandate. The report follows Ubisoft's establishment of its Motherbrain AI subsidiary.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/ubisoft-is-reportedly-requiring-developers-to-justify-not-using-generative-ai/",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/01/Untitled-1_Gl6tynN-320x180.jpg",
+      "relatedArticleIds": [
+        "ubisoft-motherbrain-generative-ai-subsidiary-november-19"
+      ]
+    }
+  ]
+}
