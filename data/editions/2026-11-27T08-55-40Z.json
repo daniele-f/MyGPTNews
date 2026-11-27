@@ -2,7 +2,7 @@
   "id": "2026-11-27T08:55:40Z",
   "date": "2026-11-27",
   "publishedAt": "2026-11-27T08:55:40Z",
-  "updatedAt": "2026-11-27T08:55:40Z",
+  "updatedAt": "2026-11-27T13:59:00Z",
   "stories": [
     {
       "id": "arkheron-early-access-friend-pass-november-27-2026",
@@ -84,6 +84,71 @@
       "publishedAt": "2026-11-26T00:00:00Z",
       "featured": false,
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/fcoJMA24BgZGj8SXahRBLF.jpg"
+    },
+    {
+      "id": "split-brain-samsara-coop-steam-release-november-26-2026",
+      "headline": "Split Brain Samsara launches with two players sharing one body",
+      "summary": "Kusa Games released its online cooperative puzzle adventure on November 26. One player controls movement and physical interactions while the other explores the spiritual realm and sees different clues. Both must communicate to escape a mysterious station. Steam lists a <b>10% introductory discount through December 3</b>.",
+      "categories": [
+        "Releases",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Split Brain Samsara",
+        "id": "split-brain-samsara"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4370210/Split_Brain_Samsara/",
+      "publishedAt": "2026-11-26T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4370210/e50aa4e8bbe598a9f5b8d9c8890dbf4ddbb5e078/header.jpg?t=1795705312",
+      "steamPages": [
+        {
+          "name": "Split Brain Samsara",
+          "url": "https://store.steampowered.com/app/4370210/Split_Brain_Samsara/",
+          "releaseDate": "2026-11-26T00:00:00Z"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-27T13:59:00Z"
+    },
+    {
+      "id": "piece-and-quiet-stained-glass-steam-launch-november-27-2026",
+      "headline": "Piece and Quiet: A Stained Glass Restoration targets today's PC launch",
+      "summary": "Vahov games and Spaghetti Cat are scheduled to release a relaxing first-person restoration game on November 27. Players clean and assemble 2,655 glass fragments into six chapel windows, unlocking magical tools and uncovering the glassmaker's story without deadlines or failure penalties. Steam had not yet confirmed availability at publication.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "Piece and Quiet: A Stained Glass Restoration",
+        "id": "piece-and-quiet-a-stained-glass-restoration"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/5066090/Piece_and_Quiet_A_Stained_Glass_Restoration/",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066090/23b4b035b5df4c14ca37bc06f7eab145dda78036/header.jpg?t=1795778664",
+      "steamPages": [
+        {
+          "name": "Piece and Quiet: A Stained Glass Restoration",
+          "url": "https://store.steampowered.com/app/5066090/Piece_and_Quiet_A_Stained_Glass_Restoration/",
+          "releaseDate": "2026-11-27T00:00:00Z"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-27T13:59:00Z"
+    },
+    {
+      "id": "marvelous-voluntary-retirement-65-consumer-division-jobs-november-27-2026",
+      "headline": "Marvelous seeks to cut 65 jobs through voluntary retirement",
+      "summary": "The Japanese publisher behind the Story of Seasons and Rune Factory franchises plans to reduce its PC and console division by 65 employees while increasing collaboration with external developers. Voluntary applications run from December 14 to January 8, with departures expected by March 31, 2027. The company says its consumer games business remains a core part of its operations.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/story-of-seasons-and-rune-factory-developer-marvelous-is-offering-early-retirement-as-it-tries-to-cut-65-jobs/",
+      "publishedAt": "2026-11-27T11:59:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2026/11/story-of-seasons-320x180.jpg",
+      "changeType": "new",
+      "updatedAt": "2026-11-27T13:59:00Z"
     }
   ]
 }
