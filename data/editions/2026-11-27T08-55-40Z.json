@@ -1,0 +1,89 @@
+{
+  "id": "2026-11-27T08:55:40Z",
+  "date": "2026-11-27",
+  "publishedAt": "2026-11-27T08:55:40Z",
+  "updatedAt": "2026-11-27T08:55:40Z",
+  "stories": [
+    {
+      "id": "arkheron-early-access-friend-pass-november-27-2026",
+      "headline": "Arkheron targets Early Access today with a free opening weekend",
+      "summary": "Bonfire Studios' isometric competitive action game is scheduled to enter Early Access on November 27 on PC and consoles. Teams of three fight through a multi-floor tower or compete in a 3v3 arena, building their abilities through equipment combinations. The free Friend Pass grants full access during the opening weekend and lets players join friends who own the game afterward. Steam had not yet confirmed the release live at publication.",
+      "categories": [
+        "Releases",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Arkheron",
+        "id": "arkheron"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/3333850/Arkheron/",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3333850/30aa0db1b4ee4eb19c72add82f8453f17053d309/header.jpg?t=1795629628",
+      "steamPages": [
+        {
+          "name": "Arkheron",
+          "url": "https://store.steampowered.com/app/3333850/Arkheron/",
+          "releaseDate": "2026-11-27T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "shark-mart-steam-release-november-26-2026",
+      "headline": "Shark Mart launches on PC with a 20% introductory discount",
+      "summary": "Polden Publishing's underwater management comedy launched November 26. Players run a shop as sharks disguised as dolphins, serving customers and hiding a secret kitchen from the fish police. It supports solo and online cooperative play. Steam lists a <b>20% launch discount through December 10</b>.",
+      "categories": [
+        "Releases",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Shark Mart",
+        "id": "shark-mart"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4704000/",
+      "publishedAt": "2026-11-26T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4704000/df451cd0eb747cd5cefe6e84c9ad1b98d1ef02ac/header.jpg?t=1795721812",
+      "steamPages": [
+        {
+          "name": "Shark Mart",
+          "url": "https://store.steampowered.com/app/4704000/",
+          "releaseDate": "2026-11-26T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ubisoft-denies-generative-ai-mandate-november-26-2026",
+      "headline": "Ubisoft denies a company-wide generative AI mandate",
+      "summary": "Responding to reports that developers feel pressured to use generative AI, Ubisoft says teams are encouraged to explore the technology but projects are not required to use it. The company's statement does not directly address the specific claim that teams must justify excluding AI from game pitches.",
+      "categories": [
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.videogameschronicle.com/news/ubisoft-denies-requiring-developers-to-use-generative-ai/",
+      "publishedAt": "2026-11-26T18:42:00Z",
+      "featured": false,
+      "imageUrl": "https://www.videogameschronicle.com/files/2023/07/ubisoft-games-and-name-a-320x180.jpg",
+      "relatedArticleIds": [
+        "ubisoft-generative-ai-project-pitch-requirements-report-november-25-2026"
+      ]
+    },
+    {
+      "id": "gta-vi-github-deleted-unofficial-pc-port-post-november-26-2026",
+      "headline": "GitHub deletes a post promoting unofficial GTA 6 PC port efforts",
+      "summary": "PC Gamer reports that GitHub removed a social media post praising an unofficial project aiming to make PlayStation 5 executables run on Windows and Linux. The post explicitly referenced efforts involving Rockstar's latest game. This is not an official PC release announcement, and Rockstar's website continues to list only the console versions.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "Grand Theft Auto VI",
+        "id": "grand-theft-auto-vi",
+        "headlineName": "GTA 6",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/microsofts-github-posts-message-celebrating-efforts-to-port-playstation-5-version-of-grand-theft-auto-6-to-pc-then-quickly-deletes-it/",
+      "publishedAt": "2026-11-26T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/fcoJMA24BgZGj8SXahRBLF.jpg"
+    }
+  ]
+}
