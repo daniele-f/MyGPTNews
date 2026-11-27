@@ -2,12 +2,12 @@
   "id": "2026-11-27T08:55:40Z",
   "date": "2026-11-27",
   "publishedAt": "2026-11-27T08:55:40Z",
-  "updatedAt": "2026-11-27T13:59:00Z",
+  "updatedAt": "2026-11-27T19:00:28Z",
   "stories": [
     {
       "id": "arkheron-early-access-friend-pass-november-27-2026",
-      "headline": "Arkheron targets Early Access today with a free opening weekend",
-      "summary": "Bonfire Studios' isometric competitive action game is scheduled to enter Early Access on November 27 on PC and consoles. Teams of three fight through a multi-floor tower or compete in a 3v3 arena, building their abilities through equipment combinations. The free Friend Pass grants full access during the opening weekend and lets players join friends who own the game afterward. Steam had not yet confirmed the release live at publication.",
+      "headline": "Arkheron launches in Early Access with a free opening weekend",
+      "summary": "Bonfire Studios' isometric competitive action game entered Early Access on November 27. Teams of three fight through a multi-floor tower or compete in a 3v3 arena, building their abilities through equipment combinations. Steam now confirms the game is available to purchase and the free Friend Pass is downloadable. The pass grants full access during the opening weekend and lets players join friends who own the game afterward.",
       "categories": [
         "Releases",
         "Deals & Events"
@@ -18,7 +18,7 @@
       },
       "sourceUrl": "https://store.steampowered.com/app/3333850/Arkheron/",
       "publishedAt": "2026-11-27T00:00:00Z",
-      "featured": true,
+      "featured": false,
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3333850/30aa0db1b4ee4eb19c72add82f8453f17053d309/header.jpg?t=1795629628",
       "steamPages": [
         {
@@ -26,7 +26,9 @@
           "url": "https://store.steampowered.com/app/3333850/Arkheron/",
           "releaseDate": "2026-11-27T00:00:00Z"
         }
-      ]
+      ],
+      "changeType": "updated",
+      "updatedAt": "2026-11-27T19:00:28Z"
     },
     {
       "id": "shark-mart-steam-release-november-26-2026",
@@ -113,10 +115,11 @@
     },
     {
       "id": "piece-and-quiet-stained-glass-steam-launch-november-27-2026",
-      "headline": "Piece and Quiet: A Stained Glass Restoration targets today's PC launch",
-      "summary": "Vahov games and Spaghetti Cat are scheduled to release a relaxing first-person restoration game on November 27. Players clean and assemble 2,655 glass fragments into six chapel windows, unlocking magical tools and uncovering the glassmaker's story without deadlines or failure penalties. Steam had not yet confirmed availability at publication.",
+      "headline": "Piece and Quiet: A Stained Glass Restoration launches with a 10% discount",
+      "summary": "Vahov games and Spaghetti Cat released this relaxing first-person restoration game on November 27. Players clean and assemble 2,655 glass fragments into six chapel windows, unlocking magical tools and uncovering the glassmaker's story without deadlines or failure penalties. Steam confirms availability and lists a <b>10% introductory discount through December 4</b>.",
       "categories": [
-        "Releases"
+        "Releases",
+        "Deals & Events"
       ],
       "game": {
         "name": "Piece and Quiet: A Stained Glass Restoration",
@@ -133,8 +136,8 @@
           "releaseDate": "2026-11-27T00:00:00Z"
         }
       ],
-      "changeType": "new",
-      "updatedAt": "2026-11-27T13:59:00Z"
+      "changeType": "updated",
+      "updatedAt": "2026-11-27T19:00:28Z"
     },
     {
       "id": "marvelous-voluntary-retirement-65-consumer-division-jobs-november-27-2026",
@@ -149,6 +152,64 @@
       "imageUrl": "https://www.videogameschronicle.com/files/2026/11/story-of-seasons-320x180.jpg",
       "changeType": "new",
       "updatedAt": "2026-11-27T13:59:00Z"
+    },
+    {
+      "id": "hollow-knight-silksong-sea-of-sorrow-release-date-november-27-2026",
+      "headline": "Hollow Knight: Silksong gets its free Sea of Sorrow expansion on December 11",
+      "summary": "Team Cherry confirmed the first major content update for Silksong will arrive <b>free on December 11</b>. The nautical adventure takes Hornet across and beneath Pharloom's forgotten ocean, through islands, forts and submerged caverns. It introduces additional characters, bosses, abilities and music by Christopher Larkin.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "Hollow Knight: Silksong",
+        "id": "hollow-knight-silksong"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/action/silksong-is-getting-a-free-expansion-its-first-content-update-since-launch-in-2-weeks/",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/7983574d464e6559ac7e24275727f73a8bcca1f3/header.jpg?t=1776125736",
+      "steamPages": [
+        {
+          "name": "Hollow Knight: Silksong",
+          "url": "https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/",
+          "releaseDate": "2025-09-04T00:00:00Z"
+        }
+      ],
+      "relatedArticleIds": [
+        "hollow-knight-silksong-sea-of-sorrow-cherry-time-november-27-2026"
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-27T19:00:28Z"
+    },
+    {
+      "id": "team-cherry-presents-three-indie-games-november-27-2026",
+      "headline": "Team Cherry launches a publishing label with three upcoming indie games",
+      "summary": "The Hollow Knight studio announced Team Cherry Presents, a new label supporting independent developers with technical assistance. Its first three PC games are Blokkan: Secret of the Walking City, a robot detective puzzle adventure; Radio Rain, a rainy-world platform adventure with a lo-fi soundtrack; and The Botanist and the Translator, an exploration game about alien plants and rhythm-based animal communication. All three are available to wishlist on Steam without confirmed release dates. Team Cherry's fourth member Huy Le serves as technical director for the label.",
+      "categories": [
+        "Announcements",
+        "Industry News"
+      ],
+      "sourceUrl": "https://www.teamcherry.com.au/blog/its-cherry-time",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/606d4deb4db8c15ea53b3624/d5e81e8f-7f4b-435a-969f-d1cd3890fbb6/huy_short.jpg",
+      "steamPages": [
+        {
+          "name": "Blokkan: Secret of the Walking City",
+          "url": "https://store.steampowered.com/app/5571470/Blokkan_Secret_of_the_Walking_City/"
+        },
+        {
+          "name": "Radio Rain",
+          "url": "https://store.steampowered.com/app/4960150/Radio_Rain/"
+        },
+        {
+          "name": "The Botanist and the Translator",
+          "url": "https://store.steampowered.com/app/5571450/The_Botanist_and_the_Translator/"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-27T19:00:28Z"
     }
   ]
 }
