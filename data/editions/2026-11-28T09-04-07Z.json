@@ -2,7 +2,7 @@
   "id": "2026-11-28T09:04:07Z",
   "date": "2026-11-28",
   "publishedAt": "2026-11-28T09:04:07Z",
-  "updatedAt": "2026-11-28T14:01:03Z",
+  "updatedAt": "2026-11-28T19:02:25Z",
   "stories": [
     {
       "id": "vermintide-2-mod-tools-public-release-november-2026",
@@ -200,6 +200,75 @@
       ],
       "changeType": "new",
       "updatedAt": "2026-11-28T14:01:03Z"
+    },
+    {
+      "id": "project-overboard-early-access-november-28-2026",
+      "headline": "Project Overboard launches its cruise ship management sim in Early Access",
+      "summary": "Built by Rebels released its cruise ship management game on November 28. Players design decks, schedule crew shifts, plan excursions and manage guest satisfaction aboard an ocean liner or riverboat. Campaigns and a sandbox mode are available; the developer discloses extensive AI assistance in code, art, writing and audio. Steam lists a <b>10% introductory discount through December 5</b>.",
+      "categories": [
+        "Releases",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Project Overboard",
+        "id": "project-overboard"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/5290110/Project_Overboard/",
+      "publishedAt": "2026-11-28T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5290110/116c3ce844a23e91376998a454d96457ee9f85b3/header.jpg?t=1795890989",
+      "steamPages": [
+        {
+          "name": "Project Overboard",
+          "url": "https://store.steampowered.com/app/5290110/Project_Overboard/",
+          "releaseDate": "2026-11-28T00:00:00Z"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-28T19:02:25Z"
+    },
+    {
+      "id": "astral-forge-desktop-alchemist-early-access-november-28-2026",
+      "headline": "Astral Forge: Desktop Alchemist turns everyday PC activity into crafting resources",
+      "summary": "ZhiSu Studio released this desktop idle game in Early Access on November 28. Typing, mouse movement and idle time generate resources for alchemy, forging and collecting. The game offers wallpaper and windowed modes, asynchronous trading and optional Steam Inventory integration subject to an in-game license. An internet connection is required. Steam lists a <b>10% introductory discount through December 12</b>.",
+      "categories": [
+        "Releases",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Astral Forge: Desktop Alchemist",
+        "id": "astral-forge-desktop-alchemist"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4796860/Astral_Forge_Desktop_Alchemist/",
+      "publishedAt": "2026-11-28T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4796860/8993c69d5e7ac8b0cc367fd3b4974f0b110e3d2a/header.jpg?t=1795880939",
+      "steamPages": [
+        {
+          "name": "Astral Forge: Desktop Alchemist",
+          "url": "https://store.steampowered.com/app/4796860/Astral_Forge_Desktop_Alchemist/",
+          "releaseDate": "2026-11-28T00:00:00Z"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-28T19:02:25Z"
+    },
+    {
+      "id": "new-radical-games-project-cancellation-simpsons-hit-and-run-rumor-november-2026",
+      "headline": "New Radical Games project cancellation raises questions about a rumored The Simpsons: Hit & Run remake",
+      "summary": "PC Gamer reported on November 28 that a former New Radical Games designer said the project he had been working on was cancelled and that he had lost his job. The studio had been linked to rumors of a remake of the 2003 Simpsons game, but the developer did not identify the cancelled project. Neither the remake's existence nor its cancellation has been officially confirmed.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "The Simpsons: Hit & Run",
+        "id": "the-simpsons-hit-and-run"
+      },
+      "sourceUrl": "https://www.pcgamer.com/gaming-industry/a-purported-remake-of-the-simpsons-hit-and-run-may-have-been-scrapped-after-a-developer-says-their-project-was-part-of-a-gaggle-of-cancellations/",
+      "publishedAt": "2026-11-28T00:00:00Z",
+      "featured": false,
+      "changeType": "new",
+      "updatedAt": "2026-11-28T19:02:25Z"
     }
   ]
 }
