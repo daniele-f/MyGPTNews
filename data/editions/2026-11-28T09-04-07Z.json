@@ -1,0 +1,128 @@
+{
+  "id": "2026-11-28T09:04:07Z",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-28T09:04:07Z",
+  "updatedAt": "2026-11-28T09:04:07Z",
+  "stories": [
+    {
+      "id": "vermintide-2-mod-tools-public-release-november-2026",
+      "headline": "Warhammer: Vermintide 2 releases its developer mod tools and goes 90% off",
+      "summary": "Fatshark opened its internal modding toolset to owners on November 26, enabling custom levels, models, textures and animations. An early December update will add independent offline progression to the Modded Realm and retire dedicated Versus servers, with community-hosted matches remaining available. Double XP is active through the weekend, and Steam lists a <b>90% discount through December 10</b>.",
+      "categories": [
+        "Updates",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Warhammer: Vermintide 2",
+        "id": "warhammer-vermintide-2"
+      },
+      "sourceUrl": "https://www.pcgamer.com/games/fps/vermintide-2-mod-tools-get-a-public-release-and-the-games-90-percent-off-on-steam-too/",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "featured": true,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/SubVYEY5D6vgzjDNu7QSST.jpg",
+      "steamPages": [
+        {
+          "name": "Warhammer: Vermintide 2",
+          "url": "https://store.steampowered.com/app/552500/Warhammer_Vermintide_2/",
+          "releaseDate": "2018-03-08T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "witcher-3-remastered-patch-5-02-november-2026",
+      "headline": "The Witcher 3 Remastered patch 5.02 fixes lighting and adds 32:9 support",
+      "summary": "CD Projekt Red released patch 5.02 on November 26. It adds super-ultrawide 32:9 support, improves path tracing and ray reconstruction, fixes excessive werewolf regeneration on higher difficulties, and reduces the strength of some sign abilities and mutations. Outdated PC mods are now disabled with a warning rather than triggering a compilation crash.",
+      "categories": [
+        "Updates"
+      ],
+      "game": {
+        "name": "The Witcher 3: Wild Hunt",
+        "id": "the-witcher-3-wild-hunt",
+        "headlineName": "The Witcher 3 Remastered"
+      },
+      "sourceUrl": "https://www.thewitcher.com/fr/en/news/52162/patch-5-02-for-the-witcher-3-wild-hunt-remastered-is-live",
+      "publishedAt": "2026-11-26T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://public.cdn.cdpr.app/common/news/4605cf1503e88b5e28310a300d054bbe_q90_1920x1080_1.png",
+      "steamPages": [
+        {
+          "name": "The Witcher 3: Wild Hunt — Remastered",
+          "url": "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt__Remastered/",
+          "releaseDate": "2015-05-18T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "skate-ends-seasons-december-2026",
+      "headline": "Skate will abandon seasons and season passes on December 1",
+      "summary": "Full Circle plans to replace its seasonal model with more frequent, flexible content updates after Season 5 ends on December 1. The season passes and Tix currency will be removed. Update 0.33.1 introduces the S.K.A.T.E. mode, proximity chat and additional skating locations. Players will be able to access all areas with temporary passes purchased using earnable Rip Chips.",
+      "categories": [
+        "Announcements",
+        "Updates"
+      ],
+      "game": {
+        "name": "skate.",
+        "id": "skate",
+        "headlineName": "Skate"
+      },
+      "sourceUrl": "https://www.ea.com/games/skate/skate/news/update-033-features",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3354750/79c5a87b61a396cc6e6b69e3a083727f175dea83/header.jpg?t=1788891347",
+      "steamPages": [
+        {
+          "name": "skate.",
+          "url": "https://store.steampowered.com/app/3354750/skate/",
+          "releaseDate": "2025-09-16T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "am-i-nima-steam-release-november-27-2026",
+      "headline": "Am I Nima launches its psychological horror adventure on PC",
+      "summary": "HO! Games and Outersloth released this hand-drawn narrative adventure on November 27. Players investigate a basement and combine discovered words to recover memories, then use their vocabulary in conversations to convince a suspicious mother of their identity. Choices shape the dialogue and outcomes. Steam lists a <b>10% introductory discount through December 11</b>.",
+      "categories": [
+        "Releases",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Am I Nima",
+        "id": "am-i-nima"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/3224600/Am_I_Nima/",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3224600/ec4c212665296bd88ee2cb506455d6b1ceeb2c30/header.jpg?t=1795801195",
+      "steamPages": [
+        {
+          "name": "Am I Nima",
+          "url": "https://store.steampowered.com/app/3224600/Am_I_Nima/",
+          "releaseDate": "2026-11-27T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "anu-tablets-of-thoth-steam-release-november-28-2026",
+      "headline": "ANU: Tablets of Thoth targets its PC launch today",
+      "summary": "PangeaSuperCorp's single-player 3D platforming adventure sends a reincarnated jackal god across a stylized ancient Egypt to recover eight tablet fragments. Players explore by running, climbing, swimming and sailing, while supernatural abilities help defeat undead enemies. Steam lists November 28 as the planned release date, but the game is not yet confirmed available. A free demo can be downloaded.",
+      "categories": [
+        "Releases"
+      ],
+      "game": {
+        "name": "ANU: Tablets of Thoth",
+        "id": "anu-tablets-of-thoth"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/4259950",
+      "publishedAt": "2026-11-28T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4259950/78909e8081965b66b0cf1df22b42a16efcb0b67f/header.jpg?t=1795600363",
+      "steamPages": [
+        {
+          "name": "ANU: Tablets of Thoth",
+          "url": "https://store.steampowered.com/app/4259950",
+          "releaseDate": "2026-11-28T00:00:00Z"
+        }
+      ]
+    }
+  ]
+}
