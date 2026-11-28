@@ -2,7 +2,7 @@
   "id": "2026-11-28T09:04:07Z",
   "date": "2026-11-28",
   "publishedAt": "2026-11-28T09:04:07Z",
-  "updatedAt": "2026-11-28T09:04:07Z",
+  "updatedAt": "2026-11-28T14:01:03Z",
   "stories": [
     {
       "id": "vermintide-2-mod-tools-public-release-november-2026",
@@ -123,6 +123,83 @@
           "releaseDate": "2026-11-28T00:00:00Z"
         }
       ]
+    },
+    {
+      "id": "push-their-buttons-steam-release-november-28-2026",
+      "headline": "Push Their Buttons launches its conversation-based multiplayer party game",
+      "summary": "Aixceptional released its city-set conversation game on November 28. Players identify what residents care about and select timed dialogue options, compete in minigames, fish and return lost pets. Solo play and online competitive or cooperative modes are supported. Steam lists a <b>20% introductory discount through December 12</b>. The developer discloses AI-assisted dialogue, code, synthesized voices and music.",
+      "categories": [
+        "Releases",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Push Their Buttons",
+        "id": "push-their-buttons"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/5531640/Push_Their_Buttons/",
+      "publishedAt": "2026-11-28T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5531640/262b626048f879ac609c67ab9cbd357f95e6348a/header.jpg?t=1795861988",
+      "steamPages": [
+        {
+          "name": "Push Their Buttons",
+          "url": "https://store.steampowered.com/app/5531640/Push_Their_Buttons/",
+          "releaseDate": "2026-11-28T00:00:00Z"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-28T14:01:03Z"
+    },
+    {
+      "id": "dusty-relics-steam-release-november-28-2026",
+      "headline": "Dusty Relics launches a relaxed Egyptian archaeology simulator",
+      "summary": "roomheadgs released its first-person excavation game on November 28. Players dig through deformable sand, locate buried objects with radar and assemble 11 Egyptian monuments from 3,377 fragments. Tool upgrades improve excavation and transport, and there are no timers or failure conditions. Steam lists a <b>10% introductory discount through December 5</b>. The developer discloses AI-assisted localization.",
+      "categories": [
+        "Releases",
+        "Deals & Events"
+      ],
+      "game": {
+        "name": "Dusty Relics",
+        "id": "dusty-relics"
+      },
+      "sourceUrl": "https://store.steampowered.com/app/5428780/Dusty_Relics/",
+      "publishedAt": "2026-11-28T00:00:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5428780/73c3a36265cb3ddba4f95047a76cb25c6099a2c3/header.jpg?t=1795854076",
+      "steamPages": [
+        {
+          "name": "Dusty Relics",
+          "url": "https://store.steampowered.com/app/5428780/Dusty_Relics/",
+          "releaseDate": "2026-11-28T00:00:00Z"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-28T14:01:03Z"
+    },
+    {
+      "id": "skull-and-bones-ubisoft-quadruple-a-marketing-lawsuit-november-2026",
+      "headline": "Ubisoft defends its Skull and Bones marketing in consumer lawsuit",
+      "summary": "VGC reported on November 26 that Ubisoft is contesting a consumer lawsuit over the pirate game's marketing and licensing. The publisher argues that its quadruple-A description was a subjective promotional claim rather than an objective guarantee of quality. The plaintiff also disputes whether the purchase was adequately presented as a license instead of ownership. The report describes the parties' arguments, not a court ruling.",
+      "categories": [
+        "Industry News"
+      ],
+      "game": {
+        "name": "Skull and Bones",
+        "id": "skull-and-bones"
+      },
+      "sourceUrl": "https://www.videogameschronicle.com/news/ubisoft-defends-calling-skull-bones-a-quadruple-a-game-in-lawsuit/",
+      "publishedAt": "2026-11-26T18:06:00Z",
+      "featured": false,
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2853730/b0e631853f8a6dda7c841d6a74df9dae4598fb0f/header.jpg?t=1794951647",
+      "steamPages": [
+        {
+          "name": "Skull and Bones",
+          "url": "https://store.steampowered.com/app/2853730/Skull_and_Bones",
+          "releaseDate": "2024-08-22T00:00:00Z"
+        }
+      ],
+      "changeType": "new",
+      "updatedAt": "2026-11-28T14:01:03Z"
     }
   ]
 }
